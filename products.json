@@ -576,15 +576,16 @@
     "type": "Booster Pack",
     "release_date": "2025-11-14",
     "tcgplayer_id": "654144",
+    "description": "Each Phantasmal Flames booster pack contains 10 random cards.",
     "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/654144_in_1000x1000.jpg",
     "packs": {
       "me02": 1
     },
     "coins": [],
-    "sleeves": null,
-    "promos": null,
-    "damage_markers": null,
-    "other": null
+    "sleeves": [],
+    "damage_markers": "",
+    "promos": [],
+    "other": ""
   },
   {
     "id": "product-31",
@@ -592,15 +593,16 @@
     "type": "Booster Box",
     "release_date": "2025-11-14",
     "tcgplayer_id": "654137",
+    "description": "Includes 36 booster packs from the Pokémon TCG: Mega Evolution—Phantasmal Flames expansion",
     "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/654137_in_1000x1000.jpg",
     "packs": {
       "me02": 36
     },
     "coins": [],
-    "sleeves": null,
-    "promos": null,
-    "damage_markers": null,
-    "other": null
+    "sleeves": [],
+    "damage_markers": "",
+    "promos": [],
+    "other": ""
   },
   {
     "id": "product-32",
@@ -608,6 +610,7 @@
     "type": "Elite Trainer Box",
     "release_date": "2025-11-14",
     "tcgplayer_id": "654136",
+    "description": "The Pokémon TCG: Mega Evolution-Phantasmal Flames Elite Trainer Box includes: • 9 Pokémon TCG: Mega Evolution-Phantasmal Flames booster packs • 1 full-art foil promo card featuring Charcadet • 65 card sleeves • 40 Pokémon TCG Energy cards • A player's guide to the Mega Evolution-Phantasmal Flames expansion • 6 damage-counter dice • 1 competition-legal coin-flip die • 1 plastic coin • A collector's box to hold everything, with 6 dividers to keep it organized • A code card for Pokémon Trading Card Game Live",
     "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/654136_in_1000x1000.jpg",
     "packs": {
       "me02": 9
@@ -621,10 +624,10 @@
     "sleeves": [
       "65 Mega Charizard"
     ],
+    "damage_markers": "6 damage-counter dice",
     "promos": [
       "mep-022"
     ],
-    "damage_markers": "6 damage-counter dice",
     "other": "1 competition-legal coin-flip die, 6 Mega Charizard dividers, A player’s guide to the Mega Evolution expansion, 40 Pokémon TCG Energy cards"
   },
   {
@@ -633,15 +636,16 @@
     "type": "Sleeved Booster Pack",
     "release_date": "2025-11-14",
     "tcgplayer_id": "654145",
+    "description": "Each Phantasmal Flames sleeved booster pack contains 10 random cards.",
     "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/654145_in_1000x1000.jpg",
     "packs": {
       "me02": 1
     },
     "coins": [],
-    "sleeves": null,
-    "promos": null,
-    "damage_markers": null,
-    "other": null
+    "sleeves": [],
+    "damage_markers": "",
+    "promos": [],
+    "other": ""
   },
   {
     "id": "product-34",
@@ -649,15 +653,16 @@
     "type": "Booster Bundle",
     "release_date": "2025-11-14",
     "tcgplayer_id": "654160",
+    "description": "Includes six Mega Evolution - Phantasmal Flames booster packs.",
     "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/654160_in_1000x1000.jpg",
     "packs": {
       "me02": 6
     },
     "coins": [],
-    "sleeves": null,
-    "promos": null,
-    "damage_markers": null,
-    "other": null
+    "sleeves": [],
+    "damage_markers": "",
+    "promos": [],
+    "other": ""
   },
   {
     "id": "product-35",
@@ -665,6 +670,7 @@
     "type": "Build & Battle Box",
     "release_date": "2025-11-14",
     "tcgplayer_id": "662725",
+    "description": "Each box contains: • A 40-card ready-to-play deck, including 1 of 4 unique foil promo cards • 4 Pokémon TCG: Mega Evolution-Phantasmal Flames booster packs • A code card for Pokémon TCG Live",
     "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/662725_in_1000x1000.jpg",
     "packs": {
       "me02": 4
@@ -681,6 +687,7 @@
     "type": "Single Pack Blister",
     "release_date": "2025-11-14",
     "tcgplayer_id": "654150",
+    "description": "Each blister comes with 1 booster pack, 1 coin, and a promotional card.",
     "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/654150_in_1000x1000.jpg",
     "packs": {
       "me02": 1
@@ -692,12 +699,12 @@
         "pokemon": "Diancie"
       }
     ],
-    "sleeves": null,
+    "sleeves": [],
+    "damage_markers": "",
     "promos": [
       "mep-019"
     ],
-    "damage_markers": null,
-    "other": null
+    "other": ""
   },
   {
     "id": "product-37",
@@ -705,6 +712,7 @@
     "type": "Pokemon Center Elite Trainer Box",
     "release_date": "2025-11-14",
     "tcgplayer_id": "654135",
+    "description": "The Pokémon TCG: Mega Evolution-Phantasmal Flames Pokémon Center Elite Trainer Box includes: • 11 Pokémon TCG: Mega Evolution-Phantasmal Flames booster packs • 1 full-art foil promo card featuring Charcadet with a Pokémon Center logo • 1 full-art foil promo card featuring Charcadet • 65 card sleeves • 40 Pokémon TCG Energy cards • A player's guide to the Mega Evolution-Phantasmal Flames expansion • 6 damage-counter dice • 1 competition-legal coin-flip die • 1 plastic coin • A collector's box to hold everything, with 6 dividers to keep it organized • A code card for Pokémon Trading Card Game Live",
     "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/654135_in_1000x1000.jpg",
     "packs": {
       "me02": 9
@@ -718,10 +726,10 @@
     "sleeves": [
       "65 Mega Charizard"
     ],
+    "damage_markers": "6 damage-counter dice",
     "promos": [
       "mep-022"
     ],
-    "damage_markers": "6 damage-counter dice",
     "other": "1 competition-legal coin-flip die, 6 Mega Charizard dividers, A player’s guide to the Mega Evolution expansion, 40 Pokémon TCG Energy cards"
   },
   {
@@ -730,6 +738,7 @@
     "type": "Single Pack Blister",
     "release_date": "2025-11-14",
     "tcgplayer_id": "654151",
+    "description": "Each blister comes with 1 booster pack, 1 coin, and a promotional card.",
     "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/654151_in_1000x1000.jpg",
     "packs": {
       "me02": 1
@@ -741,12 +750,12 @@
         "pokemon": "Diancie"
       }
     ],
-    "sleeves": null,
+    "sleeves": [],
+    "damage_markers": "",
     "promos": [
       "mep-018"
     ],
-    "damage_markers": null,
-    "other": null
+    "other": ""
   },
   {
     "id": "product-39",
@@ -754,17 +763,18 @@
     "type": "3 Pack Blister",
     "release_date": "2025-11-14",
     "tcgplayer_id": "654154",
+    "description": "Each blister comes with 3 Phantasmal Flames booster packs and a promotional card of Sneasel.",
     "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/654154_in_1000x1000.jpg",
     "packs": {
       "me02": 3
     },
     "coins": [],
-    "sleeves": null,
+    "sleeves": [],
+    "damage_markers": "",
     "promos": [
       "mep-020"
     ],
-    "damage_markers": null,
-    "other": null
+    "other": ""
   },
   {
     "id": "product-40",
@@ -772,6 +782,7 @@
     "type": "Elite Trainer Box Case",
     "release_date": "2025-11-14",
     "tcgplayer_id": "654170",
+    "description": "Each sealed Pokémon TCG: Mega Evolution-Phantasmal Flames Elite Trainer Box Case includes 10 elite trainer boxes. Individual Pokémon TCG:Mega Evolution-Phantasmal FlamesElite Trainer Boxes include: • 9 Pokémon TCG: Mega Evolution-Phantasmal Flames booster packs • 65 card sleeves • 45 Pokémon TCG Energy cards • A player’s guide to the Mega Evolution-Phantasmal Flames expansion • 6 damage-counter dice • 1 competition-legal coin-flip die • 2 plastic condition markers • A collector’s box to hold everything, with 4 dividers to keep it organized • A code card for Pokémon Trading Card Game Live",
     "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/654170_in_1000x1000.jpg",
     "packs": {
       "me02": 90
@@ -785,10 +796,10 @@
     "sleeves": [
       "65 Mega Charizard"
     ],
+    "damage_markers": "6 damage-counter dice",
     "promos": [
       "mep-022"
     ],
-    "damage_markers": "6 damage-counter dice",
     "other": "1 competition-legal coin-flip die, 6 Mega Charizard dividers, A player’s guide to the Mega Evolution expansion, 40 Pokémon TCG Energy cards"
   },
   {
@@ -797,17 +808,18 @@
     "type": "3 Pack Blister",
     "release_date": "2025-11-14",
     "tcgplayer_id": "654156",
+    "description": "Each blister comes with 3 Phantasmal Flames booster packs and a promotional card of Sneasel.",
     "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/654156_in_1000x1000.jpg",
     "packs": {
       "me02": 3
     },
     "coins": [],
-    "sleeves": null,
+    "sleeves": [],
+    "damage_markers": "",
     "promos": [
       "mep-021"
     ],
-    "damage_markers": null,
-    "other": null
+    "other": ""
   },
   {
     "id": "product-42",
@@ -815,15 +827,16 @@
     "type": "Booster Box Case",
     "release_date": "2025-11-14",
     "tcgplayer_id": "655281",
+    "description": "Each booster box case contains 6 boxes of 36 packs each.",
     "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/655281_in_1000x1000.jpg",
     "packs": {
       "me02": 216
     },
     "coins": [],
-    "sleeves": null,
-    "promos": null,
-    "damage_markers": null,
-    "other": null
+    "sleeves": [],
+    "damage_markers": "",
+    "promos": [],
+    "other": ""
   },
   {
     "id": "product-43",
@@ -831,14 +844,15 @@
     "type": "Build & Battle Box Display",
     "release_date": "2025-11-14",
     "tcgplayer_id": "654164",
+    "description": "Each display contains 10 Build & Battle boxes. Each box contains: • A 40-card ready-to-play deck, including 1 of 4 unique foil promo cards • 4 Pokémon TCG: Mega Evolution-Phantasmal Flames booster packs • A code card for Pokémon TCG Live",
     "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/654164_in_1000x1000.jpg",
     "packs": {
       "me02": 40
     },
     "coins": [],
-    "sleeves": null,
-    "promos": null,
-    "damage_markers": null,
+    "sleeves": [],
+    "damage_markers": "",
+    "promos": [],
     "other": "A 40-card ready-to-play deck, 1 of 4 unique foil promo cards"
   },
   {
@@ -847,15 +861,16 @@
     "type": "Booster Bundle Case",
     "release_date": "2025-11-14",
     "tcgplayer_id": "654162",
+    "description": "Case contains 25 Booster Bundles Includes six Mega Evolution - Phantasmal Flames booster packs.",
     "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/654162_in_1000x1000.jpg",
     "packs": {
       "me02": 150
     },
     "coins": [],
-    "sleeves": null,
-    "promos": null,
-    "damage_markers": null,
-    "other": null
+    "sleeves": [],
+    "damage_markers": "",
+    "promos": [],
+    "other": ""
   },
   {
     "id": "product-45",
@@ -863,6 +878,7 @@
     "type": "Premium Checklane Blister",
     "release_date": "2025-11-14",
     "tcgplayer_id": "654146",
+    "description": "Product details: • 1 Phantasmal Flames booster pack • TCGO Code • Coin • 3 cards featuring an evolution line!",
     "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/654146_in_1000x1000.jpg",
     "packs": {
       "me02": 1
@@ -874,14 +890,14 @@
         "pokemon": "Diancie"
       }
     ],
-    "sleeves": null,
+    "sleeves": [],
+    "damage_markers": "",
     "promos": [
       "sv10-016",
       "sv10-017",
       "sv10-018 (Cosmos Holo)"
     ],
-    "damage_markers": null,
-    "other": null
+    "other": ""
   },
   {
     "id": "product-46",
@@ -889,15 +905,16 @@
     "type": "3-Pack Blister Case",
     "release_date": "2025-11-14",
     "tcgplayer_id": "685215",
+    "description": "Case contains 24 Blisters.  Each blister comes with 3 Phantasmal Flames booster packs and a promotional card.",
     "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/685215_in_1000x1000.jpg",
     "packs": {
       "me02": 3
     },
     "coins": [],
-    "sleeves": null,
-    "promos": null,
-    "damage_markers": null,
-    "other": null
+    "sleeves": [],
+    "damage_markers": "",
+    "promos": [],
+    "other": ""
   },
   {
     "id": "product-47",
@@ -905,6 +922,7 @@
     "type": "Premium Checklane Blister",
     "release_date": "2025-11-14",
     "tcgplayer_id": "668931",
+    "description": "Contains 1 Mega Evolutions —Phantasmal Flames booster pack, a TCGO Code, Coin and 2 cards with an evolution line.",
     "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/668931_in_1000x1000.jpg",
     "packs": {
       "me02": 1
@@ -916,13 +934,13 @@
         "pokemon": "Diancie"
       }
     ],
-    "sleeves": null,
+    "sleeves": [],
+    "damage_markers": "",
     "promos": [
       "sv10-158",
       "sv10-159 (Cosmos Holo)"
     ],
-    "damage_markers": null,
-    "other": null
+    "other": ""
   },
   {
     "id": "product-48",
@@ -930,6 +948,7 @@
     "type": "Premium Checklane Blister",
     "release_date": "2025-11-14",
     "tcgplayer_id": "654147",
+    "description": "Product details: • 1 Phantasmal Flames booster pack • TCGO Code • Coin • 3 cards featuring an evolution line!",
     "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/654147_in_1000x1000.jpg",
     "packs": {
       "me02": 1
@@ -941,14 +960,14 @@
         "pokemon": "Diancie"
       }
     ],
-    "sleeves": null,
+    "sleeves": [],
+    "damage_markers": "",
     "promos": [
       "sv10-040",
       "sv10-041",
       "sv10-042 (Cosmos Holo)"
     ],
-    "damage_markers": null,
-    "other": null
+    "other": ""
   },
   {
     "id": "product-49",
@@ -956,15 +975,16 @@
     "type": "Sleeved Booster Case",
     "release_date": "2025-11-14",
     "tcgplayer_id": "655282",
+    "description": "Each Phantasmal Flames sleeved booster pack case contains 144 booster packs.",
     "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/655282_in_1000x1000.jpg",
     "packs": {
       "me02": 144
     },
     "coins": [],
-    "sleeves": null,
-    "promos": null,
-    "damage_markers": null,
-    "other": null
+    "sleeves": [],
+    "damage_markers": "",
+    "promos": [],
+    "other": ""
   },
   {
     "id": "product-50",
@@ -972,6 +992,7 @@
     "type": "Premium Checklane Blister",
     "release_date": "2025-11-14",
     "tcgplayer_id": "672588",
+    "description": "Contains 1 Mega Evolutions —Phantasmal Flames booster pack, a TCGO Code, Coin and 2 cards with an evolution line.",
     "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/672588_in_1000x1000.jpg",
     "packs": {
       "me02": 1
@@ -983,12 +1004,12 @@
         "pokemon": "Diancie"
       }
     ],
-    "sleeves": null,
+    "sleeves": [],
+    "damage_markers": "",
     "promos": [
       "sv10-035",
       "sv10-036 (Cosmos Holo)"
     ],
-    "damage_markers": null,
-    "other": null
+    "other": ""
   }
 ]
