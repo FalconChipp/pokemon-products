@@ -27,6 +27,10 @@
             <input type="text" id="image_url" style="width: 90%; padding: 8px;">
         </div>
         <div style="margin-bottom: 15px; background: white; padding: 15px; border-radius: 8px;">
+            <label style="display: block; font-weight: bold; margin-bottom: 5px;">Description</label>
+            <input type="text" id="description" style="width: 90%; padding: 8px;">
+        </div>
+        <div style="margin-bottom: 15px; background: white; padding: 15px; border-radius: 8px;">
             <label style="display: block; font-weight: bold; margin-bottom: 5px;">Packs (Format: {"sv1": 5,"sv2": 2})</label>
             <input type="text" id="packs" style="width: 90%; padding: 8px;">
         </div>
@@ -75,6 +79,7 @@
                 document.getElementById('date').value = p.release_date || "";
                 document.getElementById('product-image').src = p.image_url;
                 document.getElementById('tcgplayer_id').value = p.tcgplayer_id || "";
+                document.getElementById('description').value = p.description || "";
                 document.getElementById('image_url').value = p.image_url || "";
                 document.getElementById('packs').value = JSON.stringify(p.packs || {});
                 document.getElementById('coins').value = JSON.stringify(p.coins || [], null, 2);
@@ -95,6 +100,7 @@
                     type: document.getElementById('type').value,
                     release_date: document.getElementById('date').value,
                     tcgplayer_id: document.getElementById('tcgplayer_id').value,
+                    description: document.getElementById('description').value,
                     image_url: document.getElementById('image_url').value,
                     packs: JSON.parse(document.getElementById('packs').value || '{}'),
                     coins: JSON.parse(document.getElementById('coins').value || '[]'),

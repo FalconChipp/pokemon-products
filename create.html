@@ -39,6 +39,11 @@
     </div>
 
     <div style="margin-bottom: 15px; background: white; padding: 15px; border-radius: 8px; color: black;">
+        <label style="display: block; font-weight: bold; margin-bottom: 5px;">Description</label>
+        <input type="text" id="description" style="width: 90%; padding: 8px;">
+    </div>
+
+    <div style="margin-bottom: 15px; background: white; padding: 15px; border-radius: 8px; color: black;">
         <label style="display: block; font-weight: bold; margin-bottom: 5px;">Packs (Format: {"sv1": 5})</label>
         <input type="text" id="packs" value="{}" style="width: 90%; padding: 8px;">
     </div> 
@@ -122,6 +127,7 @@
                     type: document.getElementById('type').value || null,
                     release_date: document.getElementById('date').value || null,
                     tcgplayer_id: document.getElementById('tcgplayer_id').value || null,
+                    description: document.getElementById('description').value || null,
                     image_url: document.getElementById('image_url').value || null,
                     
                     packs: safeParseJson('packs', {}),
