@@ -19,6 +19,16 @@
     </div>
 
     <div style="margin-bottom: 15px; background: white; padding: 15px; border-radius: 8px; color: black;">
+        <label style="display: block; font-weight: bold; margin-bottom: 5px;">Product Type</label>
+        <input type="text" id="type" style="width: 90%; padding: 8px;">
+    </div>
+
+    <div style="margin-bottom: 15px; background: white; padding: 15px; border-radius: 8px; color: black;">
+        <label style="display: block; font-weight: bold; margin-bottom: 5px;">Release Date</label>
+        <input type="date" id="date" style="width: 90%; padding: 8px;">
+    </div>
+
+    <div style="margin-bottom: 15px; background: white; padding: 15px; border-radius: 8px; color: black;">
         <label style="display: block; font-weight: bold; margin-bottom: 5px;">TCGPlayer ID</label>
         <input type="text" id="tcgplayer_id" style="width: 90%; padding: 8px;">
     </div>
@@ -109,14 +119,14 @@
                 const newProduct = {
                     id: document.getElementById('id').value || null,
                     name: document.getElementById('name').value || null,
+                    type: document.getElementById('type').value || null,
+                    release_date: document.getElementById('release_date').value || null,
                     tcgplayer_id: document.getElementById('tcgplayer_id').value || null,
                     image_url: document.getElementById('image_url').value || null,
                     
-                    // JSON Fields: fallback to empty obj/array if invalid/empty
                     packs: safeParseJson('packs', {}),
                     coins: safeParseJson('coins', []),
                     
-                    // List Fields
                     sleeves: safeParseList('sleeves'),
                     promos: safeParseList('promos'),
                     
