@@ -7,9 +7,9 @@
 <body style="font-family: sans-serif; padding: 20px; background: #0a0a0a; color: white;">
     <a href="index.html" style="color: white; text-decoration: underline;">Back</a>
     <h1 style="color: white;">Create New Product</h1>
-    
+
     <div style="margin-bottom: 15px; background: white; padding: 15px; border-radius: 8px; color: black;">
-        <label style="display: block; font-weight: bold; margin-bottom: 5px;">Internal ID (Example: product-3)</label>
+        <label style="display: block; font-weight: bold; margin-bottom: 5px;">Product ID (Auto-generated)</label>
         <input type="text" id="id" style="width: 90%; padding: 8px;">
     </div>
 
@@ -29,12 +29,12 @@
     </div>
 
     <div style="margin-bottom: 15px; background: white; padding: 15px; border-radius: 8px; color: black;">
-        <label style="display: block; font-weight: bold; margin-bottom: 5px;">Packs (Format: {"sv1": 5,"sv2": 2})</label>
+        <label style="display: block; font-weight: bold; margin-bottom: 5px;">Packs (Format: {"sv1": 5})</label>
         <input type="text" id="packs" value="{}" style="width: 90%; padding: 8px;">
-    </div>
+    </div> 
 
     <div style="margin-bottom: 15px; background: white; padding: 15px; border-radius: 8px; color: black;">
-        <label style="display: block; font-weight: bold; margin-bottom: 5px;">Coins (Format: [{"id":"1","size":"big","pokemon":"Mew"}])</label>
+        <label style="display: block; font-weight: bold; margin-bottom: 5px;">Coins (Format: [{"id":"1"}])</label>
         <textarea id="coins" style="width: 90%; padding: 8px;">[]</textarea>
     </div>
 
@@ -60,29 +60,87 @@
     
     <button onclick="generateJson()" style="background: white; color: black; padding: 10px 20px; border: none; cursor: pointer; font-size: 16px; font-weight: bold;">Generate JSON</button>
     
-    <pre id="json-output" style="background: #333; color: white; padding: 10px; margin-top: 20px; display: none; border-radius: 5px; overflow-x: auto;"></pre>
+    <pre id="json-output" style="background: #333; color: white; padding: 10px; margin-top: 20px; display: none; border-radius: 5px;"></pre>
 
     <script>
-        function generateJson() {
+        function safeParseJson(id, defaultValue = null) {
+            const val = document.getElementById(id).value;
+            if (!val || val.trim() === "") return defaultValue;
+            try {
+                return JSON.parse(val);
+            } catch (e) {
+                console.error(`Invalid JSON in field ${id}`);
+                return defaultValue; 
+            }
+        }
+
+        function safeParseList(id) {
+            const val = document.getElementById(id).value;
+            if (!val || val.trim() === "") return null;
+            return val.split(',').map(s => s.trim()).filter(s => s !== "");
+        }
+
+        window.onload = async () => {
+            try {
+                const response = await fetch('products.json'); 
+                const products = await response.json();
+
+                if (Array.isArray(products) && products.length > 0) {
+                    let maxId = 0;
+                    products.forEach(product => {
+                        const idMatch = product.id.match(/\d+/); 
+                        if (idMatch) {
+                            const idNumber = parseInt(idMatch[0]);
+                            if (idNumber > maxId) maxId = idNumber;
+                        }
+                    });
+                    document.getElementById('id').value = `product-${maxId + 1}`;
+                } else {
+                    document.getElementById('id').value = 'product-1';
+                }
+            } catch (e) {
+                console.error("Error loading products.json:", e);
+                document.getElementById('id').value = 'product-1';
+            }
+        };
+
+        async function generateJson() {
             try {
                 const newProduct = {
-                    id: document.getElementById('id').value,
-                    name: document.getElementById('name').value,
-                    tcgplayer_id: document.getElementById('tcgplayer_id').value,
-                    image_url: document.getElementById('image_url').value,
-                    packs: JSON.parse(document.getElementById('packs').value || '{}'),
-                    coins: JSON.parse(document.getElementById('coins').value || '[]'),
-                    sleeves: document.getElementById('sleeves').value.split(',').map(s => s.trim()).filter(s => s !== ""),
-                    damage_markers: document.getElementById('damage_markers').value,
-                    promos: document.getElementById('promos').value.split(',').map(s => s.trim()).filter(s => s !== ""),
-                    other: document.getElementById('other').value
+                    id: document.getElementById('id').value || null,
+                    name: document.getElementById('name').value || null,
+                    tcgplayer_id: document.getElementById('tcgplayer_id').value || null,
+                    image_url: document.getElementById('image_url').value || null,
+                    
+                    // JSON Fields: fallback to empty obj/array if invalid/empty
+                    packs: safeParseJson('packs', {}),
+                    coins: safeParseJson('coins', []),
+                    
+                    // List Fields
+                    sleeves: safeParseList('sleeves'),
+                    promos: safeParseList('promos'),
+                    
+                    damage_markers: document.getElementById('damage_markers').value || null,
+                    other: document.getElementById('other').value || null
                 };
-                
-                const output = document.getElementById('json-output');
-                output.style.display = 'block';
-                output.innerText = JSON.stringify(newProduct, null, 2);
+
+                const isLocal = window.location.hostname === 'localhost';
+
+                if (isLocal) {
+                    const response = await fetch('http://localhost:3000/update-products', {
+                        method: 'POST',
+                        headers: { 'Content-Type': 'application/json' },
+                        body: JSON.stringify(newProduct)
+                    });
+                } else {
+                    const output = document.getElementById('json-output');
+                    output.style.display = 'block';
+                    output.innerText = JSON.stringify(newProduct, null, 2);
+                }
+
             } catch (e) {
-                alert("Invalid");
+                alert("An unexpected error occurred. Check console.");
+                console.error(e);
             }
         }
     </script>

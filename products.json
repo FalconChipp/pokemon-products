@@ -12,5 +12,93 @@
     "damage_markers": "",
     "promos": [],
     "other": ""
+  },
+  {
+    "id": "product-2",
+    "name": "Mega Evolution Booster Box Case",
+    "tcgplayer_id": "644731",
+    "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/644731_in_1000x1000.jpg",
+    "packs": {
+      "me01": 216
+    },
+    "coins": [],
+    "sleeves": null,
+    "promos": null,
+    "damage_markers": null,
+    "other": null
+  },
+  {
+    "id": "product-3",
+    "name": "Mega Evolution Half Booster Box",
+    "tcgplayer_id": "644351",
+    "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/644351_in_1000x1000.jpg",
+    "packs": {
+      "me01": 16
+    },
+    "coins": [],
+    "sleeves": null,
+    "promos": null,
+    "damage_markers": null,
+    "other": null
+  },
+  {
+    "id": "product-4",
+    "name": "Mega Evolution Elite Trainer Box [Mega Lucario]",
+    "tcgplayer_id": "648394",
+    "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/648394_in_1000x1000.jpg",
+    "packs": {
+      "me01": 9
+    },
+    "coins": [
+      {
+        "id": "1",
+        "size": "normal"
+      }
+    ],
+    "sleeves": [
+      "65 Mega Lucario"
+    ],
+    "promos": [
+      "mep-009 or mep-010"
+    ],
+    "damage_markers": "6 damage-counter dice",
+    "other": "1 competition-legal coin-flip die, 6 Mega Lucario dividers, A player’s guide to the Mega Evolution expansion, 40 Pokémon TCG Energy cards"
+  },
+  {
+    "id": "product-5",
+    "name": "Mega Evolution Elite Trainer Box [Mega Gardevoir]",
+    "tcgplayer_id": "644279",
+    "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/644279_in_1000x1000.jpg",
+    "packs": {
+      "me01": 9
+    },
+    "coins": [
+      {
+        "id": "1",
+        "size": "normal"
+      }
+    ],
+    "sleeves": [
+      "65 Mega Gardevoir"
+    ],
+    "promos": [
+      "mep-009 or mep-010"
+    ],
+    "damage_markers": "6 damage-counter dice",
+    "other": "1 competition-legal coin-flip die, 6 Mega Gardevoir dividers, A player’s guide to the Mega Evolution expansion, 40 Pokémon TCG Energy cards"
+  },
+  {
+    "id": "product-6",
+    "name": "Mega Evolution Booster Pack",
+    "tcgplayer_id": "644352",
+    "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/644352_in_1000x1000.jpg",
+    "packs": {
+      "me01": 1
+    },
+    "coins": [],
+    "sleeves": null,
+    "promos": null,
+    "damage_markers": null,
+    "other": null
   }
 ]
