@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Search Products</title>
+</head>
+<body style="font-family: sans-serif; padding: 20px; background: #0a0a0a; color: white;">
+    <a href="index.html" style="color: white; text-decoration: underline;">Back</a>
+    <h1>Search Products</h1>
+    <input type="text" id="query" 
+           style="width: 300px; padding: 10px; font-size: 16px;" 
+           placeholder="search by name" 
+           oninput="doSearch()">
+    
+    <div id="results"></div>
+
+    <script>
+        let allProducts = [];
+
+        async function loadProducts() {
+            const response = await fetch('products.json');
+            allProducts = await response.json();
+            doSearch(); 
+        }
+
+        function doSearch() {
+            const query = document.getElementById('query').value.toLowerCase();
+            
+            const filtered = allProducts.filter(p => p.name.toLowerCase().includes(query));
+            
+            const container = document.getElementById('results');
+            container.innerHTML = '';
+
+            filtered.forEach(p => {
+                const div = document.createElement('div');
+                
+                div.style.background = "#333";
+                div.style.padding = "15px";
+                div.style.margin = "10px 0";
+                div.style.cursor = "pointer";
+                
+                div.onmouseover = () => div.style.background = "#555";
+                div.onmouseout = () => div.style.background = "#333";
+
+                div.innerHTML = `${p.name} <img src="${p.image_url}" alt="no image" style="height: 100px; margin-left: 10px;">`;
+                div.onclick = () => window.location.href = `product.html?id=${p.id}`;
+                container.appendChild(div);
+            });
+        }
+
+        loadProducts();
+    </script>
+</body>
+</html>

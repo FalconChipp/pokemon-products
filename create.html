@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Create Product</title>
+</head>
+<body style="font-family: sans-serif; padding: 20px; background: #0a0a0a; color: white;">
+    <a href="index.html" style="color: white; text-decoration: underline;">Back</a>
+    <h1 style="color: white;">Create New Product</h1>
+    
+    <div style="margin-bottom: 15px; background: white; padding: 15px; border-radius: 8px; color: black;">
+        <label style="display: block; font-weight: bold; margin-bottom: 5px;">Internal ID (Example: product-3)</label>
+        <input type="text" id="id" style="width: 90%; padding: 8px;">
+    </div>
+
+    <div style="margin-bottom: 15px; background: white; padding: 15px; border-radius: 8px; color: black;">
+        <label style="display: block; font-weight: bold; margin-bottom: 5px;">Product Name</label>
+        <input type="text" id="name" style="width: 90%; padding: 8px;">
+    </div>
+
+    <div style="margin-bottom: 15px; background: white; padding: 15px; border-radius: 8px; color: black;">
+        <label style="display: block; font-weight: bold; margin-bottom: 5px;">TCGPlayer ID</label>
+        <input type="text" id="tcgplayer_id" style="width: 90%; padding: 8px;">
+    </div>
+
+    <div style="margin-bottom: 15px; background: white; padding: 15px; border-radius: 8px; color: black;">
+        <label style="display: block; font-weight: bold; margin-bottom: 5px;">Image URL</label>
+        <input type="text" id="image_url" style="width: 90%; padding: 8px;">
+    </div>
+
+    <div style="margin-bottom: 15px; background: white; padding: 15px; border-radius: 8px; color: black;">
+        <label style="display: block; font-weight: bold; margin-bottom: 5px;">Packs (Format: {"sv1": 5,"sv2": 2})</label>
+        <input type="text" id="packs" value="{}" style="width: 90%; padding: 8px;">
+    </div>
+
+    <div style="margin-bottom: 15px; background: white; padding: 15px; border-radius: 8px; color: black;">
+        <label style="display: block; font-weight: bold; margin-bottom: 5px;">Coins (Format: [{"id":"1","size":"big","pokemon":"Mew"}])</label>
+        <textarea id="coins" style="width: 90%; padding: 8px;">[]</textarea>
+    </div>
+
+    <div style="margin-bottom: 15px; background: white; padding: 15px; border-radius: 8px; color: black;">
+        <label style="display: block; font-weight: bold; margin-bottom: 5px;">Sleeves (Comma separated)</label>
+        <input type="text" id="sleeves" style="width: 90%; padding: 8px;">
+    </div>
+
+    <div style="margin-bottom: 15px; background: white; padding: 15px; border-radius: 8px; color: black;">
+        <label style="display: block; font-weight: bold; margin-bottom: 5px;">Damage Markers</label>
+        <input type="text" id="damage_markers" style="width: 90%; padding: 8px;">
+    </div>
+
+    <div style="margin-bottom: 15px; background: white; padding: 15px; border-radius: 8px; color: black;">
+        <label style="display: block; font-weight: bold; margin-bottom: 5px;">Promos (Comma separated IDs)</label>
+        <input type="text" id="promos" style="width: 90%; padding: 8px;">
+    </div>
+
+    <div style="margin-bottom: 15px; background: white; padding: 15px; border-radius: 8px; color: black;">
+        <label style="display: block; font-weight: bold; margin-bottom: 5px;">Other Items</label>
+        <textarea id="other" style="width: 90%; padding: 8px;"></textarea>
+    </div>
+    
+    <button onclick="generateJson()" style="background: white; color: black; padding: 10px 20px; border: none; cursor: pointer; font-size: 16px; font-weight: bold;">Generate JSON</button>
+    
+    <pre id="json-output" style="background: #333; color: white; padding: 10px; margin-top: 20px; display: none; border-radius: 5px; overflow-x: auto;"></pre>
+
+    <script>
+        function generateJson() {
+            try {
+                const newProduct = {
+                    id: document.getElementById('id').value,
+                    name: document.getElementById('name').value,
+                    tcgplayer_id: document.getElementById('tcgplayer_id').value,
+                    image_url: document.getElementById('image_url').value,
+                    packs: JSON.parse(document.getElementById('packs').value || '{}'),
+                    coins: JSON.parse(document.getElementById('coins').value || '[]'),
+                    sleeves: document.getElementById('sleeves').value.split(',').map(s => s.trim()).filter(s => s !== ""),
+                    damage_markers: document.getElementById('damage_markers').value,
+                    promos: document.getElementById('promos').value.split(',').map(s => s.trim()).filter(s => s !== ""),
+                    other: document.getElementById('other').value
+                };
+                
+                const output = document.getElementById('json-output');
+                output.style.display = 'block';
+                output.innerText = JSON.stringify(newProduct, null, 2);
+            } catch (e) {
+                alert("Invalid");
+            }
+        }
+    </script>
+</body>
+</html>

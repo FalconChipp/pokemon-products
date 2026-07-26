@@ -1,0 +1,16 @@
+[
+  {
+    "id": "product-1",
+    "name": "Mega Evolution Booster Box",
+    "tcgplayer_id": "644298",
+    "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/644298_in_1000x1000.jpg",
+    "packs": {
+      "me01": 36
+    },
+    "coins": [],
+    "sleeves": [],
+    "damage_markers": "",
+    "promos": [],
+    "other": ""
+  }
+]
