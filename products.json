@@ -5,6 +5,7 @@
     "type": "Booster Box",
     "release_date": "2025-09-26",
     "tcgplayer_id": "644298",
+    "description": "Each box contains 36 booster packs.",
     "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/644298_in_1000x1000.jpg",
     "packs": {
       "me01": 36
@@ -21,6 +22,7 @@
     "type": "Booster Box Case",
     "release_date": "2025-09-26",
     "tcgplayer_id": "644731",
+    "description": "Each booster box case contains 6 boxes of 36 packs each.",
     "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/644731_in_1000x1000.jpg",
     "packs": {
       "me01": 216
@@ -37,6 +39,7 @@
     "type": "Half Booster Box",
     "release_date": "2025-09-26",
     "tcgplayer_id": "644351",
+    "description": "Each Mega Evolution half booster box contains 18 booster packs. ",
     "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/644351_in_1000x1000.jpg",
     "packs": {
       "me01": 16
@@ -53,6 +56,7 @@
     "type": "Elite Trainer Box",
     "release_date": "2025-09-26",
     "tcgplayer_id": "648394",
+    "description": "The Pokémon TCG: Mega Evolution Elite Trainer Box includes: • 9 Pokémon TCG: Mega Evolution booster packs • 1 full-art foil promo card featuring Riolu or Alakazam • 65 card sleeves • 40 Pokémon TCG Energy cards • A player’s guide to the Mega Evolution expansion • 6 damage-counter dice • 1 competition-legal coin-flip die • 1 plastic coin • A collector’s box to hold everything, with 6 dividers to keep it organized • A code card for Pokémon Trading Card Game Liv",
     "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/648394_in_1000x1000.jpg",
     "packs": {
       "me01": 9
@@ -78,6 +82,7 @@
     "type": "Elite Trainer Box",
     "release_date": "2025-09-26",
     "tcgplayer_id": "644279",
+    "description": "The Pokémon TCG: Mega Evolution Elite Trainer Box includes: • 9 Pokémon TCG: Mega Evolution booster packs • 1 full-art foil promo card featuring Riolu or Alakazam • 65 card sleeves • 40 Pokémon TCG Energy cards • A player’s guide to the Mega Evolution expansion • 6 damage-counter dice • 1 competition-legal coin-flip die • 1 plastic coin • A collector’s box to hold everything, with 6 dividers to keep it organized • A code card for Pokémon Trading Card Game Liv",
     "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/644279_in_1000x1000.jpg",
     "packs": {
       "me01": 9
@@ -103,6 +108,7 @@
     "type": "Booster Pack",
     "release_date": "2025-09-26",
     "tcgplayer_id": "644352",
+    "description": "Each pack contains 10 cards.",
     "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/644352_in_1000x1000.jpg",
     "packs": {
       "me01": 1
@@ -119,15 +125,16 @@
     "type": "Sleeved Booster Pack",
     "release_date": "2025-09-26",
     "tcgplayer_id": "644354",
+    "description": "Each Mega Evolution sleeved booster pack contains 10 random cards.",
     "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/644354_in_1000x1000.jpg",
     "packs": {
       "me01": 1
     },
     "coins": [],
-    "sleeves": null,
-    "promos": null,
-    "damage_markers": null,
-    "other": null
+    "sleeves": [],
+    "damage_markers": "",
+    "promos": [],
+    "other": ""
   },
   {
     "id": "product-8",
@@ -135,17 +142,18 @@
     "type": "Enhanced Booster Box",
     "release_date": "2025-09-26",
     "tcgplayer_id": "644300",
+    "description": "Each Mega Evolution booster box contains 36 booster packs. 1 stamped illustration rare-style promo card featuring Bulbasaur",
     "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/644300_in_1000x1000.jpg",
     "packs": {
       "me01": 36
     },
     "coins": [],
-    "sleeves": null,
+    "sleeves": [],
+    "damage_markers": "",
     "promos": [
       "me01-133 (Set Stamp)"
     ],
-    "damage_markers": null,
-    "other": null
+    "other": ""
   },
   {
     "id": "product-9",
@@ -153,15 +161,16 @@
     "type": "Booster Bundle",
     "release_date": "2025-09-26",
     "tcgplayer_id": "644362",
+    "description": "Expand your collection with this Booster Bundle containing six booster packs from Pokémon TCG: Mega Evolution!",
     "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/644362_in_1000x1000.jpg",
     "packs": {
       "me01": 6
     },
     "coins": [],
-    "sleeves": null,
-    "promos": null,
-    "damage_markers": null,
-    "other": null
+    "sleeves": [],
+    "damage_markers": "",
+    "promos": [],
+    "other": ""
   },
   {
     "id": "product-10",
@@ -169,14 +178,15 @@
     "type": "Mini Tin",
     "release_date": "2025-09-26",
     "tcgplayer_id": "649394",
+    "description": "In this Pokémon TCG: Mega Heroes Mini Tin, you’ll find: • 2 Pokémon TCG booster packs • 1 sticker sheet • A Pokémon art card showing the art from this Mini",
     "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/649394_in_1000x1000.jpg",
     "packs": {
       "me01": 2
     },
     "coins": [],
-    "sleeves": null,
-    "promos": null,
-    "damage_markers": null,
+    "sleeves": [],
+    "damage_markers": "",
+    "promos": [],
     "other": "1 Sticker, 1 Pokémon art card"
   },
   {
@@ -185,17 +195,18 @@
     "type": "3 Pack Blister",
     "release_date": "2025-09-26",
     "tcgplayer_id": "644357",
+    "description": "Each blister comes with 3 Mega Evolution booster packs and a promotional card of Psyduck.",
     "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/644357_in_1000x1000.jpg",
     "packs": {
       "me01": 3
     },
     "coins": [],
-    "sleeves": null,
+    "sleeves": [],
+    "damage_markers": "",
     "promos": [
       "mep-007"
     ],
-    "damage_markers": null,
-    "other": null
+    "other": ""
   },
   {
     "id": "product-12",
@@ -203,6 +214,7 @@
     "type": "Pokemon Center Elite Trainer Box",
     "release_date": "2025-09-26",
     "tcgplayer_id": "644282",
+    "description": "The Pokémon TCG: Mega Evolution Pokémon Center Elite Trainer Box includes: • 11 Pokémon TCG: Mega Evolution booster packs • 1 full-art foil promo card featuring Riolu or Alakazam with a Pokémon Center logo • 1 full-art foil promo card featuring Riolu or Alakazam • 65 card sleeves • 40 Pokémon TCG Energy cards • A player’s guide to the Mega Evolution expansion • 6 damage-counter dice • 1 competition-legal coin-flip die • 1 plastic coin • A collector’s box to hold everything, with 6 dividers to keep it organized • A code card for Pokémon Trading Card Game Live",
     "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/644282_in_1000x1000.jpg",
     "packs": {
       "me01": 11
@@ -228,6 +240,7 @@
     "type": "Pokemon Center Elite Trainer Box",
     "release_date": "2025-09-26",
     "tcgplayer_id": "648415",
+    "description": "The Pokémon TCG: Mega Evolution Pokémon Center Elite Trainer Box includes: • 11 Pokémon TCG: Mega Evolution booster packs • 1 full-art foil promo card featuring Riolu or Alakazam with a Pokémon Center logo • 1 full-art foil promo card featuring Riolu or Alakazam • 65 card sleeves • 40 Pokémon TCG Energy cards • A player’s guide to the Mega Evolution expansion • 6 damage-counter dice • 1 competition-legal coin-flip die • 1 plastic coin • A collector’s box to hold everything, with 6 dividers to keep it organized • A code card for Pokémon Trading Card Game Live",
     "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/648415_in_1000x1000.jpg",
     "packs": {
       "me01": 11
@@ -253,14 +266,15 @@
     "type": "Mini Tin",
     "release_date": "2025-09-26",
     "tcgplayer_id": "649400",
+    "description": "In this Pokémon TCG: Mega Heroes Mini Tin, you’ll find: • 2 Pokémon TCG booster packs • 1 sticker sheet • A Pokémon art card showing the art from this Mini",
     "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/649400_in_1000x1000.jpg",
     "packs": {
       "me01": 2
     },
     "coins": [],
-    "sleeves": null,
-    "promos": null,
-    "damage_markers": null,
+    "sleeves": [],
+    "damage_markers": "",
+    "promos": [],
     "other": "1 Sticker, 1 Pokémon art card"
   },
   {
@@ -269,6 +283,7 @@
     "type": "Single Pack Blister",
     "release_date": "2025-09-26",
     "tcgplayer_id": "657490",
+    "description": "Each blister comes with 1 booster pack, 1 coin, and a promotional card.",
     "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/657490_in_1000x1000.jpg",
     "packs": {
       "me01": 1
@@ -280,13 +295,13 @@
         "pokemon": "Lucario"
       }
     ],
-    "sleeves": null,
+    "sleeves": [],
+    "damage_markers": "",
     "promos": [
       "sv09-084",
       "sv09-085 (Cosmos Holo)"
     ],
-    "damage_markers": null,
-    "other": null
+    "other": ""
   },
   {
     "id": "product-16",
@@ -294,17 +309,18 @@
     "type": "3 Pack Blister",
     "release_date": "2025-09-26",
     "tcgplayer_id": "644356",
+    "description": "Each blister comes with 3 Mega Evolution booster packs and a promotional card of Golduck.",
     "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/644356_in_1000x1000.jpg",
     "packs": {
       "me01": 3
     },
     "coins": [],
-    "sleeves": null,
+    "sleeves": [],
+    "damage_markers": "",
     "promos": [
       "mep-008"
     ],
-    "damage_markers": null,
-    "other": null
+    "other": ""
   },
   {
     "id": "product-17",
@@ -312,15 +328,16 @@
     "type": "Booster Bundle Case",
     "release_date": "2025-09-26",
     "tcgplayer_id": "644730",
+    "description": "Each sealed Mega Evolution Booster Bundle Case contains 25 bundle boxes.  Expand your collection with this Booster Bundle containing six booster packs from Pokémon TCG: Mega Evolution!",
     "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/644730_in_1000x1000.jpg",
     "packs": {
       "me01": 150
     },
     "coins": [],
-    "sleeves": null,
-    "promos": null,
-    "damage_markers": null,
-    "other": null
+    "sleeves": [],
+    "damage_markers": "",
+    "promos": [],
+    "other": ""
   },
   {
     "id": "product-18",
@@ -328,14 +345,15 @@
     "type": "Mini Tin",
     "release_date": "2025-09-26",
     "tcgplayer_id": "649401",
+    "description": "In this Pokémon TCG: Mega Heroes Mini Tin, you’ll find: • 2 Pokémon TCG booster packs • 1 sticker sheet • A Pokémon art card showing the art from this Mini",
     "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/649401_in_1000x1000.jpg",
     "packs": {
       "me01": 2
     },
     "coins": [],
-    "sleeves": null,
-    "promos": null,
-    "damage_markers": null,
+    "sleeves": [],
+    "damage_markers": "",
+    "promos": [],
     "other": "1 Sticker, 1 Pokémon art card"
   },
   {
@@ -344,16 +362,17 @@
     "type": "Build & Battle Box",
     "release_date": "2025-09-26",
     "tcgplayer_id": "644363",
+    "description": "Contents: • A 40-card ready-to-play deck, including 1 of 4 unique foil promo cards • 4 Pokémon TCG: Mega Evolution booster packs • A code card for Pokémon TCG Live",
     "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/644363_in_1000x1000.jpg",
     "packs": {
       "me01": 4
     },
     "coins": [],
-    "sleeves": null,
+    "sleeves": [],
+    "damage_markers": "",
     "promos": [
       "mep-001 (Set Stamp) or mep-002 (Set Stamp) or mep-003 (Set Stamp) or mep-004 (Set Stamp)"
     ],
-    "damage_markers": null,
     "other": "A 40-card ready-to-play deck"
   },
   {
@@ -362,14 +381,15 @@
     "type": "Mini Tin",
     "release_date": "2025-09-26",
     "tcgplayer_id": "649395",
+    "description": "In this Pokémon TCG: Mega Heroes Mini Tin, you’ll find: • 2 Pokémon TCG booster packs • 1 sticker sheet • A Pokémon art card showing the art from this Mini",
     "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/649395_in_1000x1000.jpg",
     "packs": {
       "me01": 2
     },
     "coins": [],
-    "sleeves": null,
-    "promos": null,
-    "damage_markers": null,
+    "sleeves": [],
+    "damage_markers": "",
+    "promos": [],
     "other": "1 Sticker, 1 Pokémon art card"
   },
   {
@@ -378,6 +398,7 @@
     "type": "Single Pack Blister",
     "release_date": "2025-09-26",
     "tcgplayer_id": "644359",
+    "description": "Each blister comes with 1 booster pack, 1 coin, and a promotional card.",
     "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/644359_in_1000x1000.jpg",
     "packs": {
       "me01": 1
@@ -389,12 +410,12 @@
         "pokemon": "Lucario"
       }
     ],
-    "sleeves": null,
+    "sleeves": [],
+    "damage_markers": "",
     "promos": [
       "mep-006"
     ],
-    "damage_markers": null,
-    "other": null
+    "other": ""
   },
   {
     "id": "product-22",
@@ -402,6 +423,7 @@
     "type": "Single Pack Blister",
     "release_date": "2025-09-26",
     "tcgplayer_id": "644358",
+    "description": "Each blister comes with 1 booster pack, 1 coin, and a promotional card.",
     "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/644358_in_1000x1000.jpg",
     "packs": {
       "me01": 1
@@ -413,12 +435,12 @@
         "pokemon": "Lucario"
       }
     ],
-    "sleeves": null,
+    "sleeves": [],
+    "damage_markers": "",
     "promos": [
       "mep-005"
     ],
-    "damage_markers": null,
-    "other": null
+    "other": ""
   },
   {
     "id": "product-23",
@@ -426,6 +448,7 @@
     "type": "Single Pack Blister",
     "release_date": "2025-09-26",
     "tcgplayer_id": "657489",
+    "description": "Each blister comes with 1 Mega Evolutionr booster pack, 1 coin, and a promotional cards.",
     "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/657489_in_1000x1000.jpg",
     "packs": {
       "me01": 1
@@ -437,13 +460,13 @@
         "pokemon": "Lucario"
       }
     ],
-    "sleeves": null,
+    "sleeves": [],
+    "damage_markers": "",
     "promos": [
       "sv09-040",
       "sv09-041 (Cosmos Holo)"
     ],
-    "damage_markers": null,
-    "other": null
+    "other": ""
   },
   {
     "id": "product-24",
@@ -451,14 +474,15 @@
     "type": "Mini Tin",
     "release_date": "2025-09-26",
     "tcgplayer_id": "649397",
+    "description": "In this Pokémon TCG: Mega Heroes Mini Tin, you’ll find: • 2 Pokémon TCG booster packs • 1 sticker sheet • A Pokémon art card showing the art from this Mini",
     "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/649397_in_1000x1000.jpg",
     "packs": {
       "me01": 2
     },
     "coins": [],
-    "sleeves": null,
-    "promos": null,
-    "damage_markers": null,
+    "sleeves": [],
+    "damage_markers": "",
+    "promos": [],
     "other": "1 Sticker, 1 Pokémon art card"
   },
   {
@@ -467,14 +491,15 @@
     "type": "Mini Tin Display",
     "release_date": "2025-09-26",
     "tcgplayer_id": "649392",
+    "description": "In this Pokémon TCG: Mega Heroes Mini Tin, you’ll find: • 2 Pokémon TCG booster packs • 1 sticker sheet • A Pokémon art card showing the art from this Mini",
     "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/649392_in_1000x1000.jpg",
     "packs": {
       "me01": 20
     },
     "coins": [],
-    "sleeves": null,
-    "promos": null,
-    "damage_markers": null,
+    "sleeves": [],
+    "damage_markers": "",
+    "promos": [],
     "other": "1 Sticker per tin, 1 Pokémon art card per tin"
   },
   {
@@ -483,6 +508,7 @@
     "type": "Elite Trainer Box Case",
     "release_date": "2025-09-26",
     "tcgplayer_id": "644727",
+    "description": "Each sealed Pokémon TCG: Scarlet & Violet—Mega Evolution Trainer Box includes 10 elite trainer boxes. Individual Pokémon TCG: Scarlet & Violet—Mega Evolution Elite Trainer Boxes include: • 9 Pokémon TCG: Mega Evolution booster packs • 1 full-art foil promo card featuring Riolu or Alakazam • 65 card sleeves • 40 Pokémon TCG Energy cards • A player’s guide to the Mega Evolution expansion • 6 damage-counter dice • 1 competition-legal coin-flip die • 1 plastic coin • A collector’s box to hold everything, with 6 dividers to keep it organized • A code card for Pokémon Trading Card Game Liv",
     "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/644727_in_1000x1000.jpg",
     "packs": {
       "me01": 90
@@ -508,15 +534,16 @@
     "type": "Sleeved Booster Case",
     "release_date": "2025-09-26",
     "tcgplayer_id": "650766",
+    "description": "Each sealed Mega Evolution sleeved booster case contains 144 sleeved booster packs.",
     "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/650766_in_1000x1000.jpg",
     "packs": {
       "me01": 144
     },
     "coins": [],
-    "sleeves": null,
-    "promos": null,
-    "damage_markers": null,
-    "other": null
+    "sleeves": [],
+    "damage_markers": "",
+    "promos": [],
+    "other": ""
   },
   {
     "id": "product-28",
@@ -524,6 +551,7 @@
     "type": "Premium Checklane Blister",
     "release_date": "2025-09-26",
     "tcgplayer_id": "644361",
+    "description": "Product details: • 1 Mega Evolution booster pack • TCGO Code • Coin • 3 cards featuring an evolution line!",
     "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/644361_in_1000x1000.jpg",
     "packs": {
       "me01": 1
@@ -535,14 +563,14 @@
         "pokemon": "Lucario"
       }
     ],
-    "sleeves": null,
+    "sleeves": [],
+    "damage_markers": "",
     "promos": [
       "sv09-016",
       "sv09-017",
       "sv09-018 (Cosmos Holo)"
     ],
-    "damage_markers": null,
-    "other": null
+    "other": ""
   },
   {
     "id": "product-29",
@@ -1011,5 +1039,41 @@
       "sv10-036 (Cosmos Holo)"
     ],
     "other": ""
+  },
+  {
+    "id": "product-51",
+    "name": "Mega Evolution Enhanced Booster Case",
+    "type": "Enhanced Booster Case",
+    "release_date": "2025-09-26",
+    "tcgplayer_id": "646173",
+    "description": "Each sealed booster box case contains 6 enhanced booster boxes of 36 booster packs.",
+    "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/646173_in_1000x1000.jpg",
+    "packs": {
+      "me01": 216
+    },
+    "coins": [],
+    "sleeves": [],
+    "damage_markers": "",
+    "promos": [
+      "me01-133 (Set Stamp)"
+    ],
+    "other": ""
+  },
+  {
+    "id": "product-52",
+    "name": "Mega Evolution Build & Battle Box Display",
+    "type": "Build & Battle Box Display",
+    "release_date": "2025-09-26",
+    "tcgplayer_id": "644733",
+    "description": "Display contains 10 Mega Evolution Build & Battle Boxes.  Each box contains: • A 40-card ready-to-play deck, including 1 of 4 unique foil promo cards • 4 Pokémon TCG: Mega Evolution booster packs • A code card for Pokémon TCG Live",
+    "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/644733_in_1000x1000.jpg",
+    "packs": {
+      "me01": 40
+    },
+    "coins": [],
+    "sleeves": null,
+    "promos": null,
+    "damage_markers": null,
+    "other": null
   }
 ]
