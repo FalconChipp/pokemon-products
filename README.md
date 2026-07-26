@@ -1,0 +1,1 @@
+Database of Pokémon products. View it [here](https://fatalmistake02.github.io/pokemon-products/) or download the products.json file.
