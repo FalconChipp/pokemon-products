@@ -1,6 +1,7 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+    <meta charset="UTF-8">
     <title>Product</title>
 </head>
 <body style="font-family: sans-serif; padding: 20px; background: #0a0a0a; color: black;">
@@ -49,7 +50,7 @@
             <label style="display: block; font-weight: bold; margin-bottom: 5px;">Other Items</label>
             <textarea id="other" style="width: 90%; padding: 8px;"></textarea>
         </div>
-        <button onclick="generateJson()" style="background: white; padding: 10px 20px; border: none; cursor: pointer; font-size: 16px;">Generate Updated JSON</button>
+        <button onclick="generateJson()" style="background: white; padding: 10px 20px; border: none; cursor: pointer; font-size: 16px; font-weight: bold;">Save Product Changes</button>
     </div>
 
     <pre id="json-output" style="background: #333; padding: 10px; margin-top: 20px; display: none; color: white;"></pre>
@@ -59,43 +60,73 @@
         const productId = params.get('id');
 
         async function loadProduct() {
-            const response = await fetch('products.json');
-            const products = await response.json();
-            const p = products.find(product => product.id === productId);
+            try {
+                const response = await fetch('products.json');
+                const products = await response.json();
+                const p = products.find(product => product.id === productId);
 
-            document.getElementById('product-name').innerText = p.name;
-            document.getElementById('type').value = p.type;
-            document.getElementById('date').value = p.release_date;
-            document.getElementById('product-image').src = p.image_url;
-            document.getElementById('tcgplayer_id').value = p.tcgplayer_id;
-            document.getElementById('image_url').value = p.image_url;
-            document.getElementById('packs').value = JSON.stringify(p.packs);
-            document.getElementById('coins').value = JSON.stringify(p.coins, null, 2);
-            document.getElementById('sleeves').value = p.sleeves.join(', ');
-            document.getElementById('damage_markers').value = p.damage_markers;
-            document.getElementById('promos').value = p.promos.join(', ');
-            document.getElementById('other').value = p.other;
+                if (!p) {
+                    document.getElementById('product-name').innerText = "Product not found";
+                    return;
+                }
+
+                document.getElementById('product-name').innerText = p.name;
+                document.getElementById('type').value = p.type || "";
+                document.getElementById('date').value = p.release_date || "";
+                document.getElementById('product-image').src = p.image_url;
+                document.getElementById('tcgplayer_id').value = p.tcgplayer_id || "";
+                document.getElementById('image_url').value = p.image_url || "";
+                document.getElementById('packs').value = JSON.stringify(p.packs || {});
+                document.getElementById('coins').value = JSON.stringify(p.coins || [], null, 2);
+                document.getElementById('sleeves').value = p.sleeves ? p.sleeves.join(', ') : "";
+                document.getElementById('damage_markers').value = p.damage_markers || "";
+                document.getElementById('promos').value = p.promos ? p.promos.join(', ') : "";
+                document.getElementById('other').value = p.other || "";
+            } catch (e) {
+                console.error("Error loading product:", e);
+            }
         }
 
-        function generateJson() {
-            const updated = {
-                id: productId,
-                name: document.getElementById('product-name').innerText,
-                type: document.getElementById('type').value,
-                release_date: document.getElementById('date').value,
-                tcgplayer_id: document.getElementById('tcgplayer_id').value,
-                image_url: document.getElementById('image_url').value,
-                packs: JSON.parse(document.getElementById('packs').value),
-                coins: JSON.parse(document.getElementById('coins').value),
-                sleeves: document.getElementById('sleeves').value.split(',').map(s => s.trim()),
-                damage_markers: document.getElementById('damage_markers').value,
-                promos: document.getElementById('promos').value.split(',').map(s => s.trim()),
-                other: document.getElementById('other').value
-            };
-            
-            const output = document.getElementById('json-output');
-            output.style.display = 'block';
-            output.innerText = JSON.stringify(updated, null, 2);
+        async function generateJson() {
+            try {
+                const updated = {
+                    id: productId,
+                    name: document.getElementById('product-name').innerText,
+                    type: document.getElementById('type').value,
+                    release_date: document.getElementById('date').value,
+                    tcgplayer_id: document.getElementById('tcgplayer_id').value,
+                    image_url: document.getElementById('image_url').value,
+                    packs: JSON.parse(document.getElementById('packs').value || '{}'),
+                    coins: JSON.parse(document.getElementById('coins').value || '[]'),
+                    sleeves: document.getElementById('sleeves').value.split(',').map(s => s.trim()).filter(s => s !== ""),
+                    damage_markers: document.getElementById('damage_markers').value,
+                    promos: document.getElementById('promos').value.split(',').map(s => s.trim()).filter(s => s !== ""),
+                    other: document.getElementById('other').value
+                };
+                
+                const isLocal = window.location.hostname === 'localhost';
+
+                if (isLocal) {
+                    const response = await fetch('http://localhost:3000/update-products', {
+                        method: 'POST',
+                        headers: { 'Content-Type': 'application/json' },
+                        body: JSON.stringify(updated)
+                    });
+
+                    if (response.ok) {
+                        alert("Product updated successfully!");
+                    } else {
+                        alert("Server error while saving.");
+                    }
+                } else {
+                    const output = document.getElementById('json-output');
+                    output.style.display = 'block';
+                    output.innerText = JSON.stringify(updated, null, 2);
+                }
+            } catch (e) {
+                alert("Invalid JSON format in Packs or Coins");
+                console.error(e);
+            }
         }
 
         loadProduct();

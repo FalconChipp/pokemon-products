@@ -1,41 +1,41 @@
 const express = require('express');
 const fs = require('fs');
 const cors = require('cors');
+const path = require('path');
+
 const app = express();
+const PORT = 3000;
+const JSON_FILE = 'products.json';
 
 app.use(cors());
 app.use(express.json());
-
-const FILE_PATH = './products.json';
+app.use(express.static('.'));
 
 app.post('/update-products', (req, res) => {
-    const newProduct = req.body;
+    const updatedProduct = req.body;
 
-    fs.readFile(FILE_PATH, 'utf8', (err, data) => {
-        let products = [];
-        
-        if (!err && data) {
-            try {
-                products = JSON.parse(data);
-            } catch (e) {
-                console.error("Error parsing JSON, starting with empty array");
-            }
-        }
+    fs.readFile(JSON_FILE, 'utf8', (err, data) => {
+        if (err) return res.status(500).send("Error reading file");
 
-        const index = products.findIndex(p => p.id === newProduct.id);
+        let products = JSON.parse(data || "[]");
+
+        const index = products.findIndex(p => p.id === updatedProduct.id);
+
         if (index !== -1) {
-            products[index] = newProduct; 
+            products[index] = updatedProduct;
+            console.log(`Updating existing product: ${updatedProduct.id}`);
         } else {
-            products.push(newProduct);
+            products.push(updatedProduct);
+            console.log(`Adding new product: ${updatedProduct.id}`);
         }
 
-        fs.writeFile(FILE_PATH, JSON.stringify(products, null, 2), (err) => {
-            if (err) {
-                return res.status(500).send({ message: "Error writing file" });
-            }
-            res.send({ message: "Product saved successfully to products.json!" });
+        fs.writeFile(JSON_FILE, JSON.stringify(products, null, 2), (err) => {
+            if (err) return res.status(500).send("Error writing file");
+            res.send({ message: "Success" });
         });
     });
 });
 
-app.listen(3000, () => console.log('Server running at http://localhost:3000'));
+app.listen(PORT, () => {
+    console.log(`Server running at http://localhost:${PORT}`);
+});
