@@ -205,7 +205,7 @@
     "tcgplayer_id": "644282",
     "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/644282_in_1000x1000.jpg",
     "packs": {
-      "me01": 9
+      "me01": 11
     },
     "coins": [
       {
@@ -216,10 +216,10 @@
     "sleeves": [
       "65 Mega Lucario"
     ],
+    "damage_markers": "6 damage-counter dice",
     "promos": [
       "mep-009 (Pokémon Center Stamp) or mep-010 (Pokémon Center Stamp)"
     ],
-    "damage_markers": "6 damage-counter dice",
     "other": "1 competition-legal coin-flip die, 6 Mega Lucario dividers, A player’s guide to the Mega Evolution expansion, 40 Pokémon TCG Energy cards"
   },
   {
@@ -230,7 +230,7 @@
     "tcgplayer_id": "648415",
     "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/648415_in_1000x1000.jpg",
     "packs": {
-      "me01": 9
+      "me01": 11
     },
     "coins": [
       {
@@ -241,10 +241,10 @@
     "sleeves": [
       "65 Mega Gardevoir"
     ],
+    "damage_markers": "6 damage-counter dice",
     "promos": [
       "mep-009 (Pokémon Center Stamp) or mep-010 (Pokémon Center Stamp)"
     ],
-    "damage_markers": "6 damage-counter dice",
     "other": "1 competition-legal coin-flip die, 6 Mega Gardevoir dividers, A player’s guide to the Mega Evolution expansion, 40 Pokémon TCG Energy cards"
   },
   {
@@ -566,6 +566,427 @@
       "sv09-080",
       "sv09-081",
       "sv09-095 (Cosmos Holo)"
+    ],
+    "damage_markers": null,
+    "other": null
+  },
+  {
+    "id": "product-30",
+    "name": "Phantasmal Flames Booster Pack",
+    "type": "Booster Pack",
+    "release_date": "2025-11-14",
+    "tcgplayer_id": "654144",
+    "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/654144_in_1000x1000.jpg",
+    "packs": {
+      "me02": 1
+    },
+    "coins": [],
+    "sleeves": null,
+    "promos": null,
+    "damage_markers": null,
+    "other": null
+  },
+  {
+    "id": "product-31",
+    "name": "Phantasmal Flames Booster Box",
+    "type": "Booster Box",
+    "release_date": "2025-11-14",
+    "tcgplayer_id": "654137",
+    "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/654137_in_1000x1000.jpg",
+    "packs": {
+      "me02": 36
+    },
+    "coins": [],
+    "sleeves": null,
+    "promos": null,
+    "damage_markers": null,
+    "other": null
+  },
+  {
+    "id": "product-32",
+    "name": "Phantasmal Flames Elite Trainer Box",
+    "type": "Elite Trainer Box",
+    "release_date": "2025-11-14",
+    "tcgplayer_id": "654136",
+    "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/654136_in_1000x1000.jpg",
+    "packs": {
+      "me02": 9
+    },
+    "coins": [
+      {
+        "id": "1",
+        "size": "normal"
+      }
+    ],
+    "sleeves": [
+      "65 Mega Charizard"
+    ],
+    "promos": [
+      "mep-022"
+    ],
+    "damage_markers": "6 damage-counter dice",
+    "other": "1 competition-legal coin-flip die, 6 Mega Charizard dividers, A player’s guide to the Mega Evolution expansion, 40 Pokémon TCG Energy cards"
+  },
+  {
+    "id": "product-33",
+    "name": "Phantasmal Flames Sleeved Booster Pack",
+    "type": "Sleeved Booster Pack",
+    "release_date": "2025-11-14",
+    "tcgplayer_id": "654145",
+    "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/654145_in_1000x1000.jpg",
+    "packs": {
+      "me02": 1
+    },
+    "coins": [],
+    "sleeves": null,
+    "promos": null,
+    "damage_markers": null,
+    "other": null
+  },
+  {
+    "id": "product-34",
+    "name": "Phantasmal Flames Booster Bundle",
+    "type": "Booster Bundle",
+    "release_date": "2025-11-14",
+    "tcgplayer_id": "654160",
+    "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/654160_in_1000x1000.jpg",
+    "packs": {
+      "me02": 6
+    },
+    "coins": [],
+    "sleeves": null,
+    "promos": null,
+    "damage_markers": null,
+    "other": null
+  },
+  {
+    "id": "product-35",
+    "name": "Phantasmal Flames Build & Battle Box",
+    "type": "Build & Battle Box",
+    "release_date": "2025-11-14",
+    "tcgplayer_id": "662725",
+    "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/662725_in_1000x1000.jpg",
+    "packs": {
+      "me02": 4
+    },
+    "coins": [],
+    "sleeves": [],
+    "damage_markers": "",
+    "promos": [],
+    "other": "A 40-card ready-to-play deck, 1 of 4 unique foil promo cards"
+  },
+  {
+    "id": "product-36",
+    "name": "Phantasmal Flames Single Pack Blister [Whimsicott]",
+    "type": "Single Pack Blister",
+    "release_date": "2025-11-14",
+    "tcgplayer_id": "654150",
+    "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/654150_in_1000x1000.jpg",
+    "packs": {
+      "me02": 1
+    },
+    "coins": [
+      {
+        "id": "1",
+        "size": "big",
+        "pokemon": "Diancie"
+      }
+    ],
+    "sleeves": null,
+    "promos": [
+      "mep-019"
+    ],
+    "damage_markers": null,
+    "other": null
+  },
+  {
+    "id": "product-37",
+    "name": "Phantasmal Flames Pokemon Center Elite Trainer Box",
+    "type": "Pokemon Center Elite Trainer Box",
+    "release_date": "2025-11-14",
+    "tcgplayer_id": "654135",
+    "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/654135_in_1000x1000.jpg",
+    "packs": {
+      "me02": 9
+    },
+    "coins": [
+      {
+        "id": "1",
+        "size": "normal"
+      }
+    ],
+    "sleeves": [
+      "65 Mega Charizard"
+    ],
+    "promos": [
+      "mep-022"
+    ],
+    "damage_markers": "6 damage-counter dice",
+    "other": "1 competition-legal coin-flip die, 6 Mega Charizard dividers, A player’s guide to the Mega Evolution expansion, 40 Pokémon TCG Energy cards"
+  },
+  {
+    "id": "product-38",
+    "name": "Phantasmal Flames Single Pack Blister [Cottonee]",
+    "type": "Single Pack Blister",
+    "release_date": "2025-11-14",
+    "tcgplayer_id": "654151",
+    "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/654151_in_1000x1000.jpg",
+    "packs": {
+      "me02": 1
+    },
+    "coins": [
+      {
+        "id": "1",
+        "size": "big",
+        "pokemon": "Diancie"
+      }
+    ],
+    "sleeves": null,
+    "promos": [
+      "mep-018"
+    ],
+    "damage_markers": null,
+    "other": null
+  },
+  {
+    "id": "product-39",
+    "name": "Phantasmal Flames 3 Pack Blister [Sneasel]",
+    "type": "3 Pack Blister",
+    "release_date": "2025-11-14",
+    "tcgplayer_id": "654154",
+    "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/654154_in_1000x1000.jpg",
+    "packs": {
+      "me02": 3
+    },
+    "coins": [],
+    "sleeves": null,
+    "promos": [
+      "mep-020"
+    ],
+    "damage_markers": null,
+    "other": null
+  },
+  {
+    "id": "product-40",
+    "name": "Phantasmal Flames Elite Trainer Box Case",
+    "type": "Elite Trainer Box Case",
+    "release_date": "2025-11-14",
+    "tcgplayer_id": "654170",
+    "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/654170_in_1000x1000.jpg",
+    "packs": {
+      "me02": 90
+    },
+    "coins": [
+      {
+        "id": "1",
+        "size": "normal"
+      }
+    ],
+    "sleeves": [
+      "65 Mega Charizard"
+    ],
+    "promos": [
+      "mep-022"
+    ],
+    "damage_markers": "6 damage-counter dice",
+    "other": "1 competition-legal coin-flip die, 6 Mega Charizard dividers, A player’s guide to the Mega Evolution expansion, 40 Pokémon TCG Energy cards"
+  },
+  {
+    "id": "product-41",
+    "name": "Phantasmal Flames 3 Pack Blister [Weavile]",
+    "type": "3 Pack Blister",
+    "release_date": "2025-11-14",
+    "tcgplayer_id": "654156",
+    "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/654156_in_1000x1000.jpg",
+    "packs": {
+      "me02": 3
+    },
+    "coins": [],
+    "sleeves": null,
+    "promos": [
+      "mep-021"
+    ],
+    "damage_markers": null,
+    "other": null
+  },
+  {
+    "id": "product-42",
+    "name": "Phantasmal Flames Booster Box Case",
+    "type": "Booster Box Case",
+    "release_date": "2025-11-14",
+    "tcgplayer_id": "655281",
+    "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/655281_in_1000x1000.jpg",
+    "packs": {
+      "me02": 216
+    },
+    "coins": [],
+    "sleeves": null,
+    "promos": null,
+    "damage_markers": null,
+    "other": null
+  },
+  {
+    "id": "product-43",
+    "name": "Phantasmal Flames Build & Battle Box Display",
+    "type": "Build & Battle Box Display",
+    "release_date": "2025-11-14",
+    "tcgplayer_id": "654164",
+    "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/654164_in_1000x1000.jpg",
+    "packs": {
+      "me02": 40
+    },
+    "coins": [],
+    "sleeves": null,
+    "promos": null,
+    "damage_markers": null,
+    "other": "A 40-card ready-to-play deck, 1 of 4 unique foil promo cards"
+  },
+  {
+    "id": "product-44",
+    "name": "Phantasmal Flames Booster Bundle Case",
+    "type": "Booster Bundle Case",
+    "release_date": "2025-11-14",
+    "tcgplayer_id": "654162",
+    "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/654162_in_1000x1000.jpg",
+    "packs": {
+      "me02": 150
+    },
+    "coins": [],
+    "sleeves": null,
+    "promos": null,
+    "damage_markers": null,
+    "other": null
+  },
+  {
+    "id": "product-45",
+    "name": "Phantasmal Flames Premium Checklane Blister [Hydrapple]",
+    "type": "Premium Checklane Blister",
+    "release_date": "2025-11-14",
+    "tcgplayer_id": "654146",
+    "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/654146_in_1000x1000.jpg",
+    "packs": {
+      "me02": 1
+    },
+    "coins": [
+      {
+        "id": "1",
+        "size": "big",
+        "pokemon": "Diancie"
+      }
+    ],
+    "sleeves": null,
+    "promos": [
+      "sv10-016",
+      "sv10-017",
+      "sv10-018 (Cosmos Holo)"
+    ],
+    "damage_markers": null,
+    "other": null
+  },
+  {
+    "id": "product-46",
+    "name": "Phantasmal Flames 3-Pack Blister Case",
+    "type": "3-Pack Blister Case",
+    "release_date": "2025-11-14",
+    "tcgplayer_id": "685215",
+    "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/685215_in_1000x1000.jpg",
+    "packs": {
+      "me02": 3
+    },
+    "coins": [],
+    "sleeves": null,
+    "promos": null,
+    "damage_markers": null,
+    "other": null
+  },
+  {
+    "id": "product-47",
+    "name": "Phantasmal Flames Premium Checklane Blister [Arven's Greedent]",
+    "type": "Premium Checklane Blister",
+    "release_date": "2025-11-14",
+    "tcgplayer_id": "668931",
+    "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/668931_in_1000x1000.jpg",
+    "packs": {
+      "me02": 1
+    },
+    "coins": [
+      {
+        "id": "1",
+        "size": "big",
+        "pokemon": "Diancie"
+      }
+    ],
+    "sleeves": null,
+    "promos": [
+      "sv10-158",
+      "sv10-159 (Cosmos Holo)"
+    ],
+    "damage_markers": null,
+    "other": null
+  },
+  {
+    "id": "product-48",
+    "name": "Phantasmal Flames Premium Checklane Blister [Blaziken]",
+    "type": "Premium Checklane Blister",
+    "release_date": "2025-11-14",
+    "tcgplayer_id": "654147",
+    "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/654147_in_1000x1000.jpg",
+    "packs": {
+      "me02": 1
+    },
+    "coins": [
+      {
+        "id": "1",
+        "size": "big",
+        "pokemon": "Diancie"
+      }
+    ],
+    "sleeves": null,
+    "promos": [
+      "sv10-040",
+      "sv10-041",
+      "sv10-042 (Cosmos Holo)"
+    ],
+    "damage_markers": null,
+    "other": null
+  },
+  {
+    "id": "product-49",
+    "name": "Phantasmal Flames Sleeved Booster Case",
+    "type": "Sleeved Booster Case",
+    "release_date": "2025-11-14",
+    "tcgplayer_id": "655282",
+    "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/655282_in_1000x1000.jpg",
+    "packs": {
+      "me02": 144
+    },
+    "coins": [],
+    "sleeves": null,
+    "promos": null,
+    "damage_markers": null,
+    "other": null
+  },
+  {
+    "id": "product-50",
+    "name": "Phantasmal Flames Premium Checklane Blister [Ethan's Magcargo]",
+    "type": "Premium Checklane Blister",
+    "release_date": "2025-11-14",
+    "tcgplayer_id": "672588",
+    "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/672588_in_1000x1000.jpg",
+    "packs": {
+      "me02": 1
+    },
+    "coins": [
+      {
+        "id": "1",
+        "size": "big",
+        "pokemon": "Diancie"
+      }
+    ],
+    "sleeves": null,
+    "promos": [
+      "sv10-035",
+      "sv10-036 (Cosmos Holo)"
     ],
     "damage_markers": null,
     "other": null
