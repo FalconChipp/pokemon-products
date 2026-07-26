@@ -2,6 +2,8 @@
   {
     "id": "product-1",
     "name": "Mega Evolution Booster Box",
+    "type": "Booster Box",
+    "release_date": "2025-09-26",
     "tcgplayer_id": "644298",
     "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/644298_in_1000x1000.jpg",
     "packs": {
@@ -16,34 +18,40 @@
   {
     "id": "product-2",
     "name": "Mega Evolution Booster Box Case",
+    "type": "Booster Box Case",
+    "release_date": "2025-09-26",
     "tcgplayer_id": "644731",
     "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/644731_in_1000x1000.jpg",
     "packs": {
       "me01": 216
     },
     "coins": [],
-    "sleeves": null,
-    "promos": null,
-    "damage_markers": null,
-    "other": null
+    "sleeves": [],
+    "damage_markers": "",
+    "promos": [],
+    "other": ""
   },
   {
     "id": "product-3",
     "name": "Mega Evolution Half Booster Box",
+    "type": "Half Booster Box",
+    "release_date": "2025-09-26",
     "tcgplayer_id": "644351",
     "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/644351_in_1000x1000.jpg",
     "packs": {
       "me01": 16
     },
     "coins": [],
-    "sleeves": null,
-    "promos": null,
-    "damage_markers": null,
-    "other": null
+    "sleeves": [],
+    "damage_markers": "",
+    "promos": [],
+    "other": ""
   },
   {
     "id": "product-4",
     "name": "Mega Evolution Elite Trainer Box [Mega Lucario]",
+    "type": "Elite Trainer Box",
+    "release_date": "2025-09-26",
     "tcgplayer_id": "648394",
     "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/648394_in_1000x1000.jpg",
     "packs": {
@@ -58,15 +66,17 @@
     "sleeves": [
       "65 Mega Lucario"
     ],
+    "damage_markers": "6 damage-counter dice",
     "promos": [
       "mep-009 or mep-010"
     ],
-    "damage_markers": "6 damage-counter dice",
     "other": "1 competition-legal coin-flip die, 6 Mega Lucario dividers, A player’s guide to the Mega Evolution expansion, 40 Pokémon TCG Energy cards"
   },
   {
     "id": "product-5",
     "name": "Mega Evolution Elite Trainer Box [Mega Gardevoir]",
+    "type": "Elite Trainer Box",
+    "release_date": "2025-09-26",
     "tcgplayer_id": "644279",
     "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/644279_in_1000x1000.jpg",
     "packs": {
@@ -81,23 +91,482 @@
     "sleeves": [
       "65 Mega Gardevoir"
     ],
+    "damage_markers": "6 damage-counter dice",
     "promos": [
       "mep-009 or mep-010"
     ],
-    "damage_markers": "6 damage-counter dice",
     "other": "1 competition-legal coin-flip die, 6 Mega Gardevoir dividers, A player’s guide to the Mega Evolution expansion, 40 Pokémon TCG Energy cards"
   },
   {
     "id": "product-6",
     "name": "Mega Evolution Booster Pack",
+    "type": "Booster Pack",
+    "release_date": "2025-09-26",
     "tcgplayer_id": "644352",
     "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/644352_in_1000x1000.jpg",
     "packs": {
       "me01": 1
     },
     "coins": [],
+    "sleeves": [],
+    "damage_markers": "",
+    "promos": [],
+    "other": ""
+  },
+  {
+    "id": "product-7",
+    "name": "Mega Evolution Sleeved Booster Pack",
+    "type": "Sleeved Booster Pack",
+    "release_date": "2025-09-26",
+    "tcgplayer_id": "644354",
+    "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/644354_in_1000x1000.jpg",
+    "packs": {
+      "me01": 1
+    },
+    "coins": [],
     "sleeves": null,
     "promos": null,
+    "damage_markers": null,
+    "other": null
+  },
+  {
+    "id": "product-8",
+    "name": "Mega Evolution Enhanced Booster Box",
+    "type": "Enhanced Booster Box",
+    "release_date": "2025-09-26",
+    "tcgplayer_id": "644300",
+    "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/644300_in_1000x1000.jpg",
+    "packs": {
+      "me01": 36
+    },
+    "coins": [],
+    "sleeves": null,
+    "promos": [
+      "me01-133 (Set Stamp)"
+    ],
+    "damage_markers": null,
+    "other": null
+  },
+  {
+    "id": "product-9",
+    "name": "Mega Evolution Booster Bundle",
+    "type": "Booster Bundle",
+    "release_date": "2025-09-26",
+    "tcgplayer_id": "644362",
+    "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/644362_in_1000x1000.jpg",
+    "packs": {
+      "me01": 6
+    },
+    "coins": [],
+    "sleeves": null,
+    "promos": null,
+    "damage_markers": null,
+    "other": null
+  },
+  {
+    "id": "product-10",
+    "name": "Mega Heroes Mini Tin [Mega Gardevoir]",
+    "type": "Mini Tin",
+    "release_date": "2025-09-26",
+    "tcgplayer_id": "649394",
+    "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/649394_in_1000x1000.jpg",
+    "packs": {
+      "me01": 2
+    },
+    "coins": [],
+    "sleeves": null,
+    "promos": null,
+    "damage_markers": null,
+    "other": "1 Sticker, 1 Pokémon art card"
+  },
+  {
+    "id": "product-11",
+    "name": "Mega Evolution 3 Pack Blister [Psyduck]",
+    "type": "3 Pack Blister",
+    "release_date": "2025-09-26",
+    "tcgplayer_id": "644357",
+    "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/644357_in_1000x1000.jpg",
+    "packs": {
+      "me01": 3
+    },
+    "coins": [],
+    "sleeves": null,
+    "promos": [
+      "mep-007"
+    ],
+    "damage_markers": null,
+    "other": null
+  },
+  {
+    "id": "product-12",
+    "name": "Mega Evolution Pokemon Center Elite Trainer Box [Mega Lucario]",
+    "type": "Pokemon Center Elite Trainer Box",
+    "release_date": "2025-09-26",
+    "tcgplayer_id": "644282",
+    "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/644282_in_1000x1000.jpg",
+    "packs": {
+      "me01": 9
+    },
+    "coins": [
+      {
+        "id": "1",
+        "size": "normal"
+      }
+    ],
+    "sleeves": [
+      "65 Mega Lucario"
+    ],
+    "promos": [
+      "mep-009 (Pokémon Center Stamp) or mep-010 (Pokémon Center Stamp)"
+    ],
+    "damage_markers": "6 damage-counter dice",
+    "other": "1 competition-legal coin-flip die, 6 Mega Lucario dividers, A player’s guide to the Mega Evolution expansion, 40 Pokémon TCG Energy cards"
+  },
+  {
+    "id": "product-13",
+    "name": "Mega Evolution Pokemon Center Elite Trainer Box [Mega Gardevoir]",
+    "type": "Pokemon Center Elite Trainer Box",
+    "release_date": "2025-09-26",
+    "tcgplayer_id": "648415",
+    "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/648415_in_1000x1000.jpg",
+    "packs": {
+      "me01": 9
+    },
+    "coins": [
+      {
+        "id": "1",
+        "size": "normal"
+      }
+    ],
+    "sleeves": [
+      "65 Mega Gardevoir"
+    ],
+    "promos": [
+      "mep-009 (Pokémon Center Stamp) or mep-010 (Pokémon Center Stamp)"
+    ],
+    "damage_markers": "6 damage-counter dice",
+    "other": "1 competition-legal coin-flip die, 6 Mega Gardevoir dividers, A player’s guide to the Mega Evolution expansion, 40 Pokémon TCG Energy cards"
+  },
+  {
+    "id": "product-14",
+    "name": "Mega Heroes Mini Tin [Mega Lucario]",
+    "type": "Mini Tin",
+    "release_date": "2025-09-26",
+    "tcgplayer_id": "649400",
+    "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/649400_in_1000x1000.jpg",
+    "packs": {
+      "me01": 2
+    },
+    "coins": [],
+    "sleeves": null,
+    "promos": null,
+    "damage_markers": null,
+    "other": "1 Sticker, 1 Pokémon art card"
+  },
+  {
+    "id": "product-15",
+    "name": "Mega Evolution Single Pack Blister [Lycanroc]",
+    "type": "Single Pack Blister",
+    "release_date": "2025-09-26",
+    "tcgplayer_id": "657490",
+    "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/657490_in_1000x1000.jpg",
+    "packs": {
+      "me01": 1
+    },
+    "coins": [
+      {
+        "id": "1",
+        "size": "normal",
+        "pokemon": "Lucario"
+      }
+    ],
+    "sleeves": null,
+    "promos": [
+      "sv09-084",
+      "sv09-085 (Cosmos Holo)"
+    ],
+    "damage_markers": null,
+    "other": null
+  },
+  {
+    "id": "product-16",
+    "name": "Mega Evolution 3 Pack Blister [Golduck]",
+    "type": "3 Pack Blister",
+    "release_date": "2025-09-26",
+    "tcgplayer_id": "644356",
+    "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/644356_in_1000x1000.jpg",
+    "packs": {
+      "me01": 3
+    },
+    "coins": [],
+    "sleeves": null,
+    "promos": [
+      "mep-008"
+    ],
+    "damage_markers": null,
+    "other": null
+  },
+  {
+    "id": "product-17",
+    "name": "Mega Evolution Booster Bundle Case",
+    "type": "Booster Bundle Case",
+    "release_date": "2025-09-26",
+    "tcgplayer_id": "644730",
+    "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/644730_in_1000x1000.jpg",
+    "packs": {
+      "me01": 150
+    },
+    "coins": [],
+    "sleeves": null,
+    "promos": null,
+    "damage_markers": null,
+    "other": null
+  },
+  {
+    "id": "product-18",
+    "name": "Mega Heroes Mini Tin [Mega Venusaur]",
+    "type": "Mini Tin",
+    "release_date": "2025-09-26",
+    "tcgplayer_id": "649401",
+    "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/649401_in_1000x1000.jpg",
+    "packs": {
+      "me01": 2
+    },
+    "coins": [],
+    "sleeves": null,
+    "promos": null,
+    "damage_markers": null,
+    "other": "1 Sticker, 1 Pokémon art card"
+  },
+  {
+    "id": "product-19",
+    "name": "Mega Evolution Build & Battle Box",
+    "type": "Build & Battle Box",
+    "release_date": "2025-09-26",
+    "tcgplayer_id": "644363",
+    "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/644363_in_1000x1000.jpg",
+    "packs": {
+      "me01": 4
+    },
+    "coins": [],
+    "sleeves": null,
+    "promos": [
+      "mep-001 (Set Stamp) or mep-002 (Set Stamp) or mep-003 (Set Stamp) or mep-004 (Set Stamp)"
+    ],
+    "damage_markers": null,
+    "other": "A 40-card ready-to-play deck"
+  },
+  {
+    "id": "product-20",
+    "name": "Mega Heroes Mini Tin [Mega Kangaskhan]",
+    "type": "Mini Tin",
+    "release_date": "2025-09-26",
+    "tcgplayer_id": "649395",
+    "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/649395_in_1000x1000.jpg",
+    "packs": {
+      "me01": 2
+    },
+    "coins": [],
+    "sleeves": null,
+    "promos": null,
+    "damage_markers": null,
+    "other": "1 Sticker, 1 Pokémon art card"
+  },
+  {
+    "id": "product-21",
+    "name": "Mega Evolution Single Pack Blister [Drifblim]",
+    "type": "Single Pack Blister",
+    "release_date": "2025-09-26",
+    "tcgplayer_id": "644359",
+    "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/644359_in_1000x1000.jpg",
+    "packs": {
+      "me01": 1
+    },
+    "coins": [
+      {
+        "id": "1",
+        "size": "normal",
+        "pokemon": "Lucario"
+      }
+    ],
+    "sleeves": null,
+    "promos": [
+      "mep-006"
+    ],
+    "damage_markers": null,
+    "other": null
+  },
+  {
+    "id": "product-22",
+    "name": "Mega Evolution Single Pack Blister [Drifloon]",
+    "type": "Single Pack Blister",
+    "release_date": "2025-09-26",
+    "tcgplayer_id": "644358",
+    "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/644358_in_1000x1000.jpg",
+    "packs": {
+      "me01": 1
+    },
+    "coins": [
+      {
+        "id": "1",
+        "size": "normal",
+        "pokemon": "Lucario"
+      }
+    ],
+    "sleeves": null,
+    "promos": [
+      "mep-005"
+    ],
+    "damage_markers": null,
+    "other": null
+  },
+  {
+    "id": "product-23",
+    "name": "Mega Evolution Single Pack Blister [Wailord]",
+    "type": "Single Pack Blister",
+    "release_date": "2025-09-26",
+    "tcgplayer_id": "657489",
+    "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/657489_in_1000x1000.jpg",
+    "packs": {
+      "me01": 1
+    },
+    "coins": [
+      {
+        "id": "1",
+        "size": "normal",
+        "pokemon": "Lucario"
+      }
+    ],
+    "sleeves": null,
+    "promos": [
+      "sv09-040",
+      "sv09-041 (Cosmos Holo)"
+    ],
+    "damage_markers": null,
+    "other": null
+  },
+  {
+    "id": "product-24",
+    "name": "Mega Heroes Mini Tin [Mega Latias]",
+    "type": "Mini Tin",
+    "release_date": "2025-09-26",
+    "tcgplayer_id": "649397",
+    "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/649397_in_1000x1000.jpg",
+    "packs": {
+      "me01": 2
+    },
+    "coins": [],
+    "sleeves": null,
+    "promos": null,
+    "damage_markers": null,
+    "other": "1 Sticker, 1 Pokémon art card"
+  },
+  {
+    "id": "product-25",
+    "name": "Mega Heroes Mini Tin Display",
+    "type": "Mini Tin Display",
+    "release_date": "2025-09-26",
+    "tcgplayer_id": "649392",
+    "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/649392_in_1000x1000.jpg",
+    "packs": {
+      "me01": 20
+    },
+    "coins": [],
+    "sleeves": null,
+    "promos": null,
+    "damage_markers": null,
+    "other": "1 Sticker per tin, 1 Pokémon art card per tin"
+  },
+  {
+    "id": "product-26",
+    "name": "Mega Evolution Elite Trainer Box Case",
+    "type": "Elite Trainer Box Case",
+    "release_date": "2025-09-26",
+    "tcgplayer_id": "644727",
+    "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/644727_in_1000x1000.jpg",
+    "packs": {
+      "me01": 90
+    },
+    "coins": [
+      {
+        "id": "1",
+        "size": "normal"
+      }
+    ],
+    "sleeves": [
+      "65 Mega Lucario"
+    ],
+    "damage_markers": "6 damage-counter dice",
+    "promos": [
+      "mep-009 or mep-010"
+    ],
+    "other": "1 competition-legal coin-flip die, 6 dividers, A player’s guide to the Mega Evolution expansion, 40 Pokémon TCG Energy cards"
+  },
+  {
+    "id": "product-27",
+    "name": "Mega Evolution Sleeved Booster Case",
+    "type": "Sleeved Booster Case",
+    "release_date": "2025-09-26",
+    "tcgplayer_id": "650766",
+    "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/650766_in_1000x1000.jpg",
+    "packs": {
+      "me01": 144
+    },
+    "coins": [],
+    "sleeves": null,
+    "promos": null,
+    "damage_markers": null,
+    "other": null
+  },
+  {
+    "id": "product-28",
+    "name": "Mega Evolution Premium Checklane Blister [Meowscarada]",
+    "type": "Premium Checklane Blister",
+    "release_date": "2025-09-26",
+    "tcgplayer_id": "644361",
+    "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/644361_in_1000x1000.jpg",
+    "packs": {
+      "me01": 1
+    },
+    "coins": [
+      {
+        "id": "1",
+        "size": "normal",
+        "pokemon": "Lucario"
+      }
+    ],
+    "sleeves": null,
+    "promos": [
+      "sv09-016",
+      "sv09-017",
+      "sv09-018 (Cosmos Holo)"
+    ],
+    "damage_markers": null,
+    "other": null
+  },
+  {
+    "id": "product-29",
+    "name": "Mega Evolution Premium Checklane Blister [Tyranitar]",
+    "type": "Premium Checklane Blister",
+    "release_date": "2025-09-26",
+    "tcgplayer_id": "644361",
+    "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/644361_in_1000x1000.jpg",
+    "packs": {
+      "me01": 1
+    },
+    "coins": [
+      {
+        "id": "1",
+        "size": "normal",
+        "pokemon": "Lucario"
+      }
+    ],
+    "sleeves": null,
+    "promos": [
+      "sv09-080",
+      "sv09-081",
+      "sv09-095 (Cosmos Holo)"
+    ],
     "damage_markers": null,
     "other": null
   }
