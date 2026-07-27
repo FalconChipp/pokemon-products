@@ -1075,5 +1075,366 @@
     "promos": null,
     "damage_markers": null,
     "other": null
+  },
+  {
+    "id": "product-53",
+    "name": "Perfect Order Booster Box",
+    "type": "Booster Box",
+    "release_date": "2026-03-27",
+    "tcgplayer_id": "672394",
+    "description": "Each booster box contains 36 booster packs.",
+    "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/672394_in_1000x1000.jpg",
+    "packs": {
+      "me03": 36
+    },
+    "coins": [],
+    "sleeves": null,
+    "promos": null,
+    "damage_markers": null,
+    "other": null
+  },
+  {
+    "id": "product-54",
+    "name": "Perfect Order Elite Trainer Box",
+    "type": "Elite Trainer Box",
+    "release_date": "2026-03-27",
+    "tcgplayer_id": "672401",
+    "description": "The Pokémon Elite Trainer Box includes: • 9 Pokémon booster packs • 65 card sleeves • 45 Pokémon TCG Energy cards • A player's guide to the expansion • 6 damage-counter dice • 1 competition-legal coin-flip die • 2 plastic condition markers • A collector's box to hold everything, with 4 dividers to keep it organized • A code card for Pokémon Trading Card Game Live",
+    "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/672401_in_1000x1000.jpg",
+    "packs": {
+      "me03": 9
+    },
+    "coins": [],
+    "sleeves": null,
+    "promos": null,
+    "damage_markers": null,
+    "other": null
+  },
+  {
+    "id": "product-55",
+    "name": "Perfect Order Booster Pack",
+    "type": "Booster Pack",
+    "release_date": "2026-03-27",
+    "tcgplayer_id": "672398",
+    "description": "Packs contain 10 random cards.",
+    "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/672398_in_1000x1000.jpg",
+    "packs": {
+      "me03": 1
+    },
+    "coins": [],
+    "sleeves": null,
+    "promos": null,
+    "damage_markers": null,
+    "other": null
+  },
+  {
+    "id": "product-56",
+    "name": "Perfect Order Pokemon Center Elite Trainer Box",
+    "type": "Pokemon Center Elite Trainer Box",
+    "release_date": "2026-03-27",
+    "tcgplayer_id": "672404",
+    "description": "The Pokémon Center Elite Trainer Box includes: •11 Pokémon booster packs •Each booster pack contains 10 cards and 1 Basic Energy. Cards vary by pack. • 65 card sleeves • 45 Pokémon TCG Energy cards • A player's guide to the expansion • 6 damage-counter dice • 1 competition-legal coin-flip die • 2 plastic condition markers • A box to hold everything, with 4 dividers to keep it organized • A code card for Pokémon Trading Card Game Live",
+    "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/672404_in_1000x1000.jpg",
+    "packs": {
+      "me03": 11
+    },
+    "coins": [],
+    "sleeves": null,
+    "promos": null,
+    "damage_markers": null,
+    "other": null
+  },
+  {
+    "id": "product-57",
+    "name": "Perfect Order Sleeved Booster Pack",
+    "type": "Sleeved Booster Pack",
+    "release_date": "2026-03-27",
+    "tcgplayer_id": "672412",
+    "description": "Packs contain 10 random cards; individual pack has a cardboard guard.",
+    "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/672412_in_1000x1000.jpg",
+    "packs": {
+      "me03": 1
+    },
+    "coins": [],
+    "sleeves": null,
+    "promos": null,
+    "damage_markers": null,
+    "other": null
+  },
+  {
+    "id": "product-58",
+    "name": "Perfect Order Booster Bundle",
+    "type": "Booster Bundle",
+    "release_date": "2026-03-27",
+    "tcgplayer_id": "672396",
+    "description": "Expand your collection with this Booster Bundle containing six booster packs!",
+    "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/672396_in_1000x1000.jpg",
+    "packs": {
+      "me03": 6
+    },
+    "coins": [],
+    "sleeves": null,
+    "promos": null,
+    "damage_markers": null,
+    "other": null
+  },
+  {
+    "id": "product-59",
+    "name": "Perfect Order Booster Box Case",
+    "type": "Booster Box Case",
+    "release_date": "2026-03-27",
+    "tcgplayer_id": "672395",
+    "description": "Each booster box case contains 6 boxes of 36 packs each.",
+    "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/672395_in_1000x1000.jpg",
+    "packs": {
+      "me03": 216
+    },
+    "coins": [],
+    "sleeves": null,
+    "promos": null,
+    "damage_markers": null,
+    "other": null
+  },
+  {
+    "id": "product-60",
+    "name": "Perfect Order 3 Pack Blister [Chikorita]",
+    "type": "3 Pack Blister",
+    "release_date": "2026-03-27",
+    "tcgplayer_id": "672393",
+    "description": "Each blister comes with 3 booster packs and a promotional card.",
+    "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/672393_in_1000x1000.jpg",
+    "packs": {
+      "me03": 3
+    },
+    "coins": [],
+    "sleeves": null,
+    "promos": [
+      "mep-069"
+    ],
+    "damage_markers": null,
+    "other": null
+  },
+  {
+    "id": "product-61",
+    "name": "Perfect Order Build & Battle Box",
+    "type": "Build & Battle Box",
+    "release_date": "2026-03-27",
+    "tcgplayer_id": "672400",
+    "description": "Contents: • A 40-card ready-to-play deck, including 1 of 4 unique foil promo cards • 4 Pokémon booster packs • A code card for Pokémon TCG Live",
+    "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/672400_in_1000x1000.jpg",
+    "packs": {
+      "me03": 3
+    },
+    "coins": [],
+    "sleeves": null,
+    "promos": null,
+    "damage_markers": null,
+    "other": null
+  },
+  {
+    "id": "product-62",
+    "name": "Perfect Order Elite Trainer Box Case",
+    "type": "Elite Trainer Box Case",
+    "release_date": "2026-03-27",
+    "tcgplayer_id": "672402",
+    "description": "Each sealed Elite Trainer Box includes 10 elite trainer boxes.  Individual Pokémon Elite Trainer Boxes include: • 9 Pokémon booster packs • 65 card sleeves • 45 Pokémon TCG Energy cards • A player's guide to the expansion • 6 damage-counter dice • 1 competition-legal coin-flip die • 2 plastic condition markers • A collector's box to hold everything, with 4 dividers to keep it organized • A code card for Pokémon Trading Card Game Live",
+    "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/672402_in_1000x1000.jpg",
+    "packs": {
+      "me03": 90
+    },
+    "coins": [],
+    "sleeves": null,
+    "promos": null,
+    "damage_markers": null,
+    "other": null
+  },
+  {
+    "id": "product-63",
+    "name": "Perfect Order Single Pack Blister [Makuhita]",
+    "type": "Single Pack Blister",
+    "release_date": "2026-03-27",
+    "tcgplayer_id": "672410",
+    "description": "Each blister comes with 1 booster pack, 1 coin, and a promotional card.",
+    "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/672410_in_1000x1000.jpg",
+    "packs": {
+      "me03": 1
+    },
+    "coins": [
+      {
+        "id": "1",
+        "size": "big"
+      }
+    ],
+    "sleeves": null,
+    "promos": [
+      "mep-068"
+    ],
+    "damage_markers": null,
+    "other": null
+  },
+  {
+    "id": "product-64",
+    "name": "Perfect Order Sleeved Booster Case",
+    "type": "Sleeved Booster Case",
+    "release_date": "2026-03-27",
+    "tcgplayer_id": "672411",
+    "description": "Each Sleeved Booster Pack Case contains 144 booster packs.",
+    "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/672411_in_1000x1000.jpg",
+    "packs": {
+      "me03": 144
+    },
+    "coins": [],
+    "sleeves": null,
+    "promos": null,
+    "damage_markers": null,
+    "other": null
+  },
+  {
+    "id": "product-65",
+    "name": "Perfect Order Premium Checklane Blister [Steelix Line]",
+    "type": "Premium Checklane Blister",
+    "release_date": "2026-03-27",
+    "tcgplayer_id": "672408",
+    "description": " Product details: • 1 booster pack • A code card for Pokémon Trading Card Game Live • Coin • 2 cards featuring an evolution line!",
+    "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/672408_in_1000x1000.jpg",
+    "packs": {
+      "me03": 1
+    },
+    "coins": [
+      {
+        "id": "1",
+        "size": "big"
+      }
+    ],
+    "sleeves": [],
+    "damage_markers": "",
+    "promos": [
+      "me01-070",
+      "me01-093 (Cosmos Holo)"
+    ],
+    "other": ""
+  },
+  {
+    "id": "product-66",
+    "name": "Perfect Order Premium Checklane Blister [Meganium Line]",
+    "type": "Premium Checklane Blister",
+    "release_date": "2026-03-27",
+    "tcgplayer_id": "672406",
+    "description": "Product details: • 1 booster pack • A code card for Pokémon Trading Card Game Live • Coin • 3 cards featuring an evolution line!",
+    "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/672406_in_1000x1000.jpg",
+    "packs": {
+      "me03": 1
+    },
+    "coins": [
+      {
+        "id": "1",
+        "size": "big"
+      }
+    ],
+    "sleeves": null,
+    "promos": [
+      "me01-008",
+      "me01-009",
+      "me01-010"
+    ],
+    "damage_markers": null,
+    "other": null
+  },
+  {
+    "id": "product-67",
+    "name": "Perfect Order Premium Checklane Blister [Clawitzer Line]",
+    "type": "Premium Checklane Blister",
+    "release_date": "2026-03-27",
+    "tcgplayer_id": "672409",
+    "description": "Product details: • 1 booster pack • A code card for Pokémon Trading Card Game Live • Coin • 2 cards featuring an evolution line!",
+    "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/672409_in_1000x1000.jpg",
+    "packs": {
+      "me03": 1
+    },
+    "coins": [],
+    "sleeves": null,
+    "promos": [
+      "me01-037",
+      "me01-038 (Cosmos Holo)"
+    ],
+    "damage_markers": null,
+    "other": null
+  },
+  {
+    "id": "product-68",
+    "name": "Perfect Order Premium Checklane Blister [Cinderace Line]",
+    "type": "Premium Checklane Blister",
+    "release_date": "2026-03-27",
+    "tcgplayer_id": "672407",
+    "description": "Product details: • 1 booster pack • A code card for Pokémon Trading Card Game Live • Coin • 3 cards featuring an evolution line!",
+    "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/672407_in_1000x1000.jpg",
+    "packs": {
+      "me03": 1
+    },
+    "coins": [
+      {
+        "id": "1",
+        "size": "big"
+      }
+    ],
+    "sleeves": null,
+    "promos": [
+      "me01-026",
+      "me01-027",
+      "me01-028"
+    ],
+    "damage_markers": null,
+    "other": null
+  },
+  {
+    "id": "product-69",
+    "name": "Perfect Order Booster Bundle Case",
+    "type": "Booster Bundle Case",
+    "release_date": "2026-03-27",
+    "tcgplayer_id": "672397",
+    "description": "Each sealed Booster Bundle Case contains 25 bundle boxes.",
+    "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/672397_in_1000x1000.jpg",
+    "packs": {
+      "me03": 25
+    },
+    "coins": [],
+    "sleeves": null,
+    "promos": null,
+    "damage_markers": null,
+    "other": null
+  },
+  {
+    "id": "product-70",
+    "name": "Perfect Order Build & Battle Box Display",
+    "type": "Build & Battle Box Display",
+    "release_date": "2026-03-27",
+    "tcgplayer_id": "690172",
+    "description": "Contents: Display contains 10 Perfect Order Build & Battle Boxes.",
+    "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/690172_in_1000x1000.jpg",
+    "packs": {
+      "me03": 40
+    },
+    "coins": [],
+    "sleeves": null,
+    "promos": null,
+    "damage_markers": null,
+    "other": null
+  },
+  {
+    "id": "product-71",
+    "name": "Perfect Order Half Booster Box",
+    "type": "Half Booster Box",
+    "release_date": "2026-03-27",
+    "tcgplayer_id": "672403",
+    "description": "Each half booster box contains 18 booster packs",
+    "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/672403_in_1000x1000.jpg",
+    "packs": {
+      "me03": 18
+    },
+    "coins": [],
+    "sleeves": null,
+    "promos": null,
+    "damage_markers": null,
+    "other": null
   }
 ]
