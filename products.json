@@ -1436,5 +1436,364 @@
     "promos": null,
     "damage_markers": null,
     "other": null
+  },
+  {
+    "id": "product-72",
+    "name": "Chaos Rising Booster Pack",
+    "type": "Booster Pack",
+    "release_date": "2026-05-22",
+    "tcgplayer_id": "684446",
+    "description": "Each sealed Chaos Rising Booster Pack contains 10 random cards",
+    "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/684446_in_1000x1000.jpg",
+    "packs": {
+      "me04": 1
+    },
+    "coins": [],
+    "sleeves": null,
+    "promos": null,
+    "damage_markers": null,
+    "other": null
+  },
+  {
+    "id": "product-73",
+    "name": "Chaos Rising Booster Box",
+    "type": "Booster Box",
+    "release_date": "2026-05-22",
+    "tcgplayer_id": "684444",
+    "description": "Each Chaos Rising Booster Box contains 36 booster packs (contents vary by product)",
+    "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/684444_in_1000x1000.jpg",
+    "packs": {
+      "me04": 36
+    },
+    "coins": [],
+    "sleeves": null,
+    "promos": null,
+    "damage_markers": null,
+    "other": null
+  },
+  {
+    "id": "product-74",
+    "name": "Chaos Rising Elite Trainer Box",
+    "type": "Elite Trainer Box",
+    "release_date": "2026-05-22",
+    "tcgplayer_id": "684450",
+    "description": "The Pokémon TCG: Mega Evolution—Chaos Rising Elite Trainer Box includes: • 9 Pokémon TCG: Mega Evolution—Chaos Rising booster packs (contents vary by product) • 1 full-art foil promo card featuring Fennekin • 65 card sleeves • 40 Pokémon TCG Energy cards • A player’s guide to the Mega Evolution—Chaos Rising expansion • 6 damage-counter dice • 1 competition-legal coin-flip die • 1 plastic coin • A collector’s box to hold everything, with 6 dividers to keep it organized • A code card for Pokémon Trading Card Game Live",
+    "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/684450_in_1000x1000.jpg",
+    "packs": {
+      "me04": 9
+    },
+    "coins": [],
+    "sleeves": null,
+    "promos": null,
+    "damage_markers": null,
+    "other": null
+  },
+  {
+    "id": "product-75",
+    "name": "Chaos Rising Booster Bundle",
+    "type": "Booster Bundle",
+    "release_date": "2026-05-22",
+    "tcgplayer_id": "684456",
+    "description": "Each Chaos Rising Booster Bundle contains 6 Chaos Rising Booster Packs",
+    "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/684456_in_1000x1000.jpg",
+    "packs": {
+      "me04": 6
+    },
+    "coins": [],
+    "sleeves": null,
+    "promos": null,
+    "damage_markers": null,
+    "other": null
+  },
+  {
+    "id": "product-76",
+    "name": "Chaos Rising Sleeved Booster Pack",
+    "type": "Sleeved Booster Pack",
+    "release_date": "2026-05-22",
+    "tcgplayer_id": "684448",
+    "description": "Each sealed Chaos Rising Booster Pack in a cardboard guard contains 10 random card",
+    "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/684448_in_1000x1000.jpg",
+    "packs": {},
+    "coins": [],
+    "sleeves": null,
+    "promos": null,
+    "damage_markers": null,
+    "other": null
+  },
+  {
+    "id": "product-77",
+    "name": "Chaos Rising Pokemon Center Elite Trainer Box",
+    "type": "Pokemon Center Elite Trainer Box",
+    "release_date": "2026-05-22",
+    "tcgplayer_id": "684452",
+    "description": "The Pokémon TCG: Mega Evolution—Chaos Rising Elite Trainer Box includes: • 11 Pokémon TCG: Mega Evolution—Chaos Rising booster packs (contents vary by product) • 1 full-art foil promo card featuring Fennekin • 65 card sleeves • 40 Pokémon TCG Energy cards • A player’s guide to the Mega Evolution—Chaos Rising expansion • 6 damage-counter dice • 1 competition-legal coin-flip die • 1 plastic coin • A collector’s box to hold everything, with 6 dividers to keep it organized • A code card for Pokémon Trading Card Game Live",
+    "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/684452_in_1000x1000.jpg",
+    "packs": {
+      "me04": 11
+    },
+    "coins": [],
+    "sleeves": null,
+    "promos": null,
+    "damage_markers": null,
+    "other": null
+  },
+  {
+    "id": "product-78",
+    "name": "Chaos Rising Single Pack Blister [Toxel]",
+    "type": "Single Pack Blister",
+    "release_date": "2026-05-22",
+    "tcgplayer_id": "684457",
+    "description": " Each blister comes with 1 booster pack, 1 coin, and a promotional card",
+    "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/684457_in_1000x1000.jpg",
+    "packs": {},
+    "coins": [
+      {
+        "id": "1",
+        "size": "big"
+      }
+    ],
+    "sleeves": null,
+    "promos": [
+      "mep-078"
+    ],
+    "damage_markers": null,
+    "other": null
+  },
+  {
+    "id": "product-79",
+    "name": "Chaos Rising 3-Pack Blister [Charmeleon]",
+    "type": "3-Pack Blister",
+    "release_date": "2026-05-22",
+    "tcgplayer_id": "684458",
+    "description": "Each blister comes with 3 booster packs and promotional card.",
+    "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/684458_in_1000x1000.jpg",
+    "packs": {
+      "me04": 3
+    },
+    "coins": [],
+    "sleeves": null,
+    "promos": [
+      "mep-079"
+    ],
+    "damage_markers": null,
+    "other": null
+  },
+  {
+    "id": "product-80",
+    "name": "Chaos Rising Booster Box Case",
+    "type": "Booster Box Case",
+    "release_date": "2026-05-22",
+    "tcgplayer_id": "684445",
+    "description": "Each sealed Chaos Rising Booster Box Case contains 6 Booster Boxes.",
+    "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/684445_in_1000x1000.jpg",
+    "packs": {
+      "me04": 216
+    },
+    "coins": [],
+    "sleeves": null,
+    "promos": null,
+    "damage_markers": null,
+    "other": null
+  },
+  {
+    "id": "product-81",
+    "name": "Chaos Rising Elite Trainer Box Case",
+    "type": "Elite Trainer Box Case",
+    "release_date": "2026-05-22",
+    "tcgplayer_id": "684451",
+    "description": "Each sealed Pokémon TCG: Mega Evolution—Chaos Rising Elite Trainer Box Case contains 10 Chaos Rising Elite Trainer Boxes.",
+    "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/684451_in_1000x1000.jpg",
+    "packs": {
+      "me04": 90
+    },
+    "coins": [],
+    "sleeves": null,
+    "promos": null,
+    "damage_markers": null,
+    "other": null
+  },
+  {
+    "id": "product-82",
+    "name": "Chaos Rising Build & Battle Box",
+    "type": "Build & Battle Box",
+    "release_date": "2026-05-22",
+    "tcgplayer_id": "684454",
+    "description": " A 40-card ready-to-play deck, including 1 of 4 unique foil promo cards • 4 Pokémon booster packs (contents vary by product) • A code card for Pokémon TCG Live",
+    "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/684454_in_1000x1000.jpg",
+    "packs": {
+      "me04": 4
+    },
+    "coins": [],
+    "sleeves": null,
+    "promos": null,
+    "damage_markers": null,
+    "other": null
+  },
+  {
+    "id": "product-83",
+    "name": "Chaos Rising Premium Checklane Blister [Pawmot Line]",
+    "type": "Premium Checklane Blister",
+    "release_date": "2026-05-22",
+    "tcgplayer_id": "684459",
+    "description": "Each blister comes with 1 booster pack, 1 coin, and features cards from an evolutionary line. ",
+    "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/684459_in_1000x1000.jpg",
+    "packs": {
+      "me04": 1
+    },
+    "coins": [],
+    "sleeves": null,
+    "promos": [
+      "me02-032",
+      "me02-033",
+      "me02-034 (Cosmos Holo)"
+    ],
+    "damage_markers": null,
+    "other": null
+  },
+  {
+    "id": "product-84",
+    "name": "Chaos Rising Single Pack Blister [Zacian/Mimikyu]",
+    "type": "Single Pack Blister",
+    "release_date": "2026-05-22",
+    "tcgplayer_id": "696144",
+    "description": "Each blister comes with 1 booster pack, 1 coin, and 2 promotional cards.",
+    "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/696144_in_1000x1000.jpg",
+    "packs": {
+      "me04": 1
+    },
+    "coins": [],
+    "sleeves": null,
+    "promos": [
+      "me02-042",
+      "me02-045 (Cosmos Holo)"
+    ],
+    "damage_markers": null,
+    "other": null
+  },
+  {
+    "id": "product-85",
+    "name": "Chaos Rising Premium Checklane Blister [Flygon Line]",
+    "type": "Premium Checklane Blister",
+    "release_date": "2026-05-22",
+    "tcgplayer_id": "684460",
+    "description": "Each blister comes with 1 booster pack, 1 coin, and features cards from an evolutionary line.",
+    "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/684460_in_1000x1000.jpg",
+    "packs": {
+      "me04": 1
+    },
+    "coins": [],
+    "sleeves": null,
+    "promos": [
+      "me02-051",
+      "me02-052",
+      "me02-053 (Cosmos Holo)"
+    ],
+    "damage_markers": null,
+    "other": null
+  },
+  {
+    "id": "product-86",
+    "name": "Chaos Rising Single Pack Blister [Reshiram/Moltres]",
+    "type": "Single Pack Blister",
+    "release_date": "2026-05-22",
+    "tcgplayer_id": "696150",
+    "description": "Each blister comes with 1 booster pack, 1 coin, and 2 promotional cards. ",
+    "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/696150_in_1000x1000.jpg",
+    "packs": {
+      "me04": 1
+    },
+    "coins": [],
+    "sleeves": null,
+    "promos": [
+      "me02-014",
+      "me02-017 (Cosmos Holo)"
+    ],
+    "damage_markers": null,
+    "other": null
+  },
+  {
+    "id": "product-87",
+    "name": "Chaos Rising Sleeved Booster Case",
+    "type": "Sleeved Booster Case",
+    "release_date": "2026-05-22",
+    "tcgplayer_id": "690684",
+    "description": "Each Chaos Rising sleeved booster pack case contains 144 booster packs.",
+    "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/690684_in_1000x1000.jpg",
+    "packs": {
+      "me04": 144
+    },
+    "coins": [],
+    "sleeves": null,
+    "promos": null,
+    "damage_markers": null,
+    "other": null
+  },
+  {
+    "id": "product-88",
+    "name": "Chaos Rising Booster Bundle Case",
+    "type": "Booster Bundle Case",
+    "release_date": "2026-05-22",
+    "tcgplayer_id": "688949",
+    "description": "Each sealed Chaos Rising Booster Bundle Case contains 25 bundle boxes.",
+    "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/688949_in_1000x1000.jpg",
+    "packs": {
+      "me04": 150
+    },
+    "coins": [],
+    "sleeves": null,
+    "promos": null,
+    "damage_markers": null,
+    "other": null
+  },
+  {
+    "id": "product-89",
+    "name": "Chaos Rising Build & Battle Display",
+    "type": "Build & Battle Display",
+    "release_date": "2026-05-22",
+    "tcgplayer_id": "684455",
+    "description": "Each Chaos Rising Build & Battle Display contains 10 Chaos Rising Build & Battle Boxes.",
+    "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/684455_in_1000x1000.jpg",
+    "packs": {
+      "me04": 40
+    },
+    "coins": [],
+    "sleeves": null,
+    "promos": null,
+    "damage_markers": null,
+    "other": null
+  },
+  {
+    "id": "product-90",
+    "name": "Chaos Rising 3-Pack Blister Case",
+    "type": "3-Pack Blister Case",
+    "release_date": "2026-05-22",
+    "tcgplayer_id": "695118",
+    "description": "Each 3-Pack Blister Case includes 24 Chaos Rising 3-Pack Blisters",
+    "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/695118_in_1000x1000.jpg",
+    "packs": {
+      "me04": 72
+    },
+    "coins": [],
+    "sleeves": null,
+    "promos": null,
+    "damage_markers": null,
+    "other": null
+  },
+  {
+    "id": "product-91",
+    "name": "Chaos Rising Half Booster Box",
+    "type": "Half Booster Box",
+    "release_date": "2026-05-22",
+    "tcgplayer_id": "695395",
+    "description": "Each Chaos Rising Booster Box contains 18 booster pack",
+    "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/695395_in_1000x1000.jpg",
+    "packs": {
+      "me04": 18
+    },
+    "coins": [],
+    "sleeves": null,
+    "promos": null,
+    "damage_markers": null,
+    "other": null
   }
 ]
