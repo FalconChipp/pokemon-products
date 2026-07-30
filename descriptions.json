@@ -82,5 +82,25 @@
     {
         "type":"3-Pack Blister Case",
         "description": "Each 3-Pack Blister Case contains 24 3 Pack Blisters."
+    },
+    {
+        "type": "Tech Sticker Collection",
+        "description": "Each Tech Sticker Collection contains 3 Booster Packs, 1 promo card, and stickers."
+    },
+    {
+        "type": "Tech Sticker Collection Case",
+        "description": "Each Tech Sticker Collection Case contains 2 of each Tech Sticker Collection."
+    },
+    {
+        "type": "Tin",
+        "description": "Each Tin contains 4 Booster Packs and 1 promo card."
+    },
+    {
+        "type": "Booster Bundle Display",
+        "description": "Each Booster Bundle Display contains 10 Booster Bundles"
+    },
+    {
+        "type": "Mini Tin Display Case",
+        "description": "Each Mini Tin Display Case contains 4 Mini Tin Displays."
     }
 ]
