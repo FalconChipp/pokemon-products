@@ -24,8 +24,12 @@
         "description": "Each Enhanced Booster Box contains 36 booster packs and a promo card."
     },
     {
-        "type": "(Pokemon Center) Elite Trainer Box",
-        "description": "Each Elite Trainer Box contains [number] booster packs, a promo card, 65 card sleeves, 40 Energy cards, A player's guide, 6 damage-counter dice, 1 competition-legal coin-flip die, 1 plastic coin, [number] dividers, a collector's box to hold everything, and a code card for Pokémon TCG Live."
+        "type": "Elite Trainer Box",
+        "description": "Each Elite Trainer Box contains [number] booster packs, a promo card, 65 card sleeves, 40 Energy cards, A player's guide, 6 damage-counter dice,( 1 competition-legal coin-flip die,) 1 plastic coin,( 2 plastic condition markers,)  [number] dividers, a collector's box to hold everything, and a code card for Pokémon TCG Live."
+    },
+    {
+        "type": "Pokemon Center Elite Trainer Box",
+        "description": "Each Pokemon Center Elite Trainer Box contains [number] booster packs, a promo card, 65 card sleeves, 40 Energy cards, A player's guide, 6 damage-counter dice,( 1 competition-legal coin-flip die,) 1 plastic coin,( 2 plastic condition markers,)  [number] dividers, a collector's box to hold everything, and a code card for Pokémon TCG Live."
     },
     {
         "type": "Build & Battle Box",
