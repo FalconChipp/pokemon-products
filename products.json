@@ -3616,5 +3616,371 @@
     "promos": null,
     "damage_markers": null,
     "other": null
+  },
+  {
+    "id": "product-193",
+    "name": "Obsidian Flames Booster Pack",
+    "type": "Booster Pack",
+    "release_date": "2023-08-11",
+    "tcgplayer_id": "501256",
+    "description": "Each pack contains 10 cards.",
+    "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/501256_in_1000x1000.jpg",
+    "packs": {
+      "sv03": "1"
+    },
+    "coins": [],
+    "sleeves": null,
+    "promos": null,
+    "damage_markers": null,
+    "other": null
+  },
+  {
+    "id": "product-194",
+    "name": "Obsidian Flames Booster Box",
+    "type": "Booster Box",
+    "release_date": "2023-08-11",
+    "tcgplayer_id": "501257",
+    "description": "Each Booster Box contains 36 booster packs.",
+    "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/501257_in_1000x1000.jpg",
+    "packs": {
+      "sv03": "36"
+    },
+    "coins": [],
+    "sleeves": null,
+    "promos": null,
+    "damage_markers": null,
+    "other": null
+  },
+  {
+    "id": "product-195",
+    "name": "Obsidian Flames Sleeved Booster Pack",
+    "type": "Sleeved Booster Pack",
+    "release_date": "2023-08-11",
+    "tcgplayer_id": "534087",
+    "description": "Each pack contains 10 cards.",
+    "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/534087_in_1000x1000.jpg",
+    "packs": {
+      "sv03": "1"
+    },
+    "coins": [],
+    "sleeves": null,
+    "promos": null,
+    "damage_markers": null,
+    "other": null
+  },
+  {
+    "id": "product-196",
+    "name": "Obsidian Flames Elite Trainer Box",
+    "type": "Elite Trainer Box",
+    "release_date": "2023-08-11",
+    "tcgplayer_id": "501264",
+    "description": "Each Elite Trainer Box contains 9 booster packs, a promo card, 65 card sleeves, 40 Energy cards, A player's guide, 6 damage-counter dice, 1 competition-legal coin-flip die, 2 plastic condition markers, 4 dividers, a collector's box to hold everything, and a code card for Pokémon TCG Live.",
+    "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/501264_in_1000x1000.jpg",
+    "packs": {
+      "sv03": "9"
+    },
+    "coins": [],
+    "sleeves": [],
+    "damage_markers": "",
+    "promos": [
+      "svp-044"
+    ],
+    "other": ""
+  },
+  {
+    "id": "product-197",
+    "name": "Obsidian Flames Pokemon Center Elite Trainer Box",
+    "type": "Pokemon Center Elite Trainer Box",
+    "release_date": "2023-08-11",
+    "tcgplayer_id": "501266",
+    "description": "Each Pokemon Center Elite Trainer Box contains [number] booster packs, a promo card, 65 card sleeves, 40 Energy cards, A player's guide, 6 damage-counter dice,( 1 competition-legal coin-flip die,)( 1 plastic coin,)( 2 plastic condition markers,)  [number] dividers, a collector's box to hold everything, and a code card for Pokémon TCG Live.",
+    "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/501266_in_1000x1000.jpg",
+    "packs": {
+      "sv03": "11"
+    },
+    "coins": [],
+    "sleeves": null,
+    "promos": [
+      "svp-044 (Pokemon Center Stamp)"
+    ],
+    "damage_markers": null,
+    "other": null
+  },
+  {
+    "id": "product-198",
+    "name": "Obsidian Flames 3-Pack Blister [Houndstone]",
+    "type": "3-Pack Blister",
+    "release_date": "2023-08-11",
+    "tcgplayer_id": "501260",
+    "description": "Each 3-Pack Blister contains 3 booster packs and a promo card.",
+    "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/501260_in_1000x1000.jpg",
+    "packs": {
+      "sv03": "3"
+    },
+    "coins": [],
+    "sleeves": null,
+    "promos": [
+      "svp-042"
+    ],
+    "damage_markers": null,
+    "other": null
+  },
+  {
+    "id": "product-199",
+    "name": "Obsidian Flames Build & Battle Box",
+    "type": "Build & Battle Box",
+    "release_date": "2023-08-11",
+    "tcgplayer_id": "501268",
+    "description": "Each Build & Battle Box contains a 40-card ready-to-play deck, 4 booster packs, 1 promo card, and a code card for Pokémon TCG Live.",
+    "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/501268_in_1000x1000.jpg",
+    "packs": {
+      "sv03": "4"
+    },
+    "coins": [],
+    "sleeves": null,
+    "promos": null,
+    "damage_markers": null,
+    "other": null
+  },
+  {
+    "id": "product-200",
+    "name": "Obsidian Flames Single Pack Blister [Paldean Wooper]",
+    "type": "Single Pack Blister",
+    "release_date": "2023-08-11",
+    "tcgplayer_id": "512047",
+    "description": "Each Single Pack Blister contains 1 booster pack, 1 promo card, and a coin.",
+    "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/512047_in_1000x1000.jpg",
+    "packs": {
+      "sv03": "1"
+    },
+    "coins": [],
+    "sleeves": null,
+    "promos": [
+      "svp-041 (Cosmos Holo)"
+    ],
+    "damage_markers": null,
+    "other": null
+  },
+  {
+    "id": "product-201",
+    "name": "Obsidian Flames Single Pack Blister [Pawmi]",
+    "type": "Single Pack Blister",
+    "release_date": "2023-08-11",
+    "tcgplayer_id": "501262",
+    "description": "Each Single Pack Blister contains 1 booster pack, 1 promo card, and a coin.",
+    "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/501262_in_1000x1000.jpg",
+    "packs": {
+      "sv03": "1"
+    },
+    "coins": [],
+    "sleeves": null,
+    "promos": [
+      "svp-040 (Cosmos Holo)"
+    ],
+    "damage_markers": null,
+    "other": null
+  },
+  {
+    "id": "product-202",
+    "name": "Obsidian Flames Booster Bundle",
+    "type": "Booster Bundle",
+    "release_date": "2023-08-11",
+    "tcgplayer_id": "501263",
+    "description": "Each Booster Bundle contains 6 booster packs.",
+    "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/501263_in_1000x1000.jpg",
+    "packs": {
+      "sv03": "6"
+    },
+    "coins": [],
+    "sleeves": null,
+    "promos": null,
+    "damage_markers": null,
+    "other": null
+  },
+  {
+    "id": "product-203",
+    "name": "Obsidian Flames Build & Battle Box Display",
+    "type": "Build & Battle Box Display",
+    "release_date": "2023-08-11",
+    "tcgplayer_id": "514193",
+    "description": "Each Build & Battle Box Display contains 10 Build & Battle Boxes.",
+    "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/514193_in_1000x1000.jpg",
+    "packs": {
+      "sv03": "40"
+    },
+    "coins": [],
+    "sleeves": null,
+    "promos": null,
+    "damage_markers": null,
+    "other": null
+  },
+  {
+    "id": "product-204",
+    "name": "Obsidian Flames 3-Pack Blister [Eevee]",
+    "type": "3-Pack Blister",
+    "release_date": "2023-08-11",
+    "tcgplayer_id": "501259",
+    "description": "Each 3-Pack Blister contains 3 booster packs and a promo card.",
+    "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/501259_in_1000x1000.jpg",
+    "packs": {
+      "sv03": "3"
+    },
+    "coins": [],
+    "sleeves": null,
+    "promos": [
+      "svp-043 (Cosmos Holo)"
+    ],
+    "damage_markers": null,
+    "other": null
+  },
+  {
+    "id": "product-205",
+    "name": "Obsidian Flames Premium Checklane Blister [Kingambit]",
+    "type": "Premium Checklane Blister",
+    "release_date": "2023-08-11",
+    "tcgplayer_id": "557085",
+    "description": "Each Premium Checklane Blister contains 1 booster pack, 3 promo cards, and a coin.",
+    "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/557085_in_1000x1000.jpg",
+    "packs": {
+      "sv03": "1"
+    },
+    "coins": [],
+    "sleeves": null,
+    "promos": [
+      "sv01-132",
+      "sv01-133",
+      "sv01-134"
+    ],
+    "damage_markers": null,
+    "other": null
+  },
+  {
+    "id": "product-206",
+    "name": "Obsidian Flames Premium Checklane Blister [Revavroom]",
+    "type": "Premium Checklane Blister",
+    "release_date": "2023-08-11",
+    "tcgplayer_id": "557087",
+    "description": "Each Premium Checklane Blister contains 1 booster pack, 2 promo cards, and a coin.",
+    "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/557087_in_1000x1000.jpg",
+    "packs": {
+      "sv03": "1"
+    },
+    "coins": [],
+    "sleeves": null,
+    "promos": [
+      "sv01-141",
+      "sv01-142"
+    ],
+    "damage_markers": null,
+    "other": null
+  },
+  {
+    "id": "product-207",
+    "name": "Obsidian Flames Sleeved Booster Case",
+    "type": "Sleeved Booster Case",
+    "release_date": "2023-08-11",
+    "tcgplayer_id": "606743",
+    "description": "Each Sleeved Booster Case contains 144 Sleeved Booster Packs.",
+    "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/606743_in_1000x1000.jpg",
+    "packs": {
+      "sv03": "144"
+    },
+    "coins": [],
+    "sleeves": null,
+    "promos": null,
+    "damage_markers": null,
+    "other": null
+  },
+  {
+    "id": "product-208",
+    "name": "Obsidian Flames Booster Box Case",
+    "type": "Booster Box Case",
+    "release_date": "2023-08-11",
+    "tcgplayer_id": "501258",
+    "description": "Each Booster Box Case contains 6 Booster Boxes.",
+    "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/501258_in_1000x1000.jpg",
+    "packs": {
+      "sv03": "216"
+    },
+    "coins": [],
+    "sleeves": null,
+    "promos": null,
+    "damage_markers": null,
+    "other": null
+  },
+  {
+    "id": "product-209",
+    "name": "Obsidian Flames Build & Battle Stadium",
+    "type": "Build & Battle Stadium",
+    "release_date": "2023-08-11",
+    "tcgplayer_id": "501267",
+    "description": "Each Build & Battle Stadium contains 2 Build & Battle Boxes, 3 Booster Packs, 121 Energy cards, 6 damage-counter dice, 1 competition-legal coin-flip die, 2 condition markers, and a box to hold everything.",
+    "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/501267_in_1000x1000.jpg",
+    "packs": {
+      "sv03": "11"
+    },
+    "coins": [],
+    "sleeves": null,
+    "promos": null,
+    "damage_markers": null,
+    "other": null
+  },
+  {
+    "id": "product-210",
+    "name": "Obsidian Flames Elite Trainer Box Case",
+    "type": "Elite Trainer Box Case",
+    "release_date": "2023-08-11",
+    "tcgplayer_id": "501265",
+    "description": "Each Elite Trainer Box Case contains 10 Elite Trainer Boxes.",
+    "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/501265_in_1000x1000.jpg",
+    "packs": {
+      "sv03": "90"
+    },
+    "coins": [],
+    "sleeves": null,
+    "promos": null,
+    "damage_markers": null,
+    "other": null
+  },
+  {
+    "id": "product-211",
+    "name": "Obsidian Flames Premium Checklane Blister [Annihilape]",
+    "type": "Premium Checklane Blister",
+    "release_date": "2023-08-11",
+    "tcgplayer_id": "557084",
+    "description": "Each Premium Checklane Blister contains 1 booster pack, 3 promo cards, and a coin.",
+    "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/557084_in_1000x1000.jpg",
+    "packs": {
+      "sv03": "1"
+    },
+    "coins": [],
+    "sleeves": null,
+    "promos": [
+      "sv01-107",
+      "sv01-108",
+      "sv01-109"
+    ],
+    "damage_markers": null,
+    "other": null
+  },
+  {
+    "id": "product-212",
+    "name": "Obsidian Flames Premium Checklane Blister [Houndstone]",
+    "type": "Premium Checklane Blister",
+    "release_date": "2023-09-11",
+    "tcgplayer_id": "557086",
+    "description": "Each Premium Checklane Blister contains 1 booster pack, 2 promo cards, and a coin.",
+    "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/557086_in_1000x1000.jpg",
+    "packs": {
+      "sv03": "1"
+    },
+    "coins": [],
+    "sleeves": null,
+    "promos": [
+      "sv01-104",
+      "sv01-106"
+    ],
+    "damage_markers": null,
+    "other": null
   }
 ]
