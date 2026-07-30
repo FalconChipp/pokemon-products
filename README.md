@@ -11,4 +11,8 @@ Descriptions will be auto-filled when possible. Some will need changing. |
 Packs will be auto-filled when possible and will only need the set id changed if the set isn't found. |
 Image url will be auto-filled from the tcgplayer id.
 
+Sets need to be added to sets.json for the autofill. | 
+Run set updater ```python update_sets.py``` | 
+You will need requests ```pip install requests```
+
 You can use this data in any way you like for any purpose
