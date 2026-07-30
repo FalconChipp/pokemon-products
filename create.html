@@ -11,74 +11,74 @@
     <div style="margin-bottom: 15px; background: white; padding: 15px; border-radius: 8px; color: black;">
         <label style="display: block; font-weight: bold; margin-bottom: 5px;">Product ID (Auto-generated)</label>
         <input type="text" id="id" style="width: 90%; padding: 8px;">
-    </div {">
+    </div>
 
     <div style="margin-bottom: 15px; background: white; padding: 15px; border-radius: 8px; color: black;">
         <label style="display: block; font-weight: bold; margin-bottom: 5px;">Product Name</label>
         <input type="text" id="name" style="width: 90%; padding: 8px;">
-    </div {">
+    </div>
 
     <div style="margin-bottom: 15px; background: white; padding: 15px; border-radius: 8px; color: black;">
         <label style="display: block; font-weight: bold; margin-bottom: 5px;">Product Type</label>
         <input type="text" id="type" onblur="handleTypeBlur()" style="width: 90%; padding: 8px;">
-    </div {">
+    </div>
 
     <div style="margin-bottom: 15px; background: white; padding: 15px; border-radius: 8px; color: black;">
         <label style="display: block; font-weight: bold; margin-bottom: 5px;">Release Date</label>
         <input type="date" id="date" style="width: 90%; padding: 8px;">
-    </div {">
+    </div>
 
     <div style="margin-bottom: 15px; background: white; padding: 15px; border-radius: 8px; color: black;">
         <label style="display: block; font-weight: bold; margin-bottom: 5px;">TCGPlayer ID</label>
-        <input type="text" id="tcgplayer_id" style="width: 90%; padding: 8px;">
-    </div {">
+        <input type="text" id="tcgplayer_id" oninput="updateImageUrl()" style="width: 90%; padding: 8px;">
+    </div>
 
     <div style="margin-bottom: 15px; background: white; padding: 15px; border-radius: 8px; color: black;">
         <label style="display: block; font-weight: bold; margin-bottom: 5px;">Image URL</label>
         <input type="text" id="image_url" style="width: 90%; padding: 8px;">
-    </div {">
+    </div>
 
     <div style="margin-bottom: 15px; background: white; padding: 15px; border-radius: 8px; color: black;">
         <label style="display: block; font-weight: bold; margin-bottom: 5px;">Description</label>
         <input type="text" id="description" style="width: 90%; padding: 8px;">
-    </div {">
+    </div>
 
     <div style="margin-bottom: 15px; background: white; padding: 15px; border-radius: 8px; color: black;">
         <label style="display: block; font-weight: bold; margin-bottom: 5px;">Packs (Format: {"sv1": 5})</label>
         <input type="text" id="packs" value="{}" style="width: 90%; padding: 8px;">
-    </div {"> 
+    </div> 
 
     <div style="margin-bottom: 15px; background: white; padding: 15px; border-radius: 8px; color: black;">
         <label style="display: block; font-weight: bold; margin-bottom: 5px;">Coins (Format: [{"id":"1"}])</label>
         <textarea id="coins" style="width: 90%; padding: 8px;">[]</textarea>
-    </div {">
+    </div>
 
     <div style="margin-bottom: 15px; background: white; padding: 15px; border-radius: 8px; color: black;">
         <label style="display: block; font-weight: bold; margin-bottom: 5px;">Sleeves (Comma separated)</label>
         <input type="text" id="sleeves" style="width: 90%; padding: 8px;">
-    </div {">
+    </div>
 
     <div style="margin-bottom: 15px; background: white; padding: 15px; border-radius: 8px; color: black;">
         <label style="display: block; font-weight: bold; margin-bottom: 5px;">Damage Markers</label>
         <input type="text" id="damage_markers" style="width: 90%; padding: 8px;">
-    </div {">
+    </div>
 
     <div style="margin-bottom: 15px; background: white; padding: 15px; border-radius: 8px; color: black;">
         <label style="display: block; font-weight: bold; margin-bottom: 5px;">Promos (Comma separated IDs)</label>
         <input type="text" id="promos" style="width: 90%; padding: 8px;">
-    </div {">
+    </div>
 
     <div style="margin-bottom: 15px; background: white; padding: 15px; border-radius: 8px; color: black;">
         <label style="display: block; font-weight: bold; margin-bottom: 5px;">Other Items</label>
         <textarea id="other" style="width: 90%; padding: 8px;"></textarea>
-    </div {">
+    </div>
     
     <button onclick="generateJson()" style="background: white; color: black; padding: 10px 20px; border: none; cursor: pointer; font-size: 16px; font-weight: bold;">Generate JSON</button>
     
     <pre id="json-output" style="background: #333; color: white; padding: 10px; margin-top: 20px; display: none; border-radius: 5px;"></pre>
 
     <script>
-        let descriptionsData = [];
+        let autofillData = [];
 
         function safeParseJson(id, defaultValue = null) {
             const val = document.getElementById(id).value;
@@ -101,16 +101,42 @@
             const typeValue = document.getElementById('type').value.trim();
             if (!typeValue) return;
 
-            const match = descriptionsData.find(item => 
+            // Find matching object in autofill.json based on type
+            const match = autofillData.find(item => 
                 item.type.toLowerCase() === typeValue.toLowerCase()
             );
 
             if (match) {
-                document.getElementById('description').value = match.description;
+                // Loop through all keys in the matched autofill object
+                Object.keys(match).forEach(key => {
+                    const element = document.getElementById(key);
+                    if (element) {
+                        const value = match[key];
+                        
+                        // If the value is an object or array, stringify it for the input field
+                        if (typeof value === 'object' && value !== null) {
+                            element.value = JSON.stringify(value);
+                        } else {
+                            element.value = value;
+                        }
+                    }
+                });
+            }
+        }
+
+        function updateImageUrl() {
+            const tcgId = document.getElementById('tcgplayer_id').value.trim();
+            const imageField = document.getElementById('image_url');
+            
+            if (tcgId) {
+                imageField.value = `https://tcgplayer-cdn.tcgplayer.com/product/${tcgId}_in_1000x1000.jpg`;
+            } else {
+                imageField.value = ""; // Clear the image URL if the ID is deleted
             }
         }
 
         window.onload = async () => {
+            // Load products.json for ID generation
             try {
                 const response = await fetch('products.json'); 
                 const products = await response.json();
@@ -133,11 +159,12 @@
                 document.getElementById('id').value = 'product-1';
             }
 
+            // Load autofill.json for field population
             try {
-                const descResponse = await fetch('descriptions.json');
-                descriptionsData = await descResponse.json();
+                const autofillResponse = await fetch('autofill.json');
+                autofillData = await autofillResponse.json();
             } catch (e) {
-                console.error("Error loading descriptions.json:", e);
+                console.error("Error loading autofill.json:", e);
             }
         };
 
@@ -170,6 +197,7 @@
                         headers: { 'Content-Type': 'application/json' },
                         body: JSON.stringify(newProduct)
                     });
+                    if(response.ok) alert("Product updated successfully!");
                 } else {
                     const output = document.getElementById('json-output');
                     output.style.display = 'block';

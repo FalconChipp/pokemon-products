@@ -1,0 +1,141 @@
+[
+    {
+        "type": "Booster Pack",
+        "description": "Each pack contains 10 cards.",
+        "packs": {"set":"1"}
+    },
+    {
+        "type": "Sleeved Booster Pack",
+        "description": "Each pack contains 10 cards.",
+        "packs": {"set":"1"}
+    },
+    {
+        "type": "Booster Bundle",
+        "description": "Each Booster Bundle contains 6 booster packs.",
+        "packs": {"set":"6"}
+    },
+    {
+        "type": "Half Booster Box",
+        "description": "Each Half Booster Box contains 18 booster packs.",
+        "packs": {"set":"18"}
+    },
+    {
+        "type": "Booster Box",
+        "description": "Each Booster Box contains 36 booster packs.",
+        "packs": {"set":"36"}
+    },
+    {
+        "type": "Enhanced Booster Box",
+        "description": "Each Enhanced Booster Box contains 36 booster packs and a promo card.",
+        "packs": {"set":"36"}
+    },
+    {
+        "type": "Elite Trainer Box",
+        "description": "Each Elite Trainer Box contains [number] booster packs, a promo card, 65 card sleeves, 40 Energy cards, A player's guide, 6 damage-counter dice,( 1 competition-legal coin-flip die,)( 1 plastic coin,)( 2 plastic condition markers,)  [number] dividers, a collector's box to hold everything, and a code card for Pokémon TCG Live.",
+        "packs": {"set":"9"}
+    },
+    {
+        "type": "Pokemon Center Elite Trainer Box",
+        "description": "Each Pokemon Center Elite Trainer Box contains [number] booster packs, a promo card, 65 card sleeves, 40 Energy cards, A player's guide, 6 damage-counter dice,( 1 competition-legal coin-flip die,)( 1 plastic coin,)( 2 plastic condition markers,)  [number] dividers, a collector's box to hold everything, and a code card for Pokémon TCG Live.",
+        "packs": {"set":"11"}
+    },
+    {
+        "type": "Build & Battle Box",
+        "description": "Each Build & Battle Box contains a 40-card ready-to-play deck, 4 booster packs, 1 promo card, and a code card for Pokémon TCG Live.",
+        "packs": {"set":"4"}
+    },
+    {
+        "type": "Mini Tin",
+        "description": "Each Mini Tin contains 2 booster packs and an art card.",
+        "packs": {"set":"2"}
+    },
+    {
+        "type": "3-Pack Blister",
+        "description": "Each 3-Pack Blister contains 3 booster packs and a promo card.",
+        "packs": {"set":"3"}
+    },
+    {
+        "type": "Single Pack Blister",
+        "description": "Each Single Pack Blister contains 1 booster pack, [1] promo card(s), and a coin.",
+        "packs": {"set":"1"}
+    },
+    {
+        "type": "Premium Checklane Blister",
+        "description": "Each Premium Checklane Blister contains 1 booster pack, [3] promo cards, and a coin.",
+        "packs": {"set":"1"}
+    },
+    {
+        "type": "Sleeved Booster Case",
+        "description": "Each Sleeved Booster Case contains 144 Sleeved Booster Packs.",
+        "packs": {"set":"144"}
+    },
+    {
+        "type": "Booster Bundle Case",
+        "description": "Each Booster Bundle Case contains 25 Booster Bundles.",
+        "packs": {"set":"150"}
+    },
+    {
+        "type": "Booster Box Case",
+        "description": "Each Booster Box Case contains 6 Booster Boxes.",
+        "packs": {"set":"216"}
+    },
+    {
+        "type": "Enhanced Booster Box Case",
+        "description": "Each Enhanced Booster Box Case contains 6 Enhanced Booster Boxes.",
+        "packs": {"set":"216"}
+    },
+    {
+        "type": "Elite Trainer Box Case",
+        "description": "Each Elite Trainer Box Case contains 10 Elite Trainer Boxes.",
+        "packs": {"set":"90"}
+    },
+    {
+        "type": "Build & Battle Box Display",
+        "description": "Each Build & Battle Box Display contains 10 Build & Battle Boxes.",
+        "packs": {"set":"40"}
+    },
+    {
+        "type": "Mini Tin Display",
+        "description": "Each Mini Tin Display contains 10 Mini Tins.",
+        "packs": {"set":"20"}
+    },
+    {
+        "type":"3-Pack Blister Case",
+        "description": "Each 3-Pack Blister Case contains 24 3-Pack Blisters.",
+        "packs": {"set":"72"}
+    },
+    {
+        "type": "Tech Sticker Collection",
+        "description": "Each Tech Sticker Collection contains 3 Booster Packs, 1 promo card, and stickers.",
+        "packs": {"set":"3"}
+    },
+    {
+        "type": "Tech Sticker Collection Case",
+        "description": "Each Tech Sticker Collection Case contains 6 of each Tech Sticker Collection.",
+        "packs": {"set":"36"}
+    },
+    {
+        "type": "Tin",
+        "description": "Each Tin contains 4 Booster Packs and 1 promo card.",
+        "packs": {"set":"4"}
+    },
+    {
+        "type": "Booster Bundle Display",
+        "description": "Each Booster Bundle Display contains 10 Booster Bundles",
+        "packs": {"set":"60"}
+    },
+    {
+        "type": "Mini Tin Display Case",
+        "description": "Each Mini Tin Display Case contains 4 Mini Tin Displays.",
+        "packs": {"set":"80"}
+    },
+    {
+        "type": "Build & Battle Stadium",
+        "description": "Each Build & Battle Stadium contains 2 Build & Battle Boxes, 3 Booster Packs, 121 Energy cards, 6 damage-counter dice, 1 competition-legal coin-flip die, 2 condition markers, and a box to hold everything.",
+        "packs": {"set":"11"}
+    },
+    {
+        "type": "Fun Pack",
+        "description": "Each Fun Pack contains 3 cards."
+    }
+]
