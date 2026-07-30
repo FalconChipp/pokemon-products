@@ -5,7 +5,7 @@
     "type": "Booster Box",
     "release_date": "2025-09-26",
     "tcgplayer_id": "644298",
-    "description": "Each box contains 36 booster packs.",
+    "description": "Each Booster Box contains 36 booster packs.",
     "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/644298_in_1000x1000.jpg",
     "packs": {
       "me01": 36
@@ -22,7 +22,7 @@
     "type": "Booster Box Case",
     "release_date": "2025-09-26",
     "tcgplayer_id": "644731",
-    "description": "Each booster box case contains 6 boxes of 36 packs each.",
+    "description": "Each Booster Box Case contains 6 Booster Boxes.",
     "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/644731_in_1000x1000.jpg",
     "packs": {
       "me01": 216
@@ -39,7 +39,7 @@
     "type": "Half Booster Box",
     "release_date": "2025-09-26",
     "tcgplayer_id": "644351",
-    "description": "Each Mega Evolution half booster box contains 18 booster packs. ",
+    "description": "Each Half Booster Box contains 18 booster packs.",
     "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/644351_in_1000x1000.jpg",
     "packs": {
       "me01": 16
@@ -56,7 +56,7 @@
     "type": "Elite Trainer Box",
     "release_date": "2025-09-26",
     "tcgplayer_id": "648394",
-    "description": "The Pokémon TCG: Mega Evolution Elite Trainer Box includes: • 9 Pokémon TCG: Mega Evolution booster packs • 1 full-art foil promo card featuring Riolu or Alakazam • 65 card sleeves • 40 Pokémon TCG Energy cards • A player’s guide to the Mega Evolution expansion • 6 damage-counter dice • 1 competition-legal coin-flip die • 1 plastic coin • A collector’s box to hold everything, with 6 dividers to keep it organized • A code card for Pokémon Trading Card Game Liv",
+    "description": "Each Elite Trainer Box contains 9 booster packs, a promo card, 65 card sleeves, 40 Energy cards, A player's guide, 6 damage-counter dice, 1 competition-legal coin-flip die, 1 plastic coin, 6 dividers, a collector's box to hold everything, and a code card for Pokémon TCG Live.",
     "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/648394_in_1000x1000.jpg",
     "packs": {
       "me01": 9
@@ -82,7 +82,7 @@
     "type": "Elite Trainer Box",
     "release_date": "2025-09-26",
     "tcgplayer_id": "644279",
-    "description": "The Pokémon TCG: Mega Evolution Elite Trainer Box includes: • 9 Pokémon TCG: Mega Evolution booster packs • 1 full-art foil promo card featuring Riolu or Alakazam • 65 card sleeves • 40 Pokémon TCG Energy cards • A player’s guide to the Mega Evolution expansion • 6 damage-counter dice • 1 competition-legal coin-flip die • 1 plastic coin • A collector’s box to hold everything, with 6 dividers to keep it organized • A code card for Pokémon Trading Card Game Liv",
+    "description": "Each Elite Trainer Box contains 9 booster packs, a promo card, 65 card sleeves, 40 Energy cards, A player's guide, 6 damage-counter dice, 1 competition-legal coin-flip die, 1 plastic coin, 6 dividers, a collector's box to hold everything, and a code card for Pokémon TCG Live.",
     "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/644279_in_1000x1000.jpg",
     "packs": {
       "me01": 9
@@ -125,7 +125,7 @@
     "type": "Sleeved Booster Pack",
     "release_date": "2025-09-26",
     "tcgplayer_id": "644354",
-    "description": "Each Mega Evolution sleeved booster pack contains 10 random cards.",
+    "description": "Each pack contains 10 cards.",
     "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/644354_in_1000x1000.jpg",
     "packs": {
       "me01": 1
@@ -142,7 +142,7 @@
     "type": "Enhanced Booster Box",
     "release_date": "2025-09-26",
     "tcgplayer_id": "644300",
-    "description": "Each Mega Evolution booster box contains 36 booster packs. 1 stamped illustration rare-style promo card featuring Bulbasaur",
+    "description": "Each Enhanced Booster Box contains 36 booster packs and a promo card.",
     "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/644300_in_1000x1000.jpg",
     "packs": {
       "me01": 36
@@ -161,7 +161,7 @@
     "type": "Booster Bundle",
     "release_date": "2025-09-26",
     "tcgplayer_id": "644362",
-    "description": "Expand your collection with this Booster Bundle containing six booster packs from Pokémon TCG: Mega Evolution!",
+    "description": "Each Booster Bundle contains 6 booster packs.",
     "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/644362_in_1000x1000.jpg",
     "packs": {
       "me01": 6
@@ -178,7 +178,7 @@
     "type": "Mini Tin",
     "release_date": "2025-09-26",
     "tcgplayer_id": "649394",
-    "description": "In this Pokémon TCG: Mega Heroes Mini Tin, you’ll find: • 2 Pokémon TCG booster packs • 1 sticker sheet • A Pokémon art card showing the art from this Mini",
+    "description": "Each Mini Tin contains 2 booster packs and an art card.",
     "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/649394_in_1000x1000.jpg",
     "packs": {
       "me01": 2
@@ -195,7 +195,7 @@
     "type": "3 Pack Blister",
     "release_date": "2025-09-26",
     "tcgplayer_id": "644357",
-    "description": "Each blister comes with 3 Mega Evolution booster packs and a promotional card of Psyduck.",
+    "description": "Each 3 Pack Blister contains 3 booster packs and a promo card.",
     "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/644357_in_1000x1000.jpg",
     "packs": {
       "me01": 3
@@ -214,7 +214,7 @@
     "type": "Pokemon Center Elite Trainer Box",
     "release_date": "2025-09-26",
     "tcgplayer_id": "644282",
-    "description": "The Pokémon TCG: Mega Evolution Pokémon Center Elite Trainer Box includes: • 11 Pokémon TCG: Mega Evolution booster packs • 1 full-art foil promo card featuring Riolu or Alakazam with a Pokémon Center logo • 1 full-art foil promo card featuring Riolu or Alakazam • 65 card sleeves • 40 Pokémon TCG Energy cards • A player’s guide to the Mega Evolution expansion • 6 damage-counter dice • 1 competition-legal coin-flip die • 1 plastic coin • A collector’s box to hold everything, with 6 dividers to keep it organized • A code card for Pokémon Trading Card Game Live",
+    "description": "Each Pokémon Center Elite Trainer Box contains 11 booster packs, a promo card, 65 card sleeves, 40 Energy cards, A player's guide, 6 damage-counter dice, 1 competition-legal coin-flip die, 1 plastic coin, 6 dividers, a collector's box to hold everything, and a code card for Pokémon TCG Live.",
     "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/644282_in_1000x1000.jpg",
     "packs": {
       "me01": 11
@@ -240,7 +240,7 @@
     "type": "Pokemon Center Elite Trainer Box",
     "release_date": "2025-09-26",
     "tcgplayer_id": "648415",
-    "description": "The Pokémon TCG: Mega Evolution Pokémon Center Elite Trainer Box includes: • 11 Pokémon TCG: Mega Evolution booster packs • 1 full-art foil promo card featuring Riolu or Alakazam with a Pokémon Center logo • 1 full-art foil promo card featuring Riolu or Alakazam • 65 card sleeves • 40 Pokémon TCG Energy cards • A player’s guide to the Mega Evolution expansion • 6 damage-counter dice • 1 competition-legal coin-flip die • 1 plastic coin • A collector’s box to hold everything, with 6 dividers to keep it organized • A code card for Pokémon Trading Card Game Live",
+    "description": "Each Pokémon Center Elite Trainer Box contains 11 booster packs, a promo card, 65 card sleeves, 40 Energy cards, A player's guide, 6 damage-counter dice, 1 competition-legal coin-flip die, 1 plastic coin, 6 dividers, a collector's box to hold everything, and a code card for Pokémon TCG Live.",
     "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/648415_in_1000x1000.jpg",
     "packs": {
       "me01": 11
@@ -266,7 +266,7 @@
     "type": "Mini Tin",
     "release_date": "2025-09-26",
     "tcgplayer_id": "649400",
-    "description": "In this Pokémon TCG: Mega Heroes Mini Tin, you’ll find: • 2 Pokémon TCG booster packs • 1 sticker sheet • A Pokémon art card showing the art from this Mini",
+    "description": "Each Mini Tin contains 2 booster packs and an art card.",
     "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/649400_in_1000x1000.jpg",
     "packs": {
       "me01": 2
@@ -283,7 +283,7 @@
     "type": "Single Pack Blister",
     "release_date": "2025-09-26",
     "tcgplayer_id": "657490",
-    "description": "Each blister comes with 1 booster pack, 1 coin, and a promotional card.",
+    "description": "Each Single Pack Blister contains 1 booster pack, [1] promo card(s), and a coin.",
     "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/657490_in_1000x1000.jpg",
     "packs": {
       "me01": 1
@@ -309,7 +309,7 @@
     "type": "3 Pack Blister",
     "release_date": "2025-09-26",
     "tcgplayer_id": "644356",
-    "description": "Each blister comes with 3 Mega Evolution booster packs and a promotional card of Golduck.",
+    "description": "Each 3 Pack Blister contains 3 booster packs and a promo card.",
     "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/644356_in_1000x1000.jpg",
     "packs": {
       "me01": 3
@@ -328,7 +328,7 @@
     "type": "Booster Bundle Case",
     "release_date": "2025-09-26",
     "tcgplayer_id": "644730",
-    "description": "Each sealed Mega Evolution Booster Bundle Case contains 25 bundle boxes.  Expand your collection with this Booster Bundle containing six booster packs from Pokémon TCG: Mega Evolution!",
+    "description": "Each Booster Bundle Case contains 25 Booster Bundles.",
     "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/644730_in_1000x1000.jpg",
     "packs": {
       "me01": 150
@@ -345,7 +345,7 @@
     "type": "Mini Tin",
     "release_date": "2025-09-26",
     "tcgplayer_id": "649401",
-    "description": "In this Pokémon TCG: Mega Heroes Mini Tin, you’ll find: • 2 Pokémon TCG booster packs • 1 sticker sheet • A Pokémon art card showing the art from this Mini",
+    "description": "Each Mini Tin contains 2 booster packs and an art card.",
     "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/649401_in_1000x1000.jpg",
     "packs": {
       "me01": 2
@@ -362,7 +362,7 @@
     "type": "Build & Battle Box",
     "release_date": "2025-09-26",
     "tcgplayer_id": "644363",
-    "description": "Contents: • A 40-card ready-to-play deck, including 1 of 4 unique foil promo cards • 4 Pokémon TCG: Mega Evolution booster packs • A code card for Pokémon TCG Live",
+    "description": "Each Build & Battle Box contains a 40-card ready-to-play deck, 4 booster packs, 1 promo card, and a code card for Pokémon TCG Live.",
     "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/644363_in_1000x1000.jpg",
     "packs": {
       "me01": 4
@@ -381,7 +381,7 @@
     "type": "Mini Tin",
     "release_date": "2025-09-26",
     "tcgplayer_id": "649395",
-    "description": "In this Pokémon TCG: Mega Heroes Mini Tin, you’ll find: • 2 Pokémon TCG booster packs • 1 sticker sheet • A Pokémon art card showing the art from this Mini",
+    "description": "Each Mini Tin contains 2 booster packs and an art card.",
     "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/649395_in_1000x1000.jpg",
     "packs": {
       "me01": 2
@@ -398,7 +398,7 @@
     "type": "Single Pack Blister",
     "release_date": "2025-09-26",
     "tcgplayer_id": "644359",
-    "description": "Each blister comes with 1 booster pack, 1 coin, and a promotional card.",
+    "description": "Each Single Pack Blister contains 1 booster pack, [1] promo card(s), and a coin.",
     "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/644359_in_1000x1000.jpg",
     "packs": {
       "me01": 1
@@ -423,7 +423,7 @@
     "type": "Single Pack Blister",
     "release_date": "2025-09-26",
     "tcgplayer_id": "644358",
-    "description": "Each blister comes with 1 booster pack, 1 coin, and a promotional card.",
+    "description": "Each Single Pack Blister contains 1 booster pack, [1] promo card(s), and a coin.",
     "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/644358_in_1000x1000.jpg",
     "packs": {
       "me01": 1
@@ -448,7 +448,7 @@
     "type": "Single Pack Blister",
     "release_date": "2025-09-26",
     "tcgplayer_id": "657489",
-    "description": "Each blister comes with 1 Mega Evolutionr booster pack, 1 coin, and a promotional cards.",
+    "description": "Each Single Pack Blister contains 1 booster pack, [1] promo card(s), and a coin.",
     "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/657489_in_1000x1000.jpg",
     "packs": {
       "me01": 1
@@ -474,7 +474,7 @@
     "type": "Mini Tin",
     "release_date": "2025-09-26",
     "tcgplayer_id": "649397",
-    "description": "In this Pokémon TCG: Mega Heroes Mini Tin, you’ll find: • 2 Pokémon TCG booster packs • 1 sticker sheet • A Pokémon art card showing the art from this Mini",
+    "description": "Each Mini Tin contains 2 booster packs and an art card.",
     "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/649397_in_1000x1000.jpg",
     "packs": {
       "me01": 2
@@ -491,7 +491,7 @@
     "type": "Mini Tin Display",
     "release_date": "2025-09-26",
     "tcgplayer_id": "649392",
-    "description": "In this Pokémon TCG: Mega Heroes Mini Tin, you’ll find: • 2 Pokémon TCG booster packs • 1 sticker sheet • A Pokémon art card showing the art from this Mini",
+    "description": "Each Mini Tin Display contains 10 Mini Tins.",
     "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/649392_in_1000x1000.jpg",
     "packs": {
       "me01": 20
@@ -508,7 +508,7 @@
     "type": "Elite Trainer Box Case",
     "release_date": "2025-09-26",
     "tcgplayer_id": "644727",
-    "description": "Each sealed Pokémon TCG: Scarlet & Violet—Mega Evolution Trainer Box includes 10 elite trainer boxes. Individual Pokémon TCG: Scarlet & Violet—Mega Evolution Elite Trainer Boxes include: • 9 Pokémon TCG: Mega Evolution booster packs • 1 full-art foil promo card featuring Riolu or Alakazam • 65 card sleeves • 40 Pokémon TCG Energy cards • A player’s guide to the Mega Evolution expansion • 6 damage-counter dice • 1 competition-legal coin-flip die • 1 plastic coin • A collector’s box to hold everything, with 6 dividers to keep it organized • A code card for Pokémon Trading Card Game Liv",
+    "description": "Each Elite Trainer Box Case contains 10 Elite Trainer Boxes.",
     "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/644727_in_1000x1000.jpg",
     "packs": {
       "me01": 90
@@ -534,7 +534,7 @@
     "type": "Sleeved Booster Case",
     "release_date": "2025-09-26",
     "tcgplayer_id": "650766",
-    "description": "Each sealed Mega Evolution sleeved booster case contains 144 sleeved booster packs.",
+    "description": "Each Sleeved Booster Case contains 144 Sleeved Booster Packs.",
     "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/650766_in_1000x1000.jpg",
     "packs": {
       "me01": 144
@@ -551,7 +551,7 @@
     "type": "Premium Checklane Blister",
     "release_date": "2025-09-26",
     "tcgplayer_id": "644361",
-    "description": "Product details: • 1 Mega Evolution booster pack • TCGO Code • Coin • 3 cards featuring an evolution line!",
+    "description": "Each Premium Checklane Blister contains 1 booster pack, 3 promo card(s), and a coin.",
     "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/644361_in_1000x1000.jpg",
     "packs": {
       "me01": 1
@@ -596,7 +596,8 @@
       "sv09-095 (Cosmos Holo)"
     ],
     "damage_markers": null,
-    "other": null
+    "other": null,
+    "description": "Each Premium Checklane Blister contains 1 booster pack, 3 promo card(s), and a coin."
   },
   {
     "id": "product-30",
@@ -604,7 +605,7 @@
     "type": "Booster Pack",
     "release_date": "2025-11-14",
     "tcgplayer_id": "654144",
-    "description": "Each Phantasmal Flames booster pack contains 10 random cards.",
+    "description": "Each pack contains 10 cards.",
     "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/654144_in_1000x1000.jpg",
     "packs": {
       "me02": 1
@@ -621,7 +622,7 @@
     "type": "Booster Box",
     "release_date": "2025-11-14",
     "tcgplayer_id": "654137",
-    "description": "Includes 36 booster packs from the Pokémon TCG: Mega Evolution—Phantasmal Flames expansion",
+    "description": "Each Booster Box contains 36 booster packs.",
     "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/654137_in_1000x1000.jpg",
     "packs": {
       "me02": 36
@@ -638,7 +639,7 @@
     "type": "Elite Trainer Box",
     "release_date": "2025-11-14",
     "tcgplayer_id": "654136",
-    "description": "The Pokémon TCG: Mega Evolution-Phantasmal Flames Elite Trainer Box includes: • 9 Pokémon TCG: Mega Evolution-Phantasmal Flames booster packs • 1 full-art foil promo card featuring Charcadet • 65 card sleeves • 40 Pokémon TCG Energy cards • A player's guide to the Mega Evolution-Phantasmal Flames expansion • 6 damage-counter dice • 1 competition-legal coin-flip die • 1 plastic coin • A collector's box to hold everything, with 6 dividers to keep it organized • A code card for Pokémon Trading Card Game Live",
+    "description": "Each Elite Trainer Box contains 9 booster packs, a promo card, 65 card sleeves, 40 Energy cards, A player's guide, 6 damage-counter dice, 1 competition-legal coin-flip die, 1 plastic coin, 6 dividers, a collector's box to hold everything, and a code card for Pokémon TCG Live.",
     "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/654136_in_1000x1000.jpg",
     "packs": {
       "me02": 9
@@ -664,7 +665,7 @@
     "type": "Sleeved Booster Pack",
     "release_date": "2025-11-14",
     "tcgplayer_id": "654145",
-    "description": "Each Phantasmal Flames sleeved booster pack contains 10 random cards.",
+    "description": "Each pack contains 10 cards.",
     "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/654145_in_1000x1000.jpg",
     "packs": {
       "me02": 1
@@ -681,7 +682,7 @@
     "type": "Booster Bundle",
     "release_date": "2025-11-14",
     "tcgplayer_id": "654160",
-    "description": "Includes six Mega Evolution - Phantasmal Flames booster packs.",
+    "description": "Each Booster Bundle contains 6 booster packs.",
     "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/654160_in_1000x1000.jpg",
     "packs": {
       "me02": 6
@@ -698,7 +699,7 @@
     "type": "Build & Battle Box",
     "release_date": "2025-11-14",
     "tcgplayer_id": "662725",
-    "description": "Each box contains: • A 40-card ready-to-play deck, including 1 of 4 unique foil promo cards • 4 Pokémon TCG: Mega Evolution-Phantasmal Flames booster packs • A code card for Pokémon TCG Live",
+    "description": "Each Build & Battle Box contains a 40-card ready-to-play deck, 4 booster packs, 1 promo card, and a code card for Pokémon TCG Live.",
     "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/662725_in_1000x1000.jpg",
     "packs": {
       "me02": 4
@@ -715,7 +716,7 @@
     "type": "Single Pack Blister",
     "release_date": "2025-11-14",
     "tcgplayer_id": "654150",
-    "description": "Each blister comes with 1 booster pack, 1 coin, and a promotional card.",
+    "description": "Each Single Pack Blister contains 1 booster pack, [1] promo card(s), and a coin.",
     "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/654150_in_1000x1000.jpg",
     "packs": {
       "me02": 1
@@ -740,7 +741,7 @@
     "type": "Pokemon Center Elite Trainer Box",
     "release_date": "2025-11-14",
     "tcgplayer_id": "654135",
-    "description": "The Pokémon TCG: Mega Evolution-Phantasmal Flames Pokémon Center Elite Trainer Box includes: • 11 Pokémon TCG: Mega Evolution-Phantasmal Flames booster packs • 1 full-art foil promo card featuring Charcadet with a Pokémon Center logo • 1 full-art foil promo card featuring Charcadet • 65 card sleeves • 40 Pokémon TCG Energy cards • A player's guide to the Mega Evolution-Phantasmal Flames expansion • 6 damage-counter dice • 1 competition-legal coin-flip die • 1 plastic coin • A collector's box to hold everything, with 6 dividers to keep it organized • A code card for Pokémon Trading Card Game Live",
+    "description": "Each Pokémon Center Elite Trainer Box contains 11 booster packs, a promo card, 65 card sleeves, 40 Energy cards, A player's guide, 6 damage-counter dice, 1 competition-legal coin-flip die, 1 plastic coin, 6 dividers, a collector's box to hold everything, and a code card for Pokémon TCG Live.",
     "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/654135_in_1000x1000.jpg",
     "packs": {
       "me02": 9
@@ -766,7 +767,7 @@
     "type": "Single Pack Blister",
     "release_date": "2025-11-14",
     "tcgplayer_id": "654151",
-    "description": "Each blister comes with 1 booster pack, 1 coin, and a promotional card.",
+    "description": "Each Single Pack Blister contains 1 booster pack, [1] promo card(s), and a coin.",
     "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/654151_in_1000x1000.jpg",
     "packs": {
       "me02": 1
@@ -791,7 +792,7 @@
     "type": "3 Pack Blister",
     "release_date": "2025-11-14",
     "tcgplayer_id": "654154",
-    "description": "Each blister comes with 3 Phantasmal Flames booster packs and a promotional card of Sneasel.",
+    "description": "Each 3 Pack Blister contains 3 booster packs and a promo card.",
     "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/654154_in_1000x1000.jpg",
     "packs": {
       "me02": 3
@@ -810,7 +811,7 @@
     "type": "Elite Trainer Box Case",
     "release_date": "2025-11-14",
     "tcgplayer_id": "654170",
-    "description": "Each sealed Pokémon TCG: Mega Evolution-Phantasmal Flames Elite Trainer Box Case includes 10 elite trainer boxes. Individual Pokémon TCG:Mega Evolution-Phantasmal FlamesElite Trainer Boxes include: • 9 Pokémon TCG: Mega Evolution-Phantasmal Flames booster packs • 65 card sleeves • 45 Pokémon TCG Energy cards • A player’s guide to the Mega Evolution-Phantasmal Flames expansion • 6 damage-counter dice • 1 competition-legal coin-flip die • 2 plastic condition markers • A collector’s box to hold everything, with 4 dividers to keep it organized • A code card for Pokémon Trading Card Game Live",
+    "description": "Each Elite Trainer Box Case contains 10 Elite Trainer Boxes.",
     "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/654170_in_1000x1000.jpg",
     "packs": {
       "me02": 90
@@ -836,7 +837,7 @@
     "type": "3 Pack Blister",
     "release_date": "2025-11-14",
     "tcgplayer_id": "654156",
-    "description": "Each blister comes with 3 Phantasmal Flames booster packs and a promotional card of Sneasel.",
+    "description": "Each 3 Pack Blister contains 3 booster packs and a promo card.",
     "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/654156_in_1000x1000.jpg",
     "packs": {
       "me02": 3
@@ -855,7 +856,7 @@
     "type": "Booster Box Case",
     "release_date": "2025-11-14",
     "tcgplayer_id": "655281",
-    "description": "Each booster box case contains 6 boxes of 36 packs each.",
+    "description": "Each Booster Box Case contains 6 Booster Boxes.",
     "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/655281_in_1000x1000.jpg",
     "packs": {
       "me02": 216
@@ -872,7 +873,7 @@
     "type": "Build & Battle Box Display",
     "release_date": "2025-11-14",
     "tcgplayer_id": "654164",
-    "description": "Each display contains 10 Build & Battle boxes. Each box contains: • A 40-card ready-to-play deck, including 1 of 4 unique foil promo cards • 4 Pokémon TCG: Mega Evolution-Phantasmal Flames booster packs • A code card for Pokémon TCG Live",
+    "description": "Each Build & Battle Box Display contains 10 Build & Battle Boxes.",
     "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/654164_in_1000x1000.jpg",
     "packs": {
       "me02": 40
@@ -889,7 +890,7 @@
     "type": "Booster Bundle Case",
     "release_date": "2025-11-14",
     "tcgplayer_id": "654162",
-    "description": "Case contains 25 Booster Bundles Includes six Mega Evolution - Phantasmal Flames booster packs.",
+    "description": "Each Booster Bundle Case contains 25 Booster Bundles.",
     "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/654162_in_1000x1000.jpg",
     "packs": {
       "me02": 150
@@ -906,7 +907,7 @@
     "type": "Premium Checklane Blister",
     "release_date": "2025-11-14",
     "tcgplayer_id": "654146",
-    "description": "Product details: • 1 Phantasmal Flames booster pack • TCGO Code • Coin • 3 cards featuring an evolution line!",
+    "description": "Each Premium Checklane Blister contains 1 booster pack, 3 promo card(s), and a coin.",
     "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/654146_in_1000x1000.jpg",
     "packs": {
       "me02": 1
@@ -950,7 +951,7 @@
     "type": "Premium Checklane Blister",
     "release_date": "2025-11-14",
     "tcgplayer_id": "668931",
-    "description": "Contains 1 Mega Evolutions —Phantasmal Flames booster pack, a TCGO Code, Coin and 2 cards with an evolution line.",
+    "description": "Each Premium Checklane Blister contains 1 booster pack, 3 promo card(s), and a coin.",
     "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/668931_in_1000x1000.jpg",
     "packs": {
       "me02": 1
@@ -976,7 +977,7 @@
     "type": "Premium Checklane Blister",
     "release_date": "2025-11-14",
     "tcgplayer_id": "654147",
-    "description": "Product details: • 1 Phantasmal Flames booster pack • TCGO Code • Coin • 3 cards featuring an evolution line!",
+    "description": "Each Premium Checklane Blister contains 1 booster pack, 3 promo card(s), and a coin.",
     "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/654147_in_1000x1000.jpg",
     "packs": {
       "me02": 1
@@ -1003,7 +1004,7 @@
     "type": "Sleeved Booster Case",
     "release_date": "2025-11-14",
     "tcgplayer_id": "655282",
-    "description": "Each Phantasmal Flames sleeved booster pack case contains 144 booster packs.",
+    "description": "Each Sleeved Booster Case contains 144 Sleeved Booster Packs.",
     "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/655282_in_1000x1000.jpg",
     "packs": {
       "me02": 144
@@ -1020,7 +1021,7 @@
     "type": "Premium Checklane Blister",
     "release_date": "2025-11-14",
     "tcgplayer_id": "672588",
-    "description": "Contains 1 Mega Evolutions —Phantasmal Flames booster pack, a TCGO Code, Coin and 2 cards with an evolution line.",
+    "description": "Each Premium Checklane Blister contains 1 booster pack, 3 promo card(s), and a coin.",
     "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/672588_in_1000x1000.jpg",
     "packs": {
       "me02": 1
@@ -1065,7 +1066,7 @@
     "type": "Build & Battle Box Display",
     "release_date": "2025-09-26",
     "tcgplayer_id": "644733",
-    "description": "Display contains 10 Mega Evolution Build & Battle Boxes.  Each box contains: • A 40-card ready-to-play deck, including 1 of 4 unique foil promo cards • 4 Pokémon TCG: Mega Evolution booster packs • A code card for Pokémon TCG Live",
+    "description": "Each Build & Battle Box Display contains 10 Build & Battle Boxes.",
     "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/644733_in_1000x1000.jpg",
     "packs": {
       "me01": 40
@@ -1082,7 +1083,7 @@
     "type": "Booster Box",
     "release_date": "2026-03-27",
     "tcgplayer_id": "672394",
-    "description": "Each booster box contains 36 booster packs.",
+    "description": "Each Booster Box contains 36 booster packs.",
     "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/672394_in_1000x1000.jpg",
     "packs": {
       "me03": 36
@@ -1099,16 +1100,16 @@
     "type": "Elite Trainer Box",
     "release_date": "2026-03-27",
     "tcgplayer_id": "672401",
-    "description": "The Pokémon Elite Trainer Box includes: • 9 Pokémon booster packs • 65 card sleeves • 45 Pokémon TCG Energy cards • A player's guide to the expansion • 6 damage-counter dice • 1 competition-legal coin-flip die • 2 plastic condition markers • A collector's box to hold everything, with 4 dividers to keep it organized • A code card for Pokémon Trading Card Game Live",
+    "description": "Each Elite Trainer Box contains 9 booster packs, a promo card, 65 card sleeves, 40 Energy cards, A player's guide, 6 damage-counter dice, 1 competition-legal coin-flip die, 1 plastic coin, 6 dividers, a collector's box to hold everything, and a code card for Pokémon TCG Live.",
     "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/672401_in_1000x1000.jpg",
     "packs": {
       "me03": 9
     },
     "coins": [],
-    "sleeves": null,
-    "promos": null,
-    "damage_markers": null,
-    "other": null
+    "sleeves": [],
+    "damage_markers": "",
+    "promos": [],
+    "other": ""
   },
   {
     "id": "product-55",
@@ -1116,7 +1117,7 @@
     "type": "Booster Pack",
     "release_date": "2026-03-27",
     "tcgplayer_id": "672398",
-    "description": "Packs contain 10 random cards.",
+    "description": "Each pack contains 10 cards.",
     "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/672398_in_1000x1000.jpg",
     "packs": {
       "me03": 1
@@ -1133,16 +1134,16 @@
     "type": "Pokemon Center Elite Trainer Box",
     "release_date": "2026-03-27",
     "tcgplayer_id": "672404",
-    "description": "The Pokémon Center Elite Trainer Box includes: •11 Pokémon booster packs •Each booster pack contains 10 cards and 1 Basic Energy. Cards vary by pack. • 65 card sleeves • 45 Pokémon TCG Energy cards • A player's guide to the expansion • 6 damage-counter dice • 1 competition-legal coin-flip die • 2 plastic condition markers • A box to hold everything, with 4 dividers to keep it organized • A code card for Pokémon Trading Card Game Live",
+    "description": "Each Pokémon Center Elite Trainer Box contains 11 booster packs, a promo card, 65 card sleeves, 40 Energy cards, A player's guide, 6 damage-counter dice, 1 competition-legal coin-flip die, 1 plastic coin, 6 dividers, a collector's box to hold everything, and a code card for Pokémon TCG Live.",
     "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/672404_in_1000x1000.jpg",
     "packs": {
       "me03": 11
     },
     "coins": [],
-    "sleeves": null,
-    "promos": null,
-    "damage_markers": null,
-    "other": null
+    "sleeves": [],
+    "damage_markers": "",
+    "promos": [],
+    "other": ""
   },
   {
     "id": "product-57",
@@ -1150,7 +1151,7 @@
     "type": "Sleeved Booster Pack",
     "release_date": "2026-03-27",
     "tcgplayer_id": "672412",
-    "description": "Packs contain 10 random cards; individual pack has a cardboard guard.",
+    "description": "Each pack contains 10 cards.",
     "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/672412_in_1000x1000.jpg",
     "packs": {
       "me03": 1
@@ -1167,7 +1168,7 @@
     "type": "Booster Bundle",
     "release_date": "2026-03-27",
     "tcgplayer_id": "672396",
-    "description": "Expand your collection with this Booster Bundle containing six booster packs!",
+    "description": "Each Booster Bundle contains 6 booster packs.",
     "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/672396_in_1000x1000.jpg",
     "packs": {
       "me03": 6
@@ -1184,7 +1185,7 @@
     "type": "Booster Box Case",
     "release_date": "2026-03-27",
     "tcgplayer_id": "672395",
-    "description": "Each booster box case contains 6 boxes of 36 packs each.",
+    "description": "Each Booster Box Case contains 6 Booster Boxes.",
     "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/672395_in_1000x1000.jpg",
     "packs": {
       "me03": 216
@@ -1201,7 +1202,7 @@
     "type": "3 Pack Blister",
     "release_date": "2026-03-27",
     "tcgplayer_id": "672393",
-    "description": "Each blister comes with 3 booster packs and a promotional card.",
+    "description": "Each 3 Pack Blister contains 3 booster packs and a promo card.",
     "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/672393_in_1000x1000.jpg",
     "packs": {
       "me03": 3
@@ -1220,7 +1221,7 @@
     "type": "Build & Battle Box",
     "release_date": "2026-03-27",
     "tcgplayer_id": "672400",
-    "description": "Contents: • A 40-card ready-to-play deck, including 1 of 4 unique foil promo cards • 4 Pokémon booster packs • A code card for Pokémon TCG Live",
+    "description": "Each Build & Battle Box contains a 40-card ready-to-play deck, 4 booster packs, 1 promo card, and a code card for Pokémon TCG Live.",
     "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/672400_in_1000x1000.jpg",
     "packs": {
       "me03": 3
@@ -1237,7 +1238,7 @@
     "type": "Elite Trainer Box Case",
     "release_date": "2026-03-27",
     "tcgplayer_id": "672402",
-    "description": "Each sealed Elite Trainer Box includes 10 elite trainer boxes.  Individual Pokémon Elite Trainer Boxes include: • 9 Pokémon booster packs • 65 card sleeves • 45 Pokémon TCG Energy cards • A player's guide to the expansion • 6 damage-counter dice • 1 competition-legal coin-flip die • 2 plastic condition markers • A collector's box to hold everything, with 4 dividers to keep it organized • A code card for Pokémon Trading Card Game Live",
+    "description": "Each Elite Trainer Box Case contains 10 Elite Trainer Boxes.",
     "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/672402_in_1000x1000.jpg",
     "packs": {
       "me03": 90
@@ -1254,7 +1255,7 @@
     "type": "Single Pack Blister",
     "release_date": "2026-03-27",
     "tcgplayer_id": "672410",
-    "description": "Each blister comes with 1 booster pack, 1 coin, and a promotional card.",
+    "description": "Each Single Pack Blister contains 1 booster pack, [1] promo card(s), and a coin.",
     "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/672410_in_1000x1000.jpg",
     "packs": {
       "me03": 1
@@ -1278,7 +1279,7 @@
     "type": "Sleeved Booster Case",
     "release_date": "2026-03-27",
     "tcgplayer_id": "672411",
-    "description": "Each Sleeved Booster Pack Case contains 144 booster packs.",
+    "description": "Each Sleeved Booster Case contains 144 Sleeved Booster Packs.",
     "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/672411_in_1000x1000.jpg",
     "packs": {
       "me03": 144
@@ -1295,7 +1296,7 @@
     "type": "Premium Checklane Blister",
     "release_date": "2026-03-27",
     "tcgplayer_id": "672408",
-    "description": " Product details: • 1 booster pack • A code card for Pokémon Trading Card Game Live • Coin • 2 cards featuring an evolution line!",
+    "description": "Each Premium Checklane Blister contains 1 booster pack, 3 promo card(s), and a coin.",
     "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/672408_in_1000x1000.jpg",
     "packs": {
       "me03": 1
@@ -1320,7 +1321,7 @@
     "type": "Premium Checklane Blister",
     "release_date": "2026-03-27",
     "tcgplayer_id": "672406",
-    "description": "Product details: • 1 booster pack • A code card for Pokémon Trading Card Game Live • Coin • 3 cards featuring an evolution line!",
+    "description": "Each Premium Checklane Blister contains 1 booster pack, 3 promo card(s), and a coin.",
     "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/672406_in_1000x1000.jpg",
     "packs": {
       "me03": 1
@@ -1346,7 +1347,7 @@
     "type": "Premium Checklane Blister",
     "release_date": "2026-03-27",
     "tcgplayer_id": "672409",
-    "description": "Product details: • 1 booster pack • A code card for Pokémon Trading Card Game Live • Coin • 2 cards featuring an evolution line!",
+    "description": "Each Premium Checklane Blister contains 1 booster pack, 3 promo card(s), and a coin.",
     "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/672409_in_1000x1000.jpg",
     "packs": {
       "me03": 1
@@ -1366,7 +1367,7 @@
     "type": "Premium Checklane Blister",
     "release_date": "2026-03-27",
     "tcgplayer_id": "672407",
-    "description": "Product details: • 1 booster pack • A code card for Pokémon Trading Card Game Live • Coin • 3 cards featuring an evolution line!",
+    "description": "Each Premium Checklane Blister contains 1 booster pack, 3 promo card(s), and a coin.",
     "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/672407_in_1000x1000.jpg",
     "packs": {
       "me03": 1
@@ -1392,7 +1393,7 @@
     "type": "Booster Bundle Case",
     "release_date": "2026-03-27",
     "tcgplayer_id": "672397",
-    "description": "Each sealed Booster Bundle Case contains 25 bundle boxes.",
+    "description": "Each Booster Bundle Case contains 25 Booster Bundles.",
     "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/672397_in_1000x1000.jpg",
     "packs": {
       "me03": 25
@@ -1409,7 +1410,7 @@
     "type": "Build & Battle Box Display",
     "release_date": "2026-03-27",
     "tcgplayer_id": "690172",
-    "description": "Contents: Display contains 10 Perfect Order Build & Battle Boxes.",
+    "description": "Each Build & Battle Box Display contains 10 Build & Battle Boxes.",
     "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/690172_in_1000x1000.jpg",
     "packs": {
       "me03": 40
@@ -1426,7 +1427,7 @@
     "type": "Half Booster Box",
     "release_date": "2026-03-27",
     "tcgplayer_id": "672403",
-    "description": "Each half booster box contains 18 booster packs",
+    "description": "Each Half Booster Box contains 18 booster packs.",
     "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/672403_in_1000x1000.jpg",
     "packs": {
       "me03": 18
@@ -1443,7 +1444,7 @@
     "type": "Booster Pack",
     "release_date": "2026-05-22",
     "tcgplayer_id": "684446",
-    "description": "Each sealed Chaos Rising Booster Pack contains 10 random cards",
+    "description": "Each pack contains 10 cards.",
     "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/684446_in_1000x1000.jpg",
     "packs": {
       "me04": 1
@@ -1460,7 +1461,7 @@
     "type": "Booster Box",
     "release_date": "2026-05-22",
     "tcgplayer_id": "684444",
-    "description": "Each Chaos Rising Booster Box contains 36 booster packs (contents vary by product)",
+    "description": "Each Booster Box contains 36 booster packs.",
     "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/684444_in_1000x1000.jpg",
     "packs": {
       "me04": 36
@@ -1477,16 +1478,16 @@
     "type": "Elite Trainer Box",
     "release_date": "2026-05-22",
     "tcgplayer_id": "684450",
-    "description": "The Pokémon TCG: Mega Evolution—Chaos Rising Elite Trainer Box includes: • 9 Pokémon TCG: Mega Evolution—Chaos Rising booster packs (contents vary by product) • 1 full-art foil promo card featuring Fennekin • 65 card sleeves • 40 Pokémon TCG Energy cards • A player’s guide to the Mega Evolution—Chaos Rising expansion • 6 damage-counter dice • 1 competition-legal coin-flip die • 1 plastic coin • A collector’s box to hold everything, with 6 dividers to keep it organized • A code card for Pokémon Trading Card Game Live",
+    "description": "Each Elite Trainer Box contains 9 booster packs, a promo card, 65 card sleeves, 40 Energy cards, A player's guide, 6 damage-counter dice, 1 competition-legal coin-flip die, 1 plastic coin, 6 dividers, a collector's box to hold everything, and a code card for Pokémon TCG Live.",
     "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/684450_in_1000x1000.jpg",
     "packs": {
       "me04": 9
     },
     "coins": [],
-    "sleeves": null,
-    "promos": null,
-    "damage_markers": null,
-    "other": null
+    "sleeves": [],
+    "damage_markers": "",
+    "promos": [],
+    "other": ""
   },
   {
     "id": "product-75",
@@ -1494,7 +1495,7 @@
     "type": "Booster Bundle",
     "release_date": "2026-05-22",
     "tcgplayer_id": "684456",
-    "description": "Each Chaos Rising Booster Bundle contains 6 Chaos Rising Booster Packs",
+    "description": "Each Booster Bundle contains 6 booster packs.",
     "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/684456_in_1000x1000.jpg",
     "packs": {
       "me04": 6
@@ -1511,7 +1512,7 @@
     "type": "Sleeved Booster Pack",
     "release_date": "2026-05-22",
     "tcgplayer_id": "684448",
-    "description": "Each sealed Chaos Rising Booster Pack in a cardboard guard contains 10 random card",
+    "description": "Each pack contains 10 cards.",
     "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/684448_in_1000x1000.jpg",
     "packs": {},
     "coins": [],
@@ -1526,16 +1527,16 @@
     "type": "Pokemon Center Elite Trainer Box",
     "release_date": "2026-05-22",
     "tcgplayer_id": "684452",
-    "description": "The Pokémon TCG: Mega Evolution—Chaos Rising Elite Trainer Box includes: • 11 Pokémon TCG: Mega Evolution—Chaos Rising booster packs (contents vary by product) • 1 full-art foil promo card featuring Fennekin • 65 card sleeves • 40 Pokémon TCG Energy cards • A player’s guide to the Mega Evolution—Chaos Rising expansion • 6 damage-counter dice • 1 competition-legal coin-flip die • 1 plastic coin • A collector’s box to hold everything, with 6 dividers to keep it organized • A code card for Pokémon Trading Card Game Live",
+    "description": "Each Pokémon Center Elite Trainer Box contains 11 booster packs, a promo card, 65 card sleeves, 40 Energy cards, A player's guide, 6 damage-counter dice, 1 competition-legal coin-flip die, 1 plastic coin, 6 dividers, a collector's box to hold everything, and a code card for Pokémon TCG Live.",
     "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/684452_in_1000x1000.jpg",
     "packs": {
       "me04": 11
     },
     "coins": [],
-    "sleeves": null,
-    "promos": null,
-    "damage_markers": null,
-    "other": null
+    "sleeves": [],
+    "damage_markers": "",
+    "promos": [],
+    "other": ""
   },
   {
     "id": "product-78",
@@ -1543,7 +1544,7 @@
     "type": "Single Pack Blister",
     "release_date": "2026-05-22",
     "tcgplayer_id": "684457",
-    "description": " Each blister comes with 1 booster pack, 1 coin, and a promotional card",
+    "description": "Each Single Pack Blister contains 1 booster pack, [1] promo card(s), and a coin.",
     "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/684457_in_1000x1000.jpg",
     "packs": {},
     "coins": [
@@ -1565,7 +1566,7 @@
     "type": "3-Pack Blister",
     "release_date": "2026-05-22",
     "tcgplayer_id": "684458",
-    "description": "Each blister comes with 3 booster packs and promotional card.",
+    "description": "Each 3-Pack Blister contains 3 booster packs and a promo card.",
     "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/684458_in_1000x1000.jpg",
     "packs": {
       "me04": 3
@@ -1584,7 +1585,7 @@
     "type": "Booster Box Case",
     "release_date": "2026-05-22",
     "tcgplayer_id": "684445",
-    "description": "Each sealed Chaos Rising Booster Box Case contains 6 Booster Boxes.",
+    "description": "Each Booster Box Case contains 6 Booster Boxes.",
     "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/684445_in_1000x1000.jpg",
     "packs": {
       "me04": 216
@@ -1601,7 +1602,7 @@
     "type": "Elite Trainer Box Case",
     "release_date": "2026-05-22",
     "tcgplayer_id": "684451",
-    "description": "Each sealed Pokémon TCG: Mega Evolution—Chaos Rising Elite Trainer Box Case contains 10 Chaos Rising Elite Trainer Boxes.",
+    "description": "Each Elite Trainer Box Case contains 10 Elite Trainer Boxes.",
     "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/684451_in_1000x1000.jpg",
     "packs": {
       "me04": 90
@@ -1618,7 +1619,7 @@
     "type": "Build & Battle Box",
     "release_date": "2026-05-22",
     "tcgplayer_id": "684454",
-    "description": " A 40-card ready-to-play deck, including 1 of 4 unique foil promo cards • 4 Pokémon booster packs (contents vary by product) • A code card for Pokémon TCG Live",
+    "description": "Each Build & Battle Box contains a 40-card ready-to-play deck, 4 booster packs, 1 promo card, and a code card for Pokémon TCG Live.",
     "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/684454_in_1000x1000.jpg",
     "packs": {
       "me04": 4
@@ -1635,7 +1636,7 @@
     "type": "Premium Checklane Blister",
     "release_date": "2026-05-22",
     "tcgplayer_id": "684459",
-    "description": "Each blister comes with 1 booster pack, 1 coin, and features cards from an evolutionary line. ",
+    "description": "Each Premium Checklane Blister contains 1 booster pack, 3 promo card(s), and a coin.",
     "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/684459_in_1000x1000.jpg",
     "packs": {
       "me04": 1
@@ -1656,7 +1657,7 @@
     "type": "Single Pack Blister",
     "release_date": "2026-05-22",
     "tcgplayer_id": "696144",
-    "description": "Each blister comes with 1 booster pack, 1 coin, and 2 promotional cards.",
+    "description": "Each Single Pack Blister contains 1 booster pack, [1] promo card(s), and a coin.",
     "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/696144_in_1000x1000.jpg",
     "packs": {
       "me04": 1
@@ -1676,7 +1677,7 @@
     "type": "Premium Checklane Blister",
     "release_date": "2026-05-22",
     "tcgplayer_id": "684460",
-    "description": "Each blister comes with 1 booster pack, 1 coin, and features cards from an evolutionary line.",
+    "description": "Each Premium Checklane Blister contains 1 booster pack, 3 promo card(s), and a coin.",
     "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/684460_in_1000x1000.jpg",
     "packs": {
       "me04": 1
@@ -1697,7 +1698,7 @@
     "type": "Single Pack Blister",
     "release_date": "2026-05-22",
     "tcgplayer_id": "696150",
-    "description": "Each blister comes with 1 booster pack, 1 coin, and 2 promotional cards. ",
+    "description": "Each Single Pack Blister contains 1 booster pack, [1] promo card(s), and a coin.",
     "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/696150_in_1000x1000.jpg",
     "packs": {
       "me04": 1
@@ -1717,7 +1718,7 @@
     "type": "Sleeved Booster Case",
     "release_date": "2026-05-22",
     "tcgplayer_id": "690684",
-    "description": "Each Chaos Rising sleeved booster pack case contains 144 booster packs.",
+    "description": "Each Sleeved Booster Case contains 144 Sleeved Booster Packs.",
     "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/690684_in_1000x1000.jpg",
     "packs": {
       "me04": 144
@@ -1734,7 +1735,7 @@
     "type": "Booster Bundle Case",
     "release_date": "2026-05-22",
     "tcgplayer_id": "688949",
-    "description": "Each sealed Chaos Rising Booster Bundle Case contains 25 bundle boxes.",
+    "description": "Each Booster Bundle Case contains 25 Booster Bundles.",
     "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/688949_in_1000x1000.jpg",
     "packs": {
       "me04": 150
@@ -1785,7 +1786,7 @@
     "type": "Half Booster Box",
     "release_date": "2026-05-22",
     "tcgplayer_id": "695395",
-    "description": "Each Chaos Rising Booster Box contains 18 booster pack",
+    "description": "Each Half Booster Box contains 18 booster packs.",
     "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/695395_in_1000x1000.jpg",
     "packs": {
       "me04": 18
