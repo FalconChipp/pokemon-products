@@ -3982,5 +3982,562 @@
     ],
     "damage_markers": null,
     "other": null
+  },
+  {
+    "id": "product-213",
+    "name": "151 Booster Pack",
+    "type": "Booster Pack",
+    "release_date": "2023-09-22",
+    "tcgplayer_id": "504467",
+    "description": "Each pack contains 10 cards.",
+    "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/504467_in_1000x1000.jpg",
+    "packs": {
+      "sv03.5": "1"
+    },
+    "coins": [],
+    "sleeves": null,
+    "promos": null,
+    "damage_markers": null,
+    "other": null
+  },
+  {
+    "id": "product-214",
+    "name": "151 Booster Bundle",
+    "type": "Booster Bundle",
+    "release_date": "2023-09-22",
+    "tcgplayer_id": "502000",
+    "description": "Each Booster Bundle contains 6 booster packs.",
+    "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/502000_in_1000x1000.jpg",
+    "packs": {
+      "sv03.5": "6"
+    },
+    "coins": [],
+    "sleeves": null,
+    "promos": null,
+    "damage_markers": null,
+    "other": null
+  },
+  {
+    "id": "product-215",
+    "name": "151 Poster Collection",
+    "type": "Poster Collection",
+    "release_date": "2023-09-22",
+    "tcgplayer_id": "502001",
+    "description": "Each 151 Poster Collection contains 3 Booster packs, 3 promo cards, and 1 poster",
+    "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/502001_in_1000x1000.jpg",
+    "packs": {
+      "sv03.5": 3
+    },
+    "coins": [],
+    "sleeves": null,
+    "promos": [
+      "svp-046 (Cosmos Holo)",
+      "svp-047 (Cosmos Holo)",
+      "svp-048 (Cosmos Holo)"
+    ],
+    "damage_markers": null,
+    "other": null
+  },
+  {
+    "id": "product-216",
+    "name": "151 Ultra-Premium Collection",
+    "type": "Ultra-Premium Collection",
+    "release_date": "2023-10-06",
+    "tcgplayer_id": "502005",
+    "description": "Each 151 Ultra-Premium Collection contains 12 Booster Packs, 1 etched metal card, 2 promo cards, 1 playmat, 1 deck box, 1 metallis coin, 6 damage-counter dice, 2 plastic condition markers, and a code card for Pokemon TCG Live",
+    "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/502005_in_1000x1000.jpg",
+    "packs": {
+      "sv03.5": 16
+    },
+    "coins": [],
+    "sleeves": null,
+    "promos": [
+      "svp-052",
+      "svp-053"
+    ],
+    "damage_markers": null,
+    "other": null
+  },
+  {
+    "id": "product-217",
+    "name": "151 Elite Trainer Box",
+    "type": "Elite Trainer Box",
+    "release_date": "2023-09-22",
+    "tcgplayer_id": "503313",
+    "description": "Each Elite Trainer Box contains 9 booster packs, a promo card, 65 card sleeves, 40 Energy cards, A player's guide, 6 damage-counter dice, 1 competition-legal coin-flip die, 2 plastic condition markers, 4 dividers, a collector's box to hold everything, and a code card for Pokémon TCG Live.",
+    "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/503313_in_1000x1000.jpg",
+    "packs": {
+      "sv03.5": "9"
+    },
+    "coins": [],
+    "sleeves": null,
+    "promos": [
+      "svp-051"
+    ],
+    "damage_markers": null,
+    "other": null
+  },
+  {
+    "id": "product-218",
+    "name": "151: Alakazam ex Collection",
+    "type": null,
+    "release_date": "2023-10-06",
+    "tcgplayer_id": "502006",
+    "description": "Each 151: Alakazam ex Collection contains 4 Booster Packs and 3 promo cards.",
+    "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/502006_in_1000x1000.jpg",
+    "packs": {
+      "sv03.5": 4
+    },
+    "coins": [],
+    "sleeves": null,
+    "promos": [
+      "svp-050",
+      "sv03.5-063 (Cosmos Holo)",
+      "sv03.5-064 (Cosmos Holo)"
+    ],
+    "damage_markers": null,
+    "other": null
+  },
+  {
+    "id": "product-219",
+    "name": "151: Blooming Waters Premium Collection",
+    "type": null,
+    "release_date": "2025-02-07",
+    "tcgplayer_id": "609597",
+    "description": "Each Blooming Waters Premium Collection contains 12 Booster Packs, 4 promo cards, and 1 jumbo card.",
+    "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/609597_in_1000x1000.jpg",
+    "packs": {
+      "sv03.5": 12
+    },
+    "coins": [],
+    "sleeves": null,
+    "promos": [
+      "sv03.5-001",
+      "sv03.5-003",
+      "sv03.5-007",
+      "sv03.5-009",
+      "sv03.5-009 (Jumbo)"
+    ],
+    "damage_markers": null,
+    "other": null
+  },
+  {
+    "id": "product-220",
+    "name": "151 Binder Collection",
+    "type": "Binder Collection",
+    "release_date": "2023-09-22",
+    "tcgplayer_id": "502004",
+    "description": "Each 151 Binder Collection contains 4 Booster Packs and a binder with 20 9-pocket pages.",
+    "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/502004_in_1000x1000.jpg",
+    "packs": {
+      "sv03.5": 4
+    },
+    "coins": [],
+    "sleeves": null,
+    "promos": null,
+    "damage_markers": null,
+    "other": null
+  },
+  {
+    "id": "product-221",
+    "name": "Sam's Club 151 (4 Mini Tins + 4 Promo Cards Bundle)",
+    "type": null,
+    "release_date": "2025-10-28",
+    "tcgplayer_id": "662302",
+    "description": "Each Bundle contains 4 Mini Tins and 4 promo cards.",
+    "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/662302_in_1000x1000.jpg",
+    "packs": {
+      "sv03.5": "8"
+    },
+    "coins": [],
+    "sleeves": null,
+    "promos": [
+      "sv03.5-026 (Cosmos Holo)",
+      "sv03.5-068 (Cosmos Holo)",
+      "sv03.5-094 (Cosmos Holo)",
+      "sv03.5-149 (Cosmos Holo)"
+    ],
+    "damage_markers": null,
+    "other": null
+  },
+  {
+    "id": "product-222",
+    "name": "151: Zapdos ex Collection",
+    "type": null,
+    "release_date": "2023-10-06",
+    "tcgplayer_id": "502007",
+    "description": "Each 151: Zapdos ex Collection contains 4 Booster Packs, 2 promo cards, and 1 jumbo card.",
+    "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/502007_in_1000x1000.jpg",
+    "packs": {
+      "sv03.5": 4
+    },
+    "coins": [],
+    "sleeves": null,
+    "promos": [
+      "sv03.5-125",
+      "svp-049",
+      "svp-049 (Jumbo)"
+    ],
+    "damage_markers": null,
+    "other": null
+  },
+  {
+    "id": "product-223",
+    "name": "151 Mini Tin [Gengar & Poliwag]",
+    "type": "Mini Tin",
+    "release_date": "2023-10-06",
+    "tcgplayer_id": "522702",
+    "description": "Each Mini Tin contains 2 booster packs and an art card.",
+    "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/522702_in_1000x1000.jpg",
+    "packs": {
+      "sv03.5": "2"
+    },
+    "coins": [],
+    "sleeves": null,
+    "promos": null,
+    "damage_markers": null,
+    "other": null
+  },
+  {
+    "id": "product-224",
+    "name": "151 Mini Tin [Weezing & Scyther]",
+    "type": "Mini Tin",
+    "release_date": "2023-10-06",
+    "tcgplayer_id": "522707",
+    "description": "Each Mini Tin contains 2 booster packs and an art card.",
+    "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/522707_in_1000x1000.jpg",
+    "packs": {
+      "sv03.5": "2"
+    },
+    "coins": [],
+    "sleeves": null,
+    "promos": null,
+    "damage_markers": null,
+    "other": null
+  },
+  {
+    "id": "product-225",
+    "name": "151 Mini Tin [Slowpoke & Sandshrew]",
+    "type": "Mini Tin",
+    "release_date": "2023-10-06",
+    "tcgplayer_id": "522708",
+    "description": "Each Mini Tin contains 2 booster packs and an art card.",
+    "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/522708_in_1000x1000.jpg",
+    "packs": {
+      "sv03.5": "2"
+    },
+    "coins": [],
+    "sleeves": null,
+    "promos": null,
+    "damage_markers": null,
+    "other": null
+  },
+  {
+    "id": "product-226",
+    "name": "151 Pokemon Center Elite Trainer Box",
+    "type": "Pokemon Center Elite Trainer Box",
+    "release_date": "2023-09-22",
+    "tcgplayer_id": "501999",
+    "description": "Each Pokemon Center Elite Trainer Box contains 11 booster packs, a promo card, 65 card sleeves, 40 Energy cards, A player's guide, 6 damage-counter dice, 1 competition-legal coin-flip die, 2 plastic condition markers, 4 dividers, a collector's box to hold everything, and a code card for Pokémon TCG Live.",
+    "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/501999_in_1000x1000.jpg",
+    "packs": {
+      "sv03.5": "11"
+    },
+    "coins": [],
+    "sleeves": null,
+    "promos": [
+      "svp-051 (Pokemon Center Stamp)"
+    ],
+    "damage_markers": null,
+    "other": null
+  },
+  {
+    "id": "product-227",
+    "name": "151 Mini Tin [Machamp & Cubone]",
+    "type": "Mini Tin",
+    "release_date": "2023-10-06",
+    "tcgplayer_id": "522704",
+    "description": "Each Mini Tin contains 2 booster packs and an art card.",
+    "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/522704_in_1000x1000.jpg",
+    "packs": {
+      "sv03.5": "2"
+    },
+    "coins": [],
+    "sleeves": null,
+    "promos": null,
+    "damage_markers": null,
+    "other": null
+  },
+  {
+    "id": "product-228",
+    "name": "151 Booster Bundle Display",
+    "type": "Booster Bundle Display",
+    "release_date": "2023-09-22",
+    "tcgplayer_id": "513405",
+    "description": "Each Booster Bundle Display contains 10 Booster Bundles",
+    "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/513405_in_1000x1000.jpg",
+    "packs": {
+      "sv03.5": "60"
+    },
+    "coins": [],
+    "sleeves": null,
+    "promos": null,
+    "damage_markers": null,
+    "other": null
+  },
+  {
+    "id": "product-229",
+    "name": "151 Mini Tin [Dragonite & Vileplume]",
+    "type": "Mini Tin",
+    "release_date": "2023-10-06",
+    "tcgplayer_id": "522700",
+    "description": "Each Mini Tin contains 2 booster packs and an art card.",
+    "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/522700_in_1000x1000.jpg",
+    "packs": {
+      "sv03.5": "2"
+    },
+    "coins": [],
+    "sleeves": null,
+    "promos": null,
+    "damage_markers": null,
+    "other": null
+  },
+  {
+    "id": "product-230",
+    "name": "151 Mini Tin [Hitmonchan & Meowth]",
+    "type": "Mini Tin",
+    "release_date": "2023-10-06",
+    "tcgplayer_id": "522706",
+    "description": "Each Mini Tin contains 2 booster packs and an art card.",
+    "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/522706_in_1000x1000.jpg",
+    "packs": {
+      "sv03.5": "2"
+    },
+    "coins": [],
+    "sleeves": null,
+    "promos": null,
+    "damage_markers": null,
+    "other": null
+  },
+  {
+    "id": "product-231",
+    "name": "151 Mini Tin [Hitmonlee & Kadabra]",
+    "type": "Mini Tin",
+    "release_date": "2023-10-06",
+    "tcgplayer_id": "522703",
+    "description": "Each Mini Tin contains 2 booster packs and an art card.",
+    "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/522703_in_1000x1000.jpg",
+    "packs": {
+      "sv03.5": "2"
+    },
+    "coins": [],
+    "sleeves": null,
+    "promos": null,
+    "damage_markers": null,
+    "other": null
+  },
+  {
+    "id": "product-232",
+    "name": "151 Mini Tin Display",
+    "type": "Mini Tin Display",
+    "release_date": "2023-10-06",
+    "tcgplayer_id": "502008",
+    "description": "Each Mini Tin Display contains 10 Mini Tins.",
+    "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/502008_in_1000x1000.jpg",
+    "packs": {
+      "sv03.5": "20"
+    },
+    "coins": [],
+    "sleeves": null,
+    "promos": null,
+    "damage_markers": null,
+    "other": null
+  },
+  {
+    "id": "product-233",
+    "name": "151 Mini Tin Display Case",
+    "type": "Mini Tin Display Case",
+    "release_date": "2023-10-06",
+    "tcgplayer_id": "668357",
+    "description": "Each Mini Tin Display Case contains 4 Mini Tin Displays.",
+    "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/668357_in_1000x1000.jpg",
+    "packs": {
+      "sv03.5": "80"
+    },
+    "coins": [],
+    "sleeves": null,
+    "promos": null,
+    "damage_markers": null,
+    "other": null
+  },
+  {
+    "id": "product-234",
+    "name": "151 Elite Trainer Box Case",
+    "type": "Elite Trainer Box Case",
+    "release_date": "2023-09-22",
+    "tcgplayer_id": "506640",
+    "description": "Each Elite Trainer Box Case contains 10 Elite Trainer Boxes.",
+    "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/506640_in_1000x1000.jpg",
+    "packs": {
+      "sv03.5": "90"
+    },
+    "coins": [],
+    "sleeves": null,
+    "promos": null,
+    "damage_markers": null,
+    "other": null
+  },
+  {
+    "id": "product-235",
+    "name": "151 Binder Collection Case",
+    "type": "Binder Collection Case",
+    "release_date": "2023-09-22",
+    "tcgplayer_id": "502003",
+    "description": "Each Binder Collection Case contains 6 Binder Collections.",
+    "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/502003_in_1000x1000.jpg",
+    "packs": {
+      "sv03.5": 24
+    },
+    "coins": [],
+    "sleeves": null,
+    "promos": null,
+    "damage_markers": null,
+    "other": null
+  },
+  {
+    "id": "product-236",
+    "name": "151 Mini Tin [Arcanine & Omanyte]",
+    "type": "Mini Tin",
+    "release_date": "2023-10-06",
+    "tcgplayer_id": "522699",
+    "description": "Each Mini Tin contains 2 booster packs and an art card.",
+    "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/522699_in_1000x1000.jpg",
+    "packs": {
+      "sv03.5": "2"
+    },
+    "coins": [],
+    "sleeves": null,
+    "promos": null,
+    "damage_markers": null,
+    "other": null
+  },
+  {
+    "id": "product-237",
+    "name": "151 Alakazam ex Collection Case",
+    "type": null,
+    "release_date": "2023-10-06",
+    "tcgplayer_id": "518781",
+    "description": "Each Case contains 6 151 Alakazam ex Collections.",
+    "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/518781_in_1000x1000.jpg",
+    "packs": {
+      "sv03.5": 24
+    },
+    "coins": [],
+    "sleeves": null,
+    "promos": null,
+    "damage_markers": null,
+    "other": null
+  },
+  {
+    "id": "product-238",
+    "name": "151 Mini Tin [Magneton & Ekans]",
+    "type": "Mini Tin",
+    "release_date": "2023-10-06",
+    "tcgplayer_id": "522705",
+    "description": "Each Mini Tin contains 2 booster packs and an art card.",
+    "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/522705_in_1000x1000.jpg",
+    "packs": {
+      "sv03.5": "2"
+    },
+    "coins": [],
+    "sleeves": null,
+    "promos": null,
+    "damage_markers": null,
+    "other": null
+  },
+  {
+    "id": "product-239",
+    "name": "151 Booster Bundle Case",
+    "type": "Booster Bundle Case",
+    "release_date": "2023-09-22",
+    "tcgplayer_id": "530105",
+    "description": "Each Booster Bundle Case contains 25 Booster Bundles.",
+    "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/530105_in_1000x1000.jpg",
+    "packs": {
+      "sv03.5": "150"
+    },
+    "coins": [],
+    "sleeves": null,
+    "promos": null,
+    "damage_markers": null,
+    "other": null
+  },
+  {
+    "id": "product-240",
+    "name": "151 Mini Tin [Electabuzz & Magnemites]",
+    "type": "Mini Tin",
+    "release_date": "2023-10-22",
+    "tcgplayer_id": "522701",
+    "description": "Each Mini Tin contains 2 booster packs and an art card.",
+    "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/522701_in_1000x1000.jpg",
+    "packs": {
+      "sv03.5": "2"
+    },
+    "coins": [],
+    "sleeves": null,
+    "promos": null,
+    "damage_markers": null,
+    "other": null
+  },
+  {
+    "id": "product-241",
+    "name": "151 Zapdos ex Collection Case",
+    "type": null,
+    "release_date": "2023-10-06",
+    "tcgplayer_id": "518782",
+    "description": "Each case contains 6 151 Zapdos ex Collections.",
+    "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/518782_in_1000x1000.jpg",
+    "packs": {
+      "sv03.5": 24
+    },
+    "coins": [],
+    "sleeves": null,
+    "promos": null,
+    "damage_markers": null,
+    "other": null
+  },
+  {
+    "id": "product-242",
+    "name": "151 Ultra-Premium Collection Case",
+    "type": "",
+    "release_date": "2023-10-06",
+    "tcgplayer_id": "515970",
+    "description": "Each case contains 4 151 Ultra-Premium Collections.",
+    "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/515970_in_1000x1000.jpg",
+    "packs": {
+      "sv03.5": 56
+    },
+    "coins": [],
+    "sleeves": [],
+    "damage_markers": "",
+    "promos": [],
+    "other": ""
+  },
+  {
+    "id": "product-243",
+    "name": "151 Poster Collection Case",
+    "type": "Poster Collection Case",
+    "release_date": "2023-09-22",
+    "tcgplayer_id": "502002",
+    "description": "Each case contains 6 Poster Collections.",
+    "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/502002_in_1000x1000.jpg",
+    "packs": {
+      "sv03.5": 18
+    },
+    "coins": [],
+    "sleeves": null,
+    "promos": null,
+    "damage_markers": null,
+    "other": null
   }
 ]
