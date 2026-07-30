@@ -2156,5 +2156,616 @@
     "promos": null,
     "damage_markers": null,
     "other": null
+  },
+  {
+    "id": "product-112",
+    "name": "Ascended Heroes Booster Pack",
+    "type": "Booster Pack",
+    "release_date": "2026-01-30",
+    "tcgplayer_id": "672434",
+    "description": "Each pack contains 10 cards.",
+    "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/672434_in_1000x1000.jpg",
+    "packs": {
+      "me02.5": 1
+    },
+    "coins": [],
+    "sleeves": null,
+    "promos": null,
+    "damage_markers": null,
+    "other": null
+  },
+  {
+    "id": "product-113",
+    "name": "Ascended Heroes Booster Bundle",
+    "type": "Booster Bundle",
+    "release_date": "2026-04-24",
+    "tcgplayer_id": "668541",
+    "description": "Each Booster Bundle contains 6 booster packs.",
+    "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/668541_in_1000x1000.jpg",
+    "packs": {
+      "me02.5": 6
+    },
+    "coins": [],
+    "sleeves": null,
+    "promos": null,
+    "damage_markers": null,
+    "other": null
+  },
+  {
+    "id": "product-114",
+    "name": "Ascended Heroes Elite Trainer Box",
+    "type": "Elite Trainer Box",
+    "release_date": "2026-02-20",
+    "tcgplayer_id": "668496",
+    "description": "Each Elite Trainer Box contains 9 booster packs, a promo card, 65 card sleeves, 40 Energy cards, A player's guide, 6 damage-counter dice, 1 competition-legal coin-flip die, 1 plastic coin, 6 dividers, a collector's box to hold everything, and a code card for Pokémon TCG Live.",
+    "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/668496_in_1000x1000.jpg",
+    "packs": {
+      "me02.5": 9
+    },
+    "coins": [],
+    "sleeves": null,
+    "promos": [
+      "mep-031"
+    ],
+    "damage_markers": null,
+    "other": null
+  },
+  {
+    "id": "product-115",
+    "name": "Ascended Heroes Focused Fighters Premium Collection",
+    "type": "Premium Collection",
+    "release_date": "2026-07-21",
+    "tcgplayer_id": "706959",
+    "description": "Each Focused Fighters Premium Collection contains 14 Booster Packs, 4 promo cards, and 1 jumbo card.",
+    "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/706959_in_1000x1000.jpg",
+    "packs": {
+      "me02.5": 14
+    },
+    "coins": [],
+    "sleeves": null,
+    "promos": [
+      "me02.5-079",
+      "me02.5-116",
+      "me02.5-116 (Jumbo)"
+    ],
+    "damage_markers": null,
+    "other": null
+  },
+  {
+    "id": "product-116",
+    "name": "Ascended Heroes Premium Poster Collection: Mega Lucario",
+    "type": "Premium Poster Collection",
+    "release_date": "2026-03-20",
+    "tcgplayer_id": "668536",
+    "description": "Each Premium Poster Collection contains 10 Booster Packs, 1 promo card, 1 double-sided poster (26.875\" × 39\"), and a code card for Pokémon TCG Live",
+    "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/668536_in_1000x1000.jpg",
+    "packs": {
+      "me02.5": 10
+    },
+    "coins": [],
+    "sleeves": null,
+    "promos": [
+      "mep-033"
+    ],
+    "damage_markers": null,
+    "other": null
+  },
+  {
+    "id": "product-117",
+    "name": "Ascended Heroes Premium Poster Collection: Mega Gardevoir",
+    "type": "Premium Poster Collection",
+    "release_date": "2026-03-20",
+    "tcgplayer_id": "668537",
+    "description": "Each Premium Poster Collection contains 10 Booster Packs, 1 promo card, 1 double-sided poster (26.875\" × 39\"), and a code card for Pokémon TCG Live",
+    "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/668537_in_1000x1000.jpg",
+    "packs": {
+      "me02.5": 10
+    },
+    "coins": [],
+    "sleeves": null,
+    "promos": [
+      "mep-032"
+    ],
+    "damage_markers": null,
+    "other": null
+  },
+  {
+    "id": "product-118",
+    "name": "Ascended Heroes First Partners Deluxe Pin Collection",
+    "type": "Deluxe Pin Collection",
+    "release_date": "2026-03-20",
+    "tcgplayer_id": "672391",
+    "description": "Each First Partners Deluxe Pin Collection contains 5 Booster Packs, 3 promo cards, and a pin",
+    "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/672391_in_1000x1000.jpg",
+    "packs": {
+      "me02.5": 5
+    },
+    "coins": [],
+    "sleeves": null,
+    "promos": [
+      "me02.5-008 (Cosmos Holo)",
+      "me02.5-029 (Cosmos Holo)",
+      "me02.5-041 (Cosmoc Holo)"
+    ],
+    "damage_markers": null,
+    "other": null
+  },
+  {
+    "id": "product-119",
+    "name": "Ascended Heroes Mega Feraligatr ex Box",
+    "type": "ex Box",
+    "release_date": "2026-04-24",
+    "tcgplayer_id": "672735",
+    "description": "Each Mega Feraligatr ex Box contains 4 Booster Packs, 1 promo card, and 1 jumbo lenticular card.",
+    "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/672735_in_1000x1000.jpg",
+    "packs": {
+      "me02.5": 4
+    },
+    "coins": [],
+    "sleeves": null,
+    "promos": [
+      "mep-036",
+      "mep-036 (Jumbo Lenticular)"
+    ],
+    "damage_markers": null,
+    "other": null
+  },
+  {
+    "id": "product-120",
+    "name": "Ascended Heroes Mega Meganium ex Box",
+    "type": "ex Box",
+    "release_date": "2026-04-24",
+    "tcgplayer_id": "672733",
+    "description": "Each Mega Meganium ex Box contains 4 Booster Packs, 1 promo card, and 1 jumbo lenticular card.",
+    "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/672733_in_1000x1000.jpg",
+    "packs": {
+      "me02.5": 4
+    },
+    "coins": [],
+    "sleeves": null,
+    "promos": [
+      "mep-034",
+      "mep-034 (Jumbo Lenticular)"
+    ],
+    "damage_markers": null,
+    "other": null
+  },
+  {
+    "id": "product-121",
+    "name": "Ascended Heroes Mega Emboar ex Box",
+    "type": "ex Box",
+    "release_date": "2026-04-24",
+    "tcgplayer_id": "672734",
+    "description": "Each Mega Emboar ex Box contains 4 Booster Packs, 1 promo card, and 1 jumbo lenticular card.",
+    "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/672734_in_1000x1000.jpg",
+    "packs": {
+      "me02.5": 4
+    },
+    "coins": [],
+    "sleeves": null,
+    "promos": [
+      "mep-035",
+      "mep-035 (Jumbo Lenticular)"
+    ],
+    "damage_markers": null,
+    "other": null
+  },
+  {
+    "id": "product-122",
+    "name": "Ascended Heroes Collection [Erika]",
+    "type": null,
+    "release_date": "2026-02-20",
+    "tcgplayer_id": "666906",
+    "description": "Each Collection contains 2 Booster Packs, 1 promo card, and 1 coin",
+    "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/666906_in_1000x1000.jpg",
+    "packs": {
+      "me02.5": 2
+    },
+    "coins": [],
+    "sleeves": null,
+    "promos": [
+      "me02.5-007"
+    ],
+    "damage_markers": null,
+    "other": null
+  },
+  {
+    "id": "product-123",
+    "name": "Ascended Heroes Collection [Larry]",
+    "type": null,
+    "release_date": "2026-02-20",
+    "tcgplayer_id": "666907",
+    "description": "Each Collection contains 2 Booster Packs, 1 promo card, and 1 coin",
+    "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/666907_in_1000x1000.jpg",
+    "packs": {
+      "me02.5": 2
+    },
+    "coins": [],
+    "sleeves": null,
+    "promos": [
+      "me02.5-175"
+    ],
+    "damage_markers": null,
+    "other": null
+  },
+  {
+    "id": "product-124",
+    "name": "Ascended Heroes Pokemon Center Elite Trainer Box",
+    "type": "Pokemon Center Elite Trainer Box",
+    "release_date": "2026-07-20",
+    "tcgplayer_id": null,
+    "description": "Each Pokemon Center Elite Trainer Box contains 11 booster packs, a promo card, 65 card sleeves, 40 Energy cards, A player's guide, 6 damage-counter dice, 1 competition-legal coin-flip die, 1 plastic coin, 6 dividers, a collector's box to hold everything, and a code card for Pokémon TCG Live.",
+    "image_url": null,
+    "packs": {
+      "me02.5": 11
+    },
+    "coins": [],
+    "sleeves": null,
+    "promos": null,
+    "damage_markers": null,
+    "other": null
+  },
+  {
+    "id": "product-125",
+    "name": "Ascended Heroes Elite Trainer Box Case",
+    "type": "Elite Trainer Box Case",
+    "release_date": "2026-02-20",
+    "tcgplayer_id": "679558",
+    "description": "Each Elite Trainer Box Case contains 10 Elite Trainer Boxes.",
+    "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/679558_in_1000x1000.jpg",
+    "packs": {
+      "me02.5": 90
+    },
+    "coins": [],
+    "sleeves": null,
+    "promos": null,
+    "damage_markers": null,
+    "other": null
+  },
+  {
+    "id": "product-126",
+    "name": "Ascended Heroes Mini Tin Display",
+    "type": "Mini Tin Display",
+    "release_date": "2026-02-20",
+    "tcgplayer_id": "679556",
+    "description": "Each Mini Tin Display contains 10 Mini Tins.",
+    "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/679556_in_1000x1000.jpg",
+    "packs": {
+      "me02.5": 20
+    },
+    "coins": [],
+    "sleeves": null,
+    "promos": null,
+    "damage_markers": null,
+    "other": null
+  },
+  {
+    "id": "product-127",
+    "name": "Ascended Heroes Booster Bundle Case",
+    "type": "Booster Bundle Case",
+    "release_date": "2026-04-24",
+    "tcgplayer_id": "681339",
+    "description": "Each Booster Bundle Case contains 25 Booster Bundles.",
+    "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/681339_in_1000x1000.jpg",
+    "packs": {
+      "me02.5": 150
+    },
+    "coins": [],
+    "sleeves": null,
+    "promos": null,
+    "damage_markers": null,
+    "other": null
+  },
+  {
+    "id": "product-128",
+    "name": "Mega Evolution: Ascended Heroes Tech Sticker Collection [Gastly]",
+    "type": "Tech Sticker Collection",
+    "release_date": "2026-01-30",
+    "tcgplayer_id": "666909",
+    "description": "Each Tech Sticker Collection contains 3 Booster Packs, 1 promo card, and stickers.",
+    "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/666909_in_1000x1000.jpg",
+    "packs": {
+      "me02.5": 3
+    },
+    "coins": [],
+    "sleeves": [],
+    "damage_markers": "",
+    "promos": [
+      "me02.5-123 (Cosmos Holo)"
+    ],
+    "other": ""
+  },
+  {
+    "id": "product-129",
+    "name": "Mega Evolution: Ascended Heroes Tech Sticker Collection [Charmander]",
+    "type": "Tech Sticker Collection",
+    "release_date": "2026-01-30",
+    "tcgplayer_id": "666908",
+    "description": "Each Tech Sticker Collection contains 3 Booster Packs, 1 promo card, and stickers.",
+    "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/666908_in_1000x1000.jpg",
+    "packs": {
+      "me02.5": 3
+    },
+    "coins": [],
+    "sleeves": [],
+    "damage_markers": "",
+    "promos": [
+      "me02.5-020 (Cosmos Holo)"
+    ],
+    "other": ""
+  },
+  {
+    "id": "product-130",
+    "name": "Ascended Heroes Mini Tin [Pikachu & Tepig]",
+    "type": "Mini Tin",
+    "release_date": "2026-02-20",
+    "tcgplayer_id": "668531",
+    "description": "Each Mini Tin contains 2 booster packs and an art card.",
+    "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/668531_in_1000x1000.jpg",
+    "packs": {},
+    "coins": [],
+    "sleeves": null,
+    "promos": null,
+    "damage_markers": null,
+    "other": null
+  },
+  {
+    "id": "product-131",
+    "name": "Ascended Heroes Mega ex Box Case",
+    "type": "ex Box Case",
+    "release_date": "2026-02-20",
+    "tcgplayer_id": "672737",
+    "description": "Each Ascended Heroes Mega ex Box Case contains 2 of each Ascended Heroes Mega ex Box ",
+    "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/672737_in_1000x1000.jpg",
+    "packs": {
+      "me02.5": 24
+    },
+    "coins": [],
+    "sleeves": null,
+    "promos": null,
+    "damage_markers": null,
+    "other": null
+  },
+  {
+    "id": "product-132",
+    "name": "Ascended Heroes Mini Tin [Togepi & Totodile]",
+    "type": "Mini Tin",
+    "release_date": "2026-02-20",
+    "tcgplayer_id": "668534",
+    "description": "Each Mini Tin contains 2 booster packs and an art card.",
+    "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/668534_in_1000x1000.jpg",
+    "packs": {
+      "me02.5": 2
+    },
+    "coins": [],
+    "sleeves": null,
+    "promos": null,
+    "damage_markers": null,
+    "other": null
+  },
+  {
+    "id": "product-133",
+    "name": "Ascended Heroes Mini Tin [Clefairy & Chikorita]",
+    "type": "Mini Tin",
+    "release_date": "2026-02-20",
+    "tcgplayer_id": "668535",
+    "description": "Each Mini Tin contains 2 booster packs and an art card.",
+    "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/668535_in_1000x1000.jpg",
+    "packs": {
+      "me02.5": 2
+    },
+    "coins": [],
+    "sleeves": null,
+    "promos": null,
+    "damage_markers": null,
+    "other": null
+  },
+  {
+    "id": "product-134",
+    "name": "Ascended Heroes Mini Tin [Riolu & Darumaka]",
+    "type": "Mini Tin",
+    "release_date": "2026-02-20",
+    "tcgplayer_id": "668532",
+    "description": "Each Mini Tin contains 2 booster packs and an art card.",
+    "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/668532_in_1000x1000.jpg",
+    "packs": {
+      "me02.5": 2
+    },
+    "coins": [],
+    "sleeves": null,
+    "promos": null,
+    "damage_markers": null,
+    "other": null
+  },
+  {
+    "id": "product-135",
+    "name": "Ascended Heroes Mini Tin [Zorua & Cramorant]",
+    "type": "Mini Tin",
+    "release_date": "2026-02-20",
+    "tcgplayer_id": "668533",
+    "description": "Each Mini Tin contains 2 booster packs and an art card.",
+    "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/668533_in_1000x1000.jpg",
+    "packs": {
+      "me02.5": 2
+    },
+    "coins": [],
+    "sleeves": null,
+    "promos": null,
+    "damage_markers": null,
+    "other": null
+  },
+  {
+    "id": "product-136",
+    "name": "Ascended Heroes First Partners Deluxe Pin Collection Case",
+    "type": "Deluxe Pin Collection Case",
+    "release_date": "2026-03-20",
+    "tcgplayer_id": "672392",
+    "description": "Each Ascended Heroes First Partners Deluxe Pin Collection Case contains 6 Ascended Heroes First Partners Deluxe Pin Collections",
+    "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/672392_in_1000x1000.jpg",
+    "packs": {
+      "me02.5": 30
+    },
+    "coins": [],
+    "sleeves": null,
+    "promos": null,
+    "damage_markers": null,
+    "other": null
+  },
+  {
+    "id": "product-137",
+    "name": "Ascended Heroes Premium Poster Collection Case",
+    "type": "Premium Poster Collection Case",
+    "release_date": "2026-03-20",
+    "tcgplayer_id": "685000",
+    "description": "Each Ascended Heroes Premium Poster Collection Case contains 3 of each Ascended Heroes Premium Poster Collection",
+    "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/685000_in_1000x1000.jpg",
+    "packs": {
+      "me02.5": 60
+    },
+    "coins": [],
+    "sleeves": null,
+    "promos": null,
+    "damage_markers": null,
+    "other": null
+  },
+  {
+    "id": "product-138",
+    "name": "Ascended Heroes Tin [Mega Emboar ex]",
+    "type": "Tin",
+    "release_date": "2026-08-28",
+    "tcgplayer_id": "702496",
+    "description": "Each Tin contains 4 Booster Packs and 1 promo card.",
+    "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/702496_in_1000x1000.jpg",
+    "packs": {
+      "me02.5": 4
+    },
+    "coins": [],
+    "sleeves": null,
+    "promos": [
+      "mep-035"
+    ],
+    "damage_markers": null,
+    "other": null
+  },
+  {
+    "id": "product-139",
+    "name": "Ascended Heroes Booster Bundle Display",
+    "type": "Booster Bundle Display",
+    "release_date": "2026-04-24",
+    "tcgplayer_id": null,
+    "description": "Each Booster Bundle Display contains 10 Booster Bundles",
+    "image_url": null,
+    "packs": {},
+    "coins": [],
+    "sleeves": null,
+    "promos": null,
+    "damage_markers": null,
+    "other": null
+  },
+  {
+    "id": "product-140",
+    "name": "Ascended Heroes Tin [Mega Feraligatr ex]",
+    "type": "Tin",
+    "release_date": "2026-08-28",
+    "tcgplayer_id": "702497",
+    "description": "Each Tin contains 4 Booster Packs and 1 promo card.",
+    "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/702497_in_1000x1000.jpg",
+    "packs": {
+      "me02.5": 4
+    },
+    "coins": [],
+    "sleeves": null,
+    "promos": [
+      "mep-036"
+    ],
+    "damage_markers": null,
+    "other": null
+  },
+  {
+    "id": "product-141",
+    "name": "Ascended Heroes Collection Case",
+    "type": null,
+    "release_date": "2026-02-20",
+    "tcgplayer_id": "685195",
+    "description": "Each Case contains 12 of each Collection",
+    "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/685195_in_1000x1000.jpg",
+    "packs": {
+      "me02.5": 48
+    },
+    "coins": [],
+    "sleeves": null,
+    "promos": null,
+    "damage_markers": null,
+    "other": null
+  },
+  {
+    "id": "product-142",
+    "name": "Ascended Heroes Tin [Mega Meganium ex]",
+    "type": "Tin",
+    "release_date": "2026-08-28",
+    "tcgplayer_id": "702498",
+    "description": "Each Tin contains 4 Booster Packs and 1 promo card.",
+    "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/702498_in_1000x1000.jpg",
+    "packs": {
+      "me02.5": 4
+    },
+    "coins": [],
+    "sleeves": null,
+    "promos": [
+      "mep-034"
+    ],
+    "damage_markers": null,
+    "other": null
+  },
+  {
+    "id": "product-143",
+    "name": "Ascended Heroes Tin Case",
+    "type": "Tin Case",
+    "release_date": "2026-08-28",
+    "tcgplayer_id": "702501",
+    "description": "Each Tin Case contains 2 of each Tin",
+    "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/702501_in_1000x1000.jpg",
+    "packs": {
+      "me02.5": 24
+    },
+    "coins": [],
+    "sleeves": null,
+    "promos": null,
+    "damage_markers": null,
+    "other": null
+  },
+  {
+    "id": "product-144",
+    "name": "Ascended Heroes Tech Sticker Collection Case",
+    "type": "Tech Sticker Collection Case",
+    "release_date": "2026-01-30",
+    "tcgplayer_id": "681333",
+    "description": "Each Tech Sticker Collection Case contains 6 of each Tech Sticker Collection.",
+    "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/681333_in_1000x1000.jpg",
+    "packs": {
+      "me02.5": 36
+    },
+    "coins": [],
+    "sleeves": null,
+    "promos": null,
+    "damage_markers": null,
+    "other": null
+  },
+  {
+    "id": "product-145",
+    "name": "Ascended Heroes Mini Tin Display Case",
+    "type": "Mini Tin Display Case",
+    "release_date": "2026-02-20",
+    "tcgplayer_id": "689031",
+    "description": "Each Mini Tin Display Case contains 4 Mini Tin Displays.",
+    "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/689031_in_1000x1000.jpg",
+    "packs": {
+      "me02.5": 80
+    },
+    "coins": [],
+    "sleeves": null,
+    "promos": null,
+    "damage_markers": null,
+    "other": null
   }
 ]
