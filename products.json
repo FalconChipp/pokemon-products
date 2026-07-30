@@ -2767,5 +2767,439 @@
     "promos": null,
     "damage_markers": null,
     "other": null
+  },
+  {
+    "id": "product-146",
+    "name": "Scarlet & Violet Booster Pack",
+    "type": "Booster Pack",
+    "release_date": "2023-03-21",
+    "tcgplayer_id": "476451",
+    "description": "Each pack contains 10 cards.",
+    "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/476451_in_1000x1000.jpg",
+    "packs": {
+      "sv01": 1
+    },
+    "coins": [],
+    "sleeves": null,
+    "promos": null,
+    "damage_markers": null,
+    "other": null
+  },
+  {
+    "id": "product-147",
+    "name": "Scarlet & Violet Booster Box",
+    "type": "Booster Box",
+    "release_date": "2023-03-21",
+    "tcgplayer_id": "476452",
+    "description": "Each Booster Box contains 36 booster packs.",
+    "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/476452_in_1000x1000.jpg",
+    "packs": {
+      "sv01": 36
+    },
+    "coins": [],
+    "sleeves": null,
+    "promos": null,
+    "damage_markers": null,
+    "other": null
+  },
+  {
+    "id": "product-148",
+    "name": "Scarlet & Violet Build & Battle Stadium",
+    "type": "Build & Battle Stadium",
+    "release_date": "2023-03-21",
+    "tcgplayer_id": "478257",
+    "description": "Each Build & Battle Stadium contains 2 Build & Battle Boxes, 3 Booster Packs, 121 Energy cards, 6 damage-counter dice, 1 competition-legal coin-flip die, 2 condition markers, and a box to hold everything.",
+    "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/478257_in_1000x1000.jpg",
+    "packs": {
+      "sv01": 11
+    },
+    "coins": [],
+    "sleeves": null,
+    "promos": null,
+    "damage_markers": null,
+    "other": null
+  },
+  {
+    "id": "product-149",
+    "name": "Scarlet & Violet Elite Trainer Box [Koraidon]",
+    "type": "Elite Trainer Box",
+    "release_date": "2023-03-21",
+    "tcgplayer_id": "478335",
+    "description": "Each Elite Trainer Box contains 9 booster packs, a promo card, 65 card sleeves, 40 Energy cards, A player's guide, 6 damage-counter dice, 1 competition-legal coin-flip die, 2 plastic condition markers, 4 dividers, a collector's box to hold everything, and a code card for Pokémon TCG Live.",
+    "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/478335_in_1000x1000.jpg",
+    "packs": {
+      "sv01": 9
+    },
+    "coins": [],
+    "sleeves": [],
+    "damage_markers": "",
+    "promos": [
+      "svp-014"
+    ],
+    "other": ""
+  },
+  {
+    "id": "product-150",
+    "name": "Scarlet & Violet Elite Trainer Box [Miraidon]",
+    "type": "Elite Trainer Box",
+    "release_date": "2023-03-21",
+    "tcgplayer_id": "478336",
+    "description": "Each Elite Trainer Box contains 9 booster packs, a promo card, 65 card sleeves, 40 Energy cards, A player's guide, 6 damage-counter dice, 1 competition-legal coin-flip die, 2 plastic condition markers, 4 dividers, a collector's box to hold everything, and a code card for Pokémon TCG Live.",
+    "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/478336_in_1000x1000.jpg",
+    "packs": {
+      "sv01": 9
+    },
+    "coins": [],
+    "sleeves": [],
+    "damage_markers": "",
+    "promos": [
+      "svp-013"
+    ],
+    "other": ""
+  },
+  {
+    "id": "product-151",
+    "name": "Scarlet & Violet Build & Battle Box",
+    "type": "Build & Battle Box",
+    "release_date": "2023-03-21",
+    "tcgplayer_id": "478253",
+    "description": "Each Build & Battle Box contains a 40-card ready-to-play deck, 4 booster packs, 1 promo card, and a code card for Pokémon TCG Live.",
+    "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/478253_in_1000x1000.jpg",
+    "packs": {
+      "sv01": 4
+    },
+    "coins": [],
+    "sleeves": null,
+    "promos": null,
+    "damage_markers": null,
+    "other": null
+  },
+  {
+    "id": "product-152",
+    "name": "Scarlet & Violet Booster Bundle",
+    "type": "Booster Bundle",
+    "release_date": "2023-03-21",
+    "tcgplayer_id": "478258",
+    "description": "Each Booster Bundle contains 6 booster packs.",
+    "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/478258_in_1000x1000.jpg",
+    "packs": {
+      "sv01": 6
+    },
+    "coins": [],
+    "sleeves": [],
+    "damage_markers": "",
+    "promos": [],
+    "other": ""
+  },
+  {
+    "id": "product-153",
+    "name": "Scarlet & Violet Booster Box Case",
+    "type": "Booster Box Case",
+    "release_date": "2023-03-21",
+    "tcgplayer_id": "476453",
+    "description": "Each Booster Box Case contains 6 Booster Boxes.",
+    "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/476453_in_1000x1000.jpg",
+    "packs": {
+      "sv01": 216
+    },
+    "coins": [],
+    "sleeves": null,
+    "promos": null,
+    "damage_markers": null,
+    "other": null
+  },
+  {
+    "id": "product-154",
+    "name": "Scarlet & Violet Fun Pack",
+    "type": "Fun Pack",
+    "release_date": "2023-03-21",
+    "tcgplayer_id": "530121",
+    "description": "Each Fun Pack contains 3 cards.",
+    "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/530121_in_1000x1000.jpg",
+    "packs": {},
+    "coins": [],
+    "sleeves": null,
+    "promos": null,
+    "damage_markers": null,
+    "other": null
+  },
+  {
+    "id": "product-155",
+    "name": "Scarlet & Violet Pokemon Center Elite Trainer Box [Miraidon]",
+    "type": "Pokemon Center Elite Trainer Box",
+    "release_date": "2023-03-21",
+    "tcgplayer_id": "478756",
+    "description": "Each Pokemon Center Elite Trainer Box contains 11 booster packs, a promo card, 65 card sleeves, 40 Energy cards, A player's guide, 6 damage-counter dice, 1 competition-legal coin-flip die, 2 plastic condition markers,  4 dividers, a collector's box to hold everything, and a code card for Pokémon TCG Live.",
+    "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/478756_in_1000x1000.jpg",
+    "packs": {},
+    "coins": [],
+    "sleeves": null,
+    "promos": [
+      "svp-013 (Pokemon Center Stamp)"
+    ],
+    "damage_markers": null,
+    "other": null
+  },
+  {
+    "id": "product-156",
+    "name": "Scarlet & Violet Elite Trainer Box Case",
+    "type": "Elite Trainer Box Case",
+    "release_date": "2023-03-21",
+    "tcgplayer_id": "488776",
+    "description": "Each Elite Trainer Box Case contains 10 Elite Trainer Boxes.",
+    "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/488776_in_1000x1000.jpg",
+    "packs": {
+      "sv01": 90
+    },
+    "coins": [],
+    "sleeves": null,
+    "promos": null,
+    "damage_markers": null,
+    "other": null
+  },
+  {
+    "id": "product-157",
+    "name": "Scarlet & Violet Sleeved Booster Pack",
+    "type": "Sleeved Booster Pack",
+    "release_date": "2023-03-21",
+    "tcgplayer_id": "478273",
+    "description": "Each pack contains 10 cards.",
+    "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/478273_in_1000x1000.jpg",
+    "packs": {
+      "sv01": 1
+    },
+    "coins": [],
+    "sleeves": null,
+    "promos": null,
+    "damage_markers": null,
+    "other": null
+  },
+  {
+    "id": "product-158",
+    "name": "Scarlet & Violet 3-Pack Blister [Arcanine]",
+    "type": "3-Pack Blister",
+    "release_date": "2023-03-21",
+    "tcgplayer_id": "478761",
+    "description": "Each 3-Pack Blister contains 3 booster packs and a promo card.",
+    "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/478761_in_1000x1000.jpg",
+    "packs": {
+      "sv01": 3
+    },
+    "coins": [],
+    "sleeves": [],
+    "damage_markers": "",
+    "promos": [
+      "svp-011 (Cosmos Holo)"
+    ],
+    "other": ""
+  },
+  {
+    "id": "product-159",
+    "name": "Scarlet & Violet 3-Pack Blister [Dondozo]",
+    "type": "3-Pack Blister",
+    "release_date": "2023-03-21",
+    "tcgplayer_id": "478762",
+    "description": "Each 3-Pack Blister contains 3 booster packs and a promo card.",
+    "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/478762_in_1000x1000.jpg",
+    "packs": {
+      "sv01": 3
+    },
+    "coins": [],
+    "sleeves": null,
+    "promos": [
+      "svp-012"
+    ],
+    "damage_markers": null,
+    "other": null
+  },
+  {
+    "id": "product-160",
+    "name": "Scarlet & Violet Single Pack Blister [Spidops]",
+    "type": "Single Pack Blister",
+    "release_date": "2023-03-21",
+    "tcgplayer_id": "478765",
+    "description": "Each Single Pack Blister contains 1 booster pack, 1 promo card, and a coin.",
+    "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/478765_in_1000x1000.jpg",
+    "packs": {
+      "sv01": 1
+    },
+    "coins": [],
+    "sleeves": null,
+    "promos": [
+      "svp-009"
+    ],
+    "damage_markers": null,
+    "other": null
+  },
+  {
+    "id": "product-161",
+    "name": "Scarlet & Violet Single Pack Blister [Espathra]",
+    "type": "Single Pack Blister",
+    "release_date": "2023-03-21",
+    "tcgplayer_id": "478766",
+    "description": "Each Single Pack Blister contains 1 booster pack, [1] promo card(s), and a coin.",
+    "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/478766_in_1000x1000.jpg",
+    "packs": {
+      "sv01": 1
+    },
+    "coins": [],
+    "sleeves": null,
+    "promos": [
+      "svp-010"
+    ],
+    "damage_markers": null,
+    "other": null
+  },
+  {
+    "id": "product-162",
+    "name": "Scarlet & Violet Premium Checklane Blister [Gengar]",
+    "type": "Premium Checklane Blister",
+    "release_date": "2023-03-21",
+    "tcgplayer_id": "479328",
+    "description": "Each Premium Checklane Blister contains 1 booster pack, 3 promo cards, and a coin.",
+    "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/479328_in_1000x1000.jpg",
+    "packs": {
+      "sv01": 1
+    },
+    "coins": [],
+    "sleeves": null,
+    "promos": [
+      "swsh11-064",
+      "swsh11-065",
+      "swsh11-066"
+    ],
+    "damage_markers": null,
+    "other": null
+  },
+  {
+    "id": "product-163",
+    "name": "Scarlet & Violet Premium Checklane Blister [Hisuian Zoroark]",
+    "type": "Premium Checklane Blister",
+    "release_date": "2023-03-21",
+    "tcgplayer_id": "497167",
+    "description": "Each Premium Checklane Blister contains 1 booster pack, 3 promo cards, and a coin.",
+    "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/497167_in_1000x1000.jpg",
+    "packs": {
+      "sv01": 1
+    },
+    "coins": [],
+    "sleeves": null,
+    "promos": [
+      "swsh11-075",
+      "swsh11-076"
+    ],
+    "damage_markers": null,
+    "other": null
+  },
+  {
+    "id": "product-164",
+    "name": "Scarlet & Violet Sleeved Booster Case",
+    "type": "Sleeved Booster Case",
+    "release_date": "2023-03-21",
+    "tcgplayer_id": "600076",
+    "description": "Each Sleeved Booster Case contains 144 Sleeved Booster Packs.",
+    "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/600076_in_1000x1000.jpg",
+    "packs": {
+      "sv01": 144
+    },
+    "coins": [],
+    "sleeves": null,
+    "promos": null,
+    "damage_markers": null,
+    "other": null
+  },
+  {
+    "id": "product-165",
+    "name": "Scarlet & Violet Build & Battle Box Display",
+    "type": "Build & Battle Box Display",
+    "release_date": "2023-03-21",
+    "tcgplayer_id": "478254",
+    "description": "Each Build & Battle Box Display contains 10 Build & Battle Boxes.",
+    "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/478254_in_1000x1000.jpg",
+    "packs": {
+      "sv01": 40
+    },
+    "coins": [],
+    "sleeves": null,
+    "promos": null,
+    "damage_markers": null,
+    "other": null
+  },
+  {
+    "id": "product-166",
+    "name": "Scarlet & Violet Premium Checklane Blister [Hisuian Arcanine]",
+    "type": "Premium Checklane Blister",
+    "release_date": "2023-03-21",
+    "tcgplayer_id": "497166",
+    "description": "Each Premium Checklane Blister contains 1 booster pack, 2 promo cards, and a coin.",
+    "image_url": null,
+    "packs": {
+      "sv01": 1
+    },
+    "coins": [],
+    "sleeves": null,
+    "promos": [
+      "swsh11-083",
+      "swsh11-84"
+    ],
+    "damage_markers": null,
+    "other": null
+  },
+  {
+    "id": "product-167",
+    "name": "Scarlet & Violet Pokemon Center Elite Trainer Box [Koraidon]",
+    "type": "Pokemon Center Elite Trainer Box",
+    "release_date": "2023-03-21",
+    "tcgplayer_id": "478758",
+    "description": "Each Pokemon Center Elite Trainer Box contains [number] booster packs, a promo card, 65 card sleeves, 40 Energy cards, A player's guide, 6 damage-counter dice,( 1 competition-legal coin-flip die,)( 1 plastic coin,)( 2 plastic condition markers,)  [number] dividers, a collector's box to hold everything, and a code card for Pokémon TCG Live.",
+    "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/478758_in_1000x1000.jpg",
+    "packs": {
+      "sv01": 11
+    },
+    "coins": [],
+    "sleeves": null,
+    "promos": [
+      "svp-014 (Pokemon Center Stamp)"
+    ],
+    "damage_markers": null,
+    "other": null
+  },
+  {
+    "id": "product-168",
+    "name": "Scarlet & Violet Premium Checklane Blister [Machamp]",
+    "type": "Premium Checklane Blister",
+    "release_date": "2023-03-21",
+    "tcgplayer_id": "479330",
+    "description": "Each Premium Checklane Blister contains 1 booster pack, [3] promo cards, and a coin.",
+    "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/479330_in_1000x1000.jpg",
+    "packs": {
+      "sv01": 1
+    },
+    "coins": [],
+    "sleeves": null,
+    "promos": [
+      "swsh11-086",
+      "swsh11-087",
+      "swsh11-088"
+    ],
+    "damage_markers": null,
+    "other": null
+  },
+  {
+    "id": "product-169",
+    "name": "Scarlet & Violet Half Booster Box",
+    "type": "Half Booster Box",
+    "release_date": "2023-03-21",
+    "tcgplayer_id": "649407",
+    "description": "Each Half Booster Box contains 18 booster packs.",
+    "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/649407_in_1000x1000.jpg",
+    "packs": {
+      "sv01": 18
+    },
+    "coins": [],
+    "sleeves": null,
+    "promos": null,
+    "damage_markers": null,
+    "other": null
   }
 ]
