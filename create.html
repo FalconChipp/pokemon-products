@@ -197,7 +197,6 @@
                         headers: { 'Content-Type': 'application/json' },
                         body: JSON.stringify(newProduct)
                     });
-                    if(response.ok) alert("Product updated successfully!");
                 } else {
                     const output = document.getElementById('json-output');
                     output.style.display = 'block';
