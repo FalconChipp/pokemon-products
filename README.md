@@ -5,8 +5,10 @@ You will need nodejs. |
 First install express and cors: ```npm install express cors``` |
 To start the server run: ```node server.js```
 
-Descriptions will be auto-filled when possible. Some may need changing. |
-Packs will be auto-filled when possible and will only need the set id changed. |
+For autofill to work you must type the name correctly. They are usually correct on TCGplayer. Note that it will only work for certain products. All are added to autofill.json and sets are in sets.json. |
+Type will be auto-filled when possible. |
+Descriptions will be auto-filled when possible. Some will need changing. |
+Packs will be auto-filled when possible and will only need the set id changed if the set isn't found. |
 Image url will be auto-filled from the tcgplayer id.
 
 You can use this data in any way you like for any purpose

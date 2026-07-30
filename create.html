@@ -11,67 +11,67 @@
     <div style="margin-bottom: 15px; background: white; padding: 15px; border-radius: 8px; color: black;">
         <label style="display: block; font-weight: bold; margin-bottom: 5px;">Product ID (Auto-generated)</label>
         <input type="text" id="id" style="width: 90%; padding: 8px;">
-    </div>
+    </div >
 
     <div style="margin-bottom: 15px; background: white; padding: 15px; border-radius: 8px; color: black;">
         <label style="display: block; font-weight: bold; margin-bottom: 5px;">Product Name</label>
-        <input type="text" id="name" style="width: 90%; padding: 8px;">
-    </div>
+        <input type="text" id="name" onblur="handleNameBlur()" style="width: 90%; padding: 8px;">
+    </div >
 
     <div style="margin-bottom: 15px; background: white; padding: 15px; border-radius: 8px; color: black;">
         <label style="display: block; font-weight: bold; margin-bottom: 5px;">Product Type</label>
         <input type="text" id="type" onblur="handleTypeBlur()" style="width: 90%; padding: 8px;">
-    </div>
+    </div >
 
     <div style="margin-bottom: 15px; background: white; padding: 15px; border-radius: 8px; color: black;">
         <label style="display: block; font-weight: bold; margin-bottom: 5px;">Release Date</label>
         <input type="date" id="date" style="width: 90%; padding: 8px;">
-    </div>
+    </div >
 
     <div style="margin-bottom: 15px; background: white; padding: 15px; border-radius: 8px; color: black;">
         <label style="display: block; font-weight: bold; margin-bottom: 5px;">TCGPlayer ID</label>
         <input type="text" id="tcgplayer_id" oninput="updateImageUrl()" style="width: 90%; padding: 8px;">
-    </div>
+    </div >
 
     <div style="margin-bottom: 15px; background: white; padding: 15px; border-radius: 8px; color: black;">
         <label style="display: block; font-weight: bold; margin-bottom: 5px;">Image URL</label>
         <input type="text" id="image_url" style="width: 90%; padding: 8px;">
-    </div>
+    </div >
 
     <div style="margin-bottom: 15px; background: white; padding: 15px; border-radius: 8px; color: black;">
         <label style="display: block; font-weight: bold; margin-bottom: 5px;">Description</label>
         <input type="text" id="description" style="width: 90%; padding: 8px;">
-    </div>
+    </div >
 
     <div style="margin-bottom: 15px; background: white; padding: 15px; border-radius: 8px; color: black;">
         <label style="display: block; font-weight: bold; margin-bottom: 5px;">Packs (Format: {"sv1": 5})</label>
         <input type="text" id="packs" value="{}" style="width: 90%; padding: 8px;">
-    </div> 
+    </div > 
 
     <div style="margin-bottom: 15px; background: white; padding: 15px; border-radius: 8px; color: black;">
         <label style="display: block; font-weight: bold; margin-bottom: 5px;">Coins (Format: [{"id":"1"}])</label>
         <textarea id="coins" style="width: 90%; padding: 8px;">[]</textarea>
-    </div>
+    </div >
 
     <div style="margin-bottom: 15px; background: white; padding: 15px; border-radius: 8px; color: black;">
         <label style="display: block; font-weight: bold; margin-bottom: 5px;">Sleeves (Comma separated)</label>
         <input type="text" id="sleeves" style="width: 90%; padding: 8px;">
-    </div>
+    </div >
 
     <div style="margin-bottom: 15px; background: white; padding: 15px; border-radius: 8px; color: black;">
         <label style="display: block; font-weight: bold; margin-bottom: 5px;">Damage Markers</label>
         <input type="text" id="damage_markers" style="width: 90%; padding: 8px;">
-    </div>
+    </div >
 
     <div style="margin-bottom: 15px; background: white; padding: 15px; border-radius: 8px; color: black;">
         <label style="display: block; font-weight: bold; margin-bottom: 5px;">Promos (Comma separated IDs)</label>
         <input type="text" id="promos" style="width: 90%; padding: 8px;">
-    </div>
+    </div >
 
     <div style="margin-bottom: 15px; background: white; padding: 15px; border-radius: 8px; color: black;">
         <label style="display: block; font-weight: bold; margin-bottom: 5px;">Other Items</label>
         <textarea id="other" style="width: 90%; padding: 8px;"></textarea>
-    </div>
+    </div >
     
     <button onclick="generateJson()" style="background: white; color: black; padding: 10px 20px; border: none; cursor: pointer; font-size: 16px; font-weight: bold;">Generate JSON</button>
     
@@ -79,16 +79,12 @@
 
     <script>
         let autofillData = [];
+        let setsData = [];
 
         function safeParseJson(id, defaultValue = null) {
             const val = document.getElementById(id).value;
             if (!val || val.trim() === "") return defaultValue;
-            try {
-                return JSON.parse(val);
-            } catch (e) {
-                console.error(`Invalid JSON in field ${id}`);
-                return defaultValue; 
-            }
+            try { return JSON.parse(val); } catch (e) { return defaultValue; }
         }
 
         function safeParseList(id) {
@@ -97,23 +93,67 @@
             return val.split(',').map(s => s.trim()).filter(s => s !== "");
         }
 
+        function findSetIdByName(name) {
+            if (!name) return null;
+            const lowercaseName = name.toLowerCase();
+            const match = setsData.find(set => lowercaseName.includes(set.name.toLowerCase()));
+            return match ? match.id : null;
+        }
+
+        // UPDATED: This now replaces the KEY "set" with the set ID
+        function updatePacksWithSetId() {
+            const currentProductName = document.getElementById('name').value;
+            const setId = findSetIdByName(currentProductName);
+            
+            if (setId) {
+                const packsField = document.getElementById('packs');
+                try {
+                    let packsObj = JSON.parse(packsField.value || "{}");
+                    
+                    // Check if the object has a key named "set"
+                    if (packsObj && typeof packsObj === 'object' && packsObj.hasOwnProperty('set')) {
+                        const count = packsObj['set']; // Store the number (e.g. 150)
+                        delete packsObj['set'];        // Remove the key "set"
+                        packsObj[setId] = count;       // Create a new key using the setId (e.g. "me01")
+                        
+                        packsField.value = JSON.stringify(packsObj);
+                    }
+                } catch (e) { 
+                    console.error("JSON parse error in packs field:", e); 
+                }
+            }
+        }
+
+        function handleNameBlur() {
+            const nameValue = document.getElementById('name').value.trim();
+            if (!nameValue) return;
+
+            const sortedTypes = [...autofillData].sort((a, b) => b.type.length - a.type.length);
+            const matchedType = sortedTypes.find(item => 
+                nameValue.toLowerCase().includes(item.type.toLowerCase())
+            );
+
+            if (matchedType) {
+                document.getElementById('type').value = matchedType.type;
+                handleTypeBlur();
+            } else {
+                updatePacksWithSetId();
+            }
+        }
+
         function handleTypeBlur() {
             const typeValue = document.getElementById('type').value.trim();
             if (!typeValue) return;
 
-            // Find matching object in autofill.json based on type
             const match = autofillData.find(item => 
                 item.type.toLowerCase() === typeValue.toLowerCase()
             );
 
             if (match) {
-                // Loop through all keys in the matched autofill object
                 Object.keys(match).forEach(key => {
                     const element = document.getElementById(key);
                     if (element) {
                         const value = match[key];
-                        
-                        // If the value is an object or array, stringify it for the input field
                         if (typeof value === 'object' && value !== null) {
                             element.value = JSON.stringify(value);
                         } else {
@@ -121,26 +161,26 @@
                         }
                     }
                 });
+                
+                // Immediately swap "set" for the specific ID after the type autofill
+                updatePacksWithSetId();
             }
         }
 
         function updateImageUrl() {
             const tcgId = document.getElementById('tcgplayer_id').value.trim();
             const imageField = document.getElementById('image_url');
-            
             if (tcgId) {
                 imageField.value = `https://tcgplayer-cdn.tcgplayer.com/product/${tcgId}_in_1000x1000.jpg`;
             } else {
-                imageField.value = ""; // Clear the image URL if the ID is deleted
+                imageField.value = ""; 
             }
         }
 
         window.onload = async () => {
-            // Load products.json for ID generation
             try {
                 const response = await fetch('products.json'); 
                 const products = await response.json();
-
                 if (Array.isArray(products) && products.length > 0) {
                     let maxId = 0;
                     products.forEach(product => {
@@ -154,18 +194,17 @@
                 } else {
                     document.getElementById('id').value = 'product-1';
                 }
-            } catch (e) {
-                console.error("Error loading products.json:", e);
-                document.getElementById('id').value = 'product-1';
-            }
+            } catch (e) { document.getElementById('id').value = 'product-1'; }
 
-            // Load autofill.json for field population
             try {
                 const autofillResponse = await fetch('autofill.json');
                 autofillData = await autofillResponse.json();
-            } catch (e) {
-                console.error("Error loading autofill.json:", e);
-            }
+            } catch (e) { console.error("Autofill load error:", e); }
+
+            try {
+                const setsResponse = await fetch('sets.json');
+                setsData = await setsResponse.json();
+            } catch (e) { console.error("Sets load error:", e); }
         };
 
         async function generateJson() {
@@ -178,21 +217,16 @@
                     tcgplayer_id: document.getElementById('tcgplayer_id').value || null,
                     description: document.getElementById('description').value || null,
                     image_url: document.getElementById('image_url').value || null,
-                    
                     packs: safeParseJson('packs', {}),
                     coins: safeParseJson('coins', []),
-                    
                     sleeves: safeParseList('sleeves'),
                     promos: safeParseList('promos'),
-                    
                     damage_markers: document.getElementById('damage_markers').value || null,
                     other: document.getElementById('other').value || null
                 };
-
                 const isLocal = window.location.hostname === 'localhost';
-
                 if (isLocal) {
-                    const response = await fetch('http://localhost:3000/update-products', {
+                    await fetch('http://localhost:3000/update-products', {
                         method: 'POST',
                         headers: { 'Content-Type': 'application/json' },
                         body: JSON.stringify(newProduct)
@@ -202,12 +236,8 @@
                     output.style.display = 'block';
                     output.innerText = JSON.stringify(newProduct, null, 2);
                 }
-
-            } catch (e) {
-                alert("An unexpected error occurred. Check console.");
-                console.error(e);
-            }
+            } catch (e) { console.error("Generation error:", e); }
         }
     </script>
-</body>
+</body
 </html>
