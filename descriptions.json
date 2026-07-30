@@ -1,0 +1,78 @@
+[
+    {
+        "type": "Booster Pack",
+        "description": "Each pack contains 10 cards."
+    },
+    {
+        "type": "Sleeved Booster Pack",
+        "description": "Each pack contains 10 cards."
+    },
+    {
+        "type": "Booster Bundle",
+        "description": "Each Booster Bundle contains 6 booster packs."
+    },
+    {
+        "type": "Half Booster Box",
+        "description": "Each Half Booster Box contains 18 booster packs."
+    },
+    {
+        "type": "Booster Box",
+        "description": "Each Booster Box contains 36 booster packs."
+    },
+    {
+        "type": "Enhanced Booster Box",
+        "description": "Each Enhanced Booster Box contains 36 booster packs and a promo card."
+    },
+    {
+        "type": "(Pokemon Center) Elite Trainer Box",
+        "description": "Each Elite Trainer Box contains [number] booster packs, a promo card, 65 card sleeves, 40 Energy cards, A player's guide, 6 damage-counter dice, 1 competition-legal coin-flip die, 1 plastic coin, [number] dividers, a collector's box to hold everything, and a code card for Pokémon TCG Live."
+    },
+    {
+        "type": "Build & Battle Box",
+        "description": "Each Build & Battle Box contains a 40-card ready-to-play deck, 4 booster packs, 1 promo card, and a code card for Pokémon TCG Live."
+    },
+    {
+        "type": "Mini Tin",
+        "description": "Each Mini Tin contains 2 booster packs and an art card."
+    },
+    {
+        "type": "3-Pack Blister",
+        "description": "Each 3-Pack Blister contains 3 booster packs and a promo card."
+    },
+    {
+        "type": "Single Pack Blister",
+        "description": "Each Single Pack Blister contains 1 booster pack, [1] promo card(s), and a coin."
+    },
+    {
+        "type": "Premium Checklane Blister",
+        "description": "Each Premium Checklane Blister contains 1 booster pack, 3 promo card(s), and a coin."
+    },
+    {
+        "type": "Sleeved Booster Case",
+        "description": "Each Sleeved Booster Case contains 144 Sleeved Booster Packs."
+    },
+    {
+        "type": "Booster Bundle Case",
+        "description": "Each Booster Bundle Case contains 25 Booster Bundles."
+    },
+    {
+        "type": "Booster Box Case",
+        "description": "Each Booster Box Case contains 6 Booster Boxes."
+    },
+    {
+        "type": "Enhanced Booster Box Case",
+        "description": "Each Enhanced Booster Box Case contains 6 Enhanced Booster Boxes."
+    },
+    {
+        "type": "Elite Trainer Box Case",
+        "description": "Each Elite Trainer Box Case contains 10 Elite Trainer Boxes."
+    },
+    {
+        "type": "Build & Battle Box Display",
+        "description": "Each Build & Battle Box Display contains 10 Build & Battle Boxes."
+    },
+    {
+        "type": "Mini Tin Display",
+        "description": "Each Mini Tin Display contains 10 Mini Tins."
+    }
+]
