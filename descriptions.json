@@ -78,5 +78,9 @@
     {
         "type": "Mini Tin Display",
         "description": "Each Mini Tin Display contains 10 Mini Tins."
+    },
+    {
+        "type":"3 Pack Blister Case",
+        "description": "Each 3 Pack Blister Case contains 24 3 Pack Blisters."
     }
 ]
