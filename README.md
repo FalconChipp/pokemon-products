@@ -4,3 +4,5 @@ For easily creating products run the server
 You will need nodejs
 First install express and cors: ```npm install express cors```
 To start the server run: ```node server.js```
+
+Descriptions will be auto-filled when possible. Some may need changing
