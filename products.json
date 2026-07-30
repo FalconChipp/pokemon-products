@@ -3201,5 +3201,420 @@
     "promos": null,
     "damage_markers": null,
     "other": null
+  },
+  {
+    "id": "product-170",
+    "name": "Paldea Evolved Booster Pack",
+    "type": "Booster Pack",
+    "release_date": "2023-06-09",
+    "tcgplayer_id": "493976",
+    "description": "Each pack contains 10 cards.",
+    "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/493976_in_1000x1000.jpg",
+    "packs": {
+      "sv02": "1"
+    },
+    "coins": [],
+    "sleeves": null,
+    "promos": null,
+    "damage_markers": null,
+    "other": null
+  },
+  {
+    "id": "product-171",
+    "name": "Paldea Evolved Booster Box",
+    "type": "Booster Box",
+    "release_date": "2023-06-09",
+    "tcgplayer_id": "493975",
+    "description": "Each Booster Box contains 36 booster packs.",
+    "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/493975_in_1000x1000.jpg",
+    "packs": {
+      "sv02": "36"
+    },
+    "coins": [],
+    "sleeves": null,
+    "promos": null,
+    "damage_markers": null,
+    "other": null
+  },
+  {
+    "id": "product-172",
+    "name": "Paldea Evolved Elite Trainer Box",
+    "type": "Elite Trainer Box",
+    "release_date": "2023-06-09",
+    "tcgplayer_id": "493974",
+    "description": "Each Elite Trainer Box contains 9 booster packs, a promo card, 65 card sleeves, 40 Energy cards, A player's guide, 6 damage-counter dice, 1 competition-legal coin-flip die, 2 plastic condition markers,  4 dividers, a collector's box to hold everything, and a code card for Pokémon TCG Live.",
+    "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/493974_in_1000x1000.jpg",
+    "packs": {
+      "sv02": "9"
+    },
+    "coins": [],
+    "sleeves": null,
+    "promos": [
+      "svp-027"
+    ],
+    "damage_markers": null,
+    "other": null
+  },
+  {
+    "id": "product-173",
+    "name": "Paldea Evolved Sleeved Booster Pack",
+    "type": "Sleeved Booster Pack",
+    "release_date": "2023-06-09",
+    "tcgplayer_id": "496927",
+    "description": "Each pack contains 10 cards.",
+    "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/496927_in_1000x1000.jpg",
+    "packs": {
+      "sv02": "1"
+    },
+    "coins": [],
+    "sleeves": null,
+    "promos": null,
+    "damage_markers": null,
+    "other": null
+  },
+  {
+    "id": "product-174",
+    "name": "Paldea Evolved Booster Bundle",
+    "type": "Booster Bundle",
+    "release_date": "2023-06-09",
+    "tcgplayer_id": "496914",
+    "description": "Each Booster Bundle contains 6 booster packs.",
+    "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/496914_in_1000x1000.jpg",
+    "packs": {
+      "sv02": "6"
+    },
+    "coins": [],
+    "sleeves": null,
+    "promos": null,
+    "damage_markers": null,
+    "other": null
+  },
+  {
+    "id": "product-175",
+    "name": "Paldea Evolved Single Pack Blister [Growlithe]",
+    "type": "Single Pack Blister",
+    "release_date": "2023-06-09",
+    "tcgplayer_id": "494001",
+    "description": "Each Single Pack Blister contains 1 booster pack, [1] promo card(s), and a coin.",
+    "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/494001_in_1000x1000.jpg",
+    "packs": {
+      "sv02": "1"
+    },
+    "coins": [],
+    "sleeves": null,
+    "promos": [
+      "svp-024 (Cosmos Holo)"
+    ],
+    "damage_markers": null,
+    "other": null
+  },
+  {
+    "id": "product-176",
+    "name": "Paldea Evolved Single Pack Blister [Smoliv]",
+    "type": "Single Pack Blister",
+    "release_date": "2023-06-09",
+    "tcgplayer_id": "493999",
+    "description": "Each Single Pack Blister contains 1 booster pack, [1] promo card(s), and a coin.",
+    "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/493999_in_1000x1000.jpg",
+    "packs": {
+      "sv02": "1"
+    },
+    "coins": [],
+    "sleeves": null,
+    "promos": [
+      "svp-023 (Cosmos Holo)"
+    ],
+    "damage_markers": null,
+    "other": null
+  },
+  {
+    "id": "product-177",
+    "name": "Paldea Evolved Half Booster Box",
+    "type": "Half Booster Box",
+    "release_date": "2023-06-09",
+    "tcgplayer_id": "649413",
+    "description": "Each Half Booster Box contains 18 booster packs.",
+    "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/649413_in_1000x1000.jpg",
+    "packs": {
+      "sv02": "18"
+    },
+    "coins": [],
+    "sleeves": null,
+    "promos": null,
+    "damage_markers": null,
+    "other": null
+  },
+  {
+    "id": "product-178",
+    "name": "Paldea Evolved Fun Pack",
+    "type": "Fun Pack",
+    "release_date": "2023-06-09",
+    "tcgplayer_id": "530106",
+    "description": "Each Fun Pack contains 3 cards.",
+    "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/530106_in_1000x1000.jpg",
+    "packs": {},
+    "coins": [],
+    "sleeves": null,
+    "promos": null,
+    "damage_markers": null,
+    "other": null
+  },
+  {
+    "id": "product-179",
+    "name": "Paldea Evolved 3-Pack Blister [Tinkatink]",
+    "type": "3-Pack Blister",
+    "release_date": "2023-06-09",
+    "tcgplayer_id": "493997",
+    "description": "Each 3-Pack Blister contains 3 booster packs and a promo card.",
+    "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/493997_in_1000x1000.jpg",
+    "packs": {
+      "sv02": "3"
+    },
+    "coins": [],
+    "sleeves": null,
+    "promos": [
+      "svp-025 (Cosmos Holo)"
+    ],
+    "damage_markers": null,
+    "other": null
+  },
+  {
+    "id": "product-180",
+    "name": "Paldea Evolved Single Pack Blister [Dondonzo]",
+    "type": "Single Pack Blister",
+    "release_date": "2023-06-09",
+    "tcgplayer_id": "617015",
+    "description": "Each Single Pack Blister contains 1 booster pack, 2 promo cards, and a coin.",
+    "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/617015_in_1000x1000.jpg",
+    "packs": {
+      "sv02": "1"
+    },
+    "coins": [],
+    "sleeves": null,
+    "promos": [
+      "sv01-061",
+      "sv01-062"
+    ],
+    "damage_markers": null,
+    "other": null
+  },
+  {
+    "id": "product-181",
+    "name": "Paldea Evolved Premium Checklane Blister [Arboliva]",
+    "type": "Premium Checklane Blister",
+    "release_date": "2023-06-09",
+    "tcgplayer_id": "622968",
+    "description": "Each Premium Checklane Blister contains 1 booster pack, 3 promo cards, and a coin.",
+    "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/622968_in_1000x1000.jpg",
+    "packs": {
+      "sv02": "1"
+    },
+    "coins": [],
+    "sleeves": null,
+    "promos": [
+      "sv01-020",
+      "sv01-022",
+      "sv01-023 (Vertical Line Holo)"
+    ],
+    "damage_markers": null,
+    "other": null
+  },
+  {
+    "id": "product-182",
+    "name": "Paldea Evolved Single Pack Blister [Armarouge]",
+    "type": "Single Pack Blister",
+    "release_date": "2023-06-09",
+    "tcgplayer_id": "618829",
+    "description": "Each Single Pack Blister contains 1 booster pack, 2 promo cards, and a coin.",
+    "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/618829_in_1000x1000.jpg",
+    "packs": {
+      "sv02": "1"
+    },
+    "coins": [],
+    "sleeves": null,
+    "promos": [
+      "sv01-039",
+      "sv01-041"
+    ],
+    "damage_markers": null,
+    "other": null
+  },
+  {
+    "id": "product-183",
+    "name": "Paldea Evolved Build & Battle Box",
+    "type": "Build & Battle Box",
+    "release_date": "2023-06-09",
+    "tcgplayer_id": "496929",
+    "description": "Each Build & Battle Box contains a 40-card ready-to-play deck, 4 booster packs, 1 promo card, and a code card for Pokémon TCG Live.",
+    "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/496929_in_1000x1000.jpg",
+    "packs": {
+      "sv02": "4"
+    },
+    "coins": [],
+    "sleeves": null,
+    "promos": null,
+    "damage_markers": null,
+    "other": null
+  },
+  {
+    "id": "product-184",
+    "name": "Paldea Evolved Pokemon Center Elite Trainer Box",
+    "type": "Pokemon Center Elite Trainer Box",
+    "release_date": "2023-06-09",
+    "tcgplayer_id": "493973",
+    "description": "Each Pokemon Center Elite Trainer Box contains [number] booster packs, a promo card, 65 card sleeves, 40 Energy cards, A player's guide, 6 damage-counter dice,( 1 competition-legal coin-flip die,)( 1 plastic coin,)( 2 plastic condition markers,)  [number] dividers, a collector's box to hold everything, and a code card for Pokémon TCG Live.",
+    "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/493973_in_1000x1000.jpg",
+    "packs": {
+      "sv02": "11"
+    },
+    "coins": [],
+    "sleeves": null,
+    "promos": [
+      "svp-027 (Pokemon Center Stamp)"
+    ],
+    "damage_markers": null,
+    "other": null
+  },
+  {
+    "id": "product-185",
+    "name": "Paldea Evolved 3-Pack Blister [Varoom]",
+    "type": "3-Pack Blister",
+    "release_date": null,
+    "tcgplayer_id": "493998",
+    "description": "Each 3-Pack Blister contains 3 booster packs and a promo card.",
+    "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/493998_in_1000x1000.jpg",
+    "packs": {
+      "sv02": "3"
+    },
+    "coins": [],
+    "sleeves": null,
+    "promos": [
+      "svp-026 (Cosmos Holo)"
+    ],
+    "damage_markers": null,
+    "other": null
+  },
+  {
+    "id": "product-186",
+    "name": "Paldea Evolved Build & Battle Stadium",
+    "type": "Build & Battle Stadium",
+    "release_date": "2023-06-09",
+    "tcgplayer_id": "496935",
+    "description": "Each Build & Battle Stadium contains 2 Build & Battle Boxes, 3 Booster Packs, 121 Energy cards, 6 damage-counter dice, 1 competition-legal coin-flip die, 2 condition markers, and a box to hold everything.",
+    "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/496935_in_1000x1000.jpg",
+    "packs": {
+      "sv02": "11"
+    },
+    "coins": [],
+    "sleeves": null,
+    "promos": null,
+    "damage_markers": null,
+    "other": null
+  },
+  {
+    "id": "product-187",
+    "name": "Paldea Evolved Sleeved Booster Case",
+    "type": "Sleeved Booster Case",
+    "release_date": "2023-06-09",
+    "tcgplayer_id": "609027",
+    "description": "Each Sleeved Booster Case contains 144 Sleeved Booster Packs.",
+    "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/609027_in_1000x1000.jpg",
+    "packs": {
+      "sv02": "144"
+    },
+    "coins": [],
+    "sleeves": null,
+    "promos": null,
+    "damage_markers": null,
+    "other": null
+  },
+  {
+    "id": "product-188",
+    "name": "Paldea Evolved Build & Battle Box Display",
+    "type": "Build & Battle Box Display",
+    "release_date": "2023-06-09",
+    "tcgplayer_id": "496931",
+    "description": "Each Build & Battle Box Display contains 10 Build & Battle Boxes.",
+    "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/496931_in_1000x1000.jpg",
+    "packs": {
+      "sv02": "40"
+    },
+    "coins": [],
+    "sleeves": null,
+    "promos": null,
+    "damage_markers": null,
+    "other": null
+  },
+  {
+    "id": "product-189",
+    "name": "Paldea Evolved Elite Trainer Box Case",
+    "type": "Elite Trainer Box Case",
+    "release_date": "2023-06-09",
+    "tcgplayer_id": "496911",
+    "description": "Each Elite Trainer Box Case contains 10 Elite Trainer Boxes.",
+    "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/496911_in_1000x1000.jpg",
+    "packs": {
+      "sv02": "90"
+    },
+    "coins": [],
+    "sleeves": null,
+    "promos": null,
+    "damage_markers": null,
+    "other": null
+  },
+  {
+    "id": "product-190",
+    "name": "Paldea Evolved Premium Checklane Blister [Pawmot]",
+    "type": "Premium Checklane Blister",
+    "release_date": "2023-06-09",
+    "tcgplayer_id": "622967",
+    "description": "Each Premium Checklane Blister contains 1 booster pack, 3 promo cards, and a coin.",
+    "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/622967_in_1000x1000.jpg",
+    "packs": {
+      "sv02": "1"
+    },
+    "coins": [],
+    "sleeves": null,
+    "promos": [
+      "sv01-073",
+      "sv01-075",
+      "sv01-076 (Vertical Line Holo)"
+    ],
+    "damage_markers": null,
+    "other": null
+  },
+  {
+    "id": "product-191",
+    "name": "Paldea Evolved Booster Box Case",
+    "type": "Booster Box Case",
+    "release_date": "2023-06-09",
+    "tcgplayer_id": "496905",
+    "description": "Each Booster Box Case contains 6 Booster Boxes.",
+    "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/496905_in_1000x1000.jpg",
+    "packs": {
+      "sv02": "216"
+    },
+    "coins": [],
+    "sleeves": null,
+    "promos": null,
+    "damage_markers": null,
+    "other": null
+  },
+  {
+    "id": "product-192",
+    "name": "Paldea Evolved Booster Bundle Case",
+    "type": "Booster Bundle Case",
+    "release_date": "2023-06-09",
+    "tcgplayer_id": "656928",
+    "description": "Each Booster Bundle Case contains 25 Booster Bundles.",
+    "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/656928_in_1000x1000.jpg",
+    "packs": {
+      "sv02": "150"
+    },
+    "coins": [],
+    "sleeves": null,
+    "promos": null,
+    "damage_markers": null,
+    "other": null
   }
 ]
