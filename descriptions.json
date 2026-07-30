@@ -40,8 +40,8 @@
         "description": "Each Mini Tin contains 2 booster packs and an art card."
     },
     {
-        "type": "3 Pack Blister",
-        "description": "Each 3 Pack Blister contains 3 booster packs and a promo card."
+        "type": "3-Pack Blister",
+        "description": "Each 3-Pack Blister contains 3 booster packs and a promo card."
     },
     {
         "type": "Single Pack Blister",
@@ -80,7 +80,7 @@
         "description": "Each Mini Tin Display contains 10 Mini Tins."
     },
     {
-        "type":"3 Pack Blister Case",
-        "description": "Each 3 Pack Blister Case contains 24 3 Pack Blisters."
+        "type":"3-Pack Blister Case",
+        "description": "Each 3-Pack Blister Case contains 24 3 Pack Blisters."
     }
 ]

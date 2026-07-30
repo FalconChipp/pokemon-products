@@ -191,11 +191,11 @@
   },
   {
     "id": "product-11",
-    "name": "Mega Evolution 3 Pack Blister [Psyduck]",
-    "type": "3 Pack Blister",
+    "name": "Mega Evolution 3-Pack Blister [Psyduck]",
+    "type": "3-Pack Blister",
     "release_date": "2025-09-26",
     "tcgplayer_id": "644357",
-    "description": "Each 3 Pack Blister contains 3 booster packs and a promo card.",
+    "description": "Each 3-Pack Blister contains 3 booster packs and a promo card.",
     "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/644357_in_1000x1000.jpg",
     "packs": {
       "me01": 3
@@ -305,11 +305,11 @@
   },
   {
     "id": "product-16",
-    "name": "Mega Evolution 3 Pack Blister [Golduck]",
-    "type": "3 Pack Blister",
+    "name": "Mega Evolution 3-Pack Blister [Golduck]",
+    "type": "3-Pack Blister",
     "release_date": "2025-09-26",
     "tcgplayer_id": "644356",
-    "description": "Each 3 Pack Blister contains 3 booster packs and a promo card.",
+    "description": "Each 3-Pack Blister contains 3 booster packs and a promo card.",
     "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/644356_in_1000x1000.jpg",
     "packs": {
       "me01": 3
@@ -788,11 +788,11 @@
   },
   {
     "id": "product-39",
-    "name": "Phantasmal Flames 3 Pack Blister [Sneasel]",
-    "type": "3 Pack Blister",
+    "name": "Phantasmal Flames 3-Pack Blister [Sneasel]",
+    "type": "3-Pack Blister",
     "release_date": "2025-11-14",
     "tcgplayer_id": "654154",
-    "description": "Each 3 Pack Blister contains 3 booster packs and a promo card.",
+    "description": "Each 3-Pack Blister contains 3 booster packs and a promo card.",
     "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/654154_in_1000x1000.jpg",
     "packs": {
       "me02": 3
@@ -833,11 +833,11 @@
   },
   {
     "id": "product-41",
-    "name": "Phantasmal Flames 3 Pack Blister [Weavile]",
-    "type": "3 Pack Blister",
+    "name": "Phantasmal Flames 3-Pack Blister [Weavile]",
+    "type": "3-Pack Blister",
     "release_date": "2025-11-14",
     "tcgplayer_id": "654156",
-    "description": "Each 3 Pack Blister contains 3 booster packs and a promo card.",
+    "description": "Each 3-Pack Blister contains 3 booster packs and a promo card.",
     "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/654156_in_1000x1000.jpg",
     "packs": {
       "me02": 3
@@ -1198,11 +1198,11 @@
   },
   {
     "id": "product-60",
-    "name": "Perfect Order 3 Pack Blister [Chikorita]",
-    "type": "3 Pack Blister",
+    "name": "Perfect Order 3-Pack Blister [Chikorita]",
+    "type": "3-Pack Blister",
     "release_date": "2026-03-27",
     "tcgplayer_id": "672393",
-    "description": "Each 3 Pack Blister contains 3 booster packs and a promo card.",
+    "description": "Each 3-Pack Blister contains 3 booster packs and a promo card.",
     "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/672393_in_1000x1000.jpg",
     "packs": {
       "me03": 3
@@ -1924,11 +1924,11 @@
   },
   {
     "id": "product-99",
-    "name": "Pitch Black 3 Pack Blister [Binacle]",
-    "type": "3 Pack Blister",
+    "name": "Pitch Black 3-Pack Blister [Binacle]",
+    "type": "3-Pack Blister",
     "release_date": "2026-07-17",
     "tcgplayer_id": "692938",
-    "description": "Each 3 Pack Blister contains 3 booster packs and a promo card.",
+    "description": "Each 3-Pack Blister contains 3 booster packs and a promo card.",
     "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/692938_in_1000x1000.jpg",
     "packs": {
       "me05": 3
@@ -2144,11 +2144,11 @@
   },
   {
     "id": "product-111",
-    "name": "Pitch Black 3 Pack Blister Case",
-    "type": "3 Pack Blister Case",
+    "name": "Pitch Black 3-Pack Blister Case",
+    "type": "3-Pack Blister Case",
     "release_date": "2026-07-17",
     "tcgplayer_id": "693589",
-    "description": "Each 3 Pack Blister Case contains 24 3 Pack Blisters.",
+    "description": "Each 3-Pack Blister Case contains 24 3-Pack Blisters.",
     "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/693589_in_1000x1000.jpg",
     "packs": {},
     "coins": [],
