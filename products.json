@@ -4539,5 +4539,405 @@
     "promos": null,
     "damage_markers": null,
     "other": null
+  },
+  {
+    "id": "product-244",
+    "name": "Paradox Rift Booster Pack",
+    "type": "Booster Pack",
+    "release_date": "2023-11-03",
+    "tcgplayer_id": "512822",
+    "description": "Each pack contains 10 cards.",
+    "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/512822_in_1000x1000.jpg",
+    "packs": {
+      "sv04": "1"
+    },
+    "coins": [],
+    "sleeves": null,
+    "promos": null,
+    "damage_markers": null,
+    "other": null
+  },
+  {
+    "id": "product-245",
+    "name": "Paradox Rift Booster Pack",
+    "type": "Booster Pack",
+    "release_date": "2023-11-03",
+    "tcgplayer_id": "512822",
+    "description": "Each pack contains 10 cards.",
+    "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/512822_in_1000x1000.jpg",
+    "packs": {
+      "sv04": "1"
+    },
+    "coins": [],
+    "sleeves": null,
+    "promos": null,
+    "damage_markers": null,
+    "other": null
+  },
+  {
+    "id": "product-246",
+    "name": "Paradox Rift Booster Box",
+    "type": "Booster Box",
+    "release_date": "2023-11-03",
+    "tcgplayer_id": "512821",
+    "description": "Each Booster Box contains 36 booster packs.",
+    "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/512821_in_1000x1000.jpg",
+    "packs": {
+      "sv04": "36"
+    },
+    "coins": [],
+    "sleeves": null,
+    "promos": null,
+    "damage_markers": null,
+    "other": null
+  },
+  {
+    "id": "product-247",
+    "name": "Paradox Rift Sleeved Booster Pack",
+    "type": "Sleeved Booster Pack",
+    "release_date": "2023-11-03",
+    "tcgplayer_id": "517210",
+    "description": "Each pack contains 10 cards.",
+    "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/517210_in_1000x1000.jpg",
+    "packs": {
+      "sv04": "1"
+    },
+    "coins": [],
+    "sleeves": null,
+    "promos": null,
+    "damage_markers": null,
+    "other": null
+  },
+  {
+    "id": "product-248",
+    "name": "Paradox Rift Build & Battle Stadium",
+    "type": "Build & Battle Stadium",
+    "release_date": "2023-11-03",
+    "tcgplayer_id": "514070",
+    "description": "Each Build & Battle Stadium contains 2 Build & Battle Boxes, 3 Booster Packs, 121 Energy cards, 6 damage-counter dice, 1 competition-legal coin-flip die, 2 condition markers, and a box to hold everything.",
+    "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/514070_in_1000x1000.jpg",
+    "packs": {
+      "sv04": "11"
+    },
+    "coins": [],
+    "sleeves": null,
+    "promos": null,
+    "damage_markers": null,
+    "other": null
+  },
+  {
+    "id": "product-249",
+    "name": "Paradox Rift Single Pack Blister [Pineco]",
+    "type": "Single Pack Blister",
+    "release_date": "2023-11-03",
+    "tcgplayer_id": "514224",
+    "description": "Each Single Pack Blister contains 1 booster pack, 1 promo card, and a coin.",
+    "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/514224_in_1000x1000.jpg",
+    "packs": {
+      "sv04": "1"
+    },
+    "coins": [],
+    "sleeves": null,
+    "promos": [
+      "svp-061 (Cosmos Holo)"
+    ],
+    "damage_markers": null,
+    "other": null
+  },
+  {
+    "id": "product-250",
+    "name": "Paradox Rift Booster Box Case",
+    "type": "Booster Box Case",
+    "release_date": "2023-11-03",
+    "tcgplayer_id": "512828",
+    "description": "Each Booster Box Case contains 6 Booster Boxes.",
+    "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/512828_in_1000x1000.jpg",
+    "packs": {
+      "sv04": "216"
+    },
+    "coins": [],
+    "sleeves": null,
+    "promos": null,
+    "damage_markers": null,
+    "other": null
+  },
+  {
+    "id": "product-251",
+    "name": "Paradox Rift Elite Trainer Box [Iron Valiant]",
+    "type": "Elite Trainer Box",
+    "release_date": "2023-11-03",
+    "tcgplayer_id": "512813",
+    "description": "Each Elite Trainer Box contains 9 booster packs, a promo card, 65 card sleeves, 40 Energy cards, A player's guide, 6 damage-counter dice, 1 competition-legal coin-flip die, 2 plastic condition markers, 4 dividers, a collector's box to hold everything, and a code card for Pokémon TCG Live.",
+    "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/512813_in_1000x1000.jpg",
+    "packs": {
+      "sv04": "9"
+    },
+    "coins": [],
+    "sleeves": null,
+    "promos": [
+      "svp-065 or svp-066"
+    ],
+    "damage_markers": null,
+    "other": null
+  },
+  {
+    "id": "product-252",
+    "name": "Paradox Rift Pokemon Center Elite Trainer Box [Iron Valiant]",
+    "type": "Pokemon Center Elite Trainer Box",
+    "release_date": "2023-11-03",
+    "tcgplayer_id": "512801",
+    "description": "Each Pokemon Center Elite Trainer Box contains 11 booster packs, a promo card, 65 card sleeves, 40 Energy cards, A player's guide, 6 damage-counter dice, 1 competition-legal coin-flip die, 2 plastic condition markers, 4 dividers, a collector's box to hold everything, and a code card for Pokémon TCG Live.",
+    "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/512801_in_1000x1000.jpg",
+    "packs": {
+      "sv04": "11"
+    },
+    "coins": [],
+    "sleeves": null,
+    "promos": [
+      "svp-065 (Poekmon Center Stamp) or svp-066 (Pokemon Center Stamp)"
+    ],
+    "damage_markers": null,
+    "other": null
+  },
+  {
+    "id": "product-253",
+    "name": "Paradox Rift Elite Trainer Box [Roaring Moon]",
+    "type": "Elite Trainer Box",
+    "release_date": "2023-11-03",
+    "tcgplayer_id": "512815",
+    "description": "Each Elite Trainer Box contains [number] booster packs, a promo card, 65 card sleeves, 40 Energy cards, A player's guide, 6 damage-counter dice,( 1 competition-legal coin-flip die,)( 1 plastic coin,)( 2 plastic condition markers,)  [number] dividers, a collector's box to hold everything, and a code card for Pokémon TCG Live.",
+    "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/512815_in_1000x1000.jpg",
+    "packs": {
+      "sv04": "9"
+    },
+    "coins": [],
+    "sleeves": null,
+    "promos": [
+      "svp-065 or svp-066"
+    ],
+    "damage_markers": null,
+    "other": null
+  },
+  {
+    "id": "product-254",
+    "name": "Paradox Rift Single Pack Blister [Sinistea]",
+    "type": "Single Pack Blister",
+    "release_date": "2023-11-03",
+    "tcgplayer_id": "514223",
+    "description": "Each Single Pack Blister contains 1 booster pack, 1 promo card, and a coin.",
+    "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/514223_in_1000x1000.jpg",
+    "packs": {
+      "sv04": "1"
+    },
+    "coins": [],
+    "sleeves": null,
+    "promos": [
+      "svp-062 (Cosmos Holo)"
+    ],
+    "damage_markers": null,
+    "other": null
+  },
+  {
+    "id": "product-255",
+    "name": "Paradox Rift 3-Pack Blister [Cetitan]",
+    "type": "3-Pack Blister",
+    "release_date": "2023-11-03",
+    "tcgplayer_id": "513434",
+    "description": "Each 3-Pack Blister contains 3 booster packs and a promo card.",
+    "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/513434_in_1000x1000.jpg",
+    "packs": {
+      "sv04": "3"
+    },
+    "coins": [],
+    "sleeves": null,
+    "promos": [
+      "svp-063 (Cosmos Holo)"
+    ],
+    "damage_markers": null,
+    "other": null
+  },
+  {
+    "id": "product-256",
+    "name": "Paradox Rift Premium Checklane Blister [Hydreigon]",
+    "type": "Premium Checklane Blister",
+    "release_date": "2023-11-03",
+    "tcgplayer_id": "546605",
+    "description": "Each Premium Checklane Blister contains 1 booster pack, 3 promo cards, and a coin.",
+    "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/546605_in_1000x1000.jpg",
+    "packs": {
+      "sv04": "1"
+    },
+    "coins": [],
+    "sleeves": null,
+    "promos": [
+      "sv02-138",
+      "sv02-139",
+      "sv02-140 (Cosmos Holo)"
+    ],
+    "damage_markers": null,
+    "other": null
+  },
+  {
+    "id": "product-257",
+    "name": "Paradox Rift 3-Pack Blister [Arctibax]",
+    "type": "3-Pack Blister",
+    "release_date": "2023-11-03",
+    "tcgplayer_id": "513433",
+    "description": "Each 3-Pack Blister contains 3 booster packs and a promo card.",
+    "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/513433_in_1000x1000.jpg",
+    "packs": {
+      "sv04": "3"
+    },
+    "coins": [],
+    "sleeves": null,
+    "promos": [
+      "svp-064 (Cosmos Holo)"
+    ],
+    "damage_markers": null,
+    "other": null
+  },
+  {
+    "id": "product-258",
+    "name": "Paradox Rift Sleeved Booster Case",
+    "type": "Sleeved Booster Case",
+    "release_date": "2023-11-03",
+    "tcgplayer_id": "641808",
+    "description": "Each Sleeved Booster Case contains 144 Sleeved Booster Packs.",
+    "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/641808_in_1000x1000.jpg",
+    "packs": {
+      "sv04": "144"
+    },
+    "coins": [],
+    "sleeves": null,
+    "promos": null,
+    "damage_markers": null,
+    "other": null
+  },
+  {
+    "id": "product-259",
+    "name": "Paradox Rift Booster Bundle",
+    "type": "Booster Bundle",
+    "release_date": "2023-11-03",
+    "tcgplayer_id": "512820",
+    "description": "Each Booster Bundle contains 6 booster packs.",
+    "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/512820_in_1000x1000.jpg",
+    "packs": {
+      "sv04": "6"
+    },
+    "coins": [],
+    "sleeves": null,
+    "promos": null,
+    "damage_markers": null,
+    "other": null
+  },
+  {
+    "id": "product-260",
+    "name": "Paradox Rift Build & Battle Box Display",
+    "type": "Build & Battle Box Display",
+    "release_date": "2023-11-03",
+    "tcgplayer_id": "514069",
+    "description": "Each Build & Battle Box Display contains 10 Build & Battle Boxes.",
+    "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/514069_in_1000x1000.jpg",
+    "packs": {
+      "sv04": "40"
+    },
+    "coins": [],
+    "sleeves": null,
+    "promos": null,
+    "damage_markers": null,
+    "other": null
+  },
+  {
+    "id": "product-261",
+    "name": "Paradox Rift Half Booster Box",
+    "type": "Half Booster Box",
+    "release_date": "2023-11-03",
+    "tcgplayer_id": "649417",
+    "description": "Each Half Booster Box contains 18 booster packs.",
+    "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/649417_in_1000x1000.jpg",
+    "packs": {
+      "sv04": "18"
+    },
+    "coins": [],
+    "sleeves": null,
+    "promos": null,
+    "damage_markers": null,
+    "other": null
+  },
+  {
+    "id": "product-262",
+    "name": "Paradox Rift Premium Checklane Blister [Tinkaton]",
+    "type": "Premium Checklane Blister",
+    "release_date": "2023-11-03",
+    "tcgplayer_id": "546606",
+    "description": "Each Premium Checklane Blister contains 1 booster pack, 3 promo cards, and a coin.",
+    "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/546606_in_1000x1000.jpg",
+    "packs": {
+      "sv04": "1"
+    },
+    "coins": [],
+    "sleeves": null,
+    "promos": [
+      "sv02-102",
+      "sv02-104",
+      "sv02-105 (Cosmos Holo)"
+    ],
+    "damage_markers": null,
+    "other": null
+  },
+  {
+    "id": "product-263",
+    "name": "Paradox Rift Fun Pack",
+    "type": "Fun Pack",
+    "release_date": "2023-11-03",
+    "tcgplayer_id": "607504",
+    "description": "Each Fun Pack contains 3 cards.",
+    "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/607504_in_1000x1000.jpg",
+    "packs": {},
+    "coins": [],
+    "sleeves": null,
+    "promos": null,
+    "damage_markers": null,
+    "other": null
+  },
+  {
+    "id": "product-264",
+    "name": "Paradox Rift Single Pack Blister [Ceruledge]",
+    "type": "Single Pack Blister",
+    "release_date": "2023-11-03",
+    "tcgplayer_id": "625582",
+    "description": "Each Single Pack Blister contains 1 booster pack, 2 promo cards, and a coin.",
+    "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/625582_in_1000x1000.jpg",
+    "packs": {
+      "sv04": "1"
+    },
+    "coins": [],
+    "sleeves": null,
+    "promos": [
+      "sv02-039",
+      "sv02-098 (Cosmos Holo)"
+    ],
+    "damage_markers": null,
+    "other": null
+  },
+  {
+    "id": "product-265",
+    "name": "Paradox Rift Single Pack Blister [Glimmora]",
+    "type": "Single Pack Blister",
+    "release_date": "2023-11-03",
+    "tcgplayer_id": "625581",
+    "description": "Each Single Pack Blister contains 1 booster pack, 2 promo cards, and a coin.",
+    "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/625581_in_1000x1000.jpg",
+    "packs": {
+      "sv04": "1"
+    },
+    "coins": [],
+    "sleeves": null,
+    "promos": [
+      "sv02-124",
+      "sv02-126 (Cosmos Holo)"
+    ],
+    "damage_markers": null,
+    "other": null
   }
 ]
