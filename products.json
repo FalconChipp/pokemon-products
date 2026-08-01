@@ -4939,5 +4939,503 @@
     ],
     "damage_markers": null,
     "other": null
+  },
+  {
+    "id": "product-266",
+    "name": "Paldean Fates Booster Pack",
+    "type": "Booster Pack",
+    "release_date": "2024-01-26",
+    "tcgplayer_id": "528038",
+    "description": "Each pack contains 10 cards.",
+    "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/528038_in_1000x1000.jpg",
+    "packs": {
+      "sv04.5": "1"
+    },
+    "coins": [],
+    "sleeves": null,
+    "promos": null,
+    "damage_markers": null,
+    "other": null
+  },
+  {
+    "id": "product-267",
+    "name": "Paldean Fates Booster Bundle",
+    "type": "Booster Bundle",
+    "release_date": "2024-02-23",
+    "tcgplayer_id": "528771",
+    "description": "Each Booster Bundle contains 6 booster packs.",
+    "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/528771_in_1000x1000.jpg",
+    "packs": {
+      "sv04.5": "6"
+    },
+    "coins": [],
+    "sleeves": [],
+    "damage_markers": "",
+    "promos": [],
+    "other": ""
+  },
+  {
+    "id": "product-268",
+    "name": "Paldean Fates Great Tusk ex & Iron Treads ex Premium Collection",
+    "type": null,
+    "release_date": "2025-12-01",
+    "tcgplayer_id": "665113",
+    "description": "Each Collection contains 11 Booster Packs, 4 promo cards, and 1 jumbo card.",
+    "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/665113_in_1000x1000.jpg",
+    "packs": {
+      "sv04.5": 11
+    },
+    "coins": [],
+    "sleeves": null,
+    "promos": [
+      "svp-072 (Expansion Stamp)",
+      "svp-073 (Expansion Stamp)",
+      "svp-072 (Jumbo Expansion Stamp)"
+    ],
+    "damage_markers": null,
+    "other": null
+  },
+  {
+    "id": "product-269",
+    "name": "Paldean Fates Tech Sticker Collection [Fidough]",
+    "type": "Tech Sticker Collection",
+    "release_date": "2024-01-26",
+    "tcgplayer_id": "528043",
+    "description": "Each Tech Sticker Collection contains 3 Booster Packs, 1 promo card, and stickers.",
+    "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/528043_in_1000x1000.jpg",
+    "packs": {
+      "sv04.5": "3"
+    },
+    "coins": [],
+    "sleeves": null,
+    "promos": [
+      "svp-069"
+    ],
+    "damage_markers": null,
+    "other": null
+  },
+  {
+    "id": "product-270",
+    "name": "Paldean Fates Pokemon Center Elite Trainer Box",
+    "type": "Pokemon Center Elite Trainer Box",
+    "release_date": "2024-01-26",
+    "tcgplayer_id": "528039",
+    "description": "Each Pokemon Center Elite Trainer Box contains 11 booster packs, a promo card, 65 card sleeves, 40 Energy cards, A player's guide, 6 damage-counter dice, 1 competition-legal coin-flip die, 2 plastic condition markers, 4 dividers, a collector's box to hold everything, and a code card for Pokémon TCG Live.",
+    "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/528039_in_1000x1000.jpg",
+    "packs": {
+      "sv04.5": "11"
+    },
+    "coins": [],
+    "sleeves": null,
+    "promos": [
+      "svp-075 (Pokemon Center)"
+    ],
+    "damage_markers": null,
+    "other": null
+  },
+  {
+    "id": "product-271",
+    "name": "Paldean Fates Elite Trainer Box",
+    "type": "Elite Trainer Box",
+    "release_date": "2024-01-26",
+    "tcgplayer_id": "528040",
+    "description": "Each Elite Trainer Box contains 9 booster packs, a promo card, 65 card sleeves, 40 Energy cards, A player's guide, 6 damage-counter dice, 1 competition-legal coin-flip die, 2 plastic condition markers, 4 dividers, a collector's box to hold everything, and a code card for Pokémon TCG Live.",
+    "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/528040_in_1000x1000.jpg",
+    "packs": {
+      "sv04.5": "9"
+    },
+    "coins": [],
+    "sleeves": null,
+    "promos": [
+      "svp-075"
+    ],
+    "damage_markers": null,
+    "other": null
+  },
+  {
+    "id": "product-272",
+    "name": "Paldean Fates Booster Bundle Display",
+    "type": "Booster Bundle Display",
+    "release_date": "2023-02-23",
+    "tcgplayer_id": "530704",
+    "description": "Each Booster Bundle Display contains 10 Booster Bundles",
+    "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/530704_in_1000x1000.jpg",
+    "packs": {
+      "sv04.5": "60"
+    },
+    "coins": [],
+    "sleeves": null,
+    "promos": null,
+    "damage_markers": null,
+    "other": null
+  },
+  {
+    "id": "product-273",
+    "name": "Paldean Fates Tech Sticker Collection [Maschiff]",
+    "type": "Tech Sticker Collection",
+    "release_date": "2024-01-26",
+    "tcgplayer_id": "528044",
+    "description": "Each Tech Sticker Collection contains 3 Booster Packs, 1 promo card, and stickers.",
+    "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/528044_in_1000x1000.jpg",
+    "packs": {
+      "sv04.5": "3"
+    },
+    "coins": [],
+    "sleeves": null,
+    "promos": [
+      "svp-071"
+    ],
+    "damage_markers": null,
+    "other": null
+  },
+  {
+    "id": "product-274",
+    "name": "Paldean Fates Tin [Charizard ex]",
+    "type": "Tin",
+    "release_date": "2024-02-09",
+    "tcgplayer_id": "528056",
+    "description": "Each Tin contains 5 Booster Packs and 1 promo card.",
+    "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/528056_in_1000x1000.jpg",
+    "packs": {
+      "sv04.5": "4"
+    },
+    "coins": [],
+    "sleeves": null,
+    "promos": [
+      "svp-074"
+    ],
+    "damage_markers": null,
+    "other": null
+  },
+  {
+    "id": "product-275",
+    "name": "Paldean Fates Mini Tin [Tinkatink]",
+    "type": "Mini Tin",
+    "release_date": "2024-02-09",
+    "tcgplayer_id": "528052",
+    "description": "Each Mini Tin contains 2 booster packs and an art card.",
+    "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/528052_in_1000x1000.jpg",
+    "packs": {
+      "sv04.5": "2"
+    },
+    "coins": [],
+    "sleeves": null,
+    "promos": null,
+    "damage_markers": null,
+    "other": null
+  },
+  {
+    "id": "product-276",
+    "name": "Paldean Fates Mini Tin [Maushold]",
+    "type": "Mini Tin",
+    "release_date": "2024-02-09",
+    "tcgplayer_id": "528051",
+    "description": "Each Mini Tin contains 2 booster packs and an art card.",
+    "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/528051_in_1000x1000.jpg",
+    "packs": {
+      "sv04.5": "2"
+    },
+    "coins": [],
+    "sleeves": null,
+    "promos": null,
+    "damage_markers": null,
+    "other": null
+  },
+  {
+    "id": "product-277",
+    "name": "Paldean Fates Tech Sticker Collection Case",
+    "type": "Tech Sticker Collection Case",
+    "release_date": "2024-01-26",
+    "tcgplayer_id": "654599",
+    "description": "Each Tech Sticker Collection Case contains 4 of each Tech Sticker Collection. (12 Total)",
+    "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/654599_in_1000x1000.jpg",
+    "packs": {
+      "sv04.5": "36"
+    },
+    "coins": [],
+    "sleeves": null,
+    "promos": null,
+    "damage_markers": null,
+    "other": null
+  },
+  {
+    "id": "product-278",
+    "name": "Paldean Fates Tech Sticker Collection [Greavard]",
+    "type": "Tech Sticker Collection",
+    "release_date": "2024-01-26",
+    "tcgplayer_id": "528045",
+    "description": "Each Tech Sticker Collection contains 3 Booster Packs, 1 promo card, and stickers.",
+    "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/528045_in_1000x1000.jpg",
+    "packs": {
+      "sv04.5": "3"
+    },
+    "coins": [],
+    "sleeves": null,
+    "promos": [
+      "svp-070"
+    ],
+    "damage_markers": null,
+    "other": null
+  },
+  {
+    "id": "product-279",
+    "name": "Paldean Fates Premium Collection [Meowscarada ex]",
+    "type": null,
+    "release_date": "2024-02-09",
+    "tcgplayer_id": "528079",
+    "description": "Each Collection contains 8 Booster Packs, 3 promo cards, and 1 jumbo card.",
+    "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/528079_in_1000x1000.jpg",
+    "packs": {
+      "sv04.5": 8
+    },
+    "coins": [],
+    "sleeves": null,
+    "promos": [
+      "svp-076",
+      "svp-077",
+      "svp-078",
+      "svp-078 (Jumbo)"
+    ],
+    "damage_markers": null,
+    "other": null
+  },
+  {
+    "id": "product-280",
+    "name": "Paldean Fates International Tin [Charizard ex]",
+    "type": "Tin",
+    "release_date": "2024-02-09",
+    "tcgplayer_id": "528063",
+    "description": "Each Tin contains 5 Booster Packs and 1 promo card.",
+    "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/528063_in_1000x1000.jpg",
+    "packs": {
+      "sv04.5": "5"
+    },
+    "coins": [],
+    "sleeves": null,
+    "promos": [
+      "svp-074"
+    ],
+    "damage_markers": null,
+    "other": null
+  },
+  {
+    "id": "product-281",
+    "name": "Paldean Fates International Tin [Great Tusk ex]",
+    "type": "Tin",
+    "release_date": "2024-02-09",
+    "tcgplayer_id": "528060",
+    "description": "Each Tin contains 5 Booster Packs and 1 promo card.",
+    "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/528060_in_1000x1000.jpg",
+    "packs": {
+      "sv04.5": "5"
+    },
+    "coins": [],
+    "sleeves": null,
+    "promos": [
+      "svp-072"
+    ],
+    "damage_markers": null,
+    "other": null
+  },
+  {
+    "id": "product-282",
+    "name": "Paldean Fates Premium Collection [Skeledirge ex]",
+    "type": null,
+    "release_date": "2024-02-09",
+    "tcgplayer_id": "528080",
+    "description": "Each Collection contains 8 Booster Packs, 3 promo cards, and 1 jumbo card.",
+    "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/528080_in_1000x1000.jpg",
+    "packs": {
+      "sv04.5": 8
+    },
+    "coins": [],
+    "sleeves": null,
+    "promos": [
+      "svp-079",
+      "svp-080",
+      "svp-081",
+      "svp-081 (Jumbo)"
+    ],
+    "damage_markers": null,
+    "other": null
+  },
+  {
+    "id": "product-283",
+    "name": "Paldean Fates Tin Case",
+    "type": "Tin",
+    "release_date": "2024-02-09",
+    "tcgplayer_id": "688258",
+    "description": "Each Tin contains 5 Booster Packs and 1 promo card.",
+    "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/688258_in_1000x1000.jpg",
+    "packs": {
+      "sv04.5": "4"
+    },
+    "coins": [],
+    "sleeves": null,
+    "promos": null,
+    "damage_markers": null,
+    "other": null
+  },
+  {
+    "id": "product-284",
+    "name": "Paldean Fates Mini Tin [Finizen]",
+    "type": "Mini Tin",
+    "release_date": "2024-02-09",
+    "tcgplayer_id": "528055",
+    "description": "Each Mini Tin contains 2 booster packs and an art card.",
+    "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/528055_in_1000x1000.jpg",
+    "packs": {
+      "sv04.5": "2"
+    },
+    "coins": [],
+    "sleeves": null,
+    "promos": null,
+    "damage_markers": null,
+    "other": null
+  },
+  {
+    "id": "product-285",
+    "name": "Paldean Fates Mini Tin Display Case",
+    "type": "Mini Tin Display Case",
+    "release_date": "2024-02-09",
+    "tcgplayer_id": "693612",
+    "description": "Each Mini Tin Display Case contains 4 Mini Tin Displays.",
+    "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/693612_in_1000x1000.jpg",
+    "packs": {
+      "sv04.5": "80"
+    },
+    "coins": [],
+    "sleeves": null,
+    "promos": null,
+    "damage_markers": null,
+    "other": null
+  },
+  {
+    "id": "product-286",
+    "name": "Paldean Fates Booster Bundle Display Case",
+    "type": "Booster Bundle Display",
+    "release_date": "2024-02-09",
+    "tcgplayer_id": "635609",
+    "description": "Each Booster Bundle Display contains 10 Booster Bundles",
+    "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/635609_in_1000x1000.jpg",
+    "packs": {
+      "sv04.5": "60"
+    },
+    "coins": [],
+    "sleeves": null,
+    "promos": null,
+    "damage_markers": null,
+    "other": null
+  },
+  {
+    "id": "product-287",
+    "name": "Paldean Fates Tin [Iron Treads ex]",
+    "type": "Tin",
+    "release_date": "2024-02-09",
+    "tcgplayer_id": "528058",
+    "description": "Each Tin contains 4 Booster Packs and 1 promo card.",
+    "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/528058_in_1000x1000.jpg",
+    "packs": {
+      "sv04.5": "4"
+    },
+    "coins": [],
+    "sleeves": null,
+    "promos": [
+      "svp-073"
+    ],
+    "damage_markers": null,
+    "other": null
+  },
+  {
+    "id": "product-288",
+    "name": "Paldean Fates Tin [Great Tusk ex]",
+    "type": "Tin",
+    "release_date": "2024-02-09",
+    "tcgplayer_id": "528057",
+    "description": "Each Tin contains 5 Booster Packs and 1 promo card.",
+    "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/528057_in_1000x1000.jpg",
+    "packs": {
+      "sv04.5": "5"
+    },
+    "coins": [],
+    "sleeves": null,
+    "promos": [
+      "svp-072"
+    ],
+    "damage_markers": null,
+    "other": null
+  },
+  {
+    "id": "product-289",
+    "name": "Paldean Fates Mini Tin [Flamigo]",
+    "type": "Mini Tin",
+    "release_date": "2024-02-09",
+    "tcgplayer_id": "528050",
+    "description": "Each Mini Tin contains 2 booster packs and an art card.",
+    "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/528050_in_1000x1000.jpg",
+    "packs": {
+      "sv04.5": "2"
+    },
+    "coins": [],
+    "sleeves": null,
+    "promos": null,
+    "damage_markers": null,
+    "other": null
+  },
+  {
+    "id": "product-290",
+    "name": "Paldean Fates Premium Collection Case",
+    "type": null,
+    "release_date": "2024-01-26",
+    "tcgplayer_id": "693569",
+    "description": "Each case contains 6 Collections.",
+    "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/693569_in_1000x1000.jpg",
+    "packs": {
+      "sv04.5": 48
+    },
+    "coins": [],
+    "sleeves": null,
+    "promos": null,
+    "damage_markers": null,
+    "other": null
+  },
+  {
+    "id": "product-291",
+    "name": "Paldean Fates Mini Tin Display",
+    "type": "Mini Tin Display",
+    "release_date": "2024-02-09",
+    "tcgplayer_id": "528047",
+    "description": "Each Mini Tin Display contains 10 Mini Tins.",
+    "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/528047_in_1000x1000.jpg",
+    "packs": {
+      "sv04.5": "20"
+    },
+    "coins": [],
+    "sleeves": null,
+    "promos": null,
+    "damage_markers": null,
+    "other": null
+  },
+  {
+    "id": "product-292",
+    "name": "Paldean Fates Premium Collection [Quaquaval ex]",
+    "type": null,
+    "release_date": "2024-01-26",
+    "tcgplayer_id": "528082",
+    "description": "Each Collection contains 8 Booster Packs, 3 promo cards, and 1 jumbo card.",
+    "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/528082_in_1000x1000.jpg",
+    "packs": {
+      "sv04.5": 8
+    },
+    "coins": [],
+    "sleeves": null,
+    "promos": [
+      "svp-082",
+      "svp-083",
+      "svp-084",
+      "svp-084 (Jumbo)"
+    ],
+    "damage_markers": null,
+    "other": null
   }
 ]
