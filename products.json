@@ -5437,5 +5437,367 @@
     ],
     "damage_markers": null,
     "other": null
+  },
+  {
+    "id": "product-293",
+    "name": "Temporal Forces Booster Pack",
+    "type": "Booster Pack",
+    "release_date": "2024-03-22",
+    "tcgplayer_id": "532841",
+    "description": "Each pack contains 10 cards.",
+    "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/532841_in_1000x1000.jpg",
+    "packs": {
+      "sv05": "1"
+    },
+    "coins": [],
+    "sleeves": null,
+    "promos": null,
+    "damage_markers": null,
+    "other": null
+  },
+  {
+    "id": "product-294",
+    "name": "Temporal Forces Elite Trainer Box [Walking Wake]",
+    "type": "Elite Trainer Box",
+    "release_date": "2024-03-22",
+    "tcgplayer_id": "532845",
+    "description": "Each Elite Trainer Box contains 9 booster packs, a promo card, 65 card sleeves, 40 Energy cards, A player's guide, 6 damage-counter dice,1 competition-legal coin-flip die, 2 plastic condition markers, 4 dividers, a collector's box to hold everything, and a code card for Pokémon TCG Live.",
+    "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/532845_in_1000x1000.jpg",
+    "packs": {
+      "sv05": "9"
+    },
+    "coins": [],
+    "sleeves": null,
+    "promos": [
+      "svp-097"
+    ],
+    "damage_markers": null,
+    "other": null
+  },
+  {
+    "id": "product-295",
+    "name": "Temporal Forces Sleeved Booster Pack",
+    "type": "Sleeved Booster Pack",
+    "release_date": "2024-03-22",
+    "tcgplayer_id": "538787",
+    "description": "Each pack contains 10 cards.",
+    "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/538787_in_1000x1000.jpg",
+    "packs": {
+      "sv05": "1"
+    },
+    "coins": [],
+    "sleeves": null,
+    "promos": null,
+    "damage_markers": null,
+    "other": null
+  },
+  {
+    "id": "product-296",
+    "name": "Temporal Forces Booster Box",
+    "type": "Booster Box",
+    "release_date": "2024-03-22",
+    "tcgplayer_id": "536225",
+    "description": "Each Booster Box contains 36 booster packs.",
+    "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/536225_in_1000x1000.jpg",
+    "packs": {
+      "sv05": "36"
+    },
+    "coins": [],
+    "sleeves": null,
+    "promos": null,
+    "damage_markers": null,
+    "other": null
+  },
+  {
+    "id": "product-297",
+    "name": "Temporal Forces Booster Bundle",
+    "type": "Booster Bundle",
+    "release_date": "2024-03-22",
+    "tcgplayer_id": "541017",
+    "description": "Each Booster Bundle contains 6 booster packs.",
+    "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/541017_in_1000x1000.jpg",
+    "packs": {
+      "sv05": "6"
+    },
+    "coins": [],
+    "sleeves": null,
+    "promos": null,
+    "damage_markers": null,
+    "other": null
+  },
+  {
+    "id": "product-298",
+    "name": "Temporal Forces Premium Checklane Blister [Togekiss]",
+    "type": "Premium Checklane Blister",
+    "release_date": "2024-03-22",
+    "tcgplayer_id": "544687",
+    "description": "Each Premium Checklane Blister contains 1 booster pack, 3 promo cards, and a coin.",
+    "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/544687_in_1000x1000.jpg",
+    "packs": {
+      "sv05": "1"
+    },
+    "coins": [],
+    "sleeves": null,
+    "promos": [
+      "sv03-083",
+      "sv03-084",
+      "sv03-05 (Cosmos Holo)"
+    ],
+    "damage_markers": null,
+    "other": null
+  },
+  {
+    "id": "product-299",
+    "name": "Temporal Forces Pokemon Center Elite Trainer Box [Iron Leaves]",
+    "type": "Pokemon Center Elite Trainer Box",
+    "release_date": "2024-03-22",
+    "tcgplayer_id": "532853",
+    "description": "Each Pokemon Center Elite Trainer Box contains 11 booster packs, a promo card, 65 card sleeves, 40 Energy cards, A player's guide, 6 damage-counter dice, 1 competition-legal coin-flip die, 2 plastic condition markers, 4 dividers, a collector's box to hold everything, and a code card for Pokémon TCG Live.",
+    "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/532853_in_1000x1000.jpg",
+    "packs": {
+      "sv05": "11"
+    },
+    "coins": [],
+    "sleeves": null,
+    "promos": [
+      "svp-098 (Pokemon Center Stamp)"
+    ],
+    "damage_markers": null,
+    "other": null
+  },
+  {
+    "id": "product-300",
+    "name": "Temporal Forces Elite Trainer Box [Iron Leaves ex]",
+    "type": "Elite Trainer Box",
+    "release_date": "2024-03-22",
+    "tcgplayer_id": "532848",
+    "description": "Each Elite Trainer Box contains 9 booster packs, a promo card, 65 card sleeves, 40 Energy cards, A player's guide, 6 damage-counter dice, 1 competition-legal coin-flip die, 2 plastic condition markers, 4 dividers, a collector's box to hold everything, and a code card for Pokémon TCG Live.",
+    "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/532848_in_1000x1000.jpg",
+    "packs": {
+      "sv05": "9"
+    },
+    "coins": [],
+    "sleeves": null,
+    "promos": [
+      "svp-098"
+    ],
+    "damage_markers": null,
+    "other": null
+  },
+  {
+    "id": "product-301",
+    "name": "Temporal Forces 3-Pack Blister [Cyclizar]",
+    "type": "3-Pack Blister",
+    "release_date": "2024-03-22",
+    "tcgplayer_id": "536227",
+    "description": "Each 3-Pack Blister contains 3 booster packs and a promo card.",
+    "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/536227_in_1000x1000.jpg",
+    "packs": {
+      "sv05": "3"
+    },
+    "coins": [],
+    "sleeves": null,
+    "promos": [
+      "svp-096 (Cosmos Holo)"
+    ],
+    "damage_markers": null,
+    "other": null
+  },
+  {
+    "id": "product-302",
+    "name": "Temporal Forces Single Pack Blister [Carvanha]",
+    "type": "Single Pack Blister",
+    "release_date": "2024-03-22",
+    "tcgplayer_id": "536284",
+    "description": "Each Single Pack Blister contains 1 booster pack, 1 promo card, and a coin.",
+    "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/536284_in_1000x1000.jpg",
+    "packs": {
+      "sv05": "1"
+    },
+    "coins": [],
+    "sleeves": null,
+    "promos": [
+      "svp-093 (Cosmos Holo)"
+    ],
+    "damage_markers": null,
+    "other": null
+  },
+  {
+    "id": "product-303",
+    "name": "Temporal Forces Build & Battle Box",
+    "type": "Build & Battle Box",
+    "release_date": "2024-03-22",
+    "tcgplayer_id": "537411",
+    "description": "Each Build & Battle Box contains a 40-card ready-to-play deck, 4 booster packs, 1 promo card, and a code card for Pokémon TCG Live.",
+    "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/537411_in_1000x1000.jpg",
+    "packs": {
+      "sv05": "4"
+    },
+    "coins": [],
+    "sleeves": null,
+    "promos": null,
+    "damage_markers": null,
+    "other": null
+  },
+  {
+    "id": "product-304",
+    "name": "Temporal Forces Single Pack Blister [Scovillain]",
+    "type": "Single Pack Blister",
+    "release_date": "2024-03-22",
+    "tcgplayer_id": "617011",
+    "description": "Each Single Pack Blister contains 1 booster pack, 2 promo cards, and a coin.",
+    "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/617011_in_1000x1000.jpg",
+    "packs": {
+      "sv05": "1"
+    },
+    "coins": [],
+    "sleeves": null,
+    "promos": [
+      "sv03-024",
+      "sv03-025 (Cosmos Holo)"
+    ],
+    "damage_markers": null,
+    "other": null
+  },
+  {
+    "id": "product-305",
+    "name": "Temporal Forces Build & Battle Box Display",
+    "type": "Build & Battle Box Display",
+    "release_date": "2024-03-22",
+    "tcgplayer_id": "537409",
+    "description": "Each Build & Battle Box Display contains 10 Build & Battle Boxes.",
+    "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/537409_in_1000x1000.jpg",
+    "packs": {
+      "sv05": "40"
+    },
+    "coins": [],
+    "sleeves": null,
+    "promos": null,
+    "damage_markers": null,
+    "other": null
+  },
+  {
+    "id": "product-306",
+    "name": "Temporal Forces Elite Trainer Box Case",
+    "type": "Elite Trainer Box Case",
+    "release_date": "2024-03-22",
+    "tcgplayer_id": "537418",
+    "description": "Each Elite Trainer Box Case contains 10 Elite Trainer Boxes.",
+    "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/537418_in_1000x1000.jpg",
+    "packs": {
+      "sv05": "90"
+    },
+    "coins": [],
+    "sleeves": null,
+    "promos": null,
+    "damage_markers": null,
+    "other": null
+  },
+  {
+    "id": "product-307",
+    "name": "Temporal Forces Fun Pack",
+    "type": "Fun Pack",
+    "release_date": "2024-03-22",
+    "tcgplayer_id": "607502",
+    "description": "Each Fun Pack contains 3 cards.",
+    "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/607502_in_1000x1000.jpg",
+    "packs": {},
+    "coins": [],
+    "sleeves": null,
+    "promos": null,
+    "damage_markers": null,
+    "other": null
+  },
+  {
+    "id": "product-308",
+    "name": "Temporal Forces 3-Pack Blister [Cleffa]",
+    "type": "3-Pack Blister",
+    "release_date": "2024-03-22",
+    "tcgplayer_id": "536229",
+    "description": "Each 3-Pack Blister contains 3 booster packs and a promo card.",
+    "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/536229_in_1000x1000.jpg",
+    "packs": {
+      "sv05": "3"
+    },
+    "coins": [],
+    "sleeves": null,
+    "promos": [
+      "svp-095 (Cosmos Holo)"
+    ],
+    "damage_markers": null,
+    "other": null
+  },
+  {
+    "id": "product-309",
+    "name": "Temporal Forces Half Booster Box",
+    "type": "Half Booster Box",
+    "release_date": "2024-03-22",
+    "tcgplayer_id": "649416",
+    "description": "Each Half Booster Box contains 18 booster packs.",
+    "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/649416_in_1000x1000.jpg",
+    "packs": {
+      "sv05": "18"
+    },
+    "coins": [],
+    "sleeves": null,
+    "promos": null,
+    "damage_markers": null,
+    "other": null
+  },
+  {
+    "id": "product-310",
+    "name": "Temporal Forces Single Pack Blister [Palafin]",
+    "type": "Single Pack Blister",
+    "release_date": "2024-03-22",
+    "tcgplayer_id": "617012",
+    "description": "Each Single Pack Blister contains 1 booster pack, 2 promo card, and a coin.",
+    "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/617012_in_1000x1000.jpg",
+    "packs": {
+      "sv05": "1"
+    },
+    "coins": [],
+    "sleeves": null,
+    "promos": [
+      "sv03-060",
+      "sv03-062 (Cosmos Holo)"
+    ],
+    "damage_markers": null,
+    "other": null
+  },
+  {
+    "id": "product-311",
+    "name": "Temporal Forces Single Pack Blister [Bellibolt]",
+    "type": "Single Pack Blister",
+    "release_date": "2024-03-22",
+    "tcgplayer_id": "536594",
+    "description": "Each Single Pack Blister contains 1 booster pack, 1 promo card, and a coin.",
+    "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/536594_in_1000x1000.jpg",
+    "packs": {
+      "sv05": "1"
+    },
+    "coins": [],
+    "sleeves": null,
+    "promos": [
+      "svp-094"
+    ],
+    "damage_markers": null,
+    "other": null
+  },
+  {
+    "id": "product-312",
+    "name": "Temporal Forces Booster Box Case",
+    "type": "Booster Box Case",
+    "release_date": "2024-03-22",
+    "tcgplayer_id": "537417",
+    "description": "Each Booster Box Case contains 6 Booster Boxes.",
+    "image_url": "https://tcgplayer-cdn.tcgplayer.com/product/537417_in_1000x1000.jpg",
+    "packs": {
+      "sv05": "216"
+    },
+    "coins": [],
+    "sleeves": null,
+    "promos": null,
+    "damage_markers": null,
+    "other": null
   }
 ]
