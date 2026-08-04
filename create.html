@@ -32,6 +32,14 @@
         <label style="display: block; font-weight: bold; margin-bottom: 5px;">TCGPlayer ID</label>
         <input type="text" id="tcgplayer_id" oninput="updateImageUrl()" style="width: 90%; padding: 8px;">
     </div >
+    <div style="margin-bottom: 15px; background: white; padding: 15px; border-radius: 8px; color: black;">
+        <label style="display: block; font-weight: bold; margin-bottom: 5px;">Cardmarket ID</label>
+        <input type="text" id="cardmarket_id" oninput="updateImageUrl()" style="width: 90%; padding: 8px;">
+    </div >
+    <div style="margin-bottom: 15px; background: white; padding: 15px; border-radius: 8px; color: black;">
+        <label style="display: block; font-weight: bold; margin-bottom: 5px;">CardTrader ID</label>
+        <input type="text" id="cardtrader_id" oninput="updateImageUrl()" style="width: 90%; padding: 8px;">
+    </div >
 
     <div style="margin-bottom: 15px; background: white; padding: 15px; border-radius: 8px; color: black;">
         <label style="display: block; font-weight: bold; margin-bottom: 5px;">Image URL</label>
@@ -215,6 +223,8 @@
                     type: document.getElementById('type').value || null,
                     release_date: document.getElementById('date').value || null,
                     tcgplayer_id: document.getElementById('tcgplayer_id').value || null,
+                    cardmarket_id: document.getElementById('cardmarket_id').value || null,
+                    cardtrader_id: document.getElementById('cardtrader_id').value || null,
                     description: document.getElementById('description').value || null,
                     image_url: document.getElementById('image_url').value || null,
                     packs: safeParseJson('packs', {}),

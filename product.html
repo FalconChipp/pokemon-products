@@ -23,6 +23,14 @@
             <input type="text" id="tcgplayer_id" style="width: 90%; padding: 8px;">
         </div>
         <div style="margin-bottom: 15px; background: white; padding: 15px; border-radius: 8px;">
+            <label style="display: block; font-weight: bold; margin-bottom: 5px;">Cardmarket ID</label>
+            <input type="text" id="tcgplayer_id" style="width: 90%; padding: 8px;">
+        </div>
+        <div style="margin-bottom: 15px; background: white; padding: 15px; border-radius: 8px;">
+            <label style="display: block; font-weight: bold; margin-bottom: 5px;">CardTrader ID</label>
+            <input type="text" id="tcgplayer_id" style="width: 90%; padding: 8px;">
+        </div>
+        <div style="margin-bottom: 15px; background: white; padding: 15px; border-radius: 8px;">
             <label style="display: block; font-weight: bold; margin-bottom: 5px;">Image URL</label>
             <input type="text" id="image_url" style="width: 90%; padding: 8px;">
         </div>
@@ -79,6 +87,8 @@
                 document.getElementById('date').value = p.release_date || "";
                 document.getElementById('product-image').src = p.image_url;
                 document.getElementById('tcgplayer_id').value = p.tcgplayer_id || "";
+                document.getElementById('cardmarket_id').value = p.cardmarket_id || "";
+                document.getElementById('cardtrader_id').value = p.cardtrader_id || "";
                 document.getElementById('description').value = p.description || "";
                 document.getElementById('image_url').value = p.image_url || "";
                 document.getElementById('packs').value = JSON.stringify(p.packs || {});
@@ -100,6 +110,8 @@
                     type: document.getElementById('type').value,
                     release_date: document.getElementById('date').value,
                     tcgplayer_id: document.getElementById('tcgplayer_id').value,
+                    cardmarket_id: document.getElementById('cardmarket_id').value,
+                    cardtrader_id: document.getElementById('cardtrader_id').value,
                     description: document.getElementById('description').value,
                     image_url: document.getElementById('image_url').value,
                     packs: JSON.parse(document.getElementById('packs').value || '{}'),
