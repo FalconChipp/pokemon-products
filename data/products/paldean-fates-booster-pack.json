@@ -1,0 +1,28 @@
+{
+  "id": "paldean-fates-booster-pack",
+  "name": "Paldean Fates Booster Pack",
+  "category": "booster-pack",
+  "releaseDate": "2024-01-26",
+  "identifiers": {
+    "tcgplayer": "528038"
+  },
+  "images": [
+    {
+      "type": "front",
+      "url": "https://tcgplayer-cdn.tcgplayer.com/product/528038_in_1000x1000.jpg"
+    }
+  ],
+  "contents": [
+    {
+      "type": "booster",
+      "set": "sv04.5",
+      "quantity": 1
+    }
+  ],
+  "description": "Each pack contains 10 cards.",
+  "sources": [],
+  "status": "draft",
+  "migration": {
+    "originalId": "product-266"
+  }
+}

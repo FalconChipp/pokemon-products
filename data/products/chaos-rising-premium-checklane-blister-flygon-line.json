@@ -1,0 +1,40 @@
+{
+  "id": "chaos-rising-premium-checklane-blister-flygon-line",
+  "name": "Chaos Rising Premium Checklane Blister [Flygon Line]",
+  "category": "premium-checklane-blister",
+  "releaseDate": "2026-05-22",
+  "identifiers": {
+    "tcgplayer": "684460"
+  },
+  "images": [
+    {
+      "type": "front",
+      "url": "https://tcgplayer-cdn.tcgplayer.com/product/684460_in_1000x1000.jpg"
+    }
+  ],
+  "contents": [
+    {
+      "type": "booster",
+      "set": "me04",
+      "quantity": 1
+    },
+    {
+      "type": "promo-card",
+      "cards": [
+        "me02-051",
+        "me02-052",
+        "me02-053"
+      ],
+      "quantity": 3
+    }
+  ],
+  "description": "Each Premium Checklane Blister contains 1 booster pack, 3 promo card(s), and a coin.",
+  "sources": [],
+  "status": "draft",
+  "migration": {
+    "originalId": "product-85",
+    "unstructuredContents": [
+      "Mixed stamps across promo cards — review individually: me02-051, me02-052, me02-053(cosmos-holo)"
+    ]
+  }
+}

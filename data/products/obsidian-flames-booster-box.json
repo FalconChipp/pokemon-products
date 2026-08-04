@@ -1,0 +1,28 @@
+{
+  "id": "obsidian-flames-booster-box",
+  "name": "Obsidian Flames Booster Box",
+  "category": "booster-box",
+  "releaseDate": "2023-08-11",
+  "identifiers": {
+    "tcgplayer": "501257"
+  },
+  "images": [
+    {
+      "type": "front",
+      "url": "https://tcgplayer-cdn.tcgplayer.com/product/501257_in_1000x1000.jpg"
+    }
+  ],
+  "contents": [
+    {
+      "type": "booster",
+      "set": "sv03",
+      "quantity": 36
+    }
+  ],
+  "description": "Each Booster Box contains 36 booster packs.",
+  "sources": [],
+  "status": "draft",
+  "migration": {
+    "originalId": "product-194"
+  }
+}

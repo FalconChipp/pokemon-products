@@ -1,0 +1,28 @@
+{
+  "id": "151-booster-pack",
+  "name": "151 Booster Pack",
+  "category": "booster-pack",
+  "releaseDate": "2023-09-22",
+  "identifiers": {
+    "tcgplayer": "504467"
+  },
+  "images": [
+    {
+      "type": "front",
+      "url": "https://tcgplayer-cdn.tcgplayer.com/product/504467_in_1000x1000.jpg"
+    }
+  ],
+  "contents": [
+    {
+      "type": "booster",
+      "set": "sv03.5",
+      "quantity": 1
+    }
+  ],
+  "description": "Each pack contains 10 cards.",
+  "sources": [],
+  "status": "draft",
+  "migration": {
+    "originalId": "product-213"
+  }
+}

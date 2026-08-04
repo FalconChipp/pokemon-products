@@ -1,0 +1,28 @@
+{
+  "id": "chaos-rising-booster-bundle-case",
+  "name": "Chaos Rising Booster Bundle Case",
+  "category": "case",
+  "releaseDate": "2026-05-22",
+  "identifiers": {
+    "tcgplayer": "688949"
+  },
+  "images": [
+    {
+      "type": "front",
+      "url": "https://tcgplayer-cdn.tcgplayer.com/product/688949_in_1000x1000.jpg"
+    }
+  ],
+  "contents": [
+    {
+      "type": "sealed-product",
+      "product": "chaos-rising-booster-bundle",
+      "quantity": 25
+    }
+  ],
+  "description": "Each Booster Bundle Case contains 25 Booster Bundles.",
+  "sources": [],
+  "status": "draft",
+  "migration": {
+    "originalId": "product-88"
+  }
+}

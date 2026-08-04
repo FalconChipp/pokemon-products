@@ -1,0 +1,28 @@
+{
+  "id": "paradox-rift-booster-box",
+  "name": "Paradox Rift Booster Box",
+  "category": "booster-box",
+  "releaseDate": "2023-11-03",
+  "identifiers": {
+    "tcgplayer": "512821"
+  },
+  "images": [
+    {
+      "type": "front",
+      "url": "https://tcgplayer-cdn.tcgplayer.com/product/512821_in_1000x1000.jpg"
+    }
+  ],
+  "contents": [
+    {
+      "type": "booster",
+      "set": "sv04",
+      "quantity": 36
+    }
+  ],
+  "description": "Each Booster Box contains 36 booster packs.",
+  "sources": [],
+  "status": "draft",
+  "migration": {
+    "originalId": "product-246"
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "id": "paldea-evolved-premium-checklane-blister-arboliva",
+  "name": "Paldea Evolved Premium Checklane Blister [Arboliva]",
+  "category": "premium-checklane-blister",
+  "releaseDate": "2023-06-09",
+  "identifiers": {
+    "tcgplayer": "622968"
+  },
+  "images": [
+    {
+      "type": "front",
+      "url": "https://tcgplayer-cdn.tcgplayer.com/product/622968_in_1000x1000.jpg"
+    }
+  ],
+  "contents": [
+    {
+      "type": "booster",
+      "set": "sv02",
+      "quantity": 1
+    },
+    {
+      "type": "promo-card",
+      "cards": [
+        "sv01-020",
+        "sv01-022",
+        "sv01-023"
+      ],
+      "quantity": 3
+    }
+  ],
+  "description": "Each Premium Checklane Blister contains 1 booster pack, 3 promo cards, and a coin.",
+  "sources": [],
+  "status": "draft",
+  "migration": {
+    "originalId": "product-181",
+    "unstructuredContents": [
+      "Mixed stamps across promo cards — review individually: sv01-020, sv01-022, sv01-023(vertical-line-holo)"
+    ]
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "id": "perfect-order-elite-trainer-box-case",
+  "name": "Perfect Order Elite Trainer Box Case",
+  "category": "case",
+  "releaseDate": "2026-03-27",
+  "identifiers": {
+    "tcgplayer": "672402"
+  },
+  "images": [
+    {
+      "type": "front",
+      "url": "https://tcgplayer-cdn.tcgplayer.com/product/672402_in_1000x1000.jpg"
+    }
+  ],
+  "contents": [
+    {
+      "type": "sealed-product",
+      "product": "perfect-order-elite-trainer-box",
+      "quantity": 10
+    }
+  ],
+  "description": "Each Elite Trainer Box Case contains 10 Elite Trainer Boxes.",
+  "sources": [],
+  "status": "draft",
+  "migration": {
+    "originalId": "product-62"
+  }
+}

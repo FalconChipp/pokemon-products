@@ -1,0 +1,40 @@
+{
+  "id": "paradox-rift-single-pack-blister-ceruledge",
+  "name": "Paradox Rift Single Pack Blister [Ceruledge]",
+  "category": "single-pack-blister",
+  "releaseDate": "2023-11-03",
+  "identifiers": {
+    "tcgplayer": "625582"
+  },
+  "images": [
+    {
+      "type": "front",
+      "url": "https://tcgplayer-cdn.tcgplayer.com/product/625582_in_1000x1000.jpg"
+    }
+  ],
+  "contents": [
+    {
+      "type": "booster",
+      "set": "sv04",
+      "quantity": 1
+    },
+    {
+      "type": "promo-card",
+      "possibleCards": [
+        "sv02-039",
+        "sv02-098"
+      ],
+      "selection": "one-of",
+      "quantity": 1
+    }
+  ],
+  "description": "Each Single Pack Blister contains 1 booster pack, 2 promo cards, and a coin.",
+  "sources": [],
+  "status": "draft",
+  "migration": {
+    "originalId": "product-264",
+    "unstructuredContents": [
+      "Mixed stamps across promo cards — review individually: sv02-039, sv02-098(cosmos-holo)"
+    ]
+  }
+}

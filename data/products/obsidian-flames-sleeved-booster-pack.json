@@ -1,0 +1,28 @@
+{
+  "id": "obsidian-flames-sleeved-booster-pack",
+  "name": "Obsidian Flames Sleeved Booster Pack",
+  "category": "sleeved-booster-pack",
+  "releaseDate": "2023-08-11",
+  "identifiers": {
+    "tcgplayer": "534087"
+  },
+  "images": [
+    {
+      "type": "front",
+      "url": "https://tcgplayer-cdn.tcgplayer.com/product/534087_in_1000x1000.jpg"
+    }
+  ],
+  "contents": [
+    {
+      "type": "booster",
+      "set": "sv03",
+      "quantity": 1
+    }
+  ],
+  "description": "Each pack contains 10 cards.",
+  "sources": [],
+  "status": "draft",
+  "migration": {
+    "originalId": "product-195"
+  }
+}

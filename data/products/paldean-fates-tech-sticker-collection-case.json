@@ -1,0 +1,41 @@
+{
+  "id": "paldean-fates-tech-sticker-collection-case",
+  "name": "Paldean Fates Tech Sticker Collection Case",
+  "category": "case",
+  "releaseDate": "2024-01-26",
+  "identifiers": {
+    "tcgplayer": "654599"
+  },
+  "images": [
+    {
+      "type": "front",
+      "url": "https://tcgplayer-cdn.tcgplayer.com/product/654599_in_1000x1000.jpg"
+    }
+  ],
+  "contents": [
+    {
+      "type": "sealed-product",
+      "product": "paldean-fates-tech-sticker-collection-fidough",
+      "quantity": 4
+    },
+    {
+      "type": "sealed-product",
+      "product": "paldean-fates-tech-sticker-collection-greavard",
+      "quantity": 4
+    },
+    {
+      "type": "sealed-product",
+      "product": "paldean-fates-tech-sticker-collection-maschiff",
+      "quantity": 4
+    }
+  ],
+  "description": "Each Tech Sticker Collection Case contains 4 of each Tech Sticker Collection. (12 Total)",
+  "sources": [],
+  "status": "draft",
+  "migration": {
+    "originalId": "product-277",
+    "warnings": [
+      "Contains 3 child product variants — verify actual assortment and quantities."
+    ]
+  }
+}

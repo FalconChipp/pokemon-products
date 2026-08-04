@@ -1,0 +1,28 @@
+{
+  "id": "ascended-heroes-mini-tin-display-case",
+  "name": "Ascended Heroes Mini Tin Display Case",
+  "category": "case",
+  "releaseDate": "2026-02-20",
+  "identifiers": {
+    "tcgplayer": "689031"
+  },
+  "images": [
+    {
+      "type": "front",
+      "url": "https://tcgplayer-cdn.tcgplayer.com/product/689031_in_1000x1000.jpg"
+    }
+  ],
+  "contents": [
+    {
+      "type": "sealed-product",
+      "product": "ascended-heroes-mini-tin-display",
+      "quantity": 4
+    }
+  ],
+  "description": "Each Mini Tin Display Case contains 4 Mini Tin Displays.",
+  "sources": [],
+  "status": "draft",
+  "migration": {
+    "originalId": "product-145"
+  }
+}

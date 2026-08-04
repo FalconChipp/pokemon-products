@@ -1,0 +1,28 @@
+{
+  "id": "perfect-order-booster-bundle-case",
+  "name": "Perfect Order Booster Bundle Case",
+  "category": "case",
+  "releaseDate": "2026-03-27",
+  "identifiers": {
+    "tcgplayer": "672397"
+  },
+  "images": [
+    {
+      "type": "front",
+      "url": "https://tcgplayer-cdn.tcgplayer.com/product/672397_in_1000x1000.jpg"
+    }
+  ],
+  "contents": [
+    {
+      "type": "sealed-product",
+      "product": "perfect-order-booster-bundle",
+      "quantity": 25
+    }
+  ],
+  "description": "Each Booster Bundle Case contains 25 Booster Bundles.",
+  "sources": [],
+  "status": "draft",
+  "migration": {
+    "originalId": "product-69"
+  }
+}

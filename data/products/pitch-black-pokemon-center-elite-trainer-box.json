@@ -1,0 +1,34 @@
+{
+  "id": "pitch-black-pokemon-center-elite-trainer-box",
+  "name": "Pitch Black Pokemon Center Elite Trainer Box",
+  "category": "pokemon-center-elite-trainer-box",
+  "releaseDate": "2026-07-17",
+  "identifiers": {
+    "tcgplayer": "692949"
+  },
+  "images": [
+    {
+      "type": "front",
+      "url": "https://tcgplayer-cdn.tcgplayer.com/product/692949_in_1000x1000.jpg"
+    }
+  ],
+  "contents": [
+    {
+      "type": "booster",
+      "set": "me05",
+      "quantity": 11
+    },
+    {
+      "type": "promo-card",
+      "card": "mep-088",
+      "quantity": 1,
+      "stamp": "pokemon-center-stamp"
+    }
+  ],
+  "description": "Each Pokemon Center Elite Trainer Box contains 11 booster packs, a promo card, 65 card sleeves, 40 Energy cards, A player's guide, 6 damage-counter dice, 1 competition-legal coin-flip die, 1 plastic coin, 6 dividers, a collector's box to hold everything, and a code card for Pokémon TCG Live.",
+  "sources": [],
+  "status": "draft",
+  "migration": {
+    "originalId": "product-96"
+  }
+}

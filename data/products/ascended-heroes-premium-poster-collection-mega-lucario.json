@@ -1,0 +1,33 @@
+{
+  "id": "ascended-heroes-premium-poster-collection-mega-lucario",
+  "name": "Ascended Heroes Premium Poster Collection: Mega Lucario",
+  "category": "poster-collection",
+  "releaseDate": "2026-03-20",
+  "identifiers": {
+    "tcgplayer": "668536"
+  },
+  "images": [
+    {
+      "type": "front",
+      "url": "https://tcgplayer-cdn.tcgplayer.com/product/668536_in_1000x1000.jpg"
+    }
+  ],
+  "contents": [
+    {
+      "type": "booster",
+      "set": "me02.5",
+      "quantity": 10
+    },
+    {
+      "type": "promo-card",
+      "card": "mep-033",
+      "quantity": 1
+    }
+  ],
+  "description": "Each Premium Poster Collection contains 10 Booster Packs, 1 promo card, 1 double-sided poster (26.875\" × 39\"), and a code card for Pokémon TCG Live",
+  "sources": [],
+  "status": "draft",
+  "migration": {
+    "originalId": "product-116"
+  }
+}

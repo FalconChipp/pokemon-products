@@ -1,0 +1,28 @@
+{
+  "id": "mega-evolution-booster-box",
+  "name": "Mega Evolution Booster Box",
+  "category": "booster-box",
+  "releaseDate": "2025-09-26",
+  "identifiers": {
+    "tcgplayer": "644298"
+  },
+  "images": [
+    {
+      "type": "front",
+      "url": "https://tcgplayer-cdn.tcgplayer.com/product/644298_in_1000x1000.jpg"
+    }
+  ],
+  "contents": [
+    {
+      "type": "booster",
+      "set": "me01",
+      "quantity": 36
+    }
+  ],
+  "description": "Each Booster Box contains 36 booster packs.",
+  "sources": [],
+  "status": "draft",
+  "migration": {
+    "originalId": "product-1"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "id": "151-alakazam-ex-collection-case",
+  "name": "151 Alakazam ex Collection Case",
+  "category": "case",
+  "releaseDate": "2023-10-06",
+  "identifiers": {
+    "tcgplayer": "518781"
+  },
+  "images": [
+    {
+      "type": "front",
+      "url": "https://tcgplayer-cdn.tcgplayer.com/product/518781_in_1000x1000.jpg"
+    }
+  ],
+  "contents": [
+    {
+      "type": "sealed-product",
+      "product": "151-alakazam-ex-collection",
+      "quantity": 6
+    }
+  ],
+  "description": "Each Case contains 6 151 Alakazam ex Collections.",
+  "sources": [],
+  "status": "draft",
+  "migration": {
+    "originalId": "product-237"
+  }
+}

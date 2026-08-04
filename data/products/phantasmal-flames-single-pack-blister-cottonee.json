@@ -1,0 +1,44 @@
+{
+  "id": "phantasmal-flames-single-pack-blister-cottonee",
+  "name": "Phantasmal Flames Single Pack Blister [Cottonee]",
+  "category": "single-pack-blister",
+  "releaseDate": "2025-11-14",
+  "identifiers": {
+    "tcgplayer": "654151"
+  },
+  "images": [
+    {
+      "type": "front",
+      "url": "https://tcgplayer-cdn.tcgplayer.com/product/654151_in_1000x1000.jpg"
+    }
+  ],
+  "contents": [
+    {
+      "type": "booster",
+      "set": "me02",
+      "quantity": 1
+    },
+    {
+      "type": "promo-card",
+      "card": "mep-018",
+      "quantity": 1
+    },
+    {
+      "type": "accessory",
+      "category": "coin",
+      "quantity": 1,
+      "name": "Diancie",
+      "details": {
+        "size": "big"
+      }
+    }
+  ],
+  "sources": [],
+  "status": "draft",
+  "migration": {
+    "originalId": "product-38",
+    "warnings": [
+      "Description skipped — contains unfilled template placeholders."
+    ]
+  }
+}

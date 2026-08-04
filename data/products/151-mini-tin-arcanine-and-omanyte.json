@@ -1,0 +1,28 @@
+{
+  "id": "151-mini-tin-arcanine-and-omanyte",
+  "name": "151 Mini Tin [Arcanine & Omanyte]",
+  "category": "mini-tin",
+  "releaseDate": "2023-10-06",
+  "identifiers": {
+    "tcgplayer": "522699"
+  },
+  "images": [
+    {
+      "type": "front",
+      "url": "https://tcgplayer-cdn.tcgplayer.com/product/522699_in_1000x1000.jpg"
+    }
+  ],
+  "contents": [
+    {
+      "type": "booster",
+      "set": "sv03.5",
+      "quantity": 2
+    }
+  ],
+  "description": "Each Mini Tin contains 2 booster packs and an art card.",
+  "sources": [],
+  "status": "draft",
+  "migration": {
+    "originalId": "product-236"
+  }
+}

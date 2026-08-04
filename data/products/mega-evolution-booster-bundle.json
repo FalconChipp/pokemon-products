@@ -1,0 +1,28 @@
+{
+  "id": "mega-evolution-booster-bundle",
+  "name": "Mega Evolution Booster Bundle",
+  "category": "booster-bundle",
+  "releaseDate": "2025-09-26",
+  "identifiers": {
+    "tcgplayer": "644362"
+  },
+  "images": [
+    {
+      "type": "front",
+      "url": "https://tcgplayer-cdn.tcgplayer.com/product/644362_in_1000x1000.jpg"
+    }
+  ],
+  "contents": [
+    {
+      "type": "booster",
+      "set": "me01",
+      "quantity": 6
+    }
+  ],
+  "description": "Each Booster Bundle contains 6 booster packs.",
+  "sources": [],
+  "status": "draft",
+  "migration": {
+    "originalId": "product-9"
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "id": "paldean-fates-mini-tin-display",
+  "name": "Paldean Fates Mini Tin Display",
+  "category": "display",
+  "releaseDate": "2024-02-09",
+  "identifiers": {
+    "tcgplayer": "528047"
+  },
+  "images": [
+    {
+      "type": "front",
+      "url": "https://tcgplayer-cdn.tcgplayer.com/product/528047_in_1000x1000.jpg"
+    }
+  ],
+  "contents": [
+    {
+      "type": "sealed-product",
+      "product": "paldean-fates-mini-tin-finizen",
+      "quantity": 3
+    },
+    {
+      "type": "sealed-product",
+      "product": "paldean-fates-mini-tin-flamigo",
+      "quantity": 3
+    },
+    {
+      "type": "sealed-product",
+      "product": "paldean-fates-mini-tin-maushold",
+      "quantity": 3
+    },
+    {
+      "type": "sealed-product",
+      "product": "paldean-fates-mini-tin-tinkatink",
+      "quantity": 3
+    }
+  ],
+  "description": "Each Mini Tin Display contains 10 Mini Tins.",
+  "sources": [],
+  "status": "draft",
+  "migration": {
+    "originalId": "product-291",
+    "warnings": [
+      "Pack count mismatch: parent has 20 packs, children total 8 per set (paldean-fates-mini-tin-finizen, paldean-fates-mini-tin-flamigo, paldean-fates-mini-tin-maushold, paldean-fates-mini-tin-tinkatink). Child quantity set to 3 (24 packs implied). Verify actual assortment.",
+      "Contains 4 child product variants — verify actual assortment and quantities."
+    ]
+  }
+}

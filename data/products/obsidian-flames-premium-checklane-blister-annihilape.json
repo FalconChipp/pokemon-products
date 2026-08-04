@@ -1,0 +1,37 @@
+{
+  "id": "obsidian-flames-premium-checklane-blister-annihilape",
+  "name": "Obsidian Flames Premium Checklane Blister [Annihilape]",
+  "category": "premium-checklane-blister",
+  "releaseDate": "2023-08-11",
+  "identifiers": {
+    "tcgplayer": "557084"
+  },
+  "images": [
+    {
+      "type": "front",
+      "url": "https://tcgplayer-cdn.tcgplayer.com/product/557084_in_1000x1000.jpg"
+    }
+  ],
+  "contents": [
+    {
+      "type": "booster",
+      "set": "sv03",
+      "quantity": 1
+    },
+    {
+      "type": "promo-card",
+      "cards": [
+        "sv01-107",
+        "sv01-108",
+        "sv01-109"
+      ],
+      "quantity": 3
+    }
+  ],
+  "description": "Each Premium Checklane Blister contains 1 booster pack, 3 promo cards, and a coin.",
+  "sources": [],
+  "status": "draft",
+  "migration": {
+    "originalId": "product-211"
+  }
+}

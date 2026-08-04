@@ -1,0 +1,28 @@
+{
+  "id": "pitch-black-3-pack-blister-case",
+  "name": "Pitch Black 3-Pack Blister Case",
+  "category": "case",
+  "releaseDate": "2026-07-17",
+  "identifiers": {
+    "tcgplayer": "693589"
+  },
+  "images": [
+    {
+      "type": "front",
+      "url": "https://tcgplayer-cdn.tcgplayer.com/product/693589_in_1000x1000.jpg"
+    }
+  ],
+  "contents": [
+    {
+      "type": "sealed-product",
+      "product": "pitch-black-3-pack-blister-binacle",
+      "quantity": 24
+    }
+  ],
+  "description": "Each 3-Pack Blister Case contains 24 3-Pack Blisters.",
+  "sources": [],
+  "status": "draft",
+  "migration": {
+    "originalId": "product-111"
+  }
+}

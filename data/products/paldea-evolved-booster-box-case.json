@@ -1,0 +1,28 @@
+{
+  "id": "paldea-evolved-booster-box-case",
+  "name": "Paldea Evolved Booster Box Case",
+  "category": "case",
+  "releaseDate": "2023-06-09",
+  "identifiers": {
+    "tcgplayer": "496905"
+  },
+  "images": [
+    {
+      "type": "front",
+      "url": "https://tcgplayer-cdn.tcgplayer.com/product/496905_in_1000x1000.jpg"
+    }
+  ],
+  "contents": [
+    {
+      "type": "sealed-product",
+      "product": "paldea-evolved-booster-box",
+      "quantity": 6
+    }
+  ],
+  "description": "Each Booster Box Case contains 6 Booster Boxes.",
+  "sources": [],
+  "status": "draft",
+  "migration": {
+    "originalId": "product-191"
+  }
+}

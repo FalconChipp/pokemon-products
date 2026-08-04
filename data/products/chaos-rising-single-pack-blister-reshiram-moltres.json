@@ -1,0 +1,42 @@
+{
+  "id": "chaos-rising-single-pack-blister-reshiram-moltres",
+  "name": "Chaos Rising Single Pack Blister [Reshiram/Moltres]",
+  "category": "single-pack-blister",
+  "releaseDate": "2026-05-22",
+  "identifiers": {
+    "tcgplayer": "696150"
+  },
+  "images": [
+    {
+      "type": "front",
+      "url": "https://tcgplayer-cdn.tcgplayer.com/product/696150_in_1000x1000.jpg"
+    }
+  ],
+  "contents": [
+    {
+      "type": "booster",
+      "set": "me04",
+      "quantity": 1
+    },
+    {
+      "type": "promo-card",
+      "possibleCards": [
+        "me02-014",
+        "me02-017"
+      ],
+      "selection": "one-of",
+      "quantity": 1
+    }
+  ],
+  "sources": [],
+  "status": "draft",
+  "migration": {
+    "originalId": "product-86",
+    "unstructuredContents": [
+      "Mixed stamps across promo cards — review individually: me02-014, me02-017(cosmos-holo)"
+    ],
+    "warnings": [
+      "Description skipped — contains unfilled template placeholders."
+    ]
+  }
+}

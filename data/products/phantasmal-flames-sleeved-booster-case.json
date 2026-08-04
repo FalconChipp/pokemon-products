@@ -1,0 +1,28 @@
+{
+  "id": "phantasmal-flames-sleeved-booster-case",
+  "name": "Phantasmal Flames Sleeved Booster Case",
+  "category": "case",
+  "releaseDate": "2025-11-14",
+  "identifiers": {
+    "tcgplayer": "655282"
+  },
+  "images": [
+    {
+      "type": "front",
+      "url": "https://tcgplayer-cdn.tcgplayer.com/product/655282_in_1000x1000.jpg"
+    }
+  ],
+  "contents": [
+    {
+      "type": "sealed-product",
+      "product": "phantasmal-flames-sleeved-booster-pack",
+      "quantity": 144
+    }
+  ],
+  "description": "Each Sleeved Booster Case contains 144 Sleeved Booster Packs.",
+  "sources": [],
+  "status": "draft",
+  "migration": {
+    "originalId": "product-49"
+  }
+}

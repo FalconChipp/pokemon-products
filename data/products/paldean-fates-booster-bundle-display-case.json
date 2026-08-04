@@ -1,0 +1,28 @@
+{
+  "id": "paldean-fates-booster-bundle-display-case",
+  "name": "Paldean Fates Booster Bundle Display Case",
+  "category": "display",
+  "releaseDate": "2024-02-09",
+  "identifiers": {
+    "tcgplayer": "635609"
+  },
+  "images": [
+    {
+      "type": "front",
+      "url": "https://tcgplayer-cdn.tcgplayer.com/product/635609_in_1000x1000.jpg"
+    }
+  ],
+  "contents": [
+    {
+      "type": "sealed-product",
+      "product": "paldean-fates-booster-bundle",
+      "quantity": 10
+    }
+  ],
+  "description": "Each Booster Bundle Display contains 10 Booster Bundles",
+  "sources": [],
+  "status": "draft",
+  "migration": {
+    "originalId": "product-286"
+  }
+}

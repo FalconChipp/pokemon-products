@@ -1,0 +1,28 @@
+{
+  "id": "paldea-evolved-sleeved-booster-pack",
+  "name": "Paldea Evolved Sleeved Booster Pack",
+  "category": "sleeved-booster-pack",
+  "releaseDate": "2023-06-09",
+  "identifiers": {
+    "tcgplayer": "496927"
+  },
+  "images": [
+    {
+      "type": "front",
+      "url": "https://tcgplayer-cdn.tcgplayer.com/product/496927_in_1000x1000.jpg"
+    }
+  ],
+  "contents": [
+    {
+      "type": "booster",
+      "set": "sv02",
+      "quantity": 1
+    }
+  ],
+  "description": "Each pack contains 10 cards.",
+  "sources": [],
+  "status": "draft",
+  "migration": {
+    "originalId": "product-173"
+  }
+}

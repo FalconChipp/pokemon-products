@@ -1,0 +1,49 @@
+{
+  "id": "phantasmal-flames-premium-checklane-blister-blaziken",
+  "name": "Phantasmal Flames Premium Checklane Blister [Blaziken]",
+  "category": "premium-checklane-blister",
+  "releaseDate": "2025-11-14",
+  "identifiers": {
+    "tcgplayer": "654147"
+  },
+  "images": [
+    {
+      "type": "front",
+      "url": "https://tcgplayer-cdn.tcgplayer.com/product/654147_in_1000x1000.jpg"
+    }
+  ],
+  "contents": [
+    {
+      "type": "booster",
+      "set": "me02",
+      "quantity": 1
+    },
+    {
+      "type": "promo-card",
+      "cards": [
+        "sv10-040",
+        "sv10-041",
+        "sv10-042"
+      ],
+      "quantity": 3
+    },
+    {
+      "type": "accessory",
+      "category": "coin",
+      "quantity": 1,
+      "name": "Diancie",
+      "details": {
+        "size": "big"
+      }
+    }
+  ],
+  "description": "Each Premium Checklane Blister contains 1 booster pack, 3 promo card(s), and a coin.",
+  "sources": [],
+  "status": "draft",
+  "migration": {
+    "originalId": "product-48",
+    "unstructuredContents": [
+      "Mixed stamps across promo cards — review individually: sv10-040, sv10-041, sv10-042(cosmos-holo)"
+    ]
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "id": "perfect-order-pokemon-center-elite-trainer-box",
+  "name": "Perfect Order Pokemon Center Elite Trainer Box",
+  "category": "pokemon-center-elite-trainer-box",
+  "releaseDate": "2026-03-27",
+  "identifiers": {
+    "tcgplayer": "672404"
+  },
+  "images": [
+    {
+      "type": "front",
+      "url": "https://tcgplayer-cdn.tcgplayer.com/product/672404_in_1000x1000.jpg"
+    }
+  ],
+  "contents": [
+    {
+      "type": "booster",
+      "set": "me03",
+      "quantity": 11
+    }
+  ],
+  "description": "Each Pokémon Center Elite Trainer Box contains 11 booster packs, a promo card, 65 card sleeves, 40 Energy cards, A player's guide, 6 damage-counter dice, 1 competition-legal coin-flip die, 1 plastic coin, 6 dividers, a collector's box to hold everything, and a code card for Pokémon TCG Live.",
+  "sources": [],
+  "status": "draft",
+  "migration": {
+    "originalId": "product-56"
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "id": "pitch-black-premium-checklane-blister-tyrunt-tyrantrum",
+  "name": "Pitch Black Premium Checklane Blister [Tyrunt, Tyrantrum]",
+  "category": "premium-checklane-blister",
+  "releaseDate": "2026-07-17",
+  "identifiers": {
+    "tcgplayer": "692953"
+  },
+  "images": [
+    {
+      "type": "front",
+      "url": "https://tcgplayer-cdn.tcgplayer.com/product/692953_in_1000x1000.jpg"
+    }
+  ],
+  "contents": [
+    {
+      "type": "booster",
+      "set": "me05",
+      "quantity": 1
+    },
+    {
+      "type": "promo-card",
+      "cards": [
+        "me03-044",
+        "me03-045"
+      ],
+      "quantity": 2
+    }
+  ],
+  "description": "Each Premium Checklane Blister contains 1 booster pack, 2 promo cards, and a coin.",
+  "sources": [],
+  "status": "draft",
+  "migration": {
+    "originalId": "product-105",
+    "unstructuredContents": [
+      "Mixed stamps across promo cards — review individually: me03-044, me03-045(cosmos-holo)"
+    ]
+  }
+}

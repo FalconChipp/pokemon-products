@@ -1,0 +1,38 @@
+{
+  "id": "mega-heroes-mini-tin-mega-gardevoir",
+  "name": "Mega Heroes Mini Tin [Mega Gardevoir]",
+  "category": "mini-tin",
+  "releaseDate": "2025-09-26",
+  "identifiers": {
+    "tcgplayer": "649394"
+  },
+  "images": [
+    {
+      "type": "front",
+      "url": "https://tcgplayer-cdn.tcgplayer.com/product/649394_in_1000x1000.jpg"
+    }
+  ],
+  "contents": [
+    {
+      "type": "booster",
+      "set": "me01",
+      "quantity": 2
+    },
+    {
+      "type": "accessory",
+      "category": "sticker",
+      "quantity": 1
+    },
+    {
+      "type": "accessory",
+      "category": "art-card",
+      "quantity": 1
+    }
+  ],
+  "description": "Each Mini Tin contains 2 booster packs and an art card.",
+  "sources": [],
+  "status": "draft",
+  "migration": {
+    "originalId": "product-10"
+  }
+}

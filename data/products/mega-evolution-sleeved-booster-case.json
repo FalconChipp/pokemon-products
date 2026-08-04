@@ -1,0 +1,28 @@
+{
+  "id": "mega-evolution-sleeved-booster-case",
+  "name": "Mega Evolution Sleeved Booster Case",
+  "category": "case",
+  "releaseDate": "2025-09-26",
+  "identifiers": {
+    "tcgplayer": "650766"
+  },
+  "images": [
+    {
+      "type": "front",
+      "url": "https://tcgplayer-cdn.tcgplayer.com/product/650766_in_1000x1000.jpg"
+    }
+  ],
+  "contents": [
+    {
+      "type": "sealed-product",
+      "product": "mega-evolution-sleeved-booster-pack",
+      "quantity": 144
+    }
+  ],
+  "description": "Each Sleeved Booster Case contains 144 Sleeved Booster Packs.",
+  "sources": [],
+  "status": "draft",
+  "migration": {
+    "originalId": "product-27"
+  }
+}

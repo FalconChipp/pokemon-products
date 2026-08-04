@@ -1,0 +1,22 @@
+{
+  "id": "paldea-evolved-fun-pack",
+  "name": "Paldea Evolved Fun Pack",
+  "category": "other",
+  "releaseDate": "2023-06-09",
+  "identifiers": {
+    "tcgplayer": "530106"
+  },
+  "images": [
+    {
+      "type": "front",
+      "url": "https://tcgplayer-cdn.tcgplayer.com/product/530106_in_1000x1000.jpg"
+    }
+  ],
+  "contents": [],
+  "description": "Each Fun Pack contains 3 cards.",
+  "sources": [],
+  "status": "draft",
+  "migration": {
+    "originalId": "product-178"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "id": "scarlet-and-violet-booster-bundle",
+  "name": "Scarlet & Violet Booster Bundle",
+  "category": "booster-bundle",
+  "releaseDate": "2023-03-21",
+  "identifiers": {
+    "tcgplayer": "478258"
+  },
+  "images": [
+    {
+      "type": "front",
+      "url": "https://tcgplayer-cdn.tcgplayer.com/product/478258_in_1000x1000.jpg"
+    }
+  ],
+  "contents": [
+    {
+      "type": "booster",
+      "set": "sv01",
+      "quantity": 6
+    }
+  ],
+  "description": "Each Booster Bundle contains 6 booster packs.",
+  "sources": [],
+  "status": "draft",
+  "migration": {
+    "originalId": "product-152"
+  }
+}

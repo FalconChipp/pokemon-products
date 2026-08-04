@@ -1,0 +1,36 @@
+{
+  "id": "obsidian-flames-pokemon-center-elite-trainer-box",
+  "name": "Obsidian Flames Pokemon Center Elite Trainer Box",
+  "category": "pokemon-center-elite-trainer-box",
+  "releaseDate": "2023-08-11",
+  "identifiers": {
+    "tcgplayer": "501266"
+  },
+  "images": [
+    {
+      "type": "front",
+      "url": "https://tcgplayer-cdn.tcgplayer.com/product/501266_in_1000x1000.jpg"
+    }
+  ],
+  "contents": [
+    {
+      "type": "booster",
+      "set": "sv03",
+      "quantity": 11
+    },
+    {
+      "type": "promo-card",
+      "card": "svp-044",
+      "quantity": 1,
+      "stamp": "pokemon-center-stamp"
+    }
+  ],
+  "sources": [],
+  "status": "draft",
+  "migration": {
+    "originalId": "product-197",
+    "warnings": [
+      "Description skipped — contains unfilled template placeholders."
+    ]
+  }
+}

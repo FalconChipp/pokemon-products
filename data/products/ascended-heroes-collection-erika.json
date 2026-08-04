@@ -1,0 +1,33 @@
+{
+  "id": "ascended-heroes-collection-erika",
+  "name": "Ascended Heroes Collection [Erika]",
+  "category": "collection-box",
+  "releaseDate": "2026-02-20",
+  "identifiers": {
+    "tcgplayer": "666906"
+  },
+  "images": [
+    {
+      "type": "front",
+      "url": "https://tcgplayer-cdn.tcgplayer.com/product/666906_in_1000x1000.jpg"
+    }
+  ],
+  "contents": [
+    {
+      "type": "booster",
+      "set": "me02.5",
+      "quantity": 2
+    },
+    {
+      "type": "promo-card",
+      "card": "me02.5-007",
+      "quantity": 1
+    }
+  ],
+  "description": "Each Collection contains 2 Booster Packs, 1 promo card, and 1 coin",
+  "sources": [],
+  "status": "draft",
+  "migration": {
+    "originalId": "product-122"
+  }
+}

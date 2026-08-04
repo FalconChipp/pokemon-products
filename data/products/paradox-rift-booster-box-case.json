@@ -1,0 +1,28 @@
+{
+  "id": "paradox-rift-booster-box-case",
+  "name": "Paradox Rift Booster Box Case",
+  "category": "case",
+  "releaseDate": "2023-11-03",
+  "identifiers": {
+    "tcgplayer": "512828"
+  },
+  "images": [
+    {
+      "type": "front",
+      "url": "https://tcgplayer-cdn.tcgplayer.com/product/512828_in_1000x1000.jpg"
+    }
+  ],
+  "contents": [
+    {
+      "type": "sealed-product",
+      "product": "paradox-rift-booster-box",
+      "quantity": 6
+    }
+  ],
+  "description": "Each Booster Box Case contains 6 Booster Boxes.",
+  "sources": [],
+  "status": "draft",
+  "migration": {
+    "originalId": "product-250"
+  }
+}

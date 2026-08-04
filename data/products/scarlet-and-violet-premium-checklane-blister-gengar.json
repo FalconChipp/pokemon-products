@@ -1,0 +1,37 @@
+{
+  "id": "scarlet-and-violet-premium-checklane-blister-gengar",
+  "name": "Scarlet & Violet Premium Checklane Blister [Gengar]",
+  "category": "premium-checklane-blister",
+  "releaseDate": "2023-03-21",
+  "identifiers": {
+    "tcgplayer": "479328"
+  },
+  "images": [
+    {
+      "type": "front",
+      "url": "https://tcgplayer-cdn.tcgplayer.com/product/479328_in_1000x1000.jpg"
+    }
+  ],
+  "contents": [
+    {
+      "type": "booster",
+      "set": "sv01",
+      "quantity": 1
+    },
+    {
+      "type": "promo-card",
+      "cards": [
+        "swsh11-064",
+        "swsh11-065",
+        "swsh11-066"
+      ],
+      "quantity": 3
+    }
+  ],
+  "description": "Each Premium Checklane Blister contains 1 booster pack, 3 promo cards, and a coin.",
+  "sources": [],
+  "status": "draft",
+  "migration": {
+    "originalId": "product-162"
+  }
+}

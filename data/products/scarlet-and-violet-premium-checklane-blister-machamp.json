@@ -1,0 +1,39 @@
+{
+  "id": "scarlet-and-violet-premium-checklane-blister-machamp",
+  "name": "Scarlet & Violet Premium Checklane Blister [Machamp]",
+  "category": "premium-checklane-blister",
+  "releaseDate": "2023-03-21",
+  "identifiers": {
+    "tcgplayer": "479330"
+  },
+  "images": [
+    {
+      "type": "front",
+      "url": "https://tcgplayer-cdn.tcgplayer.com/product/479330_in_1000x1000.jpg"
+    }
+  ],
+  "contents": [
+    {
+      "type": "booster",
+      "set": "sv01",
+      "quantity": 1
+    },
+    {
+      "type": "promo-card",
+      "cards": [
+        "swsh11-086",
+        "swsh11-087",
+        "swsh11-088"
+      ],
+      "quantity": 3
+    }
+  ],
+  "sources": [],
+  "status": "draft",
+  "migration": {
+    "originalId": "product-168",
+    "warnings": [
+      "Description skipped — contains unfilled template placeholders."
+    ]
+  }
+}

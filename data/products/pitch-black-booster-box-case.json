@@ -1,0 +1,28 @@
+{
+  "id": "pitch-black-booster-box-case",
+  "name": "Pitch Black Booster Box Case",
+  "category": "case",
+  "releaseDate": "2026-07-17",
+  "identifiers": {
+    "tcgplayer": "692941"
+  },
+  "images": [
+    {
+      "type": "front",
+      "url": "https://tcgplayer-cdn.tcgplayer.com/product/692941_in_1000x1000.jpg"
+    }
+  ],
+  "contents": [
+    {
+      "type": "sealed-product",
+      "product": "pitch-black-booster-box",
+      "quantity": 6
+    }
+  ],
+  "description": "Each Booster Box Case contains 6 Booster Boxes.",
+  "sources": [],
+  "status": "draft",
+  "migration": {
+    "originalId": "product-101"
+  }
+}

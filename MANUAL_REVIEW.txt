@@ -1,0 +1,336 @@
+MANUAL REVIEW CHECKLIST
+=======================
+Generated from migration warnings and data quality checks.
+All items are in data/products/ unless noted otherwise.
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+1. TYPOS IN CARD IDS / STAMPS  (5 issues — fix directly)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+ascended-heroes-first-partners-deluxe-pin-collection.json
+  migration.unstructuredContents: "cosmoc-holo" → should be "cosmos-holo"
+
+mega-heroes-mini-tin-display.json
+  migration.unstructuredContents: contains garbage text "per tin per tin" — remove it
+
+paradox-rift-pokemon-center-elite-trainer-box-iron-valiant.json
+  migration.unstructuredContents: "poekmon-center-stamp" → should be "pokemon-center-stamp"
+
+pitch-black-premium-checklane-blister-gengar-line.json
+  migration.unstructuredContents: "me03-49" → should be "me03-049" (missing leading zero)
+
+temporal-forces-premium-checklane-blister-togekiss.json
+  migration.unstructuredContents: "sv03-05" is almost certainly truncated — verify the
+  correct card ID (likely sv03-085 or similar) on TCGdex
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+2. MISSING PROMO CARD IDS  (6 blisters — look up the 3rd card)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Premium checklane blisters contain 3 promo cards but only 2 were identified.
+The missing card is likely a plain (non-cosmos-holo) set card. Look it up and add it.
+
+perfect-order-premium-checklane-blister-clawitzer-line.json
+  Have: me01-037, me01-038 (cosmos-holo)
+  Missing: 1 plain me01 promo card
+
+perfect-order-premium-checklane-blister-steelix-line.json
+  Have: me01-070, me01-093 (cosmos-holo)
+  Missing: 1 plain me01 promo card
+
+phantasmal-flames-premium-checklane-blister-arvens-greedent.json
+  Have: sv10-158, sv10-159 (cosmos-holo)
+  Missing: 1 plain sv10 promo card
+
+phantasmal-flames-premium-checklane-blister-ethans-magcargo.json
+  Have: sv10-035, sv10-036 (cosmos-holo)
+  Missing: 1 plain sv10 promo card
+
+pitch-black-premium-checklane-blister-amaura-aurorus.json
+  Have: me03-023, me03-024 (cosmos-holo)
+  Missing: 1 plain me03 promo card
+
+pitch-black-premium-checklane-blister-tyrunt-tyrantrum.json
+  Have: me03-044, me03-045 (cosmos-holo)  [NB: me03-045 needs leading-zero check]
+  Missing: 1 plain me03 promo card
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+3. SPLIT MIXED-STAMP PROMO ENTRIES  (33 products)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+These products have promo cards with different stamps in a single promo-card content
+entry. Each stamp variant should become its own entry, e.g.:
+  { "type": "promo-card", "cards": ["me01-037", "me01-038"], "quantity": 2 }
+  { "type": "promo-card", "card": "me01-039", "quantity": 1, "stamp": "cosmos-holo" }
+
+The card IDs below come from migration.unstructuredContents — move them into proper
+contents entries, then remove the unstructuredContents field.
+
+chaos-rising-premium-checklane-blister-flygon-line.json
+  Plain: me02-051, me02-052 | Cosmos-holo: me02-053
+
+chaos-rising-premium-checklane-blister-pawmot-line.json
+  Plain: me02-032, me02-033 | Cosmos-holo: me02-034
+
+chaos-rising-single-pack-blister-reshiram-moltres.json
+  Plain: me02-014 | Cosmos-holo: me02-017
+
+chaos-rising-single-pack-blister-zacian-mimikyu.json
+  Plain: me02-042 | Cosmos-holo: me02-045
+
+mega-evolution-premium-checklane-blister-meowscarada.json
+  Plain: sv09-016, sv09-017 | Cosmos-holo: sv09-018
+
+mega-evolution-premium-checklane-blister-tyranitar.json
+  Plain: sv09-080, sv09-081 | Cosmos-holo: sv09-095
+
+mega-evolution-single-pack-blister-lycanroc.json
+  Plain: sv09-084 | Cosmos-holo: sv09-085
+
+mega-evolution-single-pack-blister-wailord.json
+  Plain: sv09-040 | Cosmos-holo: sv09-041
+
+paldea-evolved-premium-checklane-blister-arboliva.json
+  Plain: sv01-020, sv01-022 | Vertical-line-holo: sv01-023
+  NB: stamp name is "vertical-line-holo" — confirm this is the correct TCGdex stamp value
+
+paldea-evolved-premium-checklane-blister-pawmot.json
+  Plain: sv01-073, sv01-075 | Vertical-line-holo: sv01-076
+  NB: stamp name is "vertical-line-holo" — confirm this is the correct TCGdex stamp value
+
+paradox-rift-pokemon-center-elite-trainer-box-iron-valiant.json
+  Pokemon-center-stamp: svp-065, svp-066
+  NB: both cards have the same stamp here — currently stored as one entry; verify whether
+  they should be split or kept together
+
+paradox-rift-premium-checklane-blister-hydreigon.json
+  Plain: sv02-138, sv02-139 | Cosmos-holo: sv02-140
+
+paradox-rift-premium-checklane-blister-tinkaton.json
+  Plain: sv02-102, sv02-104 | Cosmos-holo: sv02-105
+
+paradox-rift-single-pack-blister-ceruledge.json
+  Plain: sv02-039 | Cosmos-holo: sv02-098
+
+paradox-rift-single-pack-blister-glimmora.json
+  Plain: sv02-124 | Cosmos-holo: sv02-126
+
+perfect-order-premium-checklane-blister-clawitzer-line.json
+  Plain: me01-037 | Cosmos-holo: me01-038  (+ 1 missing card — see section 2)
+
+perfect-order-premium-checklane-blister-steelix-line.json
+  Plain: me01-070 | Cosmos-holo: me01-093  (+ 1 missing card — see section 2)
+
+phantasmal-flames-premium-checklane-blister-arvens-greedent.json
+  Plain: sv10-158 | Cosmos-holo: sv10-159  (+ 1 missing card — see section 2)
+
+phantasmal-flames-premium-checklane-blister-blaziken.json
+  Plain: sv10-040, sv10-041 | Cosmos-holo: sv10-042
+
+phantasmal-flames-premium-checklane-blister-ethans-magcargo.json
+  Plain: sv10-035 | Cosmos-holo: sv10-036  (+ 1 missing card — see section 2)
+
+phantasmal-flames-premium-checklane-blister-hydrapple.json
+  Plain: sv10-016, sv10-017 | Cosmos-holo: sv10-018
+
+pitch-black-premium-checklane-blister-amaura-aurorus.json
+  Plain: me03-023 | Cosmos-holo: me03-024  (+ 1 missing card — see section 2)
+
+pitch-black-premium-checklane-blister-gengar-line.json
+  Plain: me03-048, me03-049 | Cosmos-holo: me03-050
+  NB: was stored as "me03-49" — correct to "me03-049" first (see section 1)
+
+pitch-black-premium-checklane-blister-luxray-line.json
+  Plain: me03-026, me03-027 | Cosmos-holo: me03-028
+
+pitch-black-premium-checklane-blister-tyrunt-tyrantrum.json
+  Plain: me03-044 | Cosmos-holo: me03-045  (+ 1 missing card — see section 2)
+
+temporal-forces-premium-checklane-blister-togekiss.json
+  Plain: sv03-083, sv03-084 | Cosmos-holo: sv03-0?? (ID is "sv03-05" — verify, see section 1)
+
+temporal-forces-single-pack-blister-palafin.json
+  Plain: sv03-060 | Cosmos-holo: sv03-062
+
+temporal-forces-single-pack-blister-scovillain.json
+  Plain: sv03-024 | Cosmos-holo: sv03-025
+
+ascended-heroes-first-partners-deluxe-pin-collection.json
+  Cosmos-holo: me02.5-008, me02.5-029, me02.5-041
+  NB: all three are cosmos-holo (no plain cards for this product)
+  NB: "cosmoc-holo" typo — fix first (see section 1)
+
+151-alakazam-ex-collection.json
+  Mixed stamps: svp-050, sv03.5-063 (cosmos-holo), sv03.5-064 (cosmos-holo)
+  NB: svp-050 uses a different set (svp) — confirm it has no stamp
+
+151-zapdos-ex-collection.json
+  Duplicate ID removed: svp-049 (jumbo variant)
+  Also: svp-049 may have a standard and jumbo variant — split into two entries
+
+paradox-rift-pokemon-center-elite-trainer-box-iron-valiant.json  [already listed above]
+
+scarlet-and-violet-premium-checklane-blister-machamp.json
+  (missing description too — see section 6)
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+4. ADD JUMBO PROMO-CARD ENTRIES  (8 products)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+These products include an oversized (jumbo) card that was deduplicated away during
+migration. Add a separate promo-card content entry with the appropriate stamp.
+
+151-blooming-waters-premium-collection.json
+  Add: { "type": "promo-card", "card": "sv03.5-009", "quantity": 1, "stamp": "jumbo" }
+
+151-zapdos-ex-collection.json
+  Add: { "type": "promo-card", "card": "svp-049", "quantity": 1, "stamp": "jumbo" }
+
+ascended-heroes-focused-fighters-premium-collection.json
+  Add: { "type": "promo-card", "card": "me02.5-116", "quantity": 1, "stamp": "jumbo" }
+
+ascended-heroes-mega-emboar-ex-box.json
+  Add: { "type": "promo-card", "card": "mep-035", "quantity": 1, "stamp": "jumbo-lenticular" }
+
+ascended-heroes-mega-feraligatr-ex-box.json
+  Add: { "type": "promo-card", "card": "mep-036", "quantity": 1, "stamp": "jumbo-lenticular" }
+
+ascended-heroes-mega-meganium-ex-box.json
+  Add: { "type": "promo-card", "card": "mep-034", "quantity": 1, "stamp": "jumbo-lenticular" }
+
+paldean-fates-great-tusk-ex-and-iron-treads-ex-premium-collection.json
+  Add: { "type": "promo-card", "card": "svp-072", "quantity": 1, "stamp": "jumbo-expansion-stamp" }
+
+paldean-fates-premium-collection-meowscarada-ex.json
+  Add: { "type": "promo-card", "card": "svp-078", "quantity": 1, "stamp": "jumbo" }
+
+paldean-fates-premium-collection-quaquaval-ex.json
+  Add: { "type": "promo-card", "card": "svp-084", "quantity": 1, "stamp": "jumbo" }
+
+paldean-fates-premium-collection-skeledirge-ex.json
+  Add: { "type": "promo-card", "card": "svp-081", "quantity": 1, "stamp": "jumbo" }
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+5. B&B BOX PROMO CARDS  (2 products)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+These contain "1 of 4 unique foil promo cards" but no card IDs were entered in v1.
+Look up the 4 promo card IDs and add a promo-card entry with selection "one-of".
+
+phantasmal-flames-build-and-battle-box.json
+  Add: { "type": "promo-card", "possibleCards": ["sv10-???", ...], "quantity": 1,
+         "selection": "one-of" }
+
+phantasmal-flames-build-and-battle-box-display.json
+  Once the B&B box is updated, this display references the B&B box and needs no
+  separate promo entry (promos belong to the child product).
+  Also: paradox-rift-build-and-battle-box-display is still unresolved — the Paradox Rift
+  B&B box product does not exist yet. Create it, then update the display.
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+6. MISSING DESCRIPTIONS  (18 products)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+These had unfilled [number] placeholders in v1 and were migrated without a description.
+
+chaos-rising-single-pack-blister-reshiram-moltres.json
+chaos-rising-single-pack-blister-toxel.json
+chaos-rising-single-pack-blister-zacian-mimikyu.json
+mega-evolution-single-pack-blister-drifblim.json
+mega-evolution-single-pack-blister-drifloon.json
+mega-evolution-single-pack-blister-lycanroc.json
+mega-evolution-single-pack-blister-wailord.json
+obsidian-flames-pokemon-center-elite-trainer-box.json
+paldea-evolved-pokemon-center-elite-trainer-box.json
+paldea-evolved-single-pack-blister-growlithe.json
+paldea-evolved-single-pack-blister-smoliv.json
+paradox-rift-elite-trainer-box-roaring-moon.json
+perfect-order-single-pack-blister-makuhita.json
+phantasmal-flames-single-pack-blister-cottonee.json
+phantasmal-flames-single-pack-blister-whimsicott.json
+scarlet-and-violet-pokemon-center-elite-trainer-box-koraidon.json
+scarlet-and-violet-premium-checklane-blister-machamp.json
+scarlet-and-violet-single-pack-blister-espathra.json
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+7. CASE / DISPLAY ASSORTMENTS TO VERIFY  (15 products)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Child quantities were assumed equal splits. Verify against official case specs.
+
+151-mini-tin-display.json
+  10 children × 1 each (10 total) — confirm each design ships exactly once
+
+ascended-heroes-collection-case.json
+  ascended-heroes-collection-erika × 12, ascended-heroes-collection-larry × 12
+
+ascended-heroes-mega-ex-box-case.json
+  3 Mega ex Boxes × 2 each — "2 of each" per description; verify
+
+ascended-heroes-mini-tin-display.json
+  5 children × 2 each (10 total) — confirm even split
+
+ascended-heroes-premium-poster-collection-case.json
+  2 Poster Collections × 3 each — verify
+
+ascended-heroes-tech-sticker-collection-case.json
+  2 Tech Sticker Collections × 6 each — verify
+
+ascended-heroes-tin-case.json
+  3 Tins × 2 each — verify
+
+mega-evolution-elite-trainer-box-case.json
+  2 ETBs (Gardevoir + Lucario) × 5 each — verify; v1 data had Lucario-only accessories
+  suggesting it might be a single-variant case
+
+mega-heroes-mini-tin-display.json
+  5 children × 2 each (10 total) — confirm even split
+
+paldean-fates-mini-tin-display.json  *** PACK COUNT MISMATCH ***
+  4 children × 3 each set (qty 3) but parent has only 20 packs (= 10 tins × 2 packs).
+  Actual assortment is likely unequal, e.g. 3+3+2+2 = 10. Determine the real split.
+
+paldean-fates-premium-collection-case.json
+  3 Premium Collections × 2 each — verify
+
+paldean-fates-tech-sticker-collection-case.json
+  3 Tech Sticker Collections × 4 each — verify
+
+phantasmal-flames-3-pack-blister-case.json
+  2 Blisters (Sneasel + Weavile) × 12 each — description says "24 Blisters"; verify split
+
+scarlet-and-violet-elite-trainer-box-case.json
+  2 ETBs (Koraidon + Miraidon) × 5 each — verify
+
+temporal-forces-elite-trainer-box-case.json
+  2 ETBs (Iron Leaves + Walking Wake) × 5 each — verify
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+8. PACK COUNT MISMATCHES  (2 products)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+151-ultra-premium-collection-case.json
+  Parent v1 pack count: 56. Child (151-ultra-premium-collection) has 16 packs.
+  4 × 16 = 64 ≠ 56. Description says "4 Ultra-Premium Collections" so qty=4 is correct.
+  The v1 case pack count (56) is likely a data entry error. Verify and update if needed.
+
+paldean-fates-mini-tin-display.json  [also listed in section 7]
+  Parent v1 pack count: 20. 4 variants × 3 qty × 2 packs = 24 ≠ 20.
+  Description says "10 Mini Tins". Unequal assortment required — see section 7.
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+9. EXTERNAL ID LOOKUPS
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+mega-evolution-premium-checklane-blister-tyranitar.json
+  TCGplayer ID was removed (was shared with the Meowscarada blister — data entry error).
+  Look up the correct TCGplayer product ID.
+
+All 311 products need cardmarket and cardtrader IDs added to identifiers.
+
+paradox-rift-build-and-battle-box-display.json
+  Child product "paradox-rift-build-and-battle-box" does not exist yet.
+  Create the B&B box product, then update the display to reference it.

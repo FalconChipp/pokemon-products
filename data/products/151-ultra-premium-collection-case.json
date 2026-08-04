@@ -1,0 +1,31 @@
+{
+  "id": "151-ultra-premium-collection-case",
+  "name": "151 Ultra-Premium Collection Case",
+  "category": "case",
+  "releaseDate": "2023-10-06",
+  "identifiers": {
+    "tcgplayer": "515970"
+  },
+  "images": [
+    {
+      "type": "front",
+      "url": "https://tcgplayer-cdn.tcgplayer.com/product/515970_in_1000x1000.jpg"
+    }
+  ],
+  "contents": [
+    {
+      "type": "sealed-product",
+      "product": "151-ultra-premium-collection",
+      "quantity": 4
+    }
+  ],
+  "description": "Each case contains 4 151 Ultra-Premium Collections.",
+  "sources": [],
+  "status": "draft",
+  "migration": {
+    "originalId": "product-242",
+    "warnings": [
+      "Pack count mismatch: parent has 56 packs, children total 16 per set (151-ultra-premium-collection). Child quantity set to 4 (64 packs implied). Verify actual assortment."
+    ]
+  }
+}

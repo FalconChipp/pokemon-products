@@ -1,0 +1,43 @@
+{
+  "id": "chaos-rising-single-pack-blister-toxel",
+  "name": "Chaos Rising Single Pack Blister [Toxel]",
+  "category": "single-pack-blister",
+  "releaseDate": "2026-05-22",
+  "identifiers": {
+    "tcgplayer": "684457"
+  },
+  "images": [
+    {
+      "type": "front",
+      "url": "https://tcgplayer-cdn.tcgplayer.com/product/684457_in_1000x1000.jpg"
+    }
+  ],
+  "contents": [
+    {
+      "type": "booster",
+      "set": "me04",
+      "quantity": 1
+    },
+    {
+      "type": "promo-card",
+      "card": "mep-078",
+      "quantity": 1
+    },
+    {
+      "type": "accessory",
+      "category": "coin",
+      "quantity": 1,
+      "details": {
+        "size": "big"
+      }
+    }
+  ],
+  "sources": [],
+  "status": "draft",
+  "migration": {
+    "originalId": "product-78",
+    "warnings": [
+      "Description skipped — contains unfilled template placeholders."
+    ]
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "id": "paldea-evolved-single-pack-blister-growlithe",
+  "name": "Paldea Evolved Single Pack Blister [Growlithe]",
+  "category": "single-pack-blister",
+  "releaseDate": "2023-06-09",
+  "identifiers": {
+    "tcgplayer": "494001"
+  },
+  "images": [
+    {
+      "type": "front",
+      "url": "https://tcgplayer-cdn.tcgplayer.com/product/494001_in_1000x1000.jpg"
+    }
+  ],
+  "contents": [
+    {
+      "type": "booster",
+      "set": "sv02",
+      "quantity": 1
+    },
+    {
+      "type": "promo-card",
+      "card": "svp-024",
+      "quantity": 1,
+      "stamp": "cosmos-holo"
+    }
+  ],
+  "sources": [],
+  "status": "draft",
+  "migration": {
+    "originalId": "product-175",
+    "warnings": [
+      "Description skipped — contains unfilled template placeholders."
+    ]
+  }
+}

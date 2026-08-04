@@ -1,0 +1,36 @@
+{
+  "id": "ascended-heroes-mega-feraligatr-ex-box",
+  "name": "Ascended Heroes Mega Feraligatr ex Box",
+  "category": "collection-box",
+  "releaseDate": "2026-04-24",
+  "identifiers": {
+    "tcgplayer": "672735"
+  },
+  "images": [
+    {
+      "type": "front",
+      "url": "https://tcgplayer-cdn.tcgplayer.com/product/672735_in_1000x1000.jpg"
+    }
+  ],
+  "contents": [
+    {
+      "type": "booster",
+      "set": "me02.5",
+      "quantity": 4
+    },
+    {
+      "type": "promo-card",
+      "card": "mep-036",
+      "quantity": 1
+    }
+  ],
+  "description": "Each Mega Feraligatr ex Box contains 4 Booster Packs, 1 promo card, and 1 jumbo lenticular card.",
+  "sources": [],
+  "status": "draft",
+  "migration": {
+    "originalId": "product-119",
+    "unstructuredContents": [
+      "Duplicate card IDs removed — likely Jumbo or stamp variants: mep-036 (jumbo-lenticular)"
+    ]
+  }
+}

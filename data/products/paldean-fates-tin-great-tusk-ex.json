@@ -1,0 +1,33 @@
+{
+  "id": "paldean-fates-tin-great-tusk-ex",
+  "name": "Paldean Fates Tin [Great Tusk ex]",
+  "category": "tin",
+  "releaseDate": "2024-02-09",
+  "identifiers": {
+    "tcgplayer": "528057"
+  },
+  "images": [
+    {
+      "type": "front",
+      "url": "https://tcgplayer-cdn.tcgplayer.com/product/528057_in_1000x1000.jpg"
+    }
+  ],
+  "contents": [
+    {
+      "type": "booster",
+      "set": "sv04.5",
+      "quantity": 5
+    },
+    {
+      "type": "promo-card",
+      "card": "svp-072",
+      "quantity": 1
+    }
+  ],
+  "description": "Each Tin contains 5 Booster Packs and 1 promo card.",
+  "sources": [],
+  "status": "draft",
+  "migration": {
+    "originalId": "product-288"
+  }
+}

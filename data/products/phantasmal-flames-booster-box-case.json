@@ -1,0 +1,28 @@
+{
+  "id": "phantasmal-flames-booster-box-case",
+  "name": "Phantasmal Flames Booster Box Case",
+  "category": "case",
+  "releaseDate": "2025-11-14",
+  "identifiers": {
+    "tcgplayer": "655281"
+  },
+  "images": [
+    {
+      "type": "front",
+      "url": "https://tcgplayer-cdn.tcgplayer.com/product/655281_in_1000x1000.jpg"
+    }
+  ],
+  "contents": [
+    {
+      "type": "sealed-product",
+      "product": "phantasmal-flames-booster-box",
+      "quantity": 6
+    }
+  ],
+  "description": "Each Booster Box Case contains 6 Booster Boxes.",
+  "sources": [],
+  "status": "draft",
+  "migration": {
+    "originalId": "product-42"
+  }
+}

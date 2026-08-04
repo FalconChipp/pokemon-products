@@ -1,0 +1,28 @@
+{
+  "id": "scarlet-and-violet-sleeved-booster-pack",
+  "name": "Scarlet & Violet Sleeved Booster Pack",
+  "category": "sleeved-booster-pack",
+  "releaseDate": "2023-03-21",
+  "identifiers": {
+    "tcgplayer": "478273"
+  },
+  "images": [
+    {
+      "type": "front",
+      "url": "https://tcgplayer-cdn.tcgplayer.com/product/478273_in_1000x1000.jpg"
+    }
+  ],
+  "contents": [
+    {
+      "type": "booster",
+      "set": "sv01",
+      "quantity": 1
+    }
+  ],
+  "description": "Each pack contains 10 cards.",
+  "sources": [],
+  "status": "draft",
+  "migration": {
+    "originalId": "product-157"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "id": "ascended-heroes-elite-trainer-box-case",
+  "name": "Ascended Heroes Elite Trainer Box Case",
+  "category": "case",
+  "releaseDate": "2026-02-20",
+  "identifiers": {
+    "tcgplayer": "679558"
+  },
+  "images": [
+    {
+      "type": "front",
+      "url": "https://tcgplayer-cdn.tcgplayer.com/product/679558_in_1000x1000.jpg"
+    }
+  ],
+  "contents": [
+    {
+      "type": "sealed-product",
+      "product": "ascended-heroes-elite-trainer-box",
+      "quantity": 10
+    }
+  ],
+  "description": "Each Elite Trainer Box Case contains 10 Elite Trainer Boxes.",
+  "sources": [],
+  "status": "draft",
+  "migration": {
+    "originalId": "product-125"
+  }
+}

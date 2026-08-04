@@ -1,0 +1,28 @@
+{
+  "id": "paradox-rift-booster-bundle",
+  "name": "Paradox Rift Booster Bundle",
+  "category": "booster-bundle",
+  "releaseDate": "2023-11-03",
+  "identifiers": {
+    "tcgplayer": "512820"
+  },
+  "images": [
+    {
+      "type": "front",
+      "url": "https://tcgplayer-cdn.tcgplayer.com/product/512820_in_1000x1000.jpg"
+    }
+  ],
+  "contents": [
+    {
+      "type": "booster",
+      "set": "sv04",
+      "quantity": 6
+    }
+  ],
+  "description": "Each Booster Bundle contains 6 booster packs.",
+  "sources": [],
+  "status": "draft",
+  "migration": {
+    "originalId": "product-259"
+  }
+}

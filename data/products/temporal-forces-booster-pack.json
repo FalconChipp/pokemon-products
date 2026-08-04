@@ -1,0 +1,28 @@
+{
+  "id": "temporal-forces-booster-pack",
+  "name": "Temporal Forces Booster Pack",
+  "category": "booster-pack",
+  "releaseDate": "2024-03-22",
+  "identifiers": {
+    "tcgplayer": "532841"
+  },
+  "images": [
+    {
+      "type": "front",
+      "url": "https://tcgplayer-cdn.tcgplayer.com/product/532841_in_1000x1000.jpg"
+    }
+  ],
+  "contents": [
+    {
+      "type": "booster",
+      "set": "sv05",
+      "quantity": 1
+    }
+  ],
+  "description": "Each pack contains 10 cards.",
+  "sources": [],
+  "status": "draft",
+  "migration": {
+    "originalId": "product-293"
+  }
+}

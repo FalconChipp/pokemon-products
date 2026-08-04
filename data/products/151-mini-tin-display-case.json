@@ -1,0 +1,28 @@
+{
+  "id": "151-mini-tin-display-case",
+  "name": "151 Mini Tin Display Case",
+  "category": "case",
+  "releaseDate": "2023-10-06",
+  "identifiers": {
+    "tcgplayer": "668357"
+  },
+  "images": [
+    {
+      "type": "front",
+      "url": "https://tcgplayer-cdn.tcgplayer.com/product/668357_in_1000x1000.jpg"
+    }
+  ],
+  "contents": [
+    {
+      "type": "sealed-product",
+      "product": "151-mini-tin-display",
+      "quantity": 4
+    }
+  ],
+  "description": "Each Mini Tin Display Case contains 4 Mini Tin Displays.",
+  "sources": [],
+  "status": "draft",
+  "migration": {
+    "originalId": "product-233"
+  }
+}

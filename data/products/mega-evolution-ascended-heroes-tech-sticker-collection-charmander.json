@@ -1,0 +1,34 @@
+{
+  "id": "mega-evolution-ascended-heroes-tech-sticker-collection-charmander",
+  "name": "Mega Evolution: Ascended Heroes Tech Sticker Collection [Charmander]",
+  "category": "tech-sticker-collection",
+  "releaseDate": "2026-01-30",
+  "identifiers": {
+    "tcgplayer": "666908"
+  },
+  "images": [
+    {
+      "type": "front",
+      "url": "https://tcgplayer-cdn.tcgplayer.com/product/666908_in_1000x1000.jpg"
+    }
+  ],
+  "contents": [
+    {
+      "type": "booster",
+      "set": "me02.5",
+      "quantity": 3
+    },
+    {
+      "type": "promo-card",
+      "card": "me02.5-020",
+      "quantity": 1,
+      "stamp": "cosmos-holo"
+    }
+  ],
+  "description": "Each Tech Sticker Collection contains 3 Booster Packs, 1 promo card, and stickers.",
+  "sources": [],
+  "status": "draft",
+  "migration": {
+    "originalId": "product-129"
+  }
+}

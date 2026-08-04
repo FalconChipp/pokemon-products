@@ -1,0 +1,28 @@
+{
+  "id": "paldea-evolved-elite-trainer-box-case",
+  "name": "Paldea Evolved Elite Trainer Box Case",
+  "category": "case",
+  "releaseDate": "2023-06-09",
+  "identifiers": {
+    "tcgplayer": "496911"
+  },
+  "images": [
+    {
+      "type": "front",
+      "url": "https://tcgplayer-cdn.tcgplayer.com/product/496911_in_1000x1000.jpg"
+    }
+  ],
+  "contents": [
+    {
+      "type": "sealed-product",
+      "product": "paldea-evolved-elite-trainer-box",
+      "quantity": 10
+    }
+  ],
+  "description": "Each Elite Trainer Box Case contains 10 Elite Trainer Boxes.",
+  "sources": [],
+  "status": "draft",
+  "migration": {
+    "originalId": "product-189"
+  }
+}

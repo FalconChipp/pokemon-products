@@ -1,0 +1,28 @@
+{
+  "id": "ascended-heroes-booster-bundle-case",
+  "name": "Ascended Heroes Booster Bundle Case",
+  "category": "case",
+  "releaseDate": "2026-04-24",
+  "identifiers": {
+    "tcgplayer": "681339"
+  },
+  "images": [
+    {
+      "type": "front",
+      "url": "https://tcgplayer-cdn.tcgplayer.com/product/681339_in_1000x1000.jpg"
+    }
+  ],
+  "contents": [
+    {
+      "type": "sealed-product",
+      "product": "ascended-heroes-booster-bundle",
+      "quantity": 25
+    }
+  ],
+  "description": "Each Booster Bundle Case contains 25 Booster Bundles.",
+  "sources": [],
+  "status": "draft",
+  "migration": {
+    "originalId": "product-127"
+  }
+}

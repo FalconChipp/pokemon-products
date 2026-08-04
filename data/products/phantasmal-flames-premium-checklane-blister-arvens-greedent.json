@@ -1,0 +1,48 @@
+{
+  "id": "phantasmal-flames-premium-checklane-blister-arvens-greedent",
+  "name": "Phantasmal Flames Premium Checklane Blister [Arven's Greedent]",
+  "category": "premium-checklane-blister",
+  "releaseDate": "2025-11-14",
+  "identifiers": {
+    "tcgplayer": "668931"
+  },
+  "images": [
+    {
+      "type": "front",
+      "url": "https://tcgplayer-cdn.tcgplayer.com/product/668931_in_1000x1000.jpg"
+    }
+  ],
+  "contents": [
+    {
+      "type": "booster",
+      "set": "me02",
+      "quantity": 1
+    },
+    {
+      "type": "promo-card",
+      "cards": [
+        "sv10-158",
+        "sv10-159"
+      ],
+      "quantity": 2
+    },
+    {
+      "type": "accessory",
+      "category": "coin",
+      "quantity": 1,
+      "name": "Diancie",
+      "details": {
+        "size": "big"
+      }
+    }
+  ],
+  "description": "Each Premium Checklane Blister contains 1 booster pack, 3 promo card(s), and a coin.",
+  "sources": [],
+  "status": "draft",
+  "migration": {
+    "originalId": "product-47",
+    "unstructuredContents": [
+      "Mixed stamps across promo cards — review individually: sv10-158, sv10-159(cosmos-holo)"
+    ]
+  }
+}

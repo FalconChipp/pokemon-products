@@ -1,0 +1,41 @@
+{
+  "id": "paldean-fates-premium-collection-skeledirge-ex",
+  "name": "Paldean Fates Premium Collection [Skeledirge ex]",
+  "category": "premium-collection",
+  "releaseDate": "2024-02-09",
+  "identifiers": {
+    "tcgplayer": "528080"
+  },
+  "images": [
+    {
+      "type": "front",
+      "url": "https://tcgplayer-cdn.tcgplayer.com/product/528080_in_1000x1000.jpg"
+    }
+  ],
+  "contents": [
+    {
+      "type": "booster",
+      "set": "sv04.5",
+      "quantity": 8
+    },
+    {
+      "type": "promo-card",
+      "cards": [
+        "svp-079",
+        "svp-080",
+        "svp-081"
+      ],
+      "quantity": 3
+    }
+  ],
+  "description": "Each Collection contains 8 Booster Packs, 3 promo cards, and 1 jumbo card.",
+  "sources": [],
+  "status": "draft",
+  "migration": {
+    "originalId": "product-282",
+    "unstructuredContents": [
+      "Duplicate card IDs removed — likely Jumbo or stamp variants: svp-081 (jumbo)"
+    ],
+    "warnings": []
+  }
+}

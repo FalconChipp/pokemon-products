@@ -1,0 +1,19 @@
+{
+  "id": "ascended-heroes-booster-bundle-display",
+  "name": "Ascended Heroes Booster Bundle Display",
+  "category": "display",
+  "releaseDate": "2026-04-24",
+  "contents": [
+    {
+      "type": "sealed-product",
+      "product": "ascended-heroes-booster-bundle",
+      "quantity": 10
+    }
+  ],
+  "description": "Each Booster Bundle Display contains 10 Booster Bundles",
+  "sources": [],
+  "status": "draft",
+  "migration": {
+    "originalId": "product-139"
+  }
+}

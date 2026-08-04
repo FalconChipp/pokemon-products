@@ -1,0 +1,40 @@
+{
+  "id": "151-zapdos-ex-collection",
+  "name": "151: Zapdos ex Collection",
+  "category": "collection-box",
+  "releaseDate": "2023-10-06",
+  "identifiers": {
+    "tcgplayer": "502007"
+  },
+  "images": [
+    {
+      "type": "front",
+      "url": "https://tcgplayer-cdn.tcgplayer.com/product/502007_in_1000x1000.jpg"
+    }
+  ],
+  "contents": [
+    {
+      "type": "booster",
+      "set": "sv03.5",
+      "quantity": 4
+    },
+    {
+      "type": "promo-card",
+      "cards": [
+        "sv03.5-125",
+        "svp-049"
+      ],
+      "quantity": 2
+    }
+  ],
+  "description": "Each 151: Zapdos ex Collection contains 4 Booster Packs, 2 promo cards, and 1 jumbo card.",
+  "sources": [],
+  "status": "draft",
+  "migration": {
+    "originalId": "product-222",
+    "unstructuredContents": [
+      "Duplicate card IDs removed — likely Jumbo or stamp variants: svp-049 (jumbo)"
+    ],
+    "warnings": []
+  }
+}

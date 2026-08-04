@@ -1,0 +1,37 @@
+{
+  "id": "paldea-evolved-single-pack-blister-armarouge",
+  "name": "Paldea Evolved Single Pack Blister [Armarouge]",
+  "category": "single-pack-blister",
+  "releaseDate": "2023-06-09",
+  "identifiers": {
+    "tcgplayer": "618829"
+  },
+  "images": [
+    {
+      "type": "front",
+      "url": "https://tcgplayer-cdn.tcgplayer.com/product/618829_in_1000x1000.jpg"
+    }
+  ],
+  "contents": [
+    {
+      "type": "booster",
+      "set": "sv02",
+      "quantity": 1
+    },
+    {
+      "type": "promo-card",
+      "possibleCards": [
+        "sv01-039",
+        "sv01-041"
+      ],
+      "selection": "one-of",
+      "quantity": 1
+    }
+  ],
+  "description": "Each Single Pack Blister contains 1 booster pack, 2 promo cards, and a coin.",
+  "sources": [],
+  "status": "draft",
+  "migration": {
+    "originalId": "product-182"
+  }
+}

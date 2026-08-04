@@ -1,0 +1,39 @@
+{
+  "id": "paradox-rift-elite-trainer-box-roaring-moon",
+  "name": "Paradox Rift Elite Trainer Box [Roaring Moon]",
+  "category": "elite-trainer-box",
+  "releaseDate": "2023-11-03",
+  "identifiers": {
+    "tcgplayer": "512815"
+  },
+  "images": [
+    {
+      "type": "front",
+      "url": "https://tcgplayer-cdn.tcgplayer.com/product/512815_in_1000x1000.jpg"
+    }
+  ],
+  "contents": [
+    {
+      "type": "booster",
+      "set": "sv04",
+      "quantity": 9
+    },
+    {
+      "type": "promo-card",
+      "possibleCards": [
+        "svp-065",
+        "svp-066"
+      ],
+      "selection": "one-of",
+      "quantity": 1
+    }
+  ],
+  "sources": [],
+  "status": "draft",
+  "migration": {
+    "originalId": "product-253",
+    "warnings": [
+      "Description skipped — contains unfilled template placeholders."
+    ]
+  }
+}

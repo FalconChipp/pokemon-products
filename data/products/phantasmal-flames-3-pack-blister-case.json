@@ -1,0 +1,36 @@
+{
+  "id": "phantasmal-flames-3-pack-blister-case",
+  "name": "Phantasmal Flames 3-Pack Blister Case",
+  "category": "case",
+  "releaseDate": "2025-11-14",
+  "identifiers": {
+    "tcgplayer": "685215"
+  },
+  "images": [
+    {
+      "type": "front",
+      "url": "https://tcgplayer-cdn.tcgplayer.com/product/685215_in_1000x1000.jpg"
+    }
+  ],
+  "contents": [
+    {
+      "type": "sealed-product",
+      "product": "phantasmal-flames-3-pack-blister-sneasel",
+      "quantity": 12
+    },
+    {
+      "type": "sealed-product",
+      "product": "phantasmal-flames-3-pack-blister-weavile",
+      "quantity": 12
+    }
+  ],
+  "description": "Case contains 24 Blisters.  Each blister comes with 3 Phantasmal Flames booster packs and a promotional card.",
+  "sources": [],
+  "status": "draft",
+  "migration": {
+    "originalId": "product-46",
+    "warnings": [
+      "Contains 2 child product variants — verify actual assortment and quantities."
+    ]
+  }
+}

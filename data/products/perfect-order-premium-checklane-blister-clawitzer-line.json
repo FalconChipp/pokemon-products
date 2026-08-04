@@ -1,0 +1,39 @@
+{
+  "id": "perfect-order-premium-checklane-blister-clawitzer-line",
+  "name": "Perfect Order Premium Checklane Blister [Clawitzer Line]",
+  "category": "premium-checklane-blister",
+  "releaseDate": "2026-03-27",
+  "identifiers": {
+    "tcgplayer": "672409"
+  },
+  "images": [
+    {
+      "type": "front",
+      "url": "https://tcgplayer-cdn.tcgplayer.com/product/672409_in_1000x1000.jpg"
+    }
+  ],
+  "contents": [
+    {
+      "type": "booster",
+      "set": "me03",
+      "quantity": 1
+    },
+    {
+      "type": "promo-card",
+      "cards": [
+        "me01-037",
+        "me01-038"
+      ],
+      "quantity": 2
+    }
+  ],
+  "description": "Each Premium Checklane Blister contains 1 booster pack, 3 promo card(s), and a coin.",
+  "sources": [],
+  "status": "draft",
+  "migration": {
+    "originalId": "product-67",
+    "unstructuredContents": [
+      "Mixed stamps across promo cards — review individually: me01-037, me01-038(cosmos-holo)"
+    ]
+  }
+}

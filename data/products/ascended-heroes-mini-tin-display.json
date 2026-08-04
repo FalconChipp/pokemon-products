@@ -1,0 +1,51 @@
+{
+  "id": "ascended-heroes-mini-tin-display",
+  "name": "Ascended Heroes Mini Tin Display",
+  "category": "display",
+  "releaseDate": "2026-02-20",
+  "identifiers": {
+    "tcgplayer": "679556"
+  },
+  "images": [
+    {
+      "type": "front",
+      "url": "https://tcgplayer-cdn.tcgplayer.com/product/679556_in_1000x1000.jpg"
+    }
+  ],
+  "contents": [
+    {
+      "type": "sealed-product",
+      "product": "ascended-heroes-mini-tin-clefairy-and-chikorita",
+      "quantity": 2
+    },
+    {
+      "type": "sealed-product",
+      "product": "ascended-heroes-mini-tin-pikachu-and-tepig",
+      "quantity": 2
+    },
+    {
+      "type": "sealed-product",
+      "product": "ascended-heroes-mini-tin-riolu-and-darumaka",
+      "quantity": 2
+    },
+    {
+      "type": "sealed-product",
+      "product": "ascended-heroes-mini-tin-togepi-and-totodile",
+      "quantity": 2
+    },
+    {
+      "type": "sealed-product",
+      "product": "ascended-heroes-mini-tin-zorua-and-cramorant",
+      "quantity": 2
+    }
+  ],
+  "description": "Each Mini Tin Display contains 10 Mini Tins.",
+  "sources": [],
+  "status": "draft",
+  "migration": {
+    "originalId": "product-126",
+    "warnings": [
+      "Contains 5 child product variants — verify actual assortment and quantities."
+    ]
+  }
+}

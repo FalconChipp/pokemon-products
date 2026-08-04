@@ -1,0 +1,41 @@
+{
+  "id": "ascended-heroes-tin-case",
+  "name": "Ascended Heroes Tin Case",
+  "category": "case",
+  "releaseDate": "2026-08-28",
+  "identifiers": {
+    "tcgplayer": "702501"
+  },
+  "images": [
+    {
+      "type": "front",
+      "url": "https://tcgplayer-cdn.tcgplayer.com/product/702501_in_1000x1000.jpg"
+    }
+  ],
+  "contents": [
+    {
+      "type": "sealed-product",
+      "product": "ascended-heroes-tin-mega-emboar-ex",
+      "quantity": 2
+    },
+    {
+      "type": "sealed-product",
+      "product": "ascended-heroes-tin-mega-feraligatr-ex",
+      "quantity": 2
+    },
+    {
+      "type": "sealed-product",
+      "product": "ascended-heroes-tin-mega-meganium-ex",
+      "quantity": 2
+    }
+  ],
+  "description": "Each Tin Case contains 2 of each Tin",
+  "sources": [],
+  "status": "draft",
+  "migration": {
+    "originalId": "product-143",
+    "warnings": [
+      "Contains 3 child product variants — verify actual assortment and quantities."
+    ]
+  }
+}

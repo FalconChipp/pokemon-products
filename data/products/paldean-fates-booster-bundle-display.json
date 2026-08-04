@@ -1,0 +1,28 @@
+{
+  "id": "paldean-fates-booster-bundle-display",
+  "name": "Paldean Fates Booster Bundle Display",
+  "category": "display",
+  "releaseDate": "2023-02-23",
+  "identifiers": {
+    "tcgplayer": "530704"
+  },
+  "images": [
+    {
+      "type": "front",
+      "url": "https://tcgplayer-cdn.tcgplayer.com/product/530704_in_1000x1000.jpg"
+    }
+  ],
+  "contents": [
+    {
+      "type": "sealed-product",
+      "product": "paldean-fates-booster-bundle",
+      "quantity": 10
+    }
+  ],
+  "description": "Each Booster Bundle Display contains 10 Booster Bundles",
+  "sources": [],
+  "status": "draft",
+  "migration": {
+    "originalId": "product-272"
+  }
+}

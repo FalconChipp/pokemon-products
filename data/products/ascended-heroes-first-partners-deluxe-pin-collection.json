@@ -1,0 +1,40 @@
+{
+  "id": "ascended-heroes-first-partners-deluxe-pin-collection",
+  "name": "Ascended Heroes First Partners Deluxe Pin Collection",
+  "category": "collection-box",
+  "releaseDate": "2026-03-20",
+  "identifiers": {
+    "tcgplayer": "672391"
+  },
+  "images": [
+    {
+      "type": "front",
+      "url": "https://tcgplayer-cdn.tcgplayer.com/product/672391_in_1000x1000.jpg"
+    }
+  ],
+  "contents": [
+    {
+      "type": "booster",
+      "set": "me02.5",
+      "quantity": 5
+    },
+    {
+      "type": "promo-card",
+      "cards": [
+        "me02.5-008",
+        "me02.5-029",
+        "me02.5-041"
+      ],
+      "quantity": 3
+    }
+  ],
+  "description": "Each First Partners Deluxe Pin Collection contains 5 Booster Packs, 3 promo cards, and a pin",
+  "sources": [],
+  "status": "draft",
+  "migration": {
+    "originalId": "product-118",
+    "unstructuredContents": [
+      "Mixed stamps across promo cards — review individually: me02.5-008(cosmos-holo), me02.5-029(cosmos-holo), me02.5-041(cosmoc-holo)"
+    ]
+  }
+}

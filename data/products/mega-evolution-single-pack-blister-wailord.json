@@ -1,0 +1,48 @@
+{
+  "id": "mega-evolution-single-pack-blister-wailord",
+  "name": "Mega Evolution Single Pack Blister [Wailord]",
+  "category": "single-pack-blister",
+  "releaseDate": "2025-09-26",
+  "identifiers": {
+    "tcgplayer": "657489"
+  },
+  "images": [
+    {
+      "type": "front",
+      "url": "https://tcgplayer-cdn.tcgplayer.com/product/657489_in_1000x1000.jpg"
+    }
+  ],
+  "contents": [
+    {
+      "type": "booster",
+      "set": "me01",
+      "quantity": 1
+    },
+    {
+      "type": "promo-card",
+      "possibleCards": [
+        "sv09-040",
+        "sv09-041"
+      ],
+      "selection": "one-of",
+      "quantity": 1
+    },
+    {
+      "type": "accessory",
+      "category": "coin",
+      "quantity": 1,
+      "name": "Lucario"
+    }
+  ],
+  "sources": [],
+  "status": "draft",
+  "migration": {
+    "originalId": "product-23",
+    "unstructuredContents": [
+      "Mixed stamps across promo cards — review individually: sv09-040, sv09-041(cosmos-holo)"
+    ],
+    "warnings": [
+      "Description skipped — contains unfilled template placeholders."
+    ]
+  }
+}

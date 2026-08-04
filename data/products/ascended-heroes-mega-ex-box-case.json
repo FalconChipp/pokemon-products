@@ -1,0 +1,41 @@
+{
+  "id": "ascended-heroes-mega-ex-box-case",
+  "name": "Ascended Heroes Mega ex Box Case",
+  "category": "case",
+  "releaseDate": "2026-02-20",
+  "identifiers": {
+    "tcgplayer": "672737"
+  },
+  "images": [
+    {
+      "type": "front",
+      "url": "https://tcgplayer-cdn.tcgplayer.com/product/672737_in_1000x1000.jpg"
+    }
+  ],
+  "contents": [
+    {
+      "type": "sealed-product",
+      "product": "ascended-heroes-mega-emboar-ex-box",
+      "quantity": 2
+    },
+    {
+      "type": "sealed-product",
+      "product": "ascended-heroes-mega-feraligatr-ex-box",
+      "quantity": 2
+    },
+    {
+      "type": "sealed-product",
+      "product": "ascended-heroes-mega-meganium-ex-box",
+      "quantity": 2
+    }
+  ],
+  "description": "Each Ascended Heroes Mega ex Box Case contains 2 of each Ascended Heroes Mega ex Box ",
+  "sources": [],
+  "status": "draft",
+  "migration": {
+    "originalId": "product-131",
+    "warnings": [
+      "Contains 3 child product variants — verify actual assortment and quantities."
+    ]
+  }
+}

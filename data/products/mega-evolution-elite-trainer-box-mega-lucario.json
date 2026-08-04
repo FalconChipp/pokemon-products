@@ -1,0 +1,73 @@
+{
+  "id": "mega-evolution-elite-trainer-box-mega-lucario",
+  "name": "Mega Evolution Elite Trainer Box [Mega Lucario]",
+  "category": "elite-trainer-box",
+  "releaseDate": "2025-09-26",
+  "identifiers": {
+    "tcgplayer": "648394"
+  },
+  "images": [
+    {
+      "type": "front",
+      "url": "https://tcgplayer-cdn.tcgplayer.com/product/648394_in_1000x1000.jpg"
+    }
+  ],
+  "contents": [
+    {
+      "type": "booster",
+      "set": "me01",
+      "quantity": 9
+    },
+    {
+      "type": "promo-card",
+      "possibleCards": [
+        "mep-009",
+        "mep-010"
+      ],
+      "selection": "one-of",
+      "quantity": 1
+    },
+    {
+      "type": "accessory",
+      "category": "sleeves",
+      "quantity": 65,
+      "name": "Mega Lucario"
+    },
+    {
+      "type": "accessory",
+      "category": "damage-counter-dice",
+      "quantity": 6
+    },
+    {
+      "type": "accessory",
+      "category": "coin",
+      "quantity": 1
+    },
+    {
+      "type": "accessory",
+      "category": "coin-flip-die",
+      "quantity": 1
+    },
+    {
+      "type": "accessory",
+      "category": "divider",
+      "quantity": 6
+    },
+    {
+      "type": "accessory",
+      "category": "players-guide",
+      "quantity": 1
+    },
+    {
+      "type": "accessory",
+      "category": "energy-card",
+      "quantity": 40
+    }
+  ],
+  "description": "Each Elite Trainer Box contains 9 booster packs, a promo card, 65 card sleeves, 40 Energy cards, A player's guide, 6 damage-counter dice, 1 competition-legal coin-flip die, 1 plastic coin, 6 dividers, a collector's box to hold everything, and a code card for Pokémon TCG Live.",
+  "sources": [],
+  "status": "draft",
+  "migration": {
+    "originalId": "product-4"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "id": "obsidian-flames-elite-trainer-box-case",
+  "name": "Obsidian Flames Elite Trainer Box Case",
+  "category": "case",
+  "releaseDate": "2023-08-11",
+  "identifiers": {
+    "tcgplayer": "501265"
+  },
+  "images": [
+    {
+      "type": "front",
+      "url": "https://tcgplayer-cdn.tcgplayer.com/product/501265_in_1000x1000.jpg"
+    }
+  ],
+  "contents": [
+    {
+      "type": "sealed-product",
+      "product": "obsidian-flames-elite-trainer-box",
+      "quantity": 10
+    }
+  ],
+  "description": "Each Elite Trainer Box Case contains 10 Elite Trainer Boxes.",
+  "sources": [],
+  "status": "draft",
+  "migration": {
+    "originalId": "product-210"
+  }
+}

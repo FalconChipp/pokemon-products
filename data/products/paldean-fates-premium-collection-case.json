@@ -1,0 +1,41 @@
+{
+  "id": "paldean-fates-premium-collection-case",
+  "name": "Paldean Fates Premium Collection Case",
+  "category": "case",
+  "releaseDate": "2024-01-26",
+  "identifiers": {
+    "tcgplayer": "693569"
+  },
+  "images": [
+    {
+      "type": "front",
+      "url": "https://tcgplayer-cdn.tcgplayer.com/product/693569_in_1000x1000.jpg"
+    }
+  ],
+  "contents": [
+    {
+      "type": "sealed-product",
+      "product": "paldean-fates-premium-collection-meowscarada-ex",
+      "quantity": 2
+    },
+    {
+      "type": "sealed-product",
+      "product": "paldean-fates-premium-collection-quaquaval-ex",
+      "quantity": 2
+    },
+    {
+      "type": "sealed-product",
+      "product": "paldean-fates-premium-collection-skeledirge-ex",
+      "quantity": 2
+    }
+  ],
+  "description": "Each case contains 6 Collections.",
+  "sources": [],
+  "status": "draft",
+  "migration": {
+    "originalId": "product-290",
+    "warnings": [
+      "Contains 3 child product variants — verify actual assortment and quantities."
+    ]
+  }
+}

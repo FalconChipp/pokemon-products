@@ -1,0 +1,28 @@
+{
+  "id": "phantasmal-flames-elite-trainer-box-case",
+  "name": "Phantasmal Flames Elite Trainer Box Case",
+  "category": "case",
+  "releaseDate": "2025-11-14",
+  "identifiers": {
+    "tcgplayer": "654170"
+  },
+  "images": [
+    {
+      "type": "front",
+      "url": "https://tcgplayer-cdn.tcgplayer.com/product/654170_in_1000x1000.jpg"
+    }
+  ],
+  "contents": [
+    {
+      "type": "sealed-product",
+      "product": "phantasmal-flames-elite-trainer-box",
+      "quantity": 10
+    }
+  ],
+  "description": "Each Elite Trainer Box Case contains 10 Elite Trainer Boxes.",
+  "sources": [],
+  "status": "draft",
+  "migration": {
+    "originalId": "product-40"
+  }
+}

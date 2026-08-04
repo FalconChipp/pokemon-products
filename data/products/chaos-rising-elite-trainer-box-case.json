@@ -1,0 +1,28 @@
+{
+  "id": "chaos-rising-elite-trainer-box-case",
+  "name": "Chaos Rising Elite Trainer Box Case",
+  "category": "case",
+  "releaseDate": "2026-05-22",
+  "identifiers": {
+    "tcgplayer": "684451"
+  },
+  "images": [
+    {
+      "type": "front",
+      "url": "https://tcgplayer-cdn.tcgplayer.com/product/684451_in_1000x1000.jpg"
+    }
+  ],
+  "contents": [
+    {
+      "type": "sealed-product",
+      "product": "chaos-rising-elite-trainer-box",
+      "quantity": 10
+    }
+  ],
+  "description": "Each Elite Trainer Box Case contains 10 Elite Trainer Boxes.",
+  "sources": [],
+  "status": "draft",
+  "migration": {
+    "originalId": "product-81"
+  }
+}

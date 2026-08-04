@@ -1,0 +1,28 @@
+{
+  "id": "scarlet-and-violet-booster-box-case",
+  "name": "Scarlet & Violet Booster Box Case",
+  "category": "case",
+  "releaseDate": "2023-03-21",
+  "identifiers": {
+    "tcgplayer": "476453"
+  },
+  "images": [
+    {
+      "type": "front",
+      "url": "https://tcgplayer-cdn.tcgplayer.com/product/476453_in_1000x1000.jpg"
+    }
+  ],
+  "contents": [
+    {
+      "type": "sealed-product",
+      "product": "scarlet-and-violet-booster-box",
+      "quantity": 6
+    }
+  ],
+  "description": "Each Booster Box Case contains 6 Booster Boxes.",
+  "sources": [],
+  "status": "draft",
+  "migration": {
+    "originalId": "product-153"
+  }
+}

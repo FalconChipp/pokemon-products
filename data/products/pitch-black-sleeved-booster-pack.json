@@ -1,0 +1,28 @@
+{
+  "id": "pitch-black-sleeved-booster-pack",
+  "name": "Pitch Black Sleeved Booster Pack",
+  "category": "sleeved-booster-pack",
+  "releaseDate": "2026-07-17",
+  "identifiers": {
+    "tcgplayer": "692957"
+  },
+  "images": [
+    {
+      "type": "front",
+      "url": "https://tcgplayer-cdn.tcgplayer.com/product/692957_in_1000x1000.jpg"
+    }
+  ],
+  "contents": [
+    {
+      "type": "booster",
+      "set": "me05",
+      "quantity": 1
+    }
+  ],
+  "description": "Each pack contains 10 cards.",
+  "sources": [],
+  "status": "draft",
+  "migration": {
+    "originalId": "product-98"
+  }
+}

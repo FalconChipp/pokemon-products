@@ -1,0 +1,28 @@
+{
+  "id": "pitch-black-booster-bundle-case",
+  "name": "Pitch Black Booster Bundle Case",
+  "category": "case",
+  "releaseDate": "2026-07-17",
+  "identifiers": {
+    "tcgplayer": "692943"
+  },
+  "images": [
+    {
+      "type": "front",
+      "url": "https://tcgplayer-cdn.tcgplayer.com/product/692943_in_1000x1000.jpg"
+    }
+  ],
+  "contents": [
+    {
+      "type": "sealed-product",
+      "product": "pitch-black-booster-bundle",
+      "quantity": 25
+    }
+  ],
+  "description": "Each Booster Bundle Case contains 25 Booster Bundles.",
+  "sources": [],
+  "status": "draft",
+  "migration": {
+    "originalId": "product-104"
+  }
+}

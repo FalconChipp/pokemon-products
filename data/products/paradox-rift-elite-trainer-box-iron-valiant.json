@@ -1,0 +1,37 @@
+{
+  "id": "paradox-rift-elite-trainer-box-iron-valiant",
+  "name": "Paradox Rift Elite Trainer Box [Iron Valiant]",
+  "category": "elite-trainer-box",
+  "releaseDate": "2023-11-03",
+  "identifiers": {
+    "tcgplayer": "512813"
+  },
+  "images": [
+    {
+      "type": "front",
+      "url": "https://tcgplayer-cdn.tcgplayer.com/product/512813_in_1000x1000.jpg"
+    }
+  ],
+  "contents": [
+    {
+      "type": "booster",
+      "set": "sv04",
+      "quantity": 9
+    },
+    {
+      "type": "promo-card",
+      "possibleCards": [
+        "svp-065",
+        "svp-066"
+      ],
+      "selection": "one-of",
+      "quantity": 1
+    }
+  ],
+  "description": "Each Elite Trainer Box contains 9 booster packs, a promo card, 65 card sleeves, 40 Energy cards, A player's guide, 6 damage-counter dice, 1 competition-legal coin-flip die, 2 plastic condition markers, 4 dividers, a collector's box to hold everything, and a code card for Pokémon TCG Live.",
+  "sources": [],
+  "status": "draft",
+  "migration": {
+    "originalId": "product-251"
+  }
+}

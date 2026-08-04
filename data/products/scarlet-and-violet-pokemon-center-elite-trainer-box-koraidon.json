@@ -1,0 +1,36 @@
+{
+  "id": "scarlet-and-violet-pokemon-center-elite-trainer-box-koraidon",
+  "name": "Scarlet & Violet Pokemon Center Elite Trainer Box [Koraidon]",
+  "category": "pokemon-center-elite-trainer-box",
+  "releaseDate": "2023-03-21",
+  "identifiers": {
+    "tcgplayer": "478758"
+  },
+  "images": [
+    {
+      "type": "front",
+      "url": "https://tcgplayer-cdn.tcgplayer.com/product/478758_in_1000x1000.jpg"
+    }
+  ],
+  "contents": [
+    {
+      "type": "booster",
+      "set": "sv01",
+      "quantity": 11
+    },
+    {
+      "type": "promo-card",
+      "card": "svp-014",
+      "quantity": 1,
+      "stamp": "pokemon-center-stamp"
+    }
+  ],
+  "sources": [],
+  "status": "draft",
+  "migration": {
+    "originalId": "product-167",
+    "warnings": [
+      "Description skipped — contains unfilled template placeholders."
+    ]
+  }
+}

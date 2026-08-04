@@ -1,0 +1,36 @@
+{
+  "id": "ascended-heroes-tech-sticker-collection-case",
+  "name": "Ascended Heroes Tech Sticker Collection Case",
+  "category": "case",
+  "releaseDate": "2026-01-30",
+  "identifiers": {
+    "tcgplayer": "681333"
+  },
+  "images": [
+    {
+      "type": "front",
+      "url": "https://tcgplayer-cdn.tcgplayer.com/product/681333_in_1000x1000.jpg"
+    }
+  ],
+  "contents": [
+    {
+      "type": "sealed-product",
+      "product": "mega-evolution-ascended-heroes-tech-sticker-collection-charmander",
+      "quantity": 6
+    },
+    {
+      "type": "sealed-product",
+      "product": "mega-evolution-ascended-heroes-tech-sticker-collection-gastly",
+      "quantity": 6
+    }
+  ],
+  "description": "Each Tech Sticker Collection Case contains 6 of each Tech Sticker Collection.",
+  "sources": [],
+  "status": "draft",
+  "migration": {
+    "originalId": "product-144",
+    "warnings": [
+      "Contains 2 child product variants — verify actual assortment and quantities."
+    ]
+  }
+}

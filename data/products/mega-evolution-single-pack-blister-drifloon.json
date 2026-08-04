@@ -1,0 +1,41 @@
+{
+  "id": "mega-evolution-single-pack-blister-drifloon",
+  "name": "Mega Evolution Single Pack Blister [Drifloon]",
+  "category": "single-pack-blister",
+  "releaseDate": "2025-09-26",
+  "identifiers": {
+    "tcgplayer": "644358"
+  },
+  "images": [
+    {
+      "type": "front",
+      "url": "https://tcgplayer-cdn.tcgplayer.com/product/644358_in_1000x1000.jpg"
+    }
+  ],
+  "contents": [
+    {
+      "type": "booster",
+      "set": "me01",
+      "quantity": 1
+    },
+    {
+      "type": "promo-card",
+      "card": "mep-005",
+      "quantity": 1
+    },
+    {
+      "type": "accessory",
+      "category": "coin",
+      "quantity": 1,
+      "name": "Lucario"
+    }
+  ],
+  "sources": [],
+  "status": "draft",
+  "migration": {
+    "originalId": "product-22",
+    "warnings": [
+      "Description skipped — contains unfilled template placeholders."
+    ]
+  }
+}

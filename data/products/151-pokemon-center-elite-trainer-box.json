@@ -1,0 +1,34 @@
+{
+  "id": "151-pokemon-center-elite-trainer-box",
+  "name": "151 Pokemon Center Elite Trainer Box",
+  "category": "pokemon-center-elite-trainer-box",
+  "releaseDate": "2023-09-22",
+  "identifiers": {
+    "tcgplayer": "501999"
+  },
+  "images": [
+    {
+      "type": "front",
+      "url": "https://tcgplayer-cdn.tcgplayer.com/product/501999_in_1000x1000.jpg"
+    }
+  ],
+  "contents": [
+    {
+      "type": "booster",
+      "set": "sv03.5",
+      "quantity": 11
+    },
+    {
+      "type": "promo-card",
+      "card": "svp-051",
+      "quantity": 1,
+      "stamp": "pokemon-center-stamp"
+    }
+  ],
+  "description": "Each Pokemon Center Elite Trainer Box contains 11 booster packs, a promo card, 65 card sleeves, 40 Energy cards, A player's guide, 6 damage-counter dice, 1 competition-legal coin-flip die, 2 plastic condition markers, 4 dividers, a collector's box to hold everything, and a code card for Pokémon TCG Live.",
+  "sources": [],
+  "status": "draft",
+  "migration": {
+    "originalId": "product-226"
+  }
+}

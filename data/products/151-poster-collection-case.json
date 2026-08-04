@@ -1,0 +1,28 @@
+{
+  "id": "151-poster-collection-case",
+  "name": "151 Poster Collection Case",
+  "category": "case",
+  "releaseDate": "2023-09-22",
+  "identifiers": {
+    "tcgplayer": "502002"
+  },
+  "images": [
+    {
+      "type": "front",
+      "url": "https://tcgplayer-cdn.tcgplayer.com/product/502002_in_1000x1000.jpg"
+    }
+  ],
+  "contents": [
+    {
+      "type": "sealed-product",
+      "product": "151-poster-collection",
+      "quantity": 6
+    }
+  ],
+  "description": "Each case contains 6 Poster Collections.",
+  "sources": [],
+  "status": "draft",
+  "migration": {
+    "originalId": "product-243"
+  }
+}

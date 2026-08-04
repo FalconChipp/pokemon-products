@@ -1,0 +1,33 @@
+{
+  "id": "paldean-fates-tech-sticker-collection-greavard",
+  "name": "Paldean Fates Tech Sticker Collection [Greavard]",
+  "category": "tech-sticker-collection",
+  "releaseDate": "2024-01-26",
+  "identifiers": {
+    "tcgplayer": "528045"
+  },
+  "images": [
+    {
+      "type": "front",
+      "url": "https://tcgplayer-cdn.tcgplayer.com/product/528045_in_1000x1000.jpg"
+    }
+  ],
+  "contents": [
+    {
+      "type": "booster",
+      "set": "sv04.5",
+      "quantity": 3
+    },
+    {
+      "type": "promo-card",
+      "card": "svp-070",
+      "quantity": 1
+    }
+  ],
+  "description": "Each Tech Sticker Collection contains 3 Booster Packs, 1 promo card, and stickers.",
+  "sources": [],
+  "status": "draft",
+  "migration": {
+    "originalId": "product-278"
+  }
+}

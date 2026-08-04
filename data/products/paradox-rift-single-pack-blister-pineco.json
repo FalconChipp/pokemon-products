@@ -1,0 +1,34 @@
+{
+  "id": "paradox-rift-single-pack-blister-pineco",
+  "name": "Paradox Rift Single Pack Blister [Pineco]",
+  "category": "single-pack-blister",
+  "releaseDate": "2023-11-03",
+  "identifiers": {
+    "tcgplayer": "514224"
+  },
+  "images": [
+    {
+      "type": "front",
+      "url": "https://tcgplayer-cdn.tcgplayer.com/product/514224_in_1000x1000.jpg"
+    }
+  ],
+  "contents": [
+    {
+      "type": "booster",
+      "set": "sv04",
+      "quantity": 1
+    },
+    {
+      "type": "promo-card",
+      "card": "svp-061",
+      "quantity": 1,
+      "stamp": "cosmos-holo"
+    }
+  ],
+  "description": "Each Single Pack Blister contains 1 booster pack, 1 promo card, and a coin.",
+  "sources": [],
+  "status": "draft",
+  "migration": {
+    "originalId": "product-249"
+  }
+}

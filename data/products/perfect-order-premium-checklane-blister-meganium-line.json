@@ -1,0 +1,45 @@
+{
+  "id": "perfect-order-premium-checklane-blister-meganium-line",
+  "name": "Perfect Order Premium Checklane Blister [Meganium Line]",
+  "category": "premium-checklane-blister",
+  "releaseDate": "2026-03-27",
+  "identifiers": {
+    "tcgplayer": "672406"
+  },
+  "images": [
+    {
+      "type": "front",
+      "url": "https://tcgplayer-cdn.tcgplayer.com/product/672406_in_1000x1000.jpg"
+    }
+  ],
+  "contents": [
+    {
+      "type": "booster",
+      "set": "me03",
+      "quantity": 1
+    },
+    {
+      "type": "promo-card",
+      "cards": [
+        "me01-008",
+        "me01-009",
+        "me01-010"
+      ],
+      "quantity": 3
+    },
+    {
+      "type": "accessory",
+      "category": "coin",
+      "quantity": 1,
+      "details": {
+        "size": "big"
+      }
+    }
+  ],
+  "description": "Each Premium Checklane Blister contains 1 booster pack, 3 promo card(s), and a coin.",
+  "sources": [],
+  "status": "draft",
+  "migration": {
+    "originalId": "product-66"
+  }
+}

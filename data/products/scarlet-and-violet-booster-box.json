@@ -1,0 +1,28 @@
+{
+  "id": "scarlet-and-violet-booster-box",
+  "name": "Scarlet & Violet Booster Box",
+  "category": "booster-box",
+  "releaseDate": "2023-03-21",
+  "identifiers": {
+    "tcgplayer": "476452"
+  },
+  "images": [
+    {
+      "type": "front",
+      "url": "https://tcgplayer-cdn.tcgplayer.com/product/476452_in_1000x1000.jpg"
+    }
+  ],
+  "contents": [
+    {
+      "type": "booster",
+      "set": "sv01",
+      "quantity": 36
+    }
+  ],
+  "description": "Each Booster Box contains 36 booster packs.",
+  "sources": [],
+  "status": "draft",
+  "migration": {
+    "originalId": "product-147"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "id": "obsidian-flames-build-and-battle-stadium",
+  "name": "Obsidian Flames Build & Battle Stadium",
+  "category": "build-and-battle-stadium",
+  "releaseDate": "2023-08-11",
+  "identifiers": {
+    "tcgplayer": "501267"
+  },
+  "images": [
+    {
+      "type": "front",
+      "url": "https://tcgplayer-cdn.tcgplayer.com/product/501267_in_1000x1000.jpg"
+    }
+  ],
+  "contents": [
+    {
+      "type": "booster",
+      "set": "sv03",
+      "quantity": 11
+    }
+  ],
+  "description": "Each Build & Battle Stadium contains 2 Build & Battle Boxes, 3 Booster Packs, 121 Energy cards, 6 damage-counter dice, 1 competition-legal coin-flip die, 2 condition markers, and a box to hold everything.",
+  "sources": [],
+  "status": "draft",
+  "migration": {
+    "originalId": "product-209"
+  }
+}

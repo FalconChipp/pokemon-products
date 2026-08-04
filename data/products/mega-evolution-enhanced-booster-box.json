@@ -1,0 +1,34 @@
+{
+  "id": "mega-evolution-enhanced-booster-box",
+  "name": "Mega Evolution Enhanced Booster Box",
+  "category": "enhanced-booster-box",
+  "releaseDate": "2025-09-26",
+  "identifiers": {
+    "tcgplayer": "644300"
+  },
+  "images": [
+    {
+      "type": "front",
+      "url": "https://tcgplayer-cdn.tcgplayer.com/product/644300_in_1000x1000.jpg"
+    }
+  ],
+  "contents": [
+    {
+      "type": "booster",
+      "set": "me01",
+      "quantity": 36
+    },
+    {
+      "type": "promo-card",
+      "card": "me01-133",
+      "quantity": 1,
+      "stamp": "set-stamp"
+    }
+  ],
+  "description": "Each Enhanced Booster Box contains 36 booster packs and a promo card.",
+  "sources": [],
+  "status": "draft",
+  "migration": {
+    "originalId": "product-8"
+  }
+}

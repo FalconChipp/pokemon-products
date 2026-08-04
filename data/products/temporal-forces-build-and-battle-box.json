@@ -1,0 +1,28 @@
+{
+  "id": "temporal-forces-build-and-battle-box",
+  "name": "Temporal Forces Build & Battle Box",
+  "category": "build-and-battle-box",
+  "releaseDate": "2024-03-22",
+  "identifiers": {
+    "tcgplayer": "537411"
+  },
+  "images": [
+    {
+      "type": "front",
+      "url": "https://tcgplayer-cdn.tcgplayer.com/product/537411_in_1000x1000.jpg"
+    }
+  ],
+  "contents": [
+    {
+      "type": "booster",
+      "set": "sv05",
+      "quantity": 4
+    }
+  ],
+  "description": "Each Build & Battle Box contains a 40-card ready-to-play deck, 4 booster packs, 1 promo card, and a code card for Pokémon TCG Live.",
+  "sources": [],
+  "status": "draft",
+  "migration": {
+    "originalId": "product-303"
+  }
+}

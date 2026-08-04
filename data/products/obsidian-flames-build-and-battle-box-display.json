@@ -1,0 +1,28 @@
+{
+  "id": "obsidian-flames-build-and-battle-box-display",
+  "name": "Obsidian Flames Build & Battle Box Display",
+  "category": "display",
+  "releaseDate": "2023-08-11",
+  "identifiers": {
+    "tcgplayer": "514193"
+  },
+  "images": [
+    {
+      "type": "front",
+      "url": "https://tcgplayer-cdn.tcgplayer.com/product/514193_in_1000x1000.jpg"
+    }
+  ],
+  "contents": [
+    {
+      "type": "sealed-product",
+      "product": "obsidian-flames-build-and-battle-box",
+      "quantity": 10
+    }
+  ],
+  "description": "Each Build & Battle Box Display contains 10 Build & Battle Boxes.",
+  "sources": [],
+  "status": "draft",
+  "migration": {
+    "originalId": "product-203"
+  }
+}

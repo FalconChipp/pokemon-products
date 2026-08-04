@@ -1,0 +1,36 @@
+{
+  "id": "scarlet-and-violet-elite-trainer-box-case",
+  "name": "Scarlet & Violet Elite Trainer Box Case",
+  "category": "case",
+  "releaseDate": "2023-03-21",
+  "identifiers": {
+    "tcgplayer": "488776"
+  },
+  "images": [
+    {
+      "type": "front",
+      "url": "https://tcgplayer-cdn.tcgplayer.com/product/488776_in_1000x1000.jpg"
+    }
+  ],
+  "contents": [
+    {
+      "type": "sealed-product",
+      "product": "scarlet-and-violet-elite-trainer-box-koraidon",
+      "quantity": 5
+    },
+    {
+      "type": "sealed-product",
+      "product": "scarlet-and-violet-elite-trainer-box-miraidon",
+      "quantity": 5
+    }
+  ],
+  "description": "Each Elite Trainer Box Case contains 10 Elite Trainer Boxes.",
+  "sources": [],
+  "status": "draft",
+  "migration": {
+    "originalId": "product-156",
+    "warnings": [
+      "Contains 2 child product variants — verify actual assortment and quantities."
+    ]
+  }
+}

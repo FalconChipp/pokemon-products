@@ -1,0 +1,33 @@
+{
+  "id": "scarlet-and-violet-3-pack-blister-dondozo",
+  "name": "Scarlet & Violet 3-Pack Blister [Dondozo]",
+  "category": "triple-blister",
+  "releaseDate": "2023-03-21",
+  "identifiers": {
+    "tcgplayer": "478762"
+  },
+  "images": [
+    {
+      "type": "front",
+      "url": "https://tcgplayer-cdn.tcgplayer.com/product/478762_in_1000x1000.jpg"
+    }
+  ],
+  "contents": [
+    {
+      "type": "booster",
+      "set": "sv01",
+      "quantity": 3
+    },
+    {
+      "type": "promo-card",
+      "card": "svp-012",
+      "quantity": 1
+    }
+  ],
+  "description": "Each 3-Pack Blister contains 3 booster packs and a promo card.",
+  "sources": [],
+  "status": "draft",
+  "migration": {
+    "originalId": "product-159"
+  }
+}

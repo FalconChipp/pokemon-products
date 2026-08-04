@@ -1,0 +1,28 @@
+{
+  "id": "ascended-heroes-first-partners-deluxe-pin-collection-case",
+  "name": "Ascended Heroes First Partners Deluxe Pin Collection Case",
+  "category": "case",
+  "releaseDate": "2026-03-20",
+  "identifiers": {
+    "tcgplayer": "672392"
+  },
+  "images": [
+    {
+      "type": "front",
+      "url": "https://tcgplayer-cdn.tcgplayer.com/product/672392_in_1000x1000.jpg"
+    }
+  ],
+  "contents": [
+    {
+      "type": "sealed-product",
+      "product": "ascended-heroes-first-partners-deluxe-pin-collection",
+      "quantity": 6
+    }
+  ],
+  "description": "Each Ascended Heroes First Partners Deluxe Pin Collection Case contains 6 Ascended Heroes First Partners Deluxe Pin Collections",
+  "sources": [],
+  "status": "draft",
+  "migration": {
+    "originalId": "product-136"
+  }
+}

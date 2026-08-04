@@ -1,0 +1,28 @@
+{
+  "id": "temporal-forces-build-and-battle-box-display",
+  "name": "Temporal Forces Build & Battle Box Display",
+  "category": "display",
+  "releaseDate": "2024-03-22",
+  "identifiers": {
+    "tcgplayer": "537409"
+  },
+  "images": [
+    {
+      "type": "front",
+      "url": "https://tcgplayer-cdn.tcgplayer.com/product/537409_in_1000x1000.jpg"
+    }
+  ],
+  "contents": [
+    {
+      "type": "sealed-product",
+      "product": "temporal-forces-build-and-battle-box",
+      "quantity": 10
+    }
+  ],
+  "description": "Each Build & Battle Box Display contains 10 Build & Battle Boxes.",
+  "sources": [],
+  "status": "draft",
+  "migration": {
+    "originalId": "product-305"
+  }
+}

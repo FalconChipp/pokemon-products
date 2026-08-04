@@ -1,0 +1,41 @@
+{
+  "id": "paldean-fates-great-tusk-ex-and-iron-treads-ex-premium-collection",
+  "name": "Paldean Fates Great Tusk ex & Iron Treads ex Premium Collection",
+  "category": "premium-collection",
+  "releaseDate": "2025-12-01",
+  "identifiers": {
+    "tcgplayer": "665113"
+  },
+  "images": [
+    {
+      "type": "front",
+      "url": "https://tcgplayer-cdn.tcgplayer.com/product/665113_in_1000x1000.jpg"
+    }
+  ],
+  "contents": [
+    {
+      "type": "booster",
+      "set": "sv04.5",
+      "quantity": 11
+    },
+    {
+      "type": "promo-card",
+      "cards": [
+        "svp-072",
+        "svp-073"
+      ],
+      "quantity": 2,
+      "stamp": "expansion-stamp"
+    }
+  ],
+  "description": "Each Collection contains 11 Booster Packs, 4 promo cards, and 1 jumbo card.",
+  "sources": [],
+  "status": "draft",
+  "migration": {
+    "originalId": "product-268",
+    "unstructuredContents": [
+      "Duplicate card IDs removed — likely Jumbo or stamp variants: svp-072 (jumbo-expansion-stamp)"
+    ],
+    "warnings": []
+  }
+}

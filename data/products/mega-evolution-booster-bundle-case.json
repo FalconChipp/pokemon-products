@@ -1,0 +1,28 @@
+{
+  "id": "mega-evolution-booster-bundle-case",
+  "name": "Mega Evolution Booster Bundle Case",
+  "category": "case",
+  "releaseDate": "2025-09-26",
+  "identifiers": {
+    "tcgplayer": "644730"
+  },
+  "images": [
+    {
+      "type": "front",
+      "url": "https://tcgplayer-cdn.tcgplayer.com/product/644730_in_1000x1000.jpg"
+    }
+  ],
+  "contents": [
+    {
+      "type": "sealed-product",
+      "product": "mega-evolution-booster-bundle",
+      "quantity": 25
+    }
+  ],
+  "description": "Each Booster Bundle Case contains 25 Booster Bundles.",
+  "sources": [],
+  "status": "draft",
+  "migration": {
+    "originalId": "product-17"
+  }
+}

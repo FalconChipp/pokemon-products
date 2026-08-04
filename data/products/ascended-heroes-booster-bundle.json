@@ -1,0 +1,28 @@
+{
+  "id": "ascended-heroes-booster-bundle",
+  "name": "Ascended Heroes Booster Bundle",
+  "category": "booster-bundle",
+  "releaseDate": "2026-04-24",
+  "identifiers": {
+    "tcgplayer": "668541"
+  },
+  "images": [
+    {
+      "type": "front",
+      "url": "https://tcgplayer-cdn.tcgplayer.com/product/668541_in_1000x1000.jpg"
+    }
+  ],
+  "contents": [
+    {
+      "type": "booster",
+      "set": "me02.5",
+      "quantity": 6
+    }
+  ],
+  "description": "Each Booster Bundle contains 6 booster packs.",
+  "sources": [],
+  "status": "draft",
+  "migration": {
+    "originalId": "product-113"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "id": "ascended-heroes-mini-tin-riolu-and-darumaka",
+  "name": "Ascended Heroes Mini Tin [Riolu & Darumaka]",
+  "category": "mini-tin",
+  "releaseDate": "2026-02-20",
+  "identifiers": {
+    "tcgplayer": "668532"
+  },
+  "images": [
+    {
+      "type": "front",
+      "url": "https://tcgplayer-cdn.tcgplayer.com/product/668532_in_1000x1000.jpg"
+    }
+  ],
+  "contents": [
+    {
+      "type": "booster",
+      "set": "me02.5",
+      "quantity": 2
+    }
+  ],
+  "description": "Each Mini Tin contains 2 booster packs and an art card.",
+  "sources": [],
+  "status": "draft",
+  "migration": {
+    "originalId": "product-134"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "id": "obsidian-flames-sleeved-booster-case",
+  "name": "Obsidian Flames Sleeved Booster Case",
+  "category": "case",
+  "releaseDate": "2023-08-11",
+  "identifiers": {
+    "tcgplayer": "606743"
+  },
+  "images": [
+    {
+      "type": "front",
+      "url": "https://tcgplayer-cdn.tcgplayer.com/product/606743_in_1000x1000.jpg"
+    }
+  ],
+  "contents": [
+    {
+      "type": "sealed-product",
+      "product": "obsidian-flames-sleeved-booster-pack",
+      "quantity": 144
+    }
+  ],
+  "description": "Each Sleeved Booster Case contains 144 Sleeved Booster Packs.",
+  "sources": [],
+  "status": "draft",
+  "migration": {
+    "originalId": "product-207"
+  }
+}

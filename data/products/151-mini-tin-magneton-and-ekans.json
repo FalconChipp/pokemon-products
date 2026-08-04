@@ -1,0 +1,28 @@
+{
+  "id": "151-mini-tin-magneton-and-ekans",
+  "name": "151 Mini Tin [Magneton & Ekans]",
+  "category": "mini-tin",
+  "releaseDate": "2023-10-06",
+  "identifiers": {
+    "tcgplayer": "522705"
+  },
+  "images": [
+    {
+      "type": "front",
+      "url": "https://tcgplayer-cdn.tcgplayer.com/product/522705_in_1000x1000.jpg"
+    }
+  ],
+  "contents": [
+    {
+      "type": "booster",
+      "set": "sv03.5",
+      "quantity": 2
+    }
+  ],
+  "description": "Each Mini Tin contains 2 booster packs and an art card.",
+  "sources": [],
+  "status": "draft",
+  "migration": {
+    "originalId": "product-238"
+  }
+}

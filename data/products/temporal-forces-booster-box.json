@@ -1,0 +1,28 @@
+{
+  "id": "temporal-forces-booster-box",
+  "name": "Temporal Forces Booster Box",
+  "category": "booster-box",
+  "releaseDate": "2024-03-22",
+  "identifiers": {
+    "tcgplayer": "536225"
+  },
+  "images": [
+    {
+      "type": "front",
+      "url": "https://tcgplayer-cdn.tcgplayer.com/product/536225_in_1000x1000.jpg"
+    }
+  ],
+  "contents": [
+    {
+      "type": "booster",
+      "set": "sv05",
+      "quantity": 36
+    }
+  ],
+  "description": "Each Booster Box contains 36 booster packs.",
+  "sources": [],
+  "status": "draft",
+  "migration": {
+    "originalId": "product-296"
+  }
+}

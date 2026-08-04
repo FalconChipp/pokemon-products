@@ -1,0 +1,33 @@
+{
+  "id": "obsidian-flames-3-pack-blister-houndstone",
+  "name": "Obsidian Flames 3-Pack Blister [Houndstone]",
+  "category": "triple-blister",
+  "releaseDate": "2023-08-11",
+  "identifiers": {
+    "tcgplayer": "501260"
+  },
+  "images": [
+    {
+      "type": "front",
+      "url": "https://tcgplayer-cdn.tcgplayer.com/product/501260_in_1000x1000.jpg"
+    }
+  ],
+  "contents": [
+    {
+      "type": "booster",
+      "set": "sv03",
+      "quantity": 3
+    },
+    {
+      "type": "promo-card",
+      "card": "svp-042",
+      "quantity": 1
+    }
+  ],
+  "description": "Each 3-Pack Blister contains 3 booster packs and a promo card.",
+  "sources": [],
+  "status": "draft",
+  "migration": {
+    "originalId": "product-198"
+  }
+}

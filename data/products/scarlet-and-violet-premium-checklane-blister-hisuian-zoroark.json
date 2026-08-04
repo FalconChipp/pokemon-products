@@ -1,0 +1,36 @@
+{
+  "id": "scarlet-and-violet-premium-checklane-blister-hisuian-zoroark",
+  "name": "Scarlet & Violet Premium Checklane Blister [Hisuian Zoroark]",
+  "category": "premium-checklane-blister",
+  "releaseDate": "2023-03-21",
+  "identifiers": {
+    "tcgplayer": "497167"
+  },
+  "images": [
+    {
+      "type": "front",
+      "url": "https://tcgplayer-cdn.tcgplayer.com/product/497167_in_1000x1000.jpg"
+    }
+  ],
+  "contents": [
+    {
+      "type": "booster",
+      "set": "sv01",
+      "quantity": 1
+    },
+    {
+      "type": "promo-card",
+      "cards": [
+        "swsh11-075",
+        "swsh11-076"
+      ],
+      "quantity": 2
+    }
+  ],
+  "description": "Each Premium Checklane Blister contains 1 booster pack, 3 promo cards, and a coin.",
+  "sources": [],
+  "status": "draft",
+  "migration": {
+    "originalId": "product-163"
+  }
+}

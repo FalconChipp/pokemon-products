@@ -1,0 +1,33 @@
+{
+  "id": "paldean-fates-tin-iron-treads-ex",
+  "name": "Paldean Fates Tin [Iron Treads ex]",
+  "category": "tin",
+  "releaseDate": "2024-02-09",
+  "identifiers": {
+    "tcgplayer": "528058"
+  },
+  "images": [
+    {
+      "type": "front",
+      "url": "https://tcgplayer-cdn.tcgplayer.com/product/528058_in_1000x1000.jpg"
+    }
+  ],
+  "contents": [
+    {
+      "type": "booster",
+      "set": "sv04.5",
+      "quantity": 4
+    },
+    {
+      "type": "promo-card",
+      "card": "svp-073",
+      "quantity": 1
+    }
+  ],
+  "description": "Each Tin contains 4 Booster Packs and 1 promo card.",
+  "sources": [],
+  "status": "draft",
+  "migration": {
+    "originalId": "product-287"
+  }
+}

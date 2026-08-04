@@ -1,0 +1,28 @@
+{
+  "id": "paldean-fates-mini-tin-tinkatink",
+  "name": "Paldean Fates Mini Tin [Tinkatink]",
+  "category": "mini-tin",
+  "releaseDate": "2024-02-09",
+  "identifiers": {
+    "tcgplayer": "528052"
+  },
+  "images": [
+    {
+      "type": "front",
+      "url": "https://tcgplayer-cdn.tcgplayer.com/product/528052_in_1000x1000.jpg"
+    }
+  ],
+  "contents": [
+    {
+      "type": "booster",
+      "set": "sv04.5",
+      "quantity": 2
+    }
+  ],
+  "description": "Each Mini Tin contains 2 booster packs and an art card.",
+  "sources": [],
+  "status": "draft",
+  "migration": {
+    "originalId": "product-275"
+  }
+}

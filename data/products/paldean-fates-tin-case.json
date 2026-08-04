@@ -1,0 +1,28 @@
+{
+  "id": "paldean-fates-tin-case",
+  "name": "Paldean Fates Tin Case",
+  "category": "tin",
+  "releaseDate": "2024-02-09",
+  "identifiers": {
+    "tcgplayer": "688258"
+  },
+  "images": [
+    {
+      "type": "front",
+      "url": "https://tcgplayer-cdn.tcgplayer.com/product/688258_in_1000x1000.jpg"
+    }
+  ],
+  "contents": [
+    {
+      "type": "booster",
+      "set": "sv04.5",
+      "quantity": 4
+    }
+  ],
+  "description": "Each Tin contains 4 Booster Packs and 1 promo card.",
+  "sources": [],
+  "status": "draft",
+  "migration": {
+    "originalId": "product-283"
+  }
+}

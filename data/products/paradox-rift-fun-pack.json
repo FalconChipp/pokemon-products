@@ -1,0 +1,22 @@
+{
+  "id": "paradox-rift-fun-pack",
+  "name": "Paradox Rift Fun Pack",
+  "category": "other",
+  "releaseDate": "2023-11-03",
+  "identifiers": {
+    "tcgplayer": "607504"
+  },
+  "images": [
+    {
+      "type": "front",
+      "url": "https://tcgplayer-cdn.tcgplayer.com/product/607504_in_1000x1000.jpg"
+    }
+  ],
+  "contents": [],
+  "description": "Each Fun Pack contains 3 cards.",
+  "sources": [],
+  "status": "draft",
+  "migration": {
+    "originalId": "product-263"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "id": "scarlet-and-violet-premium-checklane-blister-hisuian-arcanine",
+  "name": "Scarlet & Violet Premium Checklane Blister [Hisuian Arcanine]",
+  "category": "premium-checklane-blister",
+  "releaseDate": "2023-03-21",
+  "identifiers": {
+    "tcgplayer": "497166"
+  },
+  "contents": [
+    {
+      "type": "booster",
+      "set": "sv01",
+      "quantity": 1
+    },
+    {
+      "type": "promo-card",
+      "cards": [
+        "swsh11-083",
+        "swsh11-84"
+      ],
+      "quantity": 2
+    }
+  ],
+  "description": "Each Premium Checklane Blister contains 1 booster pack, 2 promo cards, and a coin.",
+  "sources": [],
+  "status": "draft",
+  "migration": {
+    "originalId": "product-166"
+  }
+}

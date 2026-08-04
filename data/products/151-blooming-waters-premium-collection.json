@@ -1,0 +1,42 @@
+{
+  "id": "151-blooming-waters-premium-collection",
+  "name": "151: Blooming Waters Premium Collection",
+  "category": "premium-collection",
+  "releaseDate": "2025-02-07",
+  "identifiers": {
+    "tcgplayer": "609597"
+  },
+  "images": [
+    {
+      "type": "front",
+      "url": "https://tcgplayer-cdn.tcgplayer.com/product/609597_in_1000x1000.jpg"
+    }
+  ],
+  "contents": [
+    {
+      "type": "booster",
+      "set": "sv03.5",
+      "quantity": 12
+    },
+    {
+      "type": "promo-card",
+      "cards": [
+        "sv03.5-001",
+        "sv03.5-003",
+        "sv03.5-007",
+        "sv03.5-009"
+      ],
+      "quantity": 4
+    }
+  ],
+  "description": "Each Blooming Waters Premium Collection contains 12 Booster Packs, 4 promo cards, and 1 jumbo card.",
+  "sources": [],
+  "status": "draft",
+  "migration": {
+    "originalId": "product-219",
+    "unstructuredContents": [
+      "Duplicate card IDs removed — likely Jumbo or stamp variants: sv03.5-009 (jumbo)"
+    ],
+    "warnings": []
+  }
+}

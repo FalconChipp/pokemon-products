@@ -1,0 +1,28 @@
+{
+  "id": "mega-evolution-build-and-battle-box-display",
+  "name": "Mega Evolution Build & Battle Box Display",
+  "category": "display",
+  "releaseDate": "2025-09-26",
+  "identifiers": {
+    "tcgplayer": "644733"
+  },
+  "images": [
+    {
+      "type": "front",
+      "url": "https://tcgplayer-cdn.tcgplayer.com/product/644733_in_1000x1000.jpg"
+    }
+  ],
+  "contents": [
+    {
+      "type": "sealed-product",
+      "product": "mega-evolution-build-and-battle-box",
+      "quantity": 10
+    }
+  ],
+  "description": "Each Build & Battle Box Display contains 10 Build & Battle Boxes.",
+  "sources": [],
+  "status": "draft",
+  "migration": {
+    "originalId": "product-52"
+  }
+}

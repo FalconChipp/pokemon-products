@@ -1,0 +1,611 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://tcgdex.net/schemas/sealed-product-v2.json",
+  "title": "TCGdex Sealed Product",
+  "description": "Schema for a sealed Pokémon TCG product.",
+  "type": "object",
+  "additionalProperties": false,
+
+  "required": [
+    "id",
+    "name",
+    "category",
+    "contents",
+    "sources",
+    "status"
+  ],
+
+  "properties": {
+    "id": {
+      "type": "string",
+      "description": "Stable semantic identifier for the product.",
+      "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$",
+      "minLength": 3,
+      "examples": [
+        "me01-triple-blister-psyduck",
+        "me01-booster-box",
+        "me01-elite-trainer-box-mega-lucario"
+      ]
+    },
+
+    "name": {
+      "type": "string",
+      "description": "Official English product name.",
+      "minLength": 1
+    },
+
+    "category": {
+      "$ref": "#/$defs/productCategory"
+    },
+
+    "releaseDate": {
+      "type": "string",
+      "description": "Product release date in ISO YYYY-MM-DD format.",
+      "format": "date"
+    },
+
+    "identifiers": {
+      "$ref": "#/$defs/productIdentifiers"
+    },
+
+    "images": {
+      "type": "array",
+      "description": "Images associated with this exact product.",
+      "items": {
+        "$ref": "#/$defs/productImage"
+      },
+      "uniqueItems": true
+    },
+
+    "contents": {
+      "type": "array",
+      "description": "Structured contents included inside the product.",
+      "items": {
+        "$ref": "#/$defs/productContent"
+      }
+    },
+
+    "description": {
+      "type": "string",
+      "description": "Human-readable description of the product.",
+      "minLength": 1
+    },
+
+    "sources": {
+      "type": "array",
+      "description": "Sources used to verify the product data.",
+      "items": {
+        "$ref": "#/$defs/productSource"
+      }
+    },
+
+    "status": {
+      "type": "string",
+      "description": "Verification state of the product.",
+      "enum": [
+        "draft",
+        "verified",
+        "deprecated"
+      ]
+    },
+
+    "migration": {
+      "$ref": "#/$defs/migrationMetadata"
+    }
+  },
+
+  "allOf": [
+    {
+      "if": {
+        "properties": {
+          "status": {
+            "const": "verified"
+          }
+        },
+        "required": [
+          "status"
+        ]
+      },
+      "then": {
+        "properties": {
+          "sources": {
+            "minItems": 1
+          }
+        }
+      }
+    }
+  ],
+
+  "$defs": {
+    "productCategory": {
+      "type": "string",
+      "description": "Controlled product category identifier.",
+      "enum": [
+        "booster-pack",
+        "sleeved-booster-pack",
+        "booster-box",
+        "half-booster-box",
+        "enhanced-booster-box",
+        "booster-bundle",
+
+        "elite-trainer-box",
+        "pokemon-center-elite-trainer-box",
+
+        "triple-blister",
+        "single-pack-blister",
+        "checklane-blister",
+        "premium-checklane-blister",
+
+        "build-and-battle-box",
+        "build-and-battle-stadium",
+
+        "tin",
+        "mini-tin",
+
+        "collection-box",
+        "premium-collection",
+        "poster-collection",
+        "binder-collection",
+        "tech-sticker-collection",
+
+        "display",
+        "case",
+        "deck",
+        "toolkit",
+        "other"
+      ]
+    },
+
+    "productIdentifiers": {
+      "type": "object",
+      "description": "External marketplace and barcode identifiers.",
+      "additionalProperties": false,
+
+      "properties": {
+        "tcgplayer": {
+          "type": "string",
+          "minLength": 1
+        },
+
+        "cardmarket": {
+          "type": "string",
+          "minLength": 1
+        },
+
+        "cardtrader": {
+          "type": "string",
+          "minLength": 1
+        },
+
+        "upc": {
+          "type": "string",
+          "pattern": "^[0-9]+$"
+        },
+
+        "ean": {
+          "type": "string",
+          "pattern": "^[0-9]+$"
+        },
+
+        "official": {
+          "type": "string",
+          "description": "An identifier from an official Pokémon source.",
+          "minLength": 1
+        }
+      },
+
+      "minProperties": 1
+    },
+
+    "productImage": {
+      "type": "object",
+      "additionalProperties": false,
+
+      "required": [
+        "type",
+        "url"
+      ],
+
+      "properties": {
+        "type": {
+          "type": "string",
+          "enum": [
+            "front",
+            "back",
+            "contents",
+            "packaging",
+            "other"
+          ]
+        },
+
+        "url": {
+          "type": "string",
+          "format": "uri"
+        },
+
+        "source": {
+          "type": "string",
+          "format": "uri",
+          "description": "Page from which the image was obtained."
+        }
+      }
+    },
+
+    "productContent": {
+      "oneOf": [
+        {
+          "$ref": "#/$defs/boosterContent"
+        },
+        {
+          "$ref": "#/$defs/promoCardContent"
+        },
+        {
+          "$ref": "#/$defs/sealedProductContent"
+        },
+        {
+          "$ref": "#/$defs/accessoryContent"
+        }
+      ]
+    },
+
+    "boosterContent": {
+      "type": "object",
+      "description": "Booster packs included inside the product.",
+      "additionalProperties": false,
+
+      "required": [
+        "type",
+        "quantity"
+      ],
+
+      "properties": {
+        "type": {
+          "const": "booster"
+        },
+
+        "set": {
+          "type": "string",
+          "description": "TCGdex set ID when the included set is known.",
+          "pattern": "^[A-Za-z0-9_.-]+$",
+          "minLength": 1
+        },
+
+        "possibleSets": {
+          "type": "array",
+          "description": "Possible sets when the booster assortment varies.",
+          "items": {
+            "type": "string",
+            "pattern": "^[A-Za-z0-9_.-]+$",
+            "minLength": 1
+          },
+          "minItems": 1,
+          "uniqueItems": true
+        },
+
+        "quantity": {
+          "$ref": "#/$defs/positiveInteger"
+        },
+
+        "assortment": {
+          "type": "string",
+          "enum": [
+            "fixed",
+            "variable"
+          ]
+        }
+      },
+
+      "oneOf": [
+        {
+          "required": [
+            "set"
+          ],
+          "not": {
+            "required": [
+              "possibleSets"
+            ]
+          }
+        },
+        {
+          "required": [
+            "possibleSets"
+          ],
+          "not": {
+            "required": [
+              "set"
+            ]
+          }
+        }
+      ]
+    },
+
+    "promoCardContent": {
+      "type": "object",
+      "description": "Promotional cards included inside the product.",
+      "additionalProperties": false,
+
+      "required": [
+        "type",
+        "quantity"
+      ],
+
+      "properties": {
+        "type": {
+          "const": "promo-card"
+        },
+
+        "card": {
+          "type": "string",
+          "description": "Exact TCGdex card ID when known.",
+          "pattern": "^[A-Za-z0-9_.-]+$",
+          "minLength": 1
+        },
+
+        "cards": {
+          "type": "array",
+          "description": "All promotional cards included in the product.",
+          "items": {
+            "type": "string",
+            "pattern": "^[A-Za-z0-9_.-]+$",
+            "minLength": 1
+          },
+          "minItems": 1,
+          "uniqueItems": true
+        },
+
+        "possibleCards": {
+          "type": "array",
+          "description": "Possible promotional cards when only one or some are selected.",
+          "items": {
+            "type": "string",
+            "pattern": "^[A-Za-z0-9_.-]+$",
+            "minLength": 1
+          },
+          "minItems": 2,
+          "uniqueItems": true
+        },
+
+        "quantity": {
+          "$ref": "#/$defs/positiveInteger"
+        },
+
+        "selection": {
+          "type": "string",
+          "enum": [
+            "all",
+            "one-of",
+            "random"
+          ]
+        },
+
+        "stamp": {
+          "type": "string",
+          "description": "Optional stamp or product-specific card variation.",
+          "minLength": 1
+        }
+      },
+
+      "oneOf": [
+        {
+          "required": [
+            "card"
+          ],
+          "not": {
+            "anyOf": [
+              {
+                "required": [
+                  "cards"
+                ]
+              },
+              {
+                "required": [
+                  "possibleCards"
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "required": [
+            "cards"
+          ],
+          "not": {
+            "anyOf": [
+              {
+                "required": [
+                  "card"
+                ]
+              },
+              {
+                "required": [
+                  "possibleCards"
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "required": [
+            "possibleCards",
+            "selection"
+          ],
+          "not": {
+            "anyOf": [
+              {
+                "required": [
+                  "card"
+                ]
+              },
+              {
+                "required": [
+                  "cards"
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    },
+
+    "sealedProductContent": {
+      "type": "object",
+      "description": "Another sealed product contained within this product.",
+      "additionalProperties": false,
+
+      "required": [
+        "type",
+        "product",
+        "quantity"
+      ],
+
+      "properties": {
+        "type": {
+          "const": "sealed-product"
+        },
+
+        "product": {
+          "type": "string",
+          "description": "ID of the contained sealed product.",
+          "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$",
+          "minLength": 3
+        },
+
+        "quantity": {
+          "$ref": "#/$defs/positiveInteger"
+        }
+      }
+    },
+
+    "accessoryContent": {
+      "type": "object",
+      "description": "Accessories or additional items included in the product.",
+      "additionalProperties": false,
+
+      "required": [
+        "type",
+        "category",
+        "quantity"
+      ],
+
+      "properties": {
+        "type": {
+          "const": "accessory"
+        },
+
+        "category": {
+          "type": "string",
+          "enum": [
+            "sleeves",
+            "coin",
+            "damage-counter-dice",
+            "coin-flip-die",
+            "condition-marker",
+            "divider",
+            "energy-card",
+            "players-guide",
+            "code-card",
+            "art-card",
+            "sticker",
+            "binder",
+            "playmat",
+            "deck-box",
+            "deck",
+            "rulebook",
+            "storage-box",
+            "other"
+          ]
+        },
+
+        "quantity": {
+          "$ref": "#/$defs/positiveInteger"
+        },
+
+        "name": {
+          "type": "string",
+          "description": "Specific human-readable name or design.",
+          "minLength": 1
+        },
+
+        "details": {
+          "type": "object",
+          "description": "Additional structured information about the accessory.",
+          "additionalProperties": true
+        }
+      }
+    },
+
+    "productSource": {
+      "type": "object",
+      "additionalProperties": false,
+
+      "required": [
+        "name",
+        "url"
+      ],
+
+      "properties": {
+        "name": {
+          "type": "string",
+          "minLength": 1
+        },
+
+        "url": {
+          "type": "string",
+          "format": "uri"
+        },
+
+        "accessedAt": {
+          "type": "string",
+          "format": "date"
+        },
+
+        "fields": {
+          "type": "array",
+          "description": "Product fields verified using this source.",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          },
+          "minItems": 1,
+          "uniqueItems": true
+        }
+      }
+    },
+
+    "migrationMetadata": {
+      "type": "object",
+      "description": "Temporary metadata retained while migrating v1 products.",
+      "additionalProperties": false,
+
+      "properties": {
+        "originalId": {
+          "type": "string",
+          "minLength": 1
+        },
+
+        "unstructuredContents": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+
+        "warnings": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          }
+        }
+      },
+
+      "minProperties": 1
+    },
+
+    "positiveInteger": {
+      "type": "integer",
+      "minimum": 1
+    }
+  }
+}

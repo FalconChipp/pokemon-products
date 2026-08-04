@@ -1,0 +1,28 @@
+{
+  "id": "pitch-black-half-booster-box",
+  "name": "Pitch Black Half Booster Box",
+  "category": "half-booster-box",
+  "releaseDate": "2026-07-17",
+  "identifiers": {
+    "tcgplayer": "692940"
+  },
+  "images": [
+    {
+      "type": "front",
+      "url": "https://tcgplayer-cdn.tcgplayer.com/product/692940_in_1000x1000.jpg"
+    }
+  ],
+  "contents": [
+    {
+      "type": "booster",
+      "set": "me05",
+      "quantity": 18
+    }
+  ],
+  "description": "Each Half Booster Box contains 18 booster packs.",
+  "sources": [],
+  "status": "draft",
+  "migration": {
+    "originalId": "product-109"
+  }
+}

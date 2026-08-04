@@ -1,0 +1,28 @@
+{
+  "id": "perfect-order-build-and-battle-box-display",
+  "name": "Perfect Order Build & Battle Box Display",
+  "category": "display",
+  "releaseDate": "2026-03-27",
+  "identifiers": {
+    "tcgplayer": "690172"
+  },
+  "images": [
+    {
+      "type": "front",
+      "url": "https://tcgplayer-cdn.tcgplayer.com/product/690172_in_1000x1000.jpg"
+    }
+  ],
+  "contents": [
+    {
+      "type": "sealed-product",
+      "product": "perfect-order-build-and-battle-box",
+      "quantity": 10
+    }
+  ],
+  "description": "Each Build & Battle Box Display contains 10 Build & Battle Boxes.",
+  "sources": [],
+  "status": "draft",
+  "migration": {
+    "originalId": "product-70"
+  }
+}

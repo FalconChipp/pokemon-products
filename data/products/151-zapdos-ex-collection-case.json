@@ -1,0 +1,28 @@
+{
+  "id": "151-zapdos-ex-collection-case",
+  "name": "151 Zapdos ex Collection Case",
+  "category": "case",
+  "releaseDate": "2023-10-06",
+  "identifiers": {
+    "tcgplayer": "518782"
+  },
+  "images": [
+    {
+      "type": "front",
+      "url": "https://tcgplayer-cdn.tcgplayer.com/product/518782_in_1000x1000.jpg"
+    }
+  ],
+  "contents": [
+    {
+      "type": "sealed-product",
+      "product": "151-zapdos-ex-collection",
+      "quantity": 6
+    }
+  ],
+  "description": "Each case contains 6 151 Zapdos ex Collections.",
+  "sources": [],
+  "status": "draft",
+  "migration": {
+    "originalId": "product-241"
+  }
+}

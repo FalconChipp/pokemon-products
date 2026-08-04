@@ -1,0 +1,28 @@
+{
+  "id": "paldea-evolved-booster-bundle",
+  "name": "Paldea Evolved Booster Bundle",
+  "category": "booster-bundle",
+  "releaseDate": "2023-06-09",
+  "identifiers": {
+    "tcgplayer": "496914"
+  },
+  "images": [
+    {
+      "type": "front",
+      "url": "https://tcgplayer-cdn.tcgplayer.com/product/496914_in_1000x1000.jpg"
+    }
+  ],
+  "contents": [
+    {
+      "type": "booster",
+      "set": "sv02",
+      "quantity": 6
+    }
+  ],
+  "description": "Each Booster Bundle contains 6 booster packs.",
+  "sources": [],
+  "status": "draft",
+  "migration": {
+    "originalId": "product-174"
+  }
+}

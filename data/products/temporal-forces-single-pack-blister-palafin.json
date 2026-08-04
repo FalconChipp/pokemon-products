@@ -1,0 +1,40 @@
+{
+  "id": "temporal-forces-single-pack-blister-palafin",
+  "name": "Temporal Forces Single Pack Blister [Palafin]",
+  "category": "single-pack-blister",
+  "releaseDate": "2024-03-22",
+  "identifiers": {
+    "tcgplayer": "617012"
+  },
+  "images": [
+    {
+      "type": "front",
+      "url": "https://tcgplayer-cdn.tcgplayer.com/product/617012_in_1000x1000.jpg"
+    }
+  ],
+  "contents": [
+    {
+      "type": "booster",
+      "set": "sv05",
+      "quantity": 1
+    },
+    {
+      "type": "promo-card",
+      "possibleCards": [
+        "sv03-060",
+        "sv03-062"
+      ],
+      "selection": "one-of",
+      "quantity": 1
+    }
+  ],
+  "description": "Each Single Pack Blister contains 1 booster pack, 2 promo card, and a coin.",
+  "sources": [],
+  "status": "draft",
+  "migration": {
+    "originalId": "product-310",
+    "unstructuredContents": [
+      "Mixed stamps across promo cards — review individually: sv03-060, sv03-062(cosmos-holo)"
+    ]
+  }
+}

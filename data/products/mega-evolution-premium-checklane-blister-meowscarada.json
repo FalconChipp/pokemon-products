@@ -1,0 +1,46 @@
+{
+  "id": "mega-evolution-premium-checklane-blister-meowscarada",
+  "name": "Mega Evolution Premium Checklane Blister [Meowscarada]",
+  "category": "premium-checklane-blister",
+  "releaseDate": "2025-09-26",
+  "identifiers": {
+    "tcgplayer": "644361"
+  },
+  "images": [
+    {
+      "type": "front",
+      "url": "https://tcgplayer-cdn.tcgplayer.com/product/644361_in_1000x1000.jpg"
+    }
+  ],
+  "contents": [
+    {
+      "type": "booster",
+      "set": "me01",
+      "quantity": 1
+    },
+    {
+      "type": "promo-card",
+      "cards": [
+        "sv09-016",
+        "sv09-017",
+        "sv09-018"
+      ],
+      "quantity": 3
+    },
+    {
+      "type": "accessory",
+      "category": "coin",
+      "quantity": 1,
+      "name": "Lucario"
+    }
+  ],
+  "description": "Each Premium Checklane Blister contains 1 booster pack, 3 promo card(s), and a coin.",
+  "sources": [],
+  "status": "draft",
+  "migration": {
+    "originalId": "product-28",
+    "unstructuredContents": [
+      "Mixed stamps across promo cards — review individually: sv09-016, sv09-017, sv09-018(cosmos-holo)"
+    ]
+  }
+}

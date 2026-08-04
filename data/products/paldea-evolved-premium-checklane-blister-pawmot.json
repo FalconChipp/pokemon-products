@@ -1,0 +1,40 @@
+{
+  "id": "paldea-evolved-premium-checklane-blister-pawmot",
+  "name": "Paldea Evolved Premium Checklane Blister [Pawmot]",
+  "category": "premium-checklane-blister",
+  "releaseDate": "2023-06-09",
+  "identifiers": {
+    "tcgplayer": "622967"
+  },
+  "images": [
+    {
+      "type": "front",
+      "url": "https://tcgplayer-cdn.tcgplayer.com/product/622967_in_1000x1000.jpg"
+    }
+  ],
+  "contents": [
+    {
+      "type": "booster",
+      "set": "sv02",
+      "quantity": 1
+    },
+    {
+      "type": "promo-card",
+      "cards": [
+        "sv01-073",
+        "sv01-075",
+        "sv01-076"
+      ],
+      "quantity": 3
+    }
+  ],
+  "description": "Each Premium Checklane Blister contains 1 booster pack, 3 promo cards, and a coin.",
+  "sources": [],
+  "status": "draft",
+  "migration": {
+    "originalId": "product-190",
+    "unstructuredContents": [
+      "Mixed stamps across promo cards — review individually: sv01-073, sv01-075, sv01-076(vertical-line-holo)"
+    ]
+  }
+}

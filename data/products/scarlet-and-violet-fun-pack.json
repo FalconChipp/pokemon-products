@@ -1,0 +1,22 @@
+{
+  "id": "scarlet-and-violet-fun-pack",
+  "name": "Scarlet & Violet Fun Pack",
+  "category": "other",
+  "releaseDate": "2023-03-21",
+  "identifiers": {
+    "tcgplayer": "530121"
+  },
+  "images": [
+    {
+      "type": "front",
+      "url": "https://tcgplayer-cdn.tcgplayer.com/product/530121_in_1000x1000.jpg"
+    }
+  ],
+  "contents": [],
+  "description": "Each Fun Pack contains 3 cards.",
+  "sources": [],
+  "status": "draft",
+  "migration": {
+    "originalId": "product-154"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "id": "chaos-rising-build-and-battle-box",
+  "name": "Chaos Rising Build & Battle Box",
+  "category": "build-and-battle-box",
+  "releaseDate": "2026-05-22",
+  "identifiers": {
+    "tcgplayer": "684454"
+  },
+  "images": [
+    {
+      "type": "front",
+      "url": "https://tcgplayer-cdn.tcgplayer.com/product/684454_in_1000x1000.jpg"
+    }
+  ],
+  "contents": [
+    {
+      "type": "booster",
+      "set": "me04",
+      "quantity": 4
+    }
+  ],
+  "description": "Each Build & Battle Box contains a 40-card ready-to-play deck, 4 booster packs, 1 promo card, and a code card for Pokémon TCG Live.",
+  "sources": [],
+  "status": "draft",
+  "migration": {
+    "originalId": "product-82"
+  }
+}

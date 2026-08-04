@@ -1,0 +1,76 @@
+{
+  "id": "151-mini-tin-display",
+  "name": "151 Mini Tin Display",
+  "category": "display",
+  "releaseDate": "2023-10-06",
+  "identifiers": {
+    "tcgplayer": "502008"
+  },
+  "images": [
+    {
+      "type": "front",
+      "url": "https://tcgplayer-cdn.tcgplayer.com/product/502008_in_1000x1000.jpg"
+    }
+  ],
+  "contents": [
+    {
+      "type": "sealed-product",
+      "product": "151-mini-tin-arcanine-and-omanyte",
+      "quantity": 1
+    },
+    {
+      "type": "sealed-product",
+      "product": "151-mini-tin-dragonite-and-vileplume",
+      "quantity": 1
+    },
+    {
+      "type": "sealed-product",
+      "product": "151-mini-tin-electabuzz-and-magnemites",
+      "quantity": 1
+    },
+    {
+      "type": "sealed-product",
+      "product": "151-mini-tin-gengar-and-poliwag",
+      "quantity": 1
+    },
+    {
+      "type": "sealed-product",
+      "product": "151-mini-tin-hitmonchan-and-meowth",
+      "quantity": 1
+    },
+    {
+      "type": "sealed-product",
+      "product": "151-mini-tin-hitmonlee-and-kadabra",
+      "quantity": 1
+    },
+    {
+      "type": "sealed-product",
+      "product": "151-mini-tin-machamp-and-cubone",
+      "quantity": 1
+    },
+    {
+      "type": "sealed-product",
+      "product": "151-mini-tin-magneton-and-ekans",
+      "quantity": 1
+    },
+    {
+      "type": "sealed-product",
+      "product": "151-mini-tin-slowpoke-and-sandshrew",
+      "quantity": 1
+    },
+    {
+      "type": "sealed-product",
+      "product": "151-mini-tin-weezing-and-scyther",
+      "quantity": 1
+    }
+  ],
+  "description": "Each Mini Tin Display contains 10 Mini Tins.",
+  "sources": [],
+  "status": "draft",
+  "migration": {
+    "originalId": "product-232",
+    "warnings": [
+      "Contains 10 child product variants — verify actual assortment and quantities."
+    ]
+  }
+}

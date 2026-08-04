@@ -1,0 +1,40 @@
+{
+  "id": "paradox-rift-premium-checklane-blister-hydreigon",
+  "name": "Paradox Rift Premium Checklane Blister [Hydreigon]",
+  "category": "premium-checklane-blister",
+  "releaseDate": "2023-11-03",
+  "identifiers": {
+    "tcgplayer": "546605"
+  },
+  "images": [
+    {
+      "type": "front",
+      "url": "https://tcgplayer-cdn.tcgplayer.com/product/546605_in_1000x1000.jpg"
+    }
+  ],
+  "contents": [
+    {
+      "type": "booster",
+      "set": "sv04",
+      "quantity": 1
+    },
+    {
+      "type": "promo-card",
+      "cards": [
+        "sv02-138",
+        "sv02-139",
+        "sv02-140"
+      ],
+      "quantity": 3
+    }
+  ],
+  "description": "Each Premium Checklane Blister contains 1 booster pack, 3 promo cards, and a coin.",
+  "sources": [],
+  "status": "draft",
+  "migration": {
+    "originalId": "product-256",
+    "unstructuredContents": [
+      "Mixed stamps across promo cards — review individually: sv02-138, sv02-139, sv02-140(cosmos-holo)"
+    ]
+  }
+}

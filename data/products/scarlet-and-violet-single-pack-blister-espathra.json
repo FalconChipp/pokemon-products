@@ -1,0 +1,35 @@
+{
+  "id": "scarlet-and-violet-single-pack-blister-espathra",
+  "name": "Scarlet & Violet Single Pack Blister [Espathra]",
+  "category": "single-pack-blister",
+  "releaseDate": "2023-03-21",
+  "identifiers": {
+    "tcgplayer": "478766"
+  },
+  "images": [
+    {
+      "type": "front",
+      "url": "https://tcgplayer-cdn.tcgplayer.com/product/478766_in_1000x1000.jpg"
+    }
+  ],
+  "contents": [
+    {
+      "type": "booster",
+      "set": "sv01",
+      "quantity": 1
+    },
+    {
+      "type": "promo-card",
+      "card": "svp-010",
+      "quantity": 1
+    }
+  ],
+  "sources": [],
+  "status": "draft",
+  "migration": {
+    "originalId": "product-161",
+    "warnings": [
+      "Description skipped — contains unfilled template placeholders."
+    ]
+  }
+}
