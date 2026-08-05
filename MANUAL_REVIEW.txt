@@ -9,13 +9,13 @@ All items are in data/products/ unless noted otherwise.
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
 ascended-heroes-first-partners-deluxe-pin-collection.json
-  migration.unstructuredContents: "cosmoc-holo" → should be "cosmos-holo"
+  migration.unstructuredContents: "cosmoc-holo" → should be "cosmos" (TCGDex-aligned)
 
 mega-heroes-mini-tin-display.json
   migration.unstructuredContents: contains garbage text "per tin per tin" — remove it
 
 paradox-rift-pokemon-center-elite-trainer-box-iron-valiant.json
-  migration.unstructuredContents: "poekmon-center-stamp" → should be "pokemon-center-stamp"
+  migration.unstructuredContents: "poekmon-center-stamp" → should be "pokemon-center" (TCGDex-aligned)
 
 pitch-black-premium-checklane-blister-gengar-line.json
   migration.unstructuredContents: "me03-49" → should be "me03-049" (missing leading zero)
@@ -32,22 +32,22 @@ These blisters have 2 identified promo cards. Not all checklane blisters include
 some ship with only 2. Verify the actual count for each product and add any missing IDs.
 
 perfect-order-premium-checklane-blister-clawitzer-line.json
-  Have: me01-037, me01-038 (cosmos-holo)
+  Have: me01-037, me01-038 (cosmos)
 
 perfect-order-premium-checklane-blister-steelix-line.json
-  Have: me01-070, me01-093 (cosmos-holo)
+  Have: me01-070, me01-093 (cosmos)
 
 phantasmal-flames-premium-checklane-blister-arvens-greedent.json
-  Have: sv10-158, sv10-159 (cosmos-holo)
+  Have: sv10-158, sv10-159 (cosmos)
 
 phantasmal-flames-premium-checklane-blister-ethans-magcargo.json
-  Have: sv10-035, sv10-036 (cosmos-holo)
+  Have: sv10-035, sv10-036 (cosmos)
 
 pitch-black-premium-checklane-blister-amaura-aurorus.json
-  Have: me03-023, me03-024 (cosmos-holo)
+  Have: me03-023, me03-024 (cosmos)
 
 pitch-black-premium-checklane-blister-tyrunt-tyrantrum.json
-  Have: me03-044, me03-045 (cosmos-holo)  [NB: me03-045 needs leading-zero check]
+  Have: me03-044, me03-045 (cosmos)  [NB: me03-045 needs leading-zero check]
 
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
@@ -56,34 +56,34 @@ pitch-black-premium-checklane-blister-tyrunt-tyrantrum.json
 These products have promo cards with different stamps in a single promo-card content
 entry. Each stamp variant should become its own entry, e.g.:
   { "type": "promo-card", "cards": ["me01-037", "me01-038"], "quantity": 2 }
-  { "type": "promo-card", "card": "me01-039", "quantity": 1, "stamp": "cosmos-holo" }
+  { "type": "promo-card", "card": "me01-039", "quantity": 1, "stamp": "cosmos" }
 
 The card IDs below come from migration.unstructuredContents — move them into proper
 contents entries, then remove the unstructuredContents field.
 
 chaos-rising-premium-checklane-blister-flygon-line.json
-  Plain: me02-051, me02-052 | Cosmos-holo: me02-053
+  Plain: me02-051, me02-052 | Cosmos:me02-053
 
 chaos-rising-premium-checklane-blister-pawmot-line.json
-  Plain: me02-032, me02-033 | Cosmos-holo: me02-034
+  Plain: me02-032, me02-033 | Cosmos:me02-034
 
 chaos-rising-single-pack-blister-reshiram-moltres.json
-  Plain: me02-014 | Cosmos-holo: me02-017
+  Plain: me02-014 | Cosmos:me02-017
 
 chaos-rising-single-pack-blister-zacian-mimikyu.json
-  Plain: me02-042 | Cosmos-holo: me02-045
+  Plain: me02-042 | Cosmos:me02-045
 
 mega-evolution-premium-checklane-blister-meowscarada.json
-  Plain: sv09-016, sv09-017 | Cosmos-holo: sv09-018
+  Plain: sv09-016, sv09-017 | Cosmos:sv09-018
 
 mega-evolution-premium-checklane-blister-tyranitar.json
-  Plain: sv09-080, sv09-081 | Cosmos-holo: sv09-095
+  Plain: sv09-080, sv09-081 | Cosmos:sv09-095
 
 mega-evolution-single-pack-blister-lycanroc.json
-  Plain: sv09-084 | Cosmos-holo: sv09-085
+  Plain: sv09-084 | Cosmos:sv09-085
 
 mega-evolution-single-pack-blister-wailord.json
-  Plain: sv09-040 | Cosmos-holo: sv09-041
+  Plain: sv09-040 | Cosmos:sv09-041
 
 paldea-evolved-premium-checklane-blister-arboliva.json
   Plain: sv01-020, sv01-022 | Vertical-line-holo: sv01-023
@@ -94,69 +94,69 @@ paldea-evolved-premium-checklane-blister-pawmot.json
   NB: stamp name is "vertical-line-holo" — confirm this is the correct TCGdex stamp value
 
 paradox-rift-pokemon-center-elite-trainer-box-iron-valiant.json
-  Pokemon-center-stamp: svp-065, svp-066
+  Pokemon-center:svp-065, svp-066
   NB: both cards have the same stamp here — currently stored as one entry; verify whether
   they should be split or kept together
 
 paradox-rift-premium-checklane-blister-hydreigon.json
-  Plain: sv02-138, sv02-139 | Cosmos-holo: sv02-140
+  Plain: sv02-138, sv02-139 | Cosmos:sv02-140
 
 paradox-rift-premium-checklane-blister-tinkaton.json
-  Plain: sv02-102, sv02-104 | Cosmos-holo: sv02-105
+  Plain: sv02-102, sv02-104 | Cosmos:sv02-105
 
 paradox-rift-single-pack-blister-ceruledge.json
-  Plain: sv02-039 | Cosmos-holo: sv02-098
+  Plain: sv02-039 | Cosmos:sv02-098
 
 paradox-rift-single-pack-blister-glimmora.json
-  Plain: sv02-124 | Cosmos-holo: sv02-126
+  Plain: sv02-124 | Cosmos:sv02-126
 
 perfect-order-premium-checklane-blister-clawitzer-line.json
-  Plain: me01-037 | Cosmos-holo: me01-038  (+ 1 missing card — see section 2)
+  Plain: me01-037 | Cosmos:me01-038  (+ 1 missing card — see section 2)
 
 perfect-order-premium-checklane-blister-steelix-line.json
-  Plain: me01-070 | Cosmos-holo: me01-093  (+ 1 missing card — see section 2)
+  Plain: me01-070 | Cosmos:me01-093  (+ 1 missing card — see section 2)
 
 phantasmal-flames-premium-checklane-blister-arvens-greedent.json
-  Plain: sv10-158 | Cosmos-holo: sv10-159  (+ 1 missing card — see section 2)
+  Plain: sv10-158 | Cosmos:sv10-159  (+ 1 missing card — see section 2)
 
 phantasmal-flames-premium-checklane-blister-blaziken.json
-  Plain: sv10-040, sv10-041 | Cosmos-holo: sv10-042
+  Plain: sv10-040, sv10-041 | Cosmos:sv10-042
 
 phantasmal-flames-premium-checklane-blister-ethans-magcargo.json
-  Plain: sv10-035 | Cosmos-holo: sv10-036  (+ 1 missing card — see section 2)
+  Plain: sv10-035 | Cosmos:sv10-036  (+ 1 missing card — see section 2)
 
 phantasmal-flames-premium-checklane-blister-hydrapple.json
-  Plain: sv10-016, sv10-017 | Cosmos-holo: sv10-018
+  Plain: sv10-016, sv10-017 | Cosmos:sv10-018
 
 pitch-black-premium-checklane-blister-amaura-aurorus.json
-  Plain: me03-023 | Cosmos-holo: me03-024  (+ 1 missing card — see section 2)
+  Plain: me03-023 | Cosmos:me03-024  (+ 1 missing card — see section 2)
 
 pitch-black-premium-checklane-blister-gengar-line.json
-  Plain: me03-048, me03-049 | Cosmos-holo: me03-050
+  Plain: me03-048, me03-049 | Cosmos:me03-050
   NB: was stored as "me03-49" — correct to "me03-049" first (see section 1)
 
 pitch-black-premium-checklane-blister-luxray-line.json
-  Plain: me03-026, me03-027 | Cosmos-holo: me03-028
+  Plain: me03-026, me03-027 | Cosmos:me03-028
 
 pitch-black-premium-checklane-blister-tyrunt-tyrantrum.json
-  Plain: me03-044 | Cosmos-holo: me03-045  (+ 1 missing card — see section 2)
+  Plain: me03-044 | Cosmos:me03-045  (+ 1 missing card — see section 2)
 
 temporal-forces-premium-checklane-blister-togekiss.json
-  Plain: sv03-083, sv03-084 | Cosmos-holo: sv03-0?? (ID is "sv03-05" — verify, see section 1)
+  Plain: sv03-083, sv03-084 | Cosmos:sv03-0?? (ID is "sv03-05" — verify, see section 1)
 
 temporal-forces-single-pack-blister-palafin.json
-  Plain: sv03-060 | Cosmos-holo: sv03-062
+  Plain: sv03-060 | Cosmos:sv03-062
 
 temporal-forces-single-pack-blister-scovillain.json
-  Plain: sv03-024 | Cosmos-holo: sv03-025
+  Plain: sv03-024 | Cosmos:sv03-025
 
 ascended-heroes-first-partners-deluxe-pin-collection.json
-  Cosmos-holo: me02.5-008, me02.5-029, me02.5-041
-  NB: all three are cosmos-holo (no plain cards for this product)
+  Cosmos:me02.5-008, me02.5-029, me02.5-041
+  NB: all three are cosmos (no plain cards for this product)
   NB: "cosmoc-holo" typo — fix first (see section 1)
 
 151-alakazam-ex-collection.json
-  Mixed stamps: svp-050, sv03.5-063 (cosmos-holo), sv03.5-064 (cosmos-holo)
+  Mixed stamps: svp-050, sv03.5-063 (cosmos), sv03.5-064 (cosmos)
   NB: svp-050 uses a different set (svp) — confirm it has no stamp
 
 151-zapdos-ex-collection.json
@@ -185,16 +185,16 @@ ascended-heroes-focused-fighters-premium-collection.json
   Add: { "type": "promo-card", "card": "me02.5-116", "quantity": 1, "stamp": "jumbo" }
 
 ascended-heroes-mega-emboar-ex-box.json
-  Add: { "type": "promo-card", "card": "mep-035", "quantity": 1, "stamp": "jumbo-lenticular" }
+  Add: { "type": "promo-card", "card": "mep-035", "quantity": 1, "stamp": "lenticular" }
 
 ascended-heroes-mega-feraligatr-ex-box.json
-  Add: { "type": "promo-card", "card": "mep-036", "quantity": 1, "stamp": "jumbo-lenticular" }
+  Add: { "type": "promo-card", "card": "mep-036", "quantity": 1, "stamp": "lenticular" }
 
 ascended-heroes-mega-meganium-ex-box.json
-  Add: { "type": "promo-card", "card": "mep-034", "quantity": 1, "stamp": "jumbo-lenticular" }
+  Add: { "type": "promo-card", "card": "mep-034", "quantity": 1, "stamp": "lenticular" }
 
 paldean-fates-great-tusk-ex-and-iron-treads-ex-premium-collection.json
-  Add: { "type": "promo-card", "card": "svp-072", "quantity": 1, "stamp": "jumbo-expansion-stamp" }
+  Add: { "type": "promo-card", "card": "svp-072", "quantity": 1, "stamp": "jumbo" }
 
 paldean-fates-premium-collection-meowscarada-ex.json
   Add: { "type": "promo-card", "card": "svp-078", "quantity": 1, "stamp": "jumbo" }

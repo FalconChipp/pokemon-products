@@ -18,6 +18,7 @@
     "start": "node server.js",
     "migrate": "node scripts/migrate-products.js",
     "restructure": "node scripts/restructure-cases.js",
+    "generate-sealed": "node scripts/generate-sealed.js",
     "validate": "node scripts/validate-products.js"
   },
   "dependencies": {

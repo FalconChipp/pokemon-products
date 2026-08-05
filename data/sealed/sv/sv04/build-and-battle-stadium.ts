@@ -1,0 +1,31 @@
+import type { SealedProductDef } from "../../../../types/sealed";
+
+export default {
+  category: "build-and-battle-stadium",
+  set: "sv04",
+  variants: [
+    {
+      id: "standard",
+      name: "Paradox Rift Build & Battle Stadium",
+      releaseDate: "2023-11-03",
+      identifiers: {
+        tcgplayer: "514070",
+      },
+      images: [
+        {
+          type: "front",
+          url: "https://tcgplayer-cdn.tcgplayer.com/product/514070_in_1000x1000.jpg",
+        },
+      ],
+      contents: [
+        {
+          type: "booster",
+          set: "sv04",
+          quantity: 11,
+        },
+      ],
+      description: "Each Build & Battle Stadium contains 2 Build & Battle Boxes, 3 Booster Packs, 121 Energy cards, 6 damage-counter dice, 1 competition-legal coin-flip die, 2 condition markers, and a box to hold everything.",
+      status: "draft",
+    },
+  ],
+} satisfies SealedProductDef;

@@ -25,13 +25,13 @@
         "svp-073"
       ],
       "quantity": 2,
-      "stamp": "expansion-stamp"
+      "stamp": "set-logo"
     },
     {
       "type": "promo-card",
       "card": "svp-072",
       "quantity": 1,
-      "stamp": "jumbo-expansion-stamp"
+      "stamp": "jumbo"
     }
   ],
   "description": "Each Collection contains 11 Booster Packs, 4 promo cards, and 1 jumbo card.",

@@ -18,8 +18,15 @@ const DIR = path.join(ROOT, "data", "products");
 // ── Typo correction tables ────────────────────────────────────────────────────
 
 const STAMP_TYPOS = {
-  "cosmoc-holo": "cosmos-holo",
-  "poekmon-center-stamp": "pokemon-center-stamp",
+  "cosmoc-holo": "cosmos",
+  "cosmos-holo": "cosmos",
+  "poekmon-center-stamp": "pokemon-center",
+  "pokemon-center-stamp": "pokemon-center",
+  "pokémon-center-stamp": "pokemon-center",
+  "set-stamp": "set-logo",
+  "expansion-stamp": "set-logo",
+  "jumbo-expansion-stamp": "jumbo",
+  "jumbo-lenticular": "lenticular",
 };
 
 // Applied to card IDs found in unstructuredContents AND in contents promo entries
@@ -44,19 +51,19 @@ const JUMBO_ENTRIES = {
   },
   "ascended-heroes-mega-emboar-ex-box": {
     card: "mep-035",
-    stamp: "jumbo-lenticular",
+    stamp: "lenticular",
   },
   "ascended-heroes-mega-feraligatr-ex-box": {
     card: "mep-036",
-    stamp: "jumbo-lenticular",
+    stamp: "lenticular",
   },
   "ascended-heroes-mega-meganium-ex-box": {
     card: "mep-034",
-    stamp: "jumbo-lenticular",
+    stamp: "lenticular",
   },
   "paldean-fates-great-tusk-ex-and-iron-treads-ex-premium-collection": {
     card: "svp-072",
-    stamp: "jumbo-expansion-stamp",
+    stamp: "jumbo",
   },
   "paldean-fates-premium-collection-meowscarada-ex": {
     card: "svp-078",

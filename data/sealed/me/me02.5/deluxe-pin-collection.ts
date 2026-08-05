@@ -1,0 +1,59 @@
+import type { SealedProductDef } from "../../../../types/sealed";
+
+export default {
+  category: "collection-box",
+  set: "me02.5",
+  variants: [
+    {
+      id: "first-partners",
+      name: "Ascended Heroes First Partners Deluxe Pin Collection",
+      releaseDate: "2026-03-20",
+      identifiers: {
+        tcgplayer: "672391",
+      },
+      images: [
+        {
+          type: "front",
+          url: "https://tcgplayer-cdn.tcgplayer.com/product/672391_in_1000x1000.jpg",
+        },
+      ],
+      contents: [
+        {
+          type: "booster",
+          set: "me02.5",
+          quantity: 5,
+        },
+        {
+          type: "promo-card",
+          cards: [
+            "me02.5-008",
+            "me02.5-029",
+            "me02.5-041",
+          ],
+          quantity: 3,
+          stamp: "cosmos",
+        },
+      ],
+      description: "Each First Partners Deluxe Pin Collection contains 5 Booster Packs, 3 promo cards, and a pin",
+      status: "draft",
+    },
+  ],
+  packaging: [
+    {
+      type: "case",
+      id: "first-partners-case",
+      name: "Ascended Heroes First Partners Deluxe Pin Collection Case",
+      identifiers: {
+        tcgplayer: "672392",
+      },
+      releaseDate: "2026-03-20",
+      contents: [
+        {
+          type: "sealed-product",
+          variant: "first-partners",
+          quantity: 6,
+        },
+      ],
+    },
+  ],
+} satisfies SealedProductDef;

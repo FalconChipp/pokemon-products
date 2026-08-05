@@ -1,0 +1,44 @@
+import type { SealedProductDef } from "../../../../types/sealed";
+
+export default {
+  category: "single-pack-blister",
+  set: "me03",
+  variants: [
+    {
+      id: "makuhita",
+      name: "Perfect Order Single Pack Blister [Makuhita]",
+      releaseDate: "2026-03-27",
+      identifiers: {
+        tcgplayer: "672410",
+      },
+      images: [
+        {
+          type: "front",
+          url: "https://tcgplayer-cdn.tcgplayer.com/product/672410_in_1000x1000.jpg",
+        },
+      ],
+      contents: [
+        {
+          type: "booster",
+          set: "me03",
+          quantity: 1,
+        },
+        {
+          type: "promo-card",
+          card: "mep-068",
+          quantity: 1,
+        },
+        {
+          type: "accessory",
+          category: "coin",
+          quantity: 1,
+          details: {
+            size: "big",
+          },
+        },
+      ],
+      description: "Each Single Pack Blister contains 1 booster pack, 1 promo card, and a coin.",
+      status: "draft",
+    },
+  ],
+} satisfies SealedProductDef;

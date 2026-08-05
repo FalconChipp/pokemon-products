@@ -28,7 +28,7 @@
       ],
       "selection": "one-of",
       "quantity": 1,
-      "stamp": "set-stamp"
+      "stamp": "set-logo"
     },
     {
       "type": "accessory",
