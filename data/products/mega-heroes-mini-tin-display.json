@@ -44,9 +44,6 @@
   "status": "draft",
   "migration": {
     "originalId": "product-25",
-    "unstructuredContents": [
-      "per tin per tin"
-    ],
     "warnings": [
       "Contains 5 child product variants — verify actual assortment and quantities."
     ]

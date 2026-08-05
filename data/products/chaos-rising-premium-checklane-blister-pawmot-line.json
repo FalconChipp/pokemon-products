@@ -22,19 +22,21 @@
       "type": "promo-card",
       "cards": [
         "me02-032",
-        "me02-033",
-        "me02-034"
+        "me02-033"
       ],
-      "quantity": 3
+      "quantity": 2
+    },
+    {
+      "type": "promo-card",
+      "card": "me02-034",
+      "quantity": 1,
+      "stamp": "cosmos-holo"
     }
   ],
   "description": "Each Premium Checklane Blister contains 1 booster pack, 3 promo card(s), and a coin.",
   "sources": [],
   "status": "draft",
   "migration": {
-    "originalId": "product-83",
-    "unstructuredContents": [
-      "Mixed stamps across promo cards — review individually: me02-032, me02-033, me02-034(cosmos-holo)"
-    ]
+    "originalId": "product-83"
   }
 }

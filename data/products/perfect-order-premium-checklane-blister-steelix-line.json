@@ -20,11 +20,14 @@
     },
     {
       "type": "promo-card",
-      "cards": [
-        "me01-070",
-        "me01-093"
-      ],
-      "quantity": 2
+      "card": "me01-070",
+      "quantity": 1
+    },
+    {
+      "type": "promo-card",
+      "card": "me01-093",
+      "quantity": 1,
+      "stamp": "cosmos-holo"
     },
     {
       "type": "accessory",
@@ -39,9 +42,6 @@
   "sources": [],
   "status": "draft",
   "migration": {
-    "originalId": "product-65",
-    "unstructuredContents": [
-      "Mixed stamps across promo cards — review individually: me01-070, me01-093(cosmos-holo)"
-    ]
+    "originalId": "product-65"
   }
 }

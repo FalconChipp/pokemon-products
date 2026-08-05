@@ -22,19 +22,21 @@
       "type": "promo-card",
       "cards": [
         "sv02-102",
-        "sv02-104",
-        "sv02-105"
+        "sv02-104"
       ],
-      "quantity": 3
+      "quantity": 2
+    },
+    {
+      "type": "promo-card",
+      "card": "sv02-105",
+      "quantity": 1,
+      "stamp": "cosmos-holo"
     }
   ],
   "description": "Each Premium Checklane Blister contains 1 booster pack, 3 promo cards, and a coin.",
   "sources": [],
   "status": "draft",
   "migration": {
-    "originalId": "product-262",
-    "unstructuredContents": [
-      "Mixed stamps across promo cards — review individually: sv02-102, sv02-104, sv02-105(cosmos-holo)"
-    ]
+    "originalId": "product-262"
   }
 }

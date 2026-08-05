@@ -28,9 +28,7 @@
   "sources": [],
   "status": "draft",
   "migration": {
-    "originalId": "product-176",
-    "warnings": [
-      "Description skipped — contains unfilled template placeholders."
-    ]
-  }
+    "originalId": "product-176"
+  },
+  "description": "Each Single Pack Blister contains 1 booster pack and 1 promo card."
 }

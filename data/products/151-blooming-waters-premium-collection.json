@@ -27,6 +27,12 @@
         "sv03.5-009"
       ],
       "quantity": 4
+    },
+    {
+      "type": "promo-card",
+      "card": "sv03.5-009",
+      "quantity": 1,
+      "stamp": "jumbo"
     }
   ],
   "description": "Each Blooming Waters Premium Collection contains 12 Booster Packs, 4 promo cards, and 1 jumbo card.",
@@ -34,9 +40,6 @@
   "status": "draft",
   "migration": {
     "originalId": "product-219",
-    "unstructuredContents": [
-      "Duplicate card IDs removed — likely Jumbo or stamp variants: sv03.5-009 (jumbo)"
-    ],
     "warnings": []
   }
 }

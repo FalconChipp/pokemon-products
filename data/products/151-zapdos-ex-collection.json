@@ -25,6 +25,12 @@
         "svp-049"
       ],
       "quantity": 2
+    },
+    {
+      "type": "promo-card",
+      "card": "svp-049",
+      "quantity": 1,
+      "stamp": "jumbo"
     }
   ],
   "description": "Each 151: Zapdos ex Collection contains 4 Booster Packs, 2 promo cards, and 1 jumbo card.",
@@ -32,9 +38,6 @@
   "status": "draft",
   "migration": {
     "originalId": "product-222",
-    "unstructuredContents": [
-      "Duplicate card IDs removed — likely Jumbo or stamp variants: svp-049 (jumbo)"
-    ],
     "warnings": []
   }
 }

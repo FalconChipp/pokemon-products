@@ -31,9 +31,7 @@
   "sources": [],
   "status": "draft",
   "migration": {
-    "originalId": "product-168",
-    "warnings": [
-      "Description skipped — contains unfilled template placeholders."
-    ]
-  }
+    "originalId": "product-168"
+  },
+  "description": "Each Premium Checklane Blister contains 1 booster pack and 1 promo card."
 }

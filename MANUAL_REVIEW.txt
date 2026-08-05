@@ -26,34 +26,28 @@ temporal-forces-premium-checklane-blister-togekiss.json
 
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-2. MISSING PROMO CARD IDS  (6 blisters — look up the 3rd card)
+2. VERIFY PROMO CARD COUNT  (6 blisters)
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-Premium checklane blisters contain 3 promo cards but only 2 were identified.
-The missing card is likely a plain (non-cosmos-holo) set card. Look it up and add it.
+These blisters have 2 identified promo cards. Not all checklane blisters include 3 —
+some ship with only 2. Verify the actual count for each product and add any missing IDs.
 
 perfect-order-premium-checklane-blister-clawitzer-line.json
   Have: me01-037, me01-038 (cosmos-holo)
-  Missing: 1 plain me01 promo card
 
 perfect-order-premium-checklane-blister-steelix-line.json
   Have: me01-070, me01-093 (cosmos-holo)
-  Missing: 1 plain me01 promo card
 
 phantasmal-flames-premium-checklane-blister-arvens-greedent.json
   Have: sv10-158, sv10-159 (cosmos-holo)
-  Missing: 1 plain sv10 promo card
 
 phantasmal-flames-premium-checklane-blister-ethans-magcargo.json
   Have: sv10-035, sv10-036 (cosmos-holo)
-  Missing: 1 plain sv10 promo card
 
 pitch-black-premium-checklane-blister-amaura-aurorus.json
   Have: me03-023, me03-024 (cosmos-holo)
-  Missing: 1 plain me03 promo card
 
 pitch-black-premium-checklane-blister-tyrunt-tyrantrum.json
   Have: me03-044, me03-045 (cosmos-holo)  [NB: me03-045 needs leading-zero check]
-  Missing: 1 plain me03 promo card
 
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━

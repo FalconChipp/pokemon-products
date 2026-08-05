@@ -20,22 +20,23 @@
     },
     {
       "type": "promo-card",
+      "card": "svp-050",
+      "quantity": 1
+    },
+    {
+      "type": "promo-card",
       "cards": [
-        "svp-050",
         "sv03.5-063",
         "sv03.5-064"
       ],
-      "quantity": 3
+      "quantity": 2,
+      "stamp": "cosmos-holo"
     }
   ],
   "description": "Each 151: Alakazam ex Collection contains 4 Booster Packs and 3 promo cards.",
   "sources": [],
   "status": "draft",
   "migration": {
-    "originalId": "product-218",
-    "unstructuredContents": [
-      "Mixed stamps across promo cards — review individually: svp-050, sv03.5-063(cosmos-holo), sv03.5-064(cosmos-holo)"
-    ],
-    "warnings": []
+    "originalId": "product-218"
   }
 }

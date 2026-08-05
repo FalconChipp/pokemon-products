@@ -22,10 +22,15 @@
       "type": "promo-card",
       "cards": [
         "sv10-040",
-        "sv10-041",
-        "sv10-042"
+        "sv10-041"
       ],
-      "quantity": 3
+      "quantity": 2
+    },
+    {
+      "type": "promo-card",
+      "card": "sv10-042",
+      "quantity": 1,
+      "stamp": "cosmos-holo"
     },
     {
       "type": "accessory",
@@ -41,9 +46,6 @@
   "sources": [],
   "status": "draft",
   "migration": {
-    "originalId": "product-48",
-    "unstructuredContents": [
-      "Mixed stamps across promo cards — review individually: sv10-040, sv10-041, sv10-042(cosmos-holo)"
-    ]
+    "originalId": "product-48"
   }
 }

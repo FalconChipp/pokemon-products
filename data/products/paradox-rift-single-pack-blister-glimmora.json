@@ -20,21 +20,20 @@
     },
     {
       "type": "promo-card",
-      "possibleCards": [
-        "sv02-124",
-        "sv02-126"
-      ],
-      "selection": "one-of",
+      "card": "sv02-124",
       "quantity": 1
+    },
+    {
+      "type": "promo-card",
+      "card": "sv02-126",
+      "quantity": 1,
+      "stamp": "cosmos-holo"
     }
   ],
   "description": "Each Single Pack Blister contains 1 booster pack, 2 promo cards, and a coin.",
   "sources": [],
   "status": "draft",
   "migration": {
-    "originalId": "product-265",
-    "unstructuredContents": [
-      "Mixed stamps across promo cards — review individually: sv02-124, sv02-126(cosmos-holo)"
-    ]
+    "originalId": "product-265"
   }
 }

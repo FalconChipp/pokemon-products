@@ -14,11 +14,20 @@
   "type": "commonjs",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "migrate": "node scripts/migrate-products.js",
+    "restructure": "node scripts/restructure-cases.js",
+    "validate": "node scripts/validate-products.js"
   },
   "dependencies": {
     "cors": "^2.8.6",
     "express": "^5.2.1"
   },
-  "devDependencies": {}
+  "devDependencies": {
+    "ajv": "^8.20.0",
+    "ajv-formats": "^3.0.1"
+  },
+  "keywords": [],
+  "license": "ISC"
 }

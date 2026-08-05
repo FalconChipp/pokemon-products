@@ -22,15 +22,18 @@
       "type": "promo-card",
       "card": "mep-034",
       "quantity": 1
+    },
+    {
+      "type": "promo-card",
+      "card": "mep-034",
+      "quantity": 1,
+      "stamp": "jumbo-lenticular"
     }
   ],
   "description": "Each Mega Meganium ex Box contains 4 Booster Packs, 1 promo card, and 1 jumbo lenticular card.",
   "sources": [],
   "status": "draft",
   "migration": {
-    "originalId": "product-120",
-    "unstructuredContents": [
-      "Duplicate card IDs removed — likely Jumbo or stamp variants: mep-034 (jumbo-lenticular)"
-    ]
+    "originalId": "product-120"
   }
 }

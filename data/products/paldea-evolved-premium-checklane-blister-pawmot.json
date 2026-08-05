@@ -22,19 +22,21 @@
       "type": "promo-card",
       "cards": [
         "sv01-073",
-        "sv01-075",
-        "sv01-076"
+        "sv01-075"
       ],
-      "quantity": 3
+      "quantity": 2
+    },
+    {
+      "type": "promo-card",
+      "card": "sv01-076",
+      "quantity": 1,
+      "stamp": "vertical-line-holo"
     }
   ],
   "description": "Each Premium Checklane Blister contains 1 booster pack, 3 promo cards, and a coin.",
   "sources": [],
   "status": "draft",
   "migration": {
-    "originalId": "product-190",
-    "unstructuredContents": [
-      "Mixed stamps across promo cards — review individually: sv01-073, sv01-075, sv01-076(vertical-line-holo)"
-    ]
+    "originalId": "product-190"
   }
 }

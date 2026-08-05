@@ -26,6 +26,12 @@
       ],
       "quantity": 2,
       "stamp": "expansion-stamp"
+    },
+    {
+      "type": "promo-card",
+      "card": "svp-072",
+      "quantity": 1,
+      "stamp": "jumbo-expansion-stamp"
     }
   ],
   "description": "Each Collection contains 11 Booster Packs, 4 promo cards, and 1 jumbo card.",
@@ -33,9 +39,6 @@
   "status": "draft",
   "migration": {
     "originalId": "product-268",
-    "unstructuredContents": [
-      "Duplicate card IDs removed — likely Jumbo or stamp variants: svp-072 (jumbo-expansion-stamp)"
-    ],
     "warnings": []
   }
 }

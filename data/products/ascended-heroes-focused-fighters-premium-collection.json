@@ -25,15 +25,18 @@
         "me02.5-116"
       ],
       "quantity": 2
+    },
+    {
+      "type": "promo-card",
+      "card": "me02.5-116",
+      "quantity": 1,
+      "stamp": "jumbo"
     }
   ],
   "description": "Each Focused Fighters Premium Collection contains 14 Booster Packs, 4 promo cards, and 1 jumbo card.",
   "sources": [],
   "status": "draft",
   "migration": {
-    "originalId": "product-115",
-    "unstructuredContents": [
-      "Duplicate card IDs removed — likely Jumbo or stamp variants: me02.5-116 (jumbo)"
-    ]
+    "originalId": "product-115"
   }
 }

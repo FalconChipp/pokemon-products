@@ -20,23 +20,20 @@
     },
     {
       "type": "promo-card",
-      "possibleCards": [
-        "me02-014",
-        "me02-017"
-      ],
-      "selection": "one-of",
+      "card": "me02-014",
       "quantity": 1
+    },
+    {
+      "type": "promo-card",
+      "card": "me02-017",
+      "quantity": 1,
+      "stamp": "cosmos-holo"
     }
   ],
   "sources": [],
   "status": "draft",
   "migration": {
-    "originalId": "product-86",
-    "unstructuredContents": [
-      "Mixed stamps across promo cards — review individually: me02-014, me02-017(cosmos-holo)"
-    ],
-    "warnings": [
-      "Description skipped — contains unfilled template placeholders."
-    ]
-  }
+    "originalId": "product-86"
+  },
+  "description": "Each Single Pack Blister contains 1 booster pack and 2 promo cards."
 }

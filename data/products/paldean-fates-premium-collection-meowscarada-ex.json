@@ -26,6 +26,12 @@
         "svp-078"
       ],
       "quantity": 3
+    },
+    {
+      "type": "promo-card",
+      "card": "svp-078",
+      "quantity": 1,
+      "stamp": "jumbo"
     }
   ],
   "description": "Each Collection contains 8 Booster Packs, 3 promo cards, and 1 jumbo card.",
@@ -33,9 +39,6 @@
   "status": "draft",
   "migration": {
     "originalId": "product-279",
-    "unstructuredContents": [
-      "Duplicate card IDs removed — likely Jumbo or stamp variants: svp-078 (jumbo)"
-    ],
     "warnings": []
   }
 }
