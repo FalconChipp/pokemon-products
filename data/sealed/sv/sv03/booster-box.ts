@@ -3,12 +3,28 @@ import type { SealedProductDef } from "../../../../types/sealed";
 export default {
   category: "booster-box",
   set: "sv03",
+  boosters: [
+    {
+      set: "sv03",
+      packs: [
+        {
+          quantity: 36,
+        },
+      ],
+      artworks: [
+        "boo_sv03-charizard",
+        "boo_sv03-tyranitar",
+        "boo_sv03-dragonite",
+        "boo_sv03-revavroom",
+      ],
+    },
+  ],
   variants: [
     {
       id: "standard",
       name: "Obsidian Flames Booster Box",
       releaseDate: "2023-08-11",
-      identifiers: {
+      thirdParty: {
         tcgplayer: "501257",
       },
       images: [
@@ -17,15 +33,7 @@ export default {
           url: "https://tcgplayer-cdn.tcgplayer.com/product/501257_in_1000x1000.jpg",
         },
       ],
-      contents: [
-        {
-          type: "booster",
-          set: "sv03",
-          quantity: 36,
-        },
-      ],
       description: "Each Booster Box contains 36 booster packs.",
-      status: "draft",
     },
   ],
   packaging: [
@@ -33,14 +41,14 @@ export default {
       type: "case",
       id: "case",
       name: "Obsidian Flames Booster Box Case",
-      identifiers: {
+      thirdParty: {
         tcgplayer: "501258",
       },
       releaseDate: "2023-08-11",
       contents: [
         {
-          type: "sealed-product",
-          variant: "standard",
+          type: "variant",
+          id: "standard",
           quantity: 6,
         },
       ],

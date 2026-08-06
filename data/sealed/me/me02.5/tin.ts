@@ -3,21 +3,30 @@ import type { SealedProductDef } from "../../../../types/sealed";
 export default {
   category: "tin",
   set: "me02.5",
-  base: {
-    contents: [
-      {
-        type: "booster",
-        set: "me02.5",
-        quantity: 4,
-      },
-    ],
-  },
+  boosters: [
+    {
+      set: "me02.5",
+      packs: [
+        {
+          quantity: 4,
+        },
+      ],
+      artworks: [
+        "boo_me02.5-charizard",
+        "boo_me02.5-dragonite",
+        "boo_me02.5-ho-oh",
+        "boo_me02.5-lucario",
+        "boo_me02.5-mewtwo",
+        "boo_me02.5-pikachu",
+      ],
+    },
+  ],
   variants: [
     {
       id: "mega-emboar-ex",
       name: "Ascended Heroes Tin [Mega Emboar ex]",
       releaseDate: "2026-08-28",
-      identifiers: {
+      thirdParty: {
         tcgplayer: "702496",
       },
       images: [
@@ -29,18 +38,18 @@ export default {
       contents: [
         {
           type: "promo-card",
-          card: "mep-035",
-          quantity: 1,
+          cards: [
+            "mep-035",
+          ],
         },
       ],
       description: "Each Tin contains 4 Booster Packs and 1 promo card.",
-      status: "draft",
     },
     {
       id: "mega-feraligatr-ex",
       name: "Ascended Heroes Tin [Mega Feraligatr ex]",
       releaseDate: "2026-08-28",
-      identifiers: {
+      thirdParty: {
         tcgplayer: "702497",
       },
       images: [
@@ -52,18 +61,18 @@ export default {
       contents: [
         {
           type: "promo-card",
-          card: "mep-036",
-          quantity: 1,
+          cards: [
+            "mep-036",
+          ],
         },
       ],
       description: "Each Tin contains 4 Booster Packs and 1 promo card.",
-      status: "draft",
     },
     {
       id: "mega-meganium-ex",
       name: "Ascended Heroes Tin [Mega Meganium ex]",
       releaseDate: "2026-08-28",
-      identifiers: {
+      thirdParty: {
         tcgplayer: "702498",
       },
       images: [
@@ -75,12 +84,12 @@ export default {
       contents: [
         {
           type: "promo-card",
-          card: "mep-034",
-          quantity: 1,
+          cards: [
+            "mep-034",
+          ],
         },
       ],
       description: "Each Tin contains 4 Booster Packs and 1 promo card.",
-      status: "draft",
     },
   ],
   packaging: [
@@ -88,24 +97,24 @@ export default {
       type: "case",
       id: "case",
       name: "Ascended Heroes Tin Case",
-      identifiers: {
+      thirdParty: {
         tcgplayer: "702501",
       },
       releaseDate: "2026-08-28",
       contents: [
         {
-          type: "sealed-product",
-          variant: "mega-emboar-ex",
+          type: "variant",
+          id: "mega-emboar-ex",
           quantity: 2,
         },
         {
-          type: "sealed-product",
-          variant: "mega-feraligatr-ex",
+          type: "variant",
+          id: "mega-feraligatr-ex",
           quantity: 2,
         },
         {
-          type: "sealed-product",
-          variant: "mega-meganium-ex",
+          type: "variant",
+          id: "mega-meganium-ex",
           quantity: 2,
         },
       ],

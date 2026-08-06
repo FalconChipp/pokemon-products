@@ -3,21 +3,30 @@ import type { SealedProductDef } from "../../../../types/sealed";
 export default {
   category: "collection-box",
   set: "me02.5",
-  base: {
-    contents: [
-      {
-        type: "booster",
-        set: "me02.5",
-        quantity: 4,
-      },
-    ],
-  },
+  boosters: [
+    {
+      set: "me02.5",
+      packs: [
+        {
+          quantity: 4,
+        },
+      ],
+      artworks: [
+        "boo_me02.5-charizard",
+        "boo_me02.5-dragonite",
+        "boo_me02.5-ho-oh",
+        "boo_me02.5-lucario",
+        "boo_me02.5-mewtwo",
+        "boo_me02.5-pikachu",
+      ],
+    },
+  ],
   variants: [
     {
       id: "emboar",
       name: "Ascended Heroes Mega Emboar ex Box",
       releaseDate: "2026-04-24",
-      identifiers: {
+      thirdParty: {
         tcgplayer: "672734",
       },
       images: [
@@ -29,24 +38,25 @@ export default {
       contents: [
         {
           type: "promo-card",
-          card: "mep-035",
-          quantity: 1,
+          cards: [
+            "mep-035",
+          ],
         },
         {
           type: "promo-card",
-          card: "mep-035",
-          quantity: 1,
+          cards: [
+            "mep-035",
+          ],
           stamp: "lenticular",
         },
       ],
       description: "Each Mega Emboar ex Box contains 4 Booster Packs, 1 promo card, and 1 jumbo lenticular card.",
-      status: "draft",
     },
     {
       id: "feraligatr",
       name: "Ascended Heroes Mega Feraligatr ex Box",
       releaseDate: "2026-04-24",
-      identifiers: {
+      thirdParty: {
         tcgplayer: "672735",
       },
       images: [
@@ -58,24 +68,25 @@ export default {
       contents: [
         {
           type: "promo-card",
-          card: "mep-036",
-          quantity: 1,
+          cards: [
+            "mep-036",
+          ],
         },
         {
           type: "promo-card",
-          card: "mep-036",
-          quantity: 1,
+          cards: [
+            "mep-036",
+          ],
           stamp: "lenticular",
         },
       ],
       description: "Each Mega Feraligatr ex Box contains 4 Booster Packs, 1 promo card, and 1 jumbo lenticular card.",
-      status: "draft",
     },
     {
       id: "meganium",
       name: "Ascended Heroes Mega Meganium ex Box",
       releaseDate: "2026-04-24",
-      identifiers: {
+      thirdParty: {
         tcgplayer: "672733",
       },
       images: [
@@ -87,18 +98,19 @@ export default {
       contents: [
         {
           type: "promo-card",
-          card: "mep-034",
-          quantity: 1,
+          cards: [
+            "mep-034",
+          ],
         },
         {
           type: "promo-card",
-          card: "mep-034",
-          quantity: 1,
+          cards: [
+            "mep-034",
+          ],
           stamp: "lenticular",
         },
       ],
       description: "Each Mega Meganium ex Box contains 4 Booster Packs, 1 promo card, and 1 jumbo lenticular card.",
-      status: "draft",
     },
   ],
   packaging: [
@@ -106,24 +118,24 @@ export default {
       type: "case",
       id: "case",
       name: "Ascended Heroes Mega ex Box Case",
-      identifiers: {
+      thirdParty: {
         tcgplayer: "672737",
       },
       releaseDate: "2026-02-20",
       contents: [
         {
-          type: "sealed-product",
-          variant: "emboar",
+          type: "variant",
+          id: "emboar",
           quantity: 2,
         },
         {
-          type: "sealed-product",
-          variant: "feraligatr",
+          type: "variant",
+          id: "feraligatr",
           quantity: 2,
         },
         {
-          type: "sealed-product",
-          variant: "meganium",
+          type: "variant",
+          id: "meganium",
           quantity: 2,
         },
       ],

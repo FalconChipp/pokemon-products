@@ -3,31 +3,46 @@ import type { SealedProductDef } from "../../../../types/sealed";
 export default {
   category: "mini-tin",
   set: "me01",
-  base: {
-    contents: [
-      {
-        type: "booster",
-        set: "me01",
-        quantity: 2,
-      },
-      {
-        type: "accessory",
-        category: "sticker",
-        quantity: 1,
-      },
-      {
-        type: "accessory",
-        category: "art-card",
-        quantity: 1,
-      },
-    ],
-  },
+  boosters: [
+    {
+      set: "me01",
+      packs: [
+        {
+          quantity: 1,
+        },
+      ],
+      artworks: [
+        "boo_me01-gardevoir",
+        "boo_me01-kangaskhan",
+        "boo_me01-lucario",
+        "boo_me01-venusaur",
+      ],
+    },
+    {
+      set: "sv10",
+      packs: [
+        {
+          quantity: 1,
+        },
+      ],
+    },
+  ],
+  accessories: [
+    {
+      category: "sticker",
+      quantity: 1,
+    },
+    {
+      category: "art-card",
+      quantity: 1,
+    },
+  ],
   variants: [
     {
       id: "mega-gardevoir",
       name: "Mega Heroes Mini Tin [Mega Gardevoir]",
       releaseDate: "2025-09-26",
-      identifiers: {
+      thirdParty: {
         tcgplayer: "649394",
       },
       images: [
@@ -37,13 +52,12 @@ export default {
         },
       ],
       description: "Each Mini Tin contains 2 booster packs and an art card.",
-      status: "draft",
     },
     {
       id: "mega-kangaskhan",
       name: "Mega Heroes Mini Tin [Mega Kangaskhan]",
       releaseDate: "2025-09-26",
-      identifiers: {
+      thirdParty: {
         tcgplayer: "649395",
       },
       images: [
@@ -53,13 +67,12 @@ export default {
         },
       ],
       description: "Each Mini Tin contains 2 booster packs and an art card.",
-      status: "draft",
     },
     {
       id: "mega-latias",
       name: "Mega Heroes Mini Tin [Mega Latias]",
       releaseDate: "2025-09-26",
-      identifiers: {
+      thirdParty: {
         tcgplayer: "649397",
       },
       images: [
@@ -69,13 +82,12 @@ export default {
         },
       ],
       description: "Each Mini Tin contains 2 booster packs and an art card.",
-      status: "draft",
     },
     {
       id: "mega-lucario",
       name: "Mega Heroes Mini Tin [Mega Lucario]",
       releaseDate: "2025-09-26",
-      identifiers: {
+      thirdParty: {
         tcgplayer: "649400",
       },
       images: [
@@ -85,13 +97,12 @@ export default {
         },
       ],
       description: "Each Mini Tin contains 2 booster packs and an art card.",
-      status: "draft",
     },
     {
       id: "mega-venusaur",
       name: "Mega Heroes Mini Tin [Mega Venusaur]",
       releaseDate: "2025-09-26",
-      identifiers: {
+      thirdParty: {
         tcgplayer: "649401",
       },
       images: [
@@ -101,7 +112,6 @@ export default {
         },
       ],
       description: "Each Mini Tin contains 2 booster packs and an art card.",
-      status: "draft",
     },
   ],
   packaging: [
@@ -109,34 +119,34 @@ export default {
       type: "display",
       id: "display",
       name: "Mega Heroes Mini Tin Display",
-      identifiers: {
+      thirdParty: {
         tcgplayer: "649392",
       },
       releaseDate: "2025-09-26",
       contents: [
         {
-          type: "sealed-product",
-          variant: "mega-gardevoir",
+          type: "variant",
+          id: "mega-gardevoir",
           quantity: 2,
         },
         {
-          type: "sealed-product",
-          variant: "mega-kangaskhan",
+          type: "variant",
+          id: "mega-kangaskhan",
           quantity: 2,
         },
         {
-          type: "sealed-product",
-          variant: "mega-latias",
+          type: "variant",
+          id: "mega-latias",
           quantity: 2,
         },
         {
-          type: "sealed-product",
-          variant: "mega-lucario",
+          type: "variant",
+          id: "mega-lucario",
           quantity: 2,
         },
         {
-          type: "sealed-product",
-          variant: "mega-venusaur",
+          type: "variant",
+          id: "mega-venusaur",
           quantity: 2,
         },
       ],

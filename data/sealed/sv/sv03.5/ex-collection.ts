@@ -3,21 +3,28 @@ import type { SealedProductDef } from "../../../../types/sealed";
 export default {
   category: "collection-box",
   set: "sv03.5",
-  base: {
-    contents: [
-      {
-        type: "booster",
-        set: "sv03.5",
-        quantity: 4,
-      },
-    ],
-  },
+  boosters: [
+    {
+      set: "sv03.5",
+      packs: [
+        {
+          quantity: 4,
+        },
+      ],
+      artworks: [
+        "boo_sv03.5-charizard",
+        "boo_sv03.5-venusaur",
+        "boo_sv03.5-blastoise",
+        "boo_sv03.5-mew",
+      ],
+    },
+  ],
   variants: [
     {
       id: "alakazam",
       name: "151: Alakazam ex Collection",
       releaseDate: "2023-10-06",
-      identifiers: {
+      thirdParty: {
         tcgplayer: "502006",
       },
       images: [
@@ -29,8 +36,9 @@ export default {
       contents: [
         {
           type: "promo-card",
-          card: "svp-050",
-          quantity: 1,
+          cards: [
+            "svp-050",
+          ],
         },
         {
           type: "promo-card",
@@ -38,18 +46,16 @@ export default {
             "sv03.5-063",
             "sv03.5-064",
           ],
-          quantity: 2,
           stamp: "cosmos",
         },
       ],
       description: "Each 151: Alakazam ex Collection contains 4 Booster Packs and 3 promo cards.",
-      status: "draft",
     },
     {
       id: "zapdos",
       name: "151: Zapdos ex Collection",
       releaseDate: "2023-10-06",
-      identifiers: {
+      thirdParty: {
         tcgplayer: "502007",
       },
       images: [
@@ -65,17 +71,16 @@ export default {
             "sv03.5-125",
             "svp-049",
           ],
-          quantity: 2,
         },
         {
           type: "promo-card",
-          card: "svp-049",
-          quantity: 1,
+          cards: [
+            "svp-049",
+          ],
           stamp: "jumbo",
         },
       ],
       description: "Each 151: Zapdos ex Collection contains 4 Booster Packs, 2 promo cards, and 1 jumbo card.",
-      status: "draft",
     },
   ],
   packaging: [
@@ -83,14 +88,14 @@ export default {
       type: "case",
       id: "alakazam-case",
       name: "151 Alakazam ex Collection Case",
-      identifiers: {
+      thirdParty: {
         tcgplayer: "518781",
       },
       releaseDate: "2023-10-06",
       contents: [
         {
-          type: "sealed-product",
-          variant: "alakazam",
+          type: "variant",
+          id: "alakazam",
           quantity: 6,
         },
       ],
@@ -99,14 +104,14 @@ export default {
       type: "case",
       id: "zapdos-case",
       name: "151 Zapdos ex Collection Case",
-      identifiers: {
+      thirdParty: {
         tcgplayer: "518782",
       },
       releaseDate: "2023-10-06",
       contents: [
         {
-          type: "sealed-product",
-          variant: "zapdos",
+          type: "variant",
+          id: "zapdos",
           quantity: 6,
         },
       ],

@@ -3,21 +3,28 @@ import type { SealedProductDef } from "../../../../types/sealed";
 export default {
   category: "mini-tin",
   set: "sv04.5",
-  base: {
-    contents: [
-      {
-        type: "booster",
-        set: "sv04.5",
-        quantity: 2,
-      },
-    ],
-  },
+  boosters: [
+    {
+      set: "sv04.5",
+      packs: [
+        {
+          quantity: 2,
+        },
+      ],
+      artworks: [
+        "boo_sv04.5-pikachu",
+        "boo_sv04.5-tinkaton",
+        "boo_sv04.5-ceruledge",
+        "boo_sv04.5-dondozo",
+      ],
+    },
+  ],
   variants: [
     {
       id: "finizen",
       name: "Paldean Fates Mini Tin [Finizen]",
       releaseDate: "2024-02-09",
-      identifiers: {
+      thirdParty: {
         tcgplayer: "528055",
       },
       images: [
@@ -27,13 +34,12 @@ export default {
         },
       ],
       description: "Each Mini Tin contains 2 booster packs and an art card.",
-      status: "draft",
     },
     {
       id: "flamigo",
       name: "Paldean Fates Mini Tin [Flamigo]",
       releaseDate: "2024-02-09",
-      identifiers: {
+      thirdParty: {
         tcgplayer: "528050",
       },
       images: [
@@ -43,13 +49,12 @@ export default {
         },
       ],
       description: "Each Mini Tin contains 2 booster packs and an art card.",
-      status: "draft",
     },
     {
       id: "maushold",
       name: "Paldean Fates Mini Tin [Maushold]",
       releaseDate: "2024-02-09",
-      identifiers: {
+      thirdParty: {
         tcgplayer: "528051",
       },
       images: [
@@ -59,13 +64,12 @@ export default {
         },
       ],
       description: "Each Mini Tin contains 2 booster packs and an art card.",
-      status: "draft",
     },
     {
       id: "tinkatink",
       name: "Paldean Fates Mini Tin [Tinkatink]",
       releaseDate: "2024-02-09",
-      identifiers: {
+      thirdParty: {
         tcgplayer: "528052",
       },
       images: [
@@ -75,7 +79,6 @@ export default {
         },
       ],
       description: "Each Mini Tin contains 2 booster packs and an art card.",
-      status: "draft",
     },
   ],
   packaging: [
@@ -83,29 +86,29 @@ export default {
       type: "display",
       id: "display",
       name: "Paldean Fates Mini Tin Display",
-      identifiers: {
+      thirdParty: {
         tcgplayer: "528047",
       },
       releaseDate: "2024-02-09",
       contents: [
         {
-          type: "sealed-product",
-          variant: "finizen",
+          type: "variant",
+          id: "finizen",
           quantity: 3,
         },
         {
-          type: "sealed-product",
-          variant: "flamigo",
+          type: "variant",
+          id: "flamigo",
           quantity: 3,
         },
         {
-          type: "sealed-product",
-          variant: "maushold",
+          type: "variant",
+          id: "maushold",
           quantity: 3,
         },
         {
-          type: "sealed-product",
-          variant: "tinkatink",
+          type: "variant",
+          id: "tinkatink",
           quantity: 3,
         },
       ],
@@ -114,14 +117,14 @@ export default {
       type: "display-case",
       id: "display-case",
       name: "Paldean Fates Mini Tin Display Case",
-      identifiers: {
+      thirdParty: {
         tcgplayer: "693612",
       },
       releaseDate: "2024-02-09",
       contents: [
         {
-          type: "sealed-product",
-          packaging: "display",
+          type: "packaging",
+          id: "display",
           quantity: 4,
         },
       ],

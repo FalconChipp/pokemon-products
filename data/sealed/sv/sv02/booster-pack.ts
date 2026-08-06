@@ -3,29 +3,43 @@ import type { SealedProductDef } from "../../../../types/sealed";
 export default {
   category: "booster-pack",
   set: "sv02",
-  variants: [
+  name: "Paldea Evolved Booster Pack",
+  releaseDate: "2023-06-09",
+  thirdParty: {
+    tcgplayer: "493976",
+  },
+  description: "Each pack contains 10 cards.",
+  logo: "",
+  media: [
     {
-      id: "standard",
-      name: "Paldea Evolved Booster Pack",
-      releaseDate: "2023-06-09",
-      identifiers: {
-        tcgplayer: "493976",
-      },
-      images: [
-        {
-          type: "front",
-          url: "https://tcgplayer-cdn.tcgplayer.com/product/493976_in_1000x1000.jpg",
-        },
-      ],
-      contents: [
-        {
-          type: "booster",
-          set: "sv02",
-          quantity: 1,
-        },
-      ],
-      description: "Each pack contains 10 cards.",
-      status: "draft",
+      id: "boo_sv02-meowscarada",
+      name: "Meowscarada",
+      dexId: [],
+      artworkFront: "",
+    },
+    {
+      id: "boo_sv02-skeledirge",
+      name: "Skeledirge",
+      dexId: [],
+      artworkFront: "",
+    },
+    {
+      id: "boo_sv02-quaquaval",
+      name: "Quaquaval",
+      dexId: [],
+      artworkFront: "",
+    },
+    {
+      id: "boo_sv02-chien-pao",
+      name: "Chien-Pao",
+      dexId: [],
+      artworkFront: "",
+    },
+    {
+      id: "boo_sv02-ting-lu",
+      name: "Ting-Lu",
+      dexId: [],
+      artworkFront: "",
     },
   ],
 } satisfies SealedProductDef;

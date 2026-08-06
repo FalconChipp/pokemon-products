@@ -3,12 +3,28 @@ import type { SealedProductDef } from "../../../../types/sealed";
 export default {
   category: "build-and-battle-box",
   set: "sv05",
+  boosters: [
+    {
+      set: "sv05",
+      packs: [
+        {
+          quantity: 4,
+        },
+      ],
+      artworks: [
+        "boo_sv05-iron-crown",
+        "boo_sv05-iron-leaves",
+        "boo_sv05-raging-bolt",
+        "boo_sv05-walking-wake",
+      ],
+    },
+  ],
   variants: [
     {
       id: "standard",
       name: "Temporal Forces Build & Battle Box",
       releaseDate: "2024-03-22",
-      identifiers: {
+      thirdParty: {
         tcgplayer: "537411",
       },
       images: [
@@ -17,15 +33,7 @@ export default {
           url: "https://tcgplayer-cdn.tcgplayer.com/product/537411_in_1000x1000.jpg",
         },
       ],
-      contents: [
-        {
-          type: "booster",
-          set: "sv05",
-          quantity: 4,
-        },
-      ],
       description: "Each Build & Battle Box contains a 40-card ready-to-play deck, 4 booster packs, 1 promo card, and a code card for Pokémon TCG Live.",
-      status: "draft",
     },
   ],
   packaging: [
@@ -33,14 +41,14 @@ export default {
       type: "display",
       id: "display",
       name: "Temporal Forces Build & Battle Box Display",
-      identifiers: {
+      thirdParty: {
         tcgplayer: "537409",
       },
       releaseDate: "2024-03-22",
       contents: [
         {
-          type: "sealed-product",
-          variant: "standard",
+          type: "variant",
+          id: "standard",
           quantity: 10,
         },
       ],

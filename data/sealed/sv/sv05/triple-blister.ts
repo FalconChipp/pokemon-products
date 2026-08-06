@@ -3,21 +3,28 @@ import type { SealedProductDef } from "../../../../types/sealed";
 export default {
   category: "triple-blister",
   set: "sv05",
-  base: {
-    contents: [
-      {
-        type: "booster",
-        set: "sv05",
-        quantity: 3,
-      },
-    ],
-  },
+  boosters: [
+    {
+      set: "sv05",
+      packs: [
+        {
+          quantity: 3,
+        },
+      ],
+      artworks: [
+        "boo_sv05-iron-crown",
+        "boo_sv05-iron-leaves",
+        "boo_sv05-raging-bolt",
+        "boo_sv05-walking-wake",
+      ],
+    },
+  ],
   variants: [
     {
       id: "3-pack-blister-cleffa",
       name: "Temporal Forces 3-Pack Blister [Cleffa]",
       releaseDate: "2024-03-22",
-      identifiers: {
+      thirdParty: {
         tcgplayer: "536229",
       },
       images: [
@@ -29,19 +36,19 @@ export default {
       contents: [
         {
           type: "promo-card",
-          card: "svp-095",
-          quantity: 1,
+          cards: [
+            "svp-095",
+          ],
           stamp: "cosmos",
         },
       ],
       description: "Each 3-Pack Blister contains 3 booster packs and a promo card.",
-      status: "draft",
     },
     {
       id: "3-pack-blister-cyclizar",
       name: "Temporal Forces 3-Pack Blister [Cyclizar]",
       releaseDate: "2024-03-22",
-      identifiers: {
+      thirdParty: {
         tcgplayer: "536227",
       },
       images: [
@@ -53,13 +60,13 @@ export default {
       contents: [
         {
           type: "promo-card",
-          card: "svp-096",
-          quantity: 1,
+          cards: [
+            "svp-096",
+          ],
           stamp: "cosmos",
         },
       ],
       description: "Each 3-Pack Blister contains 3 booster packs and a promo card.",
-      status: "draft",
     },
   ],
 } satisfies SealedProductDef;

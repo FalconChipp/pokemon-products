@@ -3,46 +3,54 @@ import type { SealedProductDef } from "../../../../types/sealed";
 export default {
   category: "elite-trainer-box",
   set: "me01",
-  base: {
-    contents: [
-      {
-        type: "accessory",
-        category: "damage-counter-dice",
-        quantity: 6,
-      },
-      {
-        type: "accessory",
-        category: "coin",
-        quantity: 1,
-      },
-      {
-        type: "accessory",
-        category: "coin-flip-die",
-        quantity: 1,
-      },
-      {
-        type: "accessory",
-        category: "divider",
-        quantity: 6,
-      },
-      {
-        type: "accessory",
-        category: "players-guide",
-        quantity: 1,
-      },
-      {
-        type: "accessory",
-        category: "energy-card",
-        quantity: 40,
-      },
-    ],
-  },
+  boosters: [
+    {
+      set: "me01",
+      packs: [
+        {
+          quantity: 9,
+        },
+      ],
+      artworks: [
+        "boo_me01-gardevoir",
+        "boo_me01-kangaskhan",
+        "boo_me01-lucario",
+        "boo_me01-venusaur",
+      ],
+    },
+  ],
+  accessories: [
+    {
+      category: "damage-counter-dice",
+      quantity: 6,
+    },
+    {
+      category: "coin",
+      quantity: 1,
+    },
+    {
+      category: "coin-flip-die",
+      quantity: 1,
+    },
+    {
+      category: "divider",
+      quantity: 6,
+    },
+    {
+      category: "players-guide",
+      quantity: 1,
+    },
+    {
+      category: "energy-card",
+      quantity: 40,
+    },
+  ],
   variants: [
     {
       id: "mega-gardevoir",
       name: "Mega Evolution Elite Trainer Box [Mega Gardevoir]",
       releaseDate: "2025-09-26",
-      identifiers: {
+      thirdParty: {
         tcgplayer: "644279",
       },
       images: [
@@ -51,36 +59,29 @@ export default {
           url: "https://tcgplayer-cdn.tcgplayer.com/product/644279_in_1000x1000.jpg",
         },
       ],
-      contents: [
+      accessories: [
         {
-          type: "booster",
-          set: "me01",
-          quantity: 9,
-        },
-        {
-          type: "promo-card",
-          possibleCards: [
-            "mep-009",
-            "mep-010",
-          ],
-          selection: "one-of",
-          quantity: 1,
-        },
-        {
-          type: "accessory",
           category: "sleeves",
           quantity: 65,
           name: "Mega Gardevoir",
         },
       ],
+      contents: [
+        {
+          type: "promo-card",
+          cards: [
+            "mep-009",
+            "mep-010",
+          ],
+        },
+      ],
       description: "Each Elite Trainer Box contains 9 booster packs, a promo card, 65 card sleeves, 40 Energy cards, A player's guide, 6 damage-counter dice, 1 competition-legal coin-flip die, 1 plastic coin, 6 dividers, a collector's box to hold everything, and a code card for Pokémon TCG Live.",
-      status: "draft",
     },
     {
       id: "mega-lucario",
       name: "Mega Evolution Elite Trainer Box [Mega Lucario]",
       releaseDate: "2025-09-26",
-      identifiers: {
+      thirdParty: {
         tcgplayer: "648394",
       },
       images: [
@@ -89,36 +90,29 @@ export default {
           url: "https://tcgplayer-cdn.tcgplayer.com/product/648394_in_1000x1000.jpg",
         },
       ],
-      contents: [
+      accessories: [
         {
-          type: "booster",
-          set: "me01",
-          quantity: 9,
-        },
-        {
-          type: "promo-card",
-          possibleCards: [
-            "mep-009",
-            "mep-010",
-          ],
-          selection: "one-of",
-          quantity: 1,
-        },
-        {
-          type: "accessory",
           category: "sleeves",
           quantity: 65,
           name: "Mega Lucario",
         },
       ],
+      contents: [
+        {
+          type: "promo-card",
+          cards: [
+            "mep-009",
+            "mep-010",
+          ],
+        },
+      ],
       description: "Each Elite Trainer Box contains 9 booster packs, a promo card, 65 card sleeves, 40 Energy cards, A player's guide, 6 damage-counter dice, 1 competition-legal coin-flip die, 1 plastic coin, 6 dividers, a collector's box to hold everything, and a code card for Pokémon TCG Live.",
-      status: "draft",
     },
     {
       id: "mega-gardevoir-pc",
       name: "Mega Evolution Pokemon Center Elite Trainer Box [Mega Gardevoir]",
       releaseDate: "2025-09-26",
-      identifiers: {
+      thirdParty: {
         tcgplayer: "648415",
       },
       images: [
@@ -127,37 +121,46 @@ export default {
           url: "https://tcgplayer-cdn.tcgplayer.com/product/648415_in_1000x1000.jpg",
         },
       ],
-      contents: [
+      boosters: [
         {
-          type: "booster",
           set: "me01",
-          quantity: 11,
-        },
-        {
-          type: "promo-card",
-          possibleCards: [
-            "mep-009",
-            "mep-010",
+          packs: [
+            {
+              quantity: 11,
+            },
           ],
-          selection: "one-of",
-          quantity: 1,
-          stamp: "pokemon-center",
+          artworks: [
+            "boo_me01-gardevoir",
+            "boo_me01-kangaskhan",
+            "boo_me01-lucario",
+            "boo_me01-venusaur",
+          ],
         },
+      ],
+      accessories: [
         {
-          type: "accessory",
           category: "sleeves",
           quantity: 65,
           name: "Mega Gardevoir",
         },
       ],
+      contents: [
+        {
+          type: "promo-card",
+          cards: [
+            "mep-009",
+            "mep-010",
+          ],
+          stamp: "pokemon-center",
+        },
+      ],
       description: "Each Pokémon Center Elite Trainer Box contains 11 booster packs, a promo card, 65 card sleeves, 40 Energy cards, A player's guide, 6 damage-counter dice, 1 competition-legal coin-flip die, 1 plastic coin, 6 dividers, a collector's box to hold everything, and a code card for Pokémon TCG Live.",
-      status: "draft",
     },
     {
       id: "mega-lucario-pc",
       name: "Mega Evolution Pokemon Center Elite Trainer Box [Mega Lucario]",
       releaseDate: "2025-09-26",
-      identifiers: {
+      thirdParty: {
         tcgplayer: "644282",
       },
       images: [
@@ -166,31 +169,40 @@ export default {
           url: "https://tcgplayer-cdn.tcgplayer.com/product/644282_in_1000x1000.jpg",
         },
       ],
-      contents: [
+      boosters: [
         {
-          type: "booster",
           set: "me01",
-          quantity: 11,
-        },
-        {
-          type: "promo-card",
-          possibleCards: [
-            "mep-009",
-            "mep-010",
+          packs: [
+            {
+              quantity: 11,
+            },
           ],
-          selection: "one-of",
-          quantity: 1,
-          stamp: "pokemon-center",
+          artworks: [
+            "boo_me01-gardevoir",
+            "boo_me01-kangaskhan",
+            "boo_me01-lucario",
+            "boo_me01-venusaur",
+          ],
         },
+      ],
+      accessories: [
         {
-          type: "accessory",
           category: "sleeves",
           quantity: 65,
           name: "Mega Lucario",
         },
       ],
+      contents: [
+        {
+          type: "promo-card",
+          cards: [
+            "mep-009",
+            "mep-010",
+          ],
+          stamp: "pokemon-center",
+        },
+      ],
       description: "Each Pokémon Center Elite Trainer Box contains 11 booster packs, a promo card, 65 card sleeves, 40 Energy cards, A player's guide, 6 damage-counter dice, 1 competition-legal coin-flip die, 1 plastic coin, 6 dividers, a collector's box to hold everything, and a code card for Pokémon TCG Live.",
-      status: "draft",
     },
   ],
   packaging: [
@@ -198,19 +210,19 @@ export default {
       type: "case",
       id: "case",
       name: "Mega Evolution Elite Trainer Box Case",
-      identifiers: {
+      thirdParty: {
         tcgplayer: "644727",
       },
       releaseDate: "2025-09-26",
       contents: [
         {
-          type: "sealed-product",
-          variant: "mega-gardevoir",
+          type: "variant",
+          id: "mega-gardevoir",
           quantity: 5,
         },
         {
-          type: "sealed-product",
-          variant: "mega-lucario",
+          type: "variant",
+          id: "mega-lucario",
           quantity: 5,
         },
       ],

@@ -3,30 +3,35 @@ import type { SealedProductDef } from "../../../../types/sealed";
 export default {
   category: "single-pack-blister",
   set: "me02",
-  base: {
-    contents: [
-      {
-        type: "booster",
-        set: "me02",
-        quantity: 1,
-      },
-      {
-        type: "accessory",
-        category: "coin",
-        quantity: 1,
-        name: "Diancie",
-        details: {
-          size: "big",
+  boosters: [
+    {
+      set: "me02",
+      packs: [
+        {
+          quantity: 1,
         },
-      },
-    ],
-  },
+      ],
+      artworks: [
+        "boo_me02-charizard",
+        "boo_me02-gengar",
+        "boo_me02-heracross",
+        "boo_me02-lopunny",
+      ],
+    },
+  ],
+  accessories: [
+    {
+      category: "coin",
+      quantity: 1,
+      name: "Diancie",
+    },
+  ],
   variants: [
     {
       id: "cottonee",
       name: "Phantasmal Flames Single Pack Blister [Cottonee]",
       releaseDate: "2025-11-14",
-      identifiers: {
+      thirdParty: {
         tcgplayer: "654151",
       },
       images: [
@@ -38,18 +43,18 @@ export default {
       contents: [
         {
           type: "promo-card",
-          card: "mep-018",
-          quantity: 1,
+          cards: [
+            "mep-018",
+          ],
         },
       ],
       description: "Each Single Pack Blister contains 1 booster pack, 1 promo card, and a coin.",
-      status: "draft",
     },
     {
       id: "whimsicott",
       name: "Phantasmal Flames Single Pack Blister [Whimsicott]",
       releaseDate: "2025-11-14",
-      identifiers: {
+      thirdParty: {
         tcgplayer: "654150",
       },
       images: [
@@ -61,12 +66,12 @@ export default {
       contents: [
         {
           type: "promo-card",
-          card: "mep-019",
-          quantity: 1,
+          cards: [
+            "mep-019",
+          ],
         },
       ],
       description: "Each Single Pack Blister contains 1 booster pack, 1 promo card, and a coin.",
-      status: "draft",
     },
   ],
 } satisfies SealedProductDef;

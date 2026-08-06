@@ -3,12 +3,28 @@ import type { SealedProductDef } from "../../../../types/sealed";
 export default {
   category: "enhanced-booster-box",
   set: "me01",
+  boosters: [
+    {
+      set: "me01",
+      packs: [
+        {
+          quantity: 36,
+        },
+      ],
+      artworks: [
+        "boo_me01-gardevoir",
+        "boo_me01-kangaskhan",
+        "boo_me01-lucario",
+        "boo_me01-venusaur",
+      ],
+    },
+  ],
   variants: [
     {
       id: "standard",
       name: "Mega Evolution Enhanced Booster Box",
       releaseDate: "2025-09-26",
-      identifiers: {
+      thirdParty: {
         tcgplayer: "644300",
       },
       images: [
@@ -19,19 +35,14 @@ export default {
       ],
       contents: [
         {
-          type: "booster",
-          set: "me01",
-          quantity: 36,
-        },
-        {
           type: "promo-card",
-          card: "me01-133",
-          quantity: 1,
+          cards: [
+            "me01-133",
+          ],
           stamp: "set-logo",
         },
       ],
       description: "Each Enhanced Booster Box contains 36 booster packs and a promo card.",
-      status: "draft",
     },
   ],
   packaging: [
@@ -39,14 +50,14 @@ export default {
       type: "case",
       id: "enhanced-booster-case",
       name: "Mega Evolution Enhanced Booster Case",
-      identifiers: {
+      thirdParty: {
         tcgplayer: "646173",
       },
       releaseDate: "2025-09-26",
       contents: [
         {
-          type: "sealed-product",
-          variant: "standard",
+          type: "variant",
+          id: "standard",
           quantity: 6,
         },
       ],

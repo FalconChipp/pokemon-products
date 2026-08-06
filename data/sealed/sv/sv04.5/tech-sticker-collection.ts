@@ -3,21 +3,28 @@ import type { SealedProductDef } from "../../../../types/sealed";
 export default {
   category: "tech-sticker-collection",
   set: "sv04.5",
-  base: {
-    contents: [
-      {
-        type: "booster",
-        set: "sv04.5",
-        quantity: 3,
-      },
-    ],
-  },
+  boosters: [
+    {
+      set: "sv04.5",
+      packs: [
+        {
+          quantity: 3,
+        },
+      ],
+      artworks: [
+        "boo_sv04.5-pikachu",
+        "boo_sv04.5-tinkaton",
+        "boo_sv04.5-ceruledge",
+        "boo_sv04.5-dondozo",
+      ],
+    },
+  ],
   variants: [
     {
       id: "fidough",
       name: "Paldean Fates Tech Sticker Collection [Fidough]",
       releaseDate: "2024-01-26",
-      identifiers: {
+      thirdParty: {
         tcgplayer: "528043",
       },
       images: [
@@ -29,18 +36,18 @@ export default {
       contents: [
         {
           type: "promo-card",
-          card: "svp-069",
-          quantity: 1,
+          cards: [
+            "svp-069",
+          ],
         },
       ],
       description: "Each Tech Sticker Collection contains 3 Booster Packs, 1 promo card, and stickers.",
-      status: "draft",
     },
     {
       id: "greavard",
       name: "Paldean Fates Tech Sticker Collection [Greavard]",
       releaseDate: "2024-01-26",
-      identifiers: {
+      thirdParty: {
         tcgplayer: "528045",
       },
       images: [
@@ -52,18 +59,18 @@ export default {
       contents: [
         {
           type: "promo-card",
-          card: "svp-070",
-          quantity: 1,
+          cards: [
+            "svp-070",
+          ],
         },
       ],
       description: "Each Tech Sticker Collection contains 3 Booster Packs, 1 promo card, and stickers.",
-      status: "draft",
     },
     {
       id: "maschiff",
       name: "Paldean Fates Tech Sticker Collection [Maschiff]",
       releaseDate: "2024-01-26",
-      identifiers: {
+      thirdParty: {
         tcgplayer: "528044",
       },
       images: [
@@ -75,12 +82,12 @@ export default {
       contents: [
         {
           type: "promo-card",
-          card: "svp-071",
-          quantity: 1,
+          cards: [
+            "svp-071",
+          ],
         },
       ],
       description: "Each Tech Sticker Collection contains 3 Booster Packs, 1 promo card, and stickers.",
-      status: "draft",
     },
   ],
   packaging: [
@@ -88,24 +95,24 @@ export default {
       type: "case",
       id: "case",
       name: "Paldean Fates Tech Sticker Collection Case",
-      identifiers: {
+      thirdParty: {
         tcgplayer: "654599",
       },
       releaseDate: "2024-01-26",
       contents: [
         {
-          type: "sealed-product",
-          variant: "fidough",
+          type: "variant",
+          id: "fidough",
           quantity: 4,
         },
         {
-          type: "sealed-product",
-          variant: "greavard",
+          type: "variant",
+          id: "greavard",
           quantity: 4,
         },
         {
-          type: "sealed-product",
-          variant: "maschiff",
+          type: "variant",
+          id: "maschiff",
           quantity: 4,
         },
       ],

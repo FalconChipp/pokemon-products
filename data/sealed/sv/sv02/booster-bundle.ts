@@ -3,12 +3,29 @@ import type { SealedProductDef } from "../../../../types/sealed";
 export default {
   category: "booster-bundle",
   set: "sv02",
+  boosters: [
+    {
+      set: "sv02",
+      packs: [
+        {
+          quantity: 6,
+        },
+      ],
+      artworks: [
+        "boo_sv02-meowscarada",
+        "boo_sv02-skeledirge",
+        "boo_sv02-quaquaval",
+        "boo_sv02-chien-pao",
+        "boo_sv02-ting-lu",
+      ],
+    },
+  ],
   variants: [
     {
       id: "standard",
       name: "Paldea Evolved Booster Bundle",
       releaseDate: "2023-06-09",
-      identifiers: {
+      thirdParty: {
         tcgplayer: "496914",
       },
       images: [
@@ -17,15 +34,7 @@ export default {
           url: "https://tcgplayer-cdn.tcgplayer.com/product/496914_in_1000x1000.jpg",
         },
       ],
-      contents: [
-        {
-          type: "booster",
-          set: "sv02",
-          quantity: 6,
-        },
-      ],
       description: "Each Booster Bundle contains 6 booster packs.",
-      status: "draft",
     },
   ],
   packaging: [
@@ -33,14 +42,14 @@ export default {
       type: "case",
       id: "case",
       name: "Paldea Evolved Booster Bundle Case",
-      identifiers: {
+      thirdParty: {
         tcgplayer: "656928",
       },
       releaseDate: "2023-06-09",
       contents: [
         {
-          type: "sealed-product",
-          variant: "standard",
+          type: "variant",
+          id: "standard",
           quantity: 25,
         },
       ],

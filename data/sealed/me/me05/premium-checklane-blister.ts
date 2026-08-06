@@ -3,21 +3,28 @@ import type { SealedProductDef } from "../../../../types/sealed";
 export default {
   category: "premium-checklane-blister",
   set: "me05",
-  base: {
-    contents: [
-      {
-        type: "booster",
-        set: "me05",
-        quantity: 1,
-      },
-    ],
-  },
+  boosters: [
+    {
+      set: "me05",
+      packs: [
+        {
+          quantity: 1,
+        },
+      ],
+      artworks: [
+        "boo_me05-chandelure",
+        "boo_me05-darkrai",
+        "boo_me05-excadrill",
+        "boo_me05-zeraora",
+      ],
+    },
+  ],
   variants: [
     {
       id: "amaura-aurorus",
       name: "Pitch Black Premium Checklane Blister [Amaura, Aurorus]",
       releaseDate: "2026-07-17",
-      identifiers: {
+      thirdParty: {
         tcgplayer: "692954",
       },
       images: [
@@ -29,24 +36,25 @@ export default {
       contents: [
         {
           type: "promo-card",
-          card: "me03-023",
-          quantity: 1,
+          cards: [
+            "me03-023",
+          ],
         },
         {
           type: "promo-card",
-          card: "me03-024",
-          quantity: 1,
+          cards: [
+            "me03-024",
+          ],
           stamp: "cosmos",
         },
       ],
       description: "Each Premium Checklane Blister contains 1 booster pack, 2 promo cards, and a coin.",
-      status: "draft",
     },
     {
       id: "gengar-line",
       name: "Pitch Black Premium Checklane Blister [Gengar Line]",
       releaseDate: "2026-07-17",
-      identifiers: {
+      thirdParty: {
         tcgplayer: "692951",
       },
       images: [
@@ -62,23 +70,22 @@ export default {
             "me03-048",
             "me03-049",
           ],
-          quantity: 2,
         },
         {
           type: "promo-card",
-          card: "me03-050",
-          quantity: 1,
+          cards: [
+            "me03-050",
+          ],
           stamp: "cosmos",
         },
       ],
       description: "Each Premium Checklane Blister contains 1 booster pack, 3 promo cards, and a coin.",
-      status: "draft",
     },
     {
       id: "luxray-line",
       name: "Pitch Black Premium Checklane Blister [Luxray Line]",
       releaseDate: "2026-07-17",
-      identifiers: {
+      thirdParty: {
         tcgplayer: "692952",
       },
       images: [
@@ -94,23 +101,22 @@ export default {
             "me03-026",
             "me03-027",
           ],
-          quantity: 2,
         },
         {
           type: "promo-card",
-          card: "me03-028",
-          quantity: 1,
+          cards: [
+            "me03-028",
+          ],
           stamp: "cosmos",
         },
       ],
       description: "Each Premium Checklane Blister contains 1 booster pack, 3 promo cards, and a coin.",
-      status: "draft",
     },
     {
       id: "tyrunt-tyrantrum",
       name: "Pitch Black Premium Checklane Blister [Tyrunt, Tyrantrum]",
       releaseDate: "2026-07-17",
-      identifiers: {
+      thirdParty: {
         tcgplayer: "692953",
       },
       images: [
@@ -122,18 +128,19 @@ export default {
       contents: [
         {
           type: "promo-card",
-          card: "me03-044",
-          quantity: 1,
+          cards: [
+            "me03-044",
+          ],
         },
         {
           type: "promo-card",
-          card: "me03-045",
-          quantity: 1,
+          cards: [
+            "me03-045",
+          ],
           stamp: "cosmos",
         },
       ],
       description: "Each Premium Checklane Blister contains 1 booster pack, 2 promo cards, and a coin.",
-      status: "draft",
     },
   ],
 } satisfies SealedProductDef;

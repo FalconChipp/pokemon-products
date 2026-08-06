@@ -79,6 +79,38 @@ const MANUAL_PACKAGING_TYPE = {
   "paldean-fates-booster-bundle-display-case": "display-case",
 };
 
+// Booster pack artwork variants per set — used to expand booster-pack products into per-artwork variants.
+// IDs follow the anticipated TCGDex format: boo_{setId}-{slug}
+const PACK_ARTWORKS = {
+  me01:    ["gardevoir", "kangaskhan", "lucario", "venusaur"],
+  me02:    ["charizard", "gengar", "heracross", "lopunny"],
+  "me02.5": ["charizard", "dragonite", "ho-oh", "lucario", "mewtwo", "pikachu"],
+  me03:    ["clefable", "meowth", "starmie", "zygarde"],
+  me04:    ["dragalge", "floette", "greninja", "pyroar"],
+  me05:    ["chandelure", "darkrai", "excadrill", "zeraora"],
+  sv01:    ["koraidon", "miraidon", "gyarados", "starters"],
+  sv02:    ["meowscarada", "skeledirge", "quaquaval", "chien-pao", "ting-lu"],
+  sv03:    ["charizard", "tyranitar", "dragonite", "revavroom"],
+  "sv03.5": ["charizard", "venusaur", "blastoise", "mew"],
+  sv04:    ["armarouge", "garchomp", "iron-valiant", "roaring-moon"],
+  "sv04.5": ["pikachu", "tinkaton", "ceruledge", "dondozo"],
+  sv05:    ["iron-crown", "iron-leaves", "raging-bolt", "walking-wake"],
+};
+
+// Pokémon whose official names contain hyphens — slug capitalisation would lose them
+const SLUG_NAME_OVERRIDES = {
+  "ho-oh":     "Ho-Oh",
+  "chien-pao": "Chien-Pao",
+  "ting-lu":   "Ting-Lu",
+  "chi-yu":    "Chi-Yu",
+  "wo-chien":  "Wo-Chien",
+};
+
+function slugToName(slug) {
+  if (SLUG_NAME_OVERRIDES[slug]) return SLUG_NAME_OVERRIDES[slug];
+  return slug.split("-").map(w => w.charAt(0).toUpperCase() + w.slice(1)).join(" ");
+}
+
 // ── Helpers ───────────────────────────────────────────────────────────────────
 
 function readJson(p) {
@@ -137,10 +169,33 @@ function derivePackagingId(productId, set, fileGroup, packagingType) {
   return slug ? `${slug}-${packagingType}` : packagingType;
 }
 
+// ── Content normalizers ───────────────────────────────────────────────────────
+
+function normalizeBooster(c) {
+  if (c.type !== "booster") return c;
+  return { type: "booster", set: c.set, packs: [{ quantity: c.quantity }] };
+}
+
+function normalizePromo(c) {
+  if (c.type !== "promo-card") return c;
+  const cards = c.possibleCards ?? c.cards ?? (c.card ? [c.card] : []);
+  const out = { type: "promo-card", cards };
+  if (c.stamp) out.stamp = c.stamp;
+  return out;
+}
+
 // ── Content helpers ───────────────────────────────────────────────────────────
 
+function sortKeys(obj) {
+  if (Array.isArray(obj)) return obj.map(sortKeys);
+  if (obj && typeof obj === "object") {
+    return Object.fromEntries(Object.keys(obj).sort().map(k => [k, sortKeys(obj[k])]));
+  }
+  return obj;
+}
+
 function contentKey(c) {
-  return JSON.stringify(c, Object.keys(c).sort());
+  return JSON.stringify(sortKeys(c));
 }
 
 function computeBase(variantProducts) {
@@ -155,14 +210,38 @@ function computeBase(variantProducts) {
   }
   if (shared.size === 0) return null;
 
-  const baseContents = (variantProducts[0].contents || []).filter(c => shared.has(contentKey(c)));
-  return { contents: baseContents };
+  return (variantProducts[0].contents || []).filter(c => shared.has(contentKey(c)));
 }
 
 function deltaContents(product, base) {
-  if (!base?.contents?.length) return product.contents || [];
-  const baseKeys = new Set(base.contents.map(contentKey));
+  if (!base?.length) return product.contents || [];
+  const baseKeys = new Set(base.map(contentKey));
   return (product.contents || []).filter(c => !baseKeys.has(contentKey(c)));
+}
+
+function withArtworks(booster) {
+  const artworks = PACK_ARTWORKS[booster.set];
+  if (!artworks) return booster;
+  return { ...booster, artworks: artworks.map(art => `boo_${booster.set}-${art}`) };
+}
+
+/** Split a content array into top-level boosters/accessories and remaining variant contents. */
+function splitTopLevel(contents) {
+  const boosters = [];
+  const accessories = [];
+  const remaining = [];
+  for (const c of contents) {
+    if (c.type === "booster") {
+      boosters.push({ set: c.set, packs: c.packs });
+    } else if (c.type === "accessory") {
+      const acc = { category: c.category, quantity: c.quantity };
+      if (c.name) acc.name = c.name;
+      accessories.push(acc);
+    } else {
+      remaining.push(c);
+    }
+  }
+  return { boosters, accessories, remaining };
 }
 
 // ── TypeScript serializer ─────────────────────────────────────────────────────
@@ -181,7 +260,7 @@ function serialize(value, indent = 0) {
   }
 
   const entries = Object.entries(value).filter(
-    ([, v]) => v !== undefined && v !== null && !(Array.isArray(v) && v.length === 0)
+    ([, v]) => v !== undefined && v !== null
   );
   if (entries.length === 0) return "{}";
   return `{\n${entries.map(([k, v]) => `${inner}${k}: ${serialize(v, indent + 1)}`).join(",\n")},\n${pad}}`;
@@ -191,7 +270,11 @@ function serialize(value, indent = 0) {
 
 function main() {
   const files = fs.readdirSync(PRODUCTS_DIR).filter(f => f.endsWith(".json"));
-  const allProducts = files.map(f => readJson(path.join(PRODUCTS_DIR, f)));
+  const allProducts = files.map(f => {
+    const p = readJson(path.join(PRODUCTS_DIR, f));
+    if (p.contents) p.contents = p.contents.map(c => normalizeBooster(normalizePromo(c)));
+    return p;
+  });
   const byId = Object.fromEntries(allProducts.map(p => [p.id, p]));
 
   // ── Pass 1: classify variant products ─────────────────────────────────────
@@ -289,21 +372,76 @@ function main() {
     const variantProducts = variants.map(v => v.product);
     const base = computeBase(variantProducts);
 
-    const output = { category, set };
-    if (base) output.base = base;
+    // Split shared base contents into boosters/accessories (top-level) and promo-cards etc (per-variant)
+    const { boosters: baseBooters, accessories: baseAccs, remaining: baseRemaining } =
+      splitTopLevel(base ?? []);
+
+    // For multi-variant: if base had no boosters, use the first variant's booster as the
+    // top-level default so that only outlier variants need an override.
+    let defaultBoosterKey = null;
+    let topBoosters = baseBooters;
+    if (!baseBooters.length && variants.length > 1) {
+      const firstDelta = deltaContents(variants[0].product, base);
+      const { boosters: firstBooters } = splitTopLevel(firstDelta);
+      if (firstBooters.length) {
+        topBoosters = firstBooters;
+        defaultBoosterKey = JSON.stringify(firstBooters.map(sortKeys));
+      }
+    }
+
+    let output = { category, set };
+    if (topBoosters.length) output.boosters = topBoosters.map(withArtworks);
+    if (baseAccs.length) output.accessories = baseAccs;
 
     output.variants = variants.map(({ variantId, product }) => {
       const v = { id: variantId, name: product.name };
       if (product.releaseDate) v.releaseDate = product.releaseDate;
-      if (product.identifiers && Object.keys(product.identifiers).length) v.identifiers = product.identifiers;
+      if (product.identifiers && Object.keys(product.identifiers).length) v.thirdParty = product.identifiers;
       if (product.images?.length) v.images = product.images;
-      const delta = deltaContents(product, base);
-      if (delta.length) v.contents = delta;
+
+      const rawDelta = deltaContents(product, base);
+      const { boosters: deltaBoosters, accessories: deltaAccs, remaining } = splitTopLevel(rawDelta);
+
+      if (variants.length === 1) {
+        // Single-variant: hoist everything to top level
+        if (deltaBoosters.length) output.boosters = (output.boosters || []).concat(deltaBoosters.map(withArtworks));
+        if (deltaAccs.length) output.accessories = (output.accessories || []).concat(deltaAccs);
+        const variantContents = [...baseRemaining, ...remaining];
+        if (variantContents.length) v.contents = variantContents;
+      } else {
+        // Multi-variant: boosters/accessories go to variant override unless they match the default
+        const thisBoosterKey = JSON.stringify(deltaBoosters.map(sortKeys));
+        if (deltaBoosters.length && thisBoosterKey !== defaultBoosterKey) {
+          v.boosters = deltaBoosters.map(withArtworks);
+        }
+        if (deltaAccs.length) v.accessories = deltaAccs;
+        const variantContents = [...baseRemaining, ...remaining];
+        if (variantContents.length) v.contents = variantContents;
+      }
+
       if (product.description) v.description = product.description;
       if (product.sources?.length) v.sources = product.sources;
-      if (product.status) v.status = product.status;
       return v;
     });
+
+    // For booster-pack products with known pack artworks, lift shared metadata to the top level
+    // and drop variants entirely — the media array is the variant list.
+    const packArtworks = PACK_ARTWORKS[set];
+    if (fileGroup === "booster-pack" && packArtworks && output.variants.length === 1) {
+      const { id: _id, contents: _c, images: _img, ...meta } = output.variants[0];
+      output = {
+        category,
+        set,
+        ...meta,
+        logo: "",
+        media: packArtworks.map(art => ({
+          id: `boo_${set}-${art}`,
+          name: slugToName(art),
+          dexId: [],
+          artworkFront: "",
+        })),
+      };
+    }
 
     if (packaging.length) {
       const typeOrder = { display: 0, case: 1, "display-case": 2 };
@@ -312,7 +450,7 @@ function main() {
       output.packaging = packaging.map(({ product, packagingType }) => {
         const pid = derivePackagingId(product.id, set, fileGroup, packagingType);
         const entry = { type: packagingType, id: pid, name: product.name };
-        if (product.identifiers && Object.keys(product.identifiers).length) entry.identifiers = product.identifiers;
+        if (product.identifiers && Object.keys(product.identifiers).length) entry.thirdParty = product.identifiers;
         if (product.releaseDate) entry.releaseDate = product.releaseDate;
 
         entry.contents = (product.contents || [])
@@ -320,18 +458,17 @@ function main() {
           .map(ref => {
             const childMeta = variantMeta.get(ref.product);
             if (childMeta) {
-              // Variant reference
-              return { type: "sealed-product", variant: childMeta.variantId, quantity: ref.quantity };
+              return { type: "variant", id: childMeta.variantId, quantity: ref.quantity };
             }
-            // Display reference (child is itself a display product)
+            // Child is itself a display product
             const childProduct = byId[ref.product];
             if (childProduct?.category === "display") {
               const displayPid = derivePackagingId(ref.product, set, fileGroup, "display");
-              return { type: "sealed-product", packaging: displayPid, quantity: ref.quantity };
+              return { type: "packaging", id: displayPid, quantity: ref.quantity };
             }
             // Fallback — should not happen with clean data
             console.warn(`  WARN unresolved child "${ref.product}" in packaging of ${product.id}`);
-            return { type: "sealed-product", product: ref.product, quantity: ref.quantity };
+            return { type: "variant", id: ref.product, quantity: ref.quantity };
           });
 
         return entry;

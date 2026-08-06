@@ -3,29 +3,37 @@ import type { SealedProductDef } from "../../../../types/sealed";
 export default {
   category: "booster-pack",
   set: "me02",
-  variants: [
+  name: "Phantasmal Flames Booster Pack",
+  releaseDate: "2025-11-14",
+  thirdParty: {
+    tcgplayer: "654144",
+  },
+  description: "Each pack contains 10 cards.",
+  logo: "",
+  media: [
     {
-      id: "standard",
-      name: "Phantasmal Flames Booster Pack",
-      releaseDate: "2025-11-14",
-      identifiers: {
-        tcgplayer: "654144",
-      },
-      images: [
-        {
-          type: "front",
-          url: "https://tcgplayer-cdn.tcgplayer.com/product/654144_in_1000x1000.jpg",
-        },
-      ],
-      contents: [
-        {
-          type: "booster",
-          set: "me02",
-          quantity: 1,
-        },
-      ],
-      description: "Each pack contains 10 cards.",
-      status: "draft",
+      id: "boo_me02-charizard",
+      name: "Charizard",
+      dexId: [],
+      artworkFront: "",
+    },
+    {
+      id: "boo_me02-gengar",
+      name: "Gengar",
+      dexId: [],
+      artworkFront: "",
+    },
+    {
+      id: "boo_me02-heracross",
+      name: "Heracross",
+      dexId: [],
+      artworkFront: "",
+    },
+    {
+      id: "boo_me02-lopunny",
+      name: "Lopunny",
+      dexId: [],
+      artworkFront: "",
     },
   ],
 } satisfies SealedProductDef;

@@ -3,21 +3,28 @@ import type { SealedProductDef } from "../../../../types/sealed";
 export default {
   category: "single-pack-blister",
   set: "sv03",
-  base: {
-    contents: [
-      {
-        type: "booster",
-        set: "sv03",
-        quantity: 1,
-      },
-    ],
-  },
+  boosters: [
+    {
+      set: "sv03",
+      packs: [
+        {
+          quantity: 1,
+        },
+      ],
+      artworks: [
+        "boo_sv03-charizard",
+        "boo_sv03-tyranitar",
+        "boo_sv03-dragonite",
+        "boo_sv03-revavroom",
+      ],
+    },
+  ],
   variants: [
     {
       id: "paldean-wooper",
       name: "Obsidian Flames Single Pack Blister [Paldean Wooper]",
       releaseDate: "2023-08-11",
-      identifiers: {
+      thirdParty: {
         tcgplayer: "512047",
       },
       images: [
@@ -29,19 +36,19 @@ export default {
       contents: [
         {
           type: "promo-card",
-          card: "svp-041",
-          quantity: 1,
+          cards: [
+            "svp-041",
+          ],
           stamp: "cosmos",
         },
       ],
       description: "Each Single Pack Blister contains 1 booster pack, 1 promo card, and a coin.",
-      status: "draft",
     },
     {
       id: "pawmi",
       name: "Obsidian Flames Single Pack Blister [Pawmi]",
       releaseDate: "2023-08-11",
-      identifiers: {
+      thirdParty: {
         tcgplayer: "501262",
       },
       images: [
@@ -53,13 +60,13 @@ export default {
       contents: [
         {
           type: "promo-card",
-          card: "svp-040",
-          quantity: 1,
+          cards: [
+            "svp-040",
+          ],
           stamp: "cosmos",
         },
       ],
       description: "Each Single Pack Blister contains 1 booster pack, 1 promo card, and a coin.",
-      status: "draft",
     },
   ],
 } satisfies SealedProductDef;

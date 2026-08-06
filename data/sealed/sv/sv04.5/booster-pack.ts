@@ -3,29 +3,37 @@ import type { SealedProductDef } from "../../../../types/sealed";
 export default {
   category: "booster-pack",
   set: "sv04.5",
-  variants: [
+  name: "Paldean Fates Booster Pack",
+  releaseDate: "2024-01-26",
+  thirdParty: {
+    tcgplayer: "528038",
+  },
+  description: "Each pack contains 10 cards.",
+  logo: "",
+  media: [
     {
-      id: "standard",
-      name: "Paldean Fates Booster Pack",
-      releaseDate: "2024-01-26",
-      identifiers: {
-        tcgplayer: "528038",
-      },
-      images: [
-        {
-          type: "front",
-          url: "https://tcgplayer-cdn.tcgplayer.com/product/528038_in_1000x1000.jpg",
-        },
-      ],
-      contents: [
-        {
-          type: "booster",
-          set: "sv04.5",
-          quantity: 1,
-        },
-      ],
-      description: "Each pack contains 10 cards.",
-      status: "draft",
+      id: "boo_sv04.5-pikachu",
+      name: "Pikachu",
+      dexId: [],
+      artworkFront: "",
+    },
+    {
+      id: "boo_sv04.5-tinkaton",
+      name: "Tinkaton",
+      dexId: [],
+      artworkFront: "",
+    },
+    {
+      id: "boo_sv04.5-ceruledge",
+      name: "Ceruledge",
+      dexId: [],
+      artworkFront: "",
+    },
+    {
+      id: "boo_sv04.5-dondozo",
+      name: "Dondozo",
+      dexId: [],
+      artworkFront: "",
     },
   ],
 } satisfies SealedProductDef;

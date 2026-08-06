@@ -3,21 +3,28 @@ import type { SealedProductDef } from "../../../../types/sealed";
 export default {
   category: "premium-checklane-blister",
   set: "me04",
-  base: {
-    contents: [
-      {
-        type: "booster",
-        set: "me04",
-        quantity: 1,
-      },
-    ],
-  },
+  boosters: [
+    {
+      set: "me04",
+      packs: [
+        {
+          quantity: 1,
+        },
+      ],
+      artworks: [
+        "boo_me04-dragalge",
+        "boo_me04-floette",
+        "boo_me04-greninja",
+        "boo_me04-pyroar",
+      ],
+    },
+  ],
   variants: [
     {
       id: "flygon-line",
       name: "Chaos Rising Premium Checklane Blister [Flygon Line]",
       releaseDate: "2026-05-22",
-      identifiers: {
+      thirdParty: {
         tcgplayer: "684460",
       },
       images: [
@@ -33,23 +40,22 @@ export default {
             "me02-051",
             "me02-052",
           ],
-          quantity: 2,
         },
         {
           type: "promo-card",
-          card: "me02-053",
-          quantity: 1,
+          cards: [
+            "me02-053",
+          ],
           stamp: "cosmos",
         },
       ],
       description: "Each Premium Checklane Blister contains 1 booster pack, 3 promo card(s), and a coin.",
-      status: "draft",
     },
     {
       id: "pawmot-line",
       name: "Chaos Rising Premium Checklane Blister [Pawmot Line]",
       releaseDate: "2026-05-22",
-      identifiers: {
+      thirdParty: {
         tcgplayer: "684459",
       },
       images: [
@@ -65,17 +71,16 @@ export default {
             "me02-032",
             "me02-033",
           ],
-          quantity: 2,
         },
         {
           type: "promo-card",
-          card: "me02-034",
-          quantity: 1,
+          cards: [
+            "me02-034",
+          ],
           stamp: "cosmos",
         },
       ],
       description: "Each Premium Checklane Blister contains 1 booster pack, 3 promo card(s), and a coin.",
-      status: "draft",
     },
   ],
 } satisfies SealedProductDef;

@@ -3,12 +3,34 @@ import type { SealedProductDef } from "../../../../types/sealed";
 export default {
   category: "build-and-battle-box",
   set: "me01",
+  boosters: [
+    {
+      set: "me01",
+      packs: [
+        {
+          quantity: 4,
+        },
+      ],
+      artworks: [
+        "boo_me01-gardevoir",
+        "boo_me01-kangaskhan",
+        "boo_me01-lucario",
+        "boo_me01-venusaur",
+      ],
+    },
+  ],
+  accessories: [
+    {
+      category: "deck",
+      quantity: 1,
+    },
+  ],
   variants: [
     {
       id: "standard",
       name: "Mega Evolution Build & Battle Box",
       releaseDate: "2025-09-26",
-      identifiers: {
+      thirdParty: {
         tcgplayer: "644363",
       },
       images: [
@@ -19,30 +41,17 @@ export default {
       ],
       contents: [
         {
-          type: "booster",
-          set: "me01",
-          quantity: 4,
-        },
-        {
           type: "promo-card",
-          possibleCards: [
+          cards: [
             "mep-001",
             "mep-002",
             "mep-003",
             "mep-004",
           ],
-          selection: "one-of",
-          quantity: 1,
           stamp: "set-logo",
-        },
-        {
-          type: "accessory",
-          category: "deck",
-          quantity: 1,
         },
       ],
       description: "Each Build & Battle Box contains a 40-card ready-to-play deck, 4 booster packs, 1 promo card, and a code card for Pokémon TCG Live.",
-      status: "draft",
     },
   ],
   packaging: [
@@ -50,14 +59,14 @@ export default {
       type: "display",
       id: "display",
       name: "Mega Evolution Build & Battle Box Display",
-      identifiers: {
+      thirdParty: {
         tcgplayer: "644733",
       },
       releaseDate: "2025-09-26",
       contents: [
         {
-          type: "sealed-product",
-          variant: "standard",
+          type: "variant",
+          id: "standard",
           quantity: 10,
         },
       ],

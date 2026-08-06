@@ -3,12 +3,30 @@ import type { SealedProductDef } from "../../../../types/sealed";
 export default {
   category: "elite-trainer-box",
   set: "me02.5",
+  boosters: [
+    {
+      set: "me02.5",
+      packs: [
+        {
+          quantity: 9,
+        },
+      ],
+      artworks: [
+        "boo_me02.5-charizard",
+        "boo_me02.5-dragonite",
+        "boo_me02.5-ho-oh",
+        "boo_me02.5-lucario",
+        "boo_me02.5-mewtwo",
+        "boo_me02.5-pikachu",
+      ],
+    },
+  ],
   variants: [
     {
       id: "standard",
       name: "Ascended Heroes Elite Trainer Box",
       releaseDate: "2026-02-20",
-      identifiers: {
+      thirdParty: {
         tcgplayer: "668496",
       },
       images: [
@@ -19,32 +37,37 @@ export default {
       ],
       contents: [
         {
-          type: "booster",
-          set: "me02.5",
-          quantity: 9,
-        },
-        {
           type: "promo-card",
-          card: "mep-031",
-          quantity: 1,
+          cards: [
+            "mep-031",
+          ],
         },
       ],
       description: "Each Elite Trainer Box contains 9 booster packs, a promo card, 65 card sleeves, 40 Energy cards, A player's guide, 6 damage-counter dice, 1 competition-legal coin-flip die, 1 plastic coin, 6 dividers, a collector's box to hold everything, and a code card for Pokémon TCG Live.",
-      status: "draft",
     },
     {
       id: "pc",
       name: "Ascended Heroes Pokemon Center Elite Trainer Box",
       releaseDate: "2026-07-20",
-      contents: [
+      boosters: [
         {
-          type: "booster",
           set: "me02.5",
-          quantity: 11,
+          packs: [
+            {
+              quantity: 11,
+            },
+          ],
+          artworks: [
+            "boo_me02.5-charizard",
+            "boo_me02.5-dragonite",
+            "boo_me02.5-ho-oh",
+            "boo_me02.5-lucario",
+            "boo_me02.5-mewtwo",
+            "boo_me02.5-pikachu",
+          ],
         },
       ],
       description: "Each Pokemon Center Elite Trainer Box contains 11 booster packs, a promo card, 65 card sleeves, 40 Energy cards, A player's guide, 6 damage-counter dice, 1 competition-legal coin-flip die, 1 plastic coin, 6 dividers, a collector's box to hold everything, and a code card for Pokémon TCG Live.",
-      status: "draft",
     },
   ],
   packaging: [
@@ -52,14 +75,14 @@ export default {
       type: "case",
       id: "case",
       name: "Ascended Heroes Elite Trainer Box Case",
-      identifiers: {
+      thirdParty: {
         tcgplayer: "679558",
       },
       releaseDate: "2026-02-20",
       contents: [
         {
-          type: "sealed-product",
-          variant: "standard",
+          type: "variant",
+          id: "standard",
           quantity: 10,
         },
       ],

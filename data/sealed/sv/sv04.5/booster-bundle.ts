@@ -3,12 +3,28 @@ import type { SealedProductDef } from "../../../../types/sealed";
 export default {
   category: "booster-bundle",
   set: "sv04.5",
+  boosters: [
+    {
+      set: "sv04.5",
+      packs: [
+        {
+          quantity: 6,
+        },
+      ],
+      artworks: [
+        "boo_sv04.5-pikachu",
+        "boo_sv04.5-tinkaton",
+        "boo_sv04.5-ceruledge",
+        "boo_sv04.5-dondozo",
+      ],
+    },
+  ],
   variants: [
     {
       id: "standard",
       name: "Paldean Fates Booster Bundle",
       releaseDate: "2024-02-23",
-      identifiers: {
+      thirdParty: {
         tcgplayer: "528771",
       },
       images: [
@@ -17,15 +33,7 @@ export default {
           url: "https://tcgplayer-cdn.tcgplayer.com/product/528771_in_1000x1000.jpg",
         },
       ],
-      contents: [
-        {
-          type: "booster",
-          set: "sv04.5",
-          quantity: 6,
-        },
-      ],
       description: "Each Booster Bundle contains 6 booster packs.",
-      status: "draft",
     },
   ],
   packaging: [
@@ -33,14 +41,14 @@ export default {
       type: "display",
       id: "display",
       name: "Paldean Fates Booster Bundle Display",
-      identifiers: {
+      thirdParty: {
         tcgplayer: "530704",
       },
       releaseDate: "2023-02-23",
       contents: [
         {
-          type: "sealed-product",
-          variant: "standard",
+          type: "variant",
+          id: "standard",
           quantity: 10,
         },
       ],
@@ -49,14 +57,14 @@ export default {
       type: "display-case",
       id: "display-case",
       name: "Paldean Fates Booster Bundle Display Case",
-      identifiers: {
+      thirdParty: {
         tcgplayer: "635609",
       },
       releaseDate: "2024-02-09",
       contents: [
         {
-          type: "sealed-product",
-          variant: "standard",
+          type: "variant",
+          id: "standard",
           quantity: 10,
         },
       ],

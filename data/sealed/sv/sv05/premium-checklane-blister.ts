@@ -3,12 +3,28 @@ import type { SealedProductDef } from "../../../../types/sealed";
 export default {
   category: "premium-checklane-blister",
   set: "sv05",
+  boosters: [
+    {
+      set: "sv05",
+      packs: [
+        {
+          quantity: 1,
+        },
+      ],
+      artworks: [
+        "boo_sv05-iron-crown",
+        "boo_sv05-iron-leaves",
+        "boo_sv05-raging-bolt",
+        "boo_sv05-walking-wake",
+      ],
+    },
+  ],
   variants: [
     {
       id: "togekiss",
       name: "Temporal Forces Premium Checklane Blister [Togekiss]",
       releaseDate: "2024-03-22",
-      identifiers: {
+      thirdParty: {
         tcgplayer: "544687",
       },
       images: [
@@ -19,27 +35,21 @@ export default {
       ],
       contents: [
         {
-          type: "booster",
-          set: "sv05",
-          quantity: 1,
-        },
-        {
           type: "promo-card",
           cards: [
             "sv03-083",
             "sv03-084",
           ],
-          quantity: 2,
         },
         {
           type: "promo-card",
-          card: "sv03-05",
-          quantity: 1,
+          cards: [
+            "sv03-05",
+          ],
           stamp: "cosmos",
         },
       ],
       description: "Each Premium Checklane Blister contains 1 booster pack, 3 promo cards, and a coin.",
-      status: "draft",
     },
   ],
 } satisfies SealedProductDef;

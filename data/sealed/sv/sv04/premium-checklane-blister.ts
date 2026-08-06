@@ -3,21 +3,28 @@ import type { SealedProductDef } from "../../../../types/sealed";
 export default {
   category: "premium-checklane-blister",
   set: "sv04",
-  base: {
-    contents: [
-      {
-        type: "booster",
-        set: "sv04",
-        quantity: 1,
-      },
-    ],
-  },
+  boosters: [
+    {
+      set: "sv04",
+      packs: [
+        {
+          quantity: 1,
+        },
+      ],
+      artworks: [
+        "boo_sv04-armarouge",
+        "boo_sv04-garchomp",
+        "boo_sv04-iron-valiant",
+        "boo_sv04-roaring-moon",
+      ],
+    },
+  ],
   variants: [
     {
       id: "hydreigon",
       name: "Paradox Rift Premium Checklane Blister [Hydreigon]",
       releaseDate: "2023-11-03",
-      identifiers: {
+      thirdParty: {
         tcgplayer: "546605",
       },
       images: [
@@ -33,23 +40,22 @@ export default {
             "sv02-138",
             "sv02-139",
           ],
-          quantity: 2,
         },
         {
           type: "promo-card",
-          card: "sv02-140",
-          quantity: 1,
+          cards: [
+            "sv02-140",
+          ],
           stamp: "cosmos",
         },
       ],
       description: "Each Premium Checklane Blister contains 1 booster pack, 3 promo cards, and a coin.",
-      status: "draft",
     },
     {
       id: "tinkaton",
       name: "Paradox Rift Premium Checklane Blister [Tinkaton]",
       releaseDate: "2023-11-03",
-      identifiers: {
+      thirdParty: {
         tcgplayer: "546606",
       },
       images: [
@@ -65,17 +71,16 @@ export default {
             "sv02-102",
             "sv02-104",
           ],
-          quantity: 2,
         },
         {
           type: "promo-card",
-          card: "sv02-105",
-          quantity: 1,
+          cards: [
+            "sv02-105",
+          ],
           stamp: "cosmos",
         },
       ],
       description: "Each Premium Checklane Blister contains 1 booster pack, 3 promo cards, and a coin.",
-      status: "draft",
     },
   ],
 } satisfies SealedProductDef;

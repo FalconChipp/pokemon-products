@@ -3,12 +3,28 @@ import type { SealedProductDef } from "../../../../types/sealed";
 export default {
   category: "triple-blister",
   set: "me01",
+  boosters: [
+    {
+      set: "me01",
+      packs: [
+        {
+          quantity: 3,
+        },
+      ],
+      artworks: [
+        "boo_me01-gardevoir",
+        "boo_me01-kangaskhan",
+        "boo_me01-lucario",
+        "boo_me01-venusaur",
+      ],
+    },
+  ],
   variants: [
     {
       id: "golduck",
       name: "Mega Evolution 3-Pack Blister [Golduck]",
       releaseDate: "2025-09-26",
-      identifiers: {
+      thirdParty: {
         tcgplayer: "644356",
       },
       images: [
@@ -19,24 +35,19 @@ export default {
       ],
       contents: [
         {
-          type: "booster",
-          set: "me01",
-          quantity: 3,
-        },
-        {
           type: "promo-card",
-          card: "mep-008",
-          quantity: 1,
+          cards: [
+            "mep-008",
+          ],
         },
       ],
       description: "Each 3-Pack Blister contains 3 booster packs and a promo card.",
-      status: "draft",
     },
     {
       id: "psyduck",
       name: "Mega Evolution 3-Pack Blister [Psyduck]",
       releaseDate: "2025-09-26",
-      identifiers: {
+      thirdParty: {
         tcgplayer: "644357",
       },
       images: [
@@ -47,19 +58,13 @@ export default {
       ],
       contents: [
         {
-          type: "booster",
-          set: "me01",
-          quantity: 3,
-          assortment: "fixed",
-        },
-        {
           type: "promo-card",
-          card: "mep-007",
-          quantity: 1,
+          cards: [
+            "mep-007",
+          ],
         },
       ],
       description: "Each Triple Blister contains 3 booster packs and one promo card.",
-      status: "draft",
     },
   ],
 } satisfies SealedProductDef;

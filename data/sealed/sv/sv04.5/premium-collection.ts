@@ -3,12 +3,28 @@ import type { SealedProductDef } from "../../../../types/sealed";
 export default {
   category: "premium-collection",
   set: "sv04.5",
+  boosters: [
+    {
+      set: "sv04.5",
+      packs: [
+        {
+          quantity: 8,
+        },
+      ],
+      artworks: [
+        "boo_sv04.5-pikachu",
+        "boo_sv04.5-tinkaton",
+        "boo_sv04.5-ceruledge",
+        "boo_sv04.5-dondozo",
+      ],
+    },
+  ],
   variants: [
     {
       id: "quaquaval-ex",
       name: "Paldean Fates Premium Collection [Quaquaval ex]",
       releaseDate: "2024-01-26",
-      identifiers: {
+      thirdParty: {
         tcgplayer: "528082",
       },
       images: [
@@ -19,34 +35,28 @@ export default {
       ],
       contents: [
         {
-          type: "booster",
-          set: "sv04.5",
-          quantity: 8,
-        },
-        {
           type: "promo-card",
           cards: [
             "svp-082",
             "svp-083",
             "svp-084",
           ],
-          quantity: 3,
         },
         {
           type: "promo-card",
-          card: "svp-084",
-          quantity: 1,
+          cards: [
+            "svp-084",
+          ],
           stamp: "jumbo",
         },
       ],
       description: "Each Collection contains 8 Booster Packs, 3 promo cards, and 1 jumbo card.",
-      status: "draft",
     },
     {
       id: "meowscarada-ex",
       name: "Paldean Fates Premium Collection [Meowscarada ex]",
       releaseDate: "2024-02-09",
-      identifiers: {
+      thirdParty: {
         tcgplayer: "528079",
       },
       images: [
@@ -57,34 +67,28 @@ export default {
       ],
       contents: [
         {
-          type: "booster",
-          set: "sv04.5",
-          quantity: 8,
-        },
-        {
           type: "promo-card",
           cards: [
             "svp-076",
             "svp-077",
             "svp-078",
           ],
-          quantity: 3,
         },
         {
           type: "promo-card",
-          card: "svp-078",
-          quantity: 1,
+          cards: [
+            "svp-078",
+          ],
           stamp: "jumbo",
         },
       ],
       description: "Each Collection contains 8 Booster Packs, 3 promo cards, and 1 jumbo card.",
-      status: "draft",
     },
     {
       id: "skeledirge-ex",
       name: "Paldean Fates Premium Collection [Skeledirge ex]",
       releaseDate: "2024-02-09",
-      identifiers: {
+      thirdParty: {
         tcgplayer: "528080",
       },
       images: [
@@ -95,34 +99,28 @@ export default {
       ],
       contents: [
         {
-          type: "booster",
-          set: "sv04.5",
-          quantity: 8,
-        },
-        {
           type: "promo-card",
           cards: [
             "svp-079",
             "svp-080",
             "svp-081",
           ],
-          quantity: 3,
         },
         {
           type: "promo-card",
-          card: "svp-081",
-          quantity: 1,
+          cards: [
+            "svp-081",
+          ],
           stamp: "jumbo",
         },
       ],
       description: "Each Collection contains 8 Booster Packs, 3 promo cards, and 1 jumbo card.",
-      status: "draft",
     },
     {
       id: "great-tusk-ex-and-iron-treads-ex-premium-collection",
       name: "Paldean Fates Great Tusk ex & Iron Treads ex Premium Collection",
       releaseDate: "2025-12-01",
-      identifiers: {
+      thirdParty: {
         tcgplayer: "665113",
       },
       images: [
@@ -131,30 +129,40 @@ export default {
           url: "https://tcgplayer-cdn.tcgplayer.com/product/665113_in_1000x1000.jpg",
         },
       ],
-      contents: [
+      boosters: [
         {
-          type: "booster",
           set: "sv04.5",
-          quantity: 11,
+          packs: [
+            {
+              quantity: 11,
+            },
+          ],
+          artworks: [
+            "boo_sv04.5-pikachu",
+            "boo_sv04.5-tinkaton",
+            "boo_sv04.5-ceruledge",
+            "boo_sv04.5-dondozo",
+          ],
         },
+      ],
+      contents: [
         {
           type: "promo-card",
           cards: [
             "svp-072",
             "svp-073",
           ],
-          quantity: 2,
           stamp: "set-logo",
         },
         {
           type: "promo-card",
-          card: "svp-072",
-          quantity: 1,
+          cards: [
+            "svp-072",
+          ],
           stamp: "jumbo",
         },
       ],
       description: "Each Collection contains 11 Booster Packs, 4 promo cards, and 1 jumbo card.",
-      status: "draft",
     },
   ],
   packaging: [
@@ -162,24 +170,24 @@ export default {
       type: "case",
       id: "case",
       name: "Paldean Fates Premium Collection Case",
-      identifiers: {
+      thirdParty: {
         tcgplayer: "693569",
       },
       releaseDate: "2024-01-26",
       contents: [
         {
-          type: "sealed-product",
-          variant: "meowscarada-ex",
+          type: "variant",
+          id: "meowscarada-ex",
           quantity: 2,
         },
         {
-          type: "sealed-product",
-          variant: "quaquaval-ex",
+          type: "variant",
+          id: "quaquaval-ex",
           quantity: 2,
         },
         {
-          type: "sealed-product",
-          variant: "skeledirge-ex",
+          type: "variant",
+          id: "skeledirge-ex",
           quantity: 2,
         },
       ],

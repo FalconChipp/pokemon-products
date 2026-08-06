@@ -8,7 +8,7 @@ export default {
       id: "standard",
       name: "Temporal Forces Fun Pack",
       releaseDate: "2024-03-22",
-      identifiers: {
+      thirdParty: {
         tcgplayer: "607502",
       },
       images: [
@@ -18,7 +18,6 @@ export default {
         },
       ],
       description: "Each Fun Pack contains 3 cards.",
-      status: "draft",
     },
   ],
 } satisfies SealedProductDef;

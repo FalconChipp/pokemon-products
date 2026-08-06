@@ -3,21 +3,28 @@ import type { SealedProductDef } from "../../../../types/sealed";
 export default {
   category: "single-pack-blister",
   set: "sv04",
-  base: {
-    contents: [
-      {
-        type: "booster",
-        set: "sv04",
-        quantity: 1,
-      },
-    ],
-  },
+  boosters: [
+    {
+      set: "sv04",
+      packs: [
+        {
+          quantity: 1,
+        },
+      ],
+      artworks: [
+        "boo_sv04-armarouge",
+        "boo_sv04-garchomp",
+        "boo_sv04-iron-valiant",
+        "boo_sv04-roaring-moon",
+      ],
+    },
+  ],
   variants: [
     {
       id: "ceruledge",
       name: "Paradox Rift Single Pack Blister [Ceruledge]",
       releaseDate: "2023-11-03",
-      identifiers: {
+      thirdParty: {
         tcgplayer: "625582",
       },
       images: [
@@ -29,24 +36,25 @@ export default {
       contents: [
         {
           type: "promo-card",
-          card: "sv02-039",
-          quantity: 1,
+          cards: [
+            "sv02-039",
+          ],
         },
         {
           type: "promo-card",
-          card: "sv02-098",
-          quantity: 1,
+          cards: [
+            "sv02-098",
+          ],
           stamp: "cosmos",
         },
       ],
       description: "Each Single Pack Blister contains 1 booster pack, 2 promo cards, and a coin.",
-      status: "draft",
     },
     {
       id: "glimmora",
       name: "Paradox Rift Single Pack Blister [Glimmora]",
       releaseDate: "2023-11-03",
-      identifiers: {
+      thirdParty: {
         tcgplayer: "625581",
       },
       images: [
@@ -58,24 +66,25 @@ export default {
       contents: [
         {
           type: "promo-card",
-          card: "sv02-124",
-          quantity: 1,
+          cards: [
+            "sv02-124",
+          ],
         },
         {
           type: "promo-card",
-          card: "sv02-126",
-          quantity: 1,
+          cards: [
+            "sv02-126",
+          ],
           stamp: "cosmos",
         },
       ],
       description: "Each Single Pack Blister contains 1 booster pack, 2 promo cards, and a coin.",
-      status: "draft",
     },
     {
       id: "pineco",
       name: "Paradox Rift Single Pack Blister [Pineco]",
       releaseDate: "2023-11-03",
-      identifiers: {
+      thirdParty: {
         tcgplayer: "514224",
       },
       images: [
@@ -87,19 +96,19 @@ export default {
       contents: [
         {
           type: "promo-card",
-          card: "svp-061",
-          quantity: 1,
+          cards: [
+            "svp-061",
+          ],
           stamp: "cosmos",
         },
       ],
       description: "Each Single Pack Blister contains 1 booster pack, 1 promo card, and a coin.",
-      status: "draft",
     },
     {
       id: "sinistea",
       name: "Paradox Rift Single Pack Blister [Sinistea]",
       releaseDate: "2023-11-03",
-      identifiers: {
+      thirdParty: {
         tcgplayer: "514223",
       },
       images: [
@@ -111,13 +120,13 @@ export default {
       contents: [
         {
           type: "promo-card",
-          card: "svp-062",
-          quantity: 1,
+          cards: [
+            "svp-062",
+          ],
           stamp: "cosmos",
         },
       ],
       description: "Each Single Pack Blister contains 1 booster pack, 1 promo card, and a coin.",
-      status: "draft",
     },
   ],
 } satisfies SealedProductDef;

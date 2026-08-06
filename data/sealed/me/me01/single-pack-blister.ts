@@ -3,27 +3,35 @@ import type { SealedProductDef } from "../../../../types/sealed";
 export default {
   category: "single-pack-blister",
   set: "me01",
-  base: {
-    contents: [
-      {
-        type: "booster",
-        set: "me01",
-        quantity: 1,
-      },
-      {
-        type: "accessory",
-        category: "coin",
-        quantity: 1,
-        name: "Lucario",
-      },
-    ],
-  },
+  boosters: [
+    {
+      set: "me01",
+      packs: [
+        {
+          quantity: 1,
+        },
+      ],
+      artworks: [
+        "boo_me01-gardevoir",
+        "boo_me01-kangaskhan",
+        "boo_me01-lucario",
+        "boo_me01-venusaur",
+      ],
+    },
+  ],
+  accessories: [
+    {
+      category: "coin",
+      quantity: 1,
+      name: "Lucario",
+    },
+  ],
   variants: [
     {
       id: "drifblim",
       name: "Mega Evolution Single Pack Blister [Drifblim]",
       releaseDate: "2025-09-26",
-      identifiers: {
+      thirdParty: {
         tcgplayer: "644359",
       },
       images: [
@@ -35,18 +43,18 @@ export default {
       contents: [
         {
           type: "promo-card",
-          card: "mep-006",
-          quantity: 1,
+          cards: [
+            "mep-006",
+          ],
         },
       ],
       description: "Each Single Pack Blister contains 1 booster pack, 1 promo card, and a coin.",
-      status: "draft",
     },
     {
       id: "drifloon",
       name: "Mega Evolution Single Pack Blister [Drifloon]",
       releaseDate: "2025-09-26",
-      identifiers: {
+      thirdParty: {
         tcgplayer: "644358",
       },
       images: [
@@ -58,18 +66,18 @@ export default {
       contents: [
         {
           type: "promo-card",
-          card: "mep-005",
-          quantity: 1,
+          cards: [
+            "mep-005",
+          ],
         },
       ],
       description: "Each Single Pack Blister contains 1 booster pack, 1 promo card, and a coin.",
-      status: "draft",
     },
     {
       id: "lycanroc",
       name: "Mega Evolution Single Pack Blister [Lycanroc]",
       releaseDate: "2025-09-26",
-      identifiers: {
+      thirdParty: {
         tcgplayer: "657490",
       },
       images: [
@@ -81,24 +89,25 @@ export default {
       contents: [
         {
           type: "promo-card",
-          card: "sv09-084",
-          quantity: 1,
+          cards: [
+            "sv09-084",
+          ],
         },
         {
           type: "promo-card",
-          card: "sv09-085",
-          quantity: 1,
+          cards: [
+            "sv09-085",
+          ],
           stamp: "cosmos",
         },
       ],
       description: "Each Single Pack Blister contains 1 booster pack, 2 promo cards, and a coin.",
-      status: "draft",
     },
     {
       id: "wailord",
       name: "Mega Evolution Single Pack Blister [Wailord]",
       releaseDate: "2025-09-26",
-      identifiers: {
+      thirdParty: {
         tcgplayer: "657489",
       },
       images: [
@@ -110,18 +119,19 @@ export default {
       contents: [
         {
           type: "promo-card",
-          card: "sv09-040",
-          quantity: 1,
+          cards: [
+            "sv09-040",
+          ],
         },
         {
           type: "promo-card",
-          card: "sv09-041",
-          quantity: 1,
+          cards: [
+            "sv09-041",
+          ],
           stamp: "cosmos",
         },
       ],
       description: "Each Single Pack Blister contains 1 booster pack, 2 promo cards, and a coin.",
-      status: "draft",
     },
   ],
 } satisfies SealedProductDef;

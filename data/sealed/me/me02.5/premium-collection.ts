@@ -3,12 +3,30 @@ import type { SealedProductDef } from "../../../../types/sealed";
 export default {
   category: "premium-collection",
   set: "me02.5",
+  boosters: [
+    {
+      set: "me02.5",
+      packs: [
+        {
+          quantity: 14,
+        },
+      ],
+      artworks: [
+        "boo_me02.5-charizard",
+        "boo_me02.5-dragonite",
+        "boo_me02.5-ho-oh",
+        "boo_me02.5-lucario",
+        "boo_me02.5-mewtwo",
+        "boo_me02.5-pikachu",
+      ],
+    },
+  ],
   variants: [
     {
       id: "focused-fighters-premium-collection",
       name: "Ascended Heroes Focused Fighters Premium Collection",
       releaseDate: "2026-07-21",
-      identifiers: {
+      thirdParty: {
         tcgplayer: "706959",
       },
       images: [
@@ -19,27 +37,21 @@ export default {
       ],
       contents: [
         {
-          type: "booster",
-          set: "me02.5",
-          quantity: 14,
-        },
-        {
           type: "promo-card",
           cards: [
             "me02.5-079",
             "me02.5-116",
           ],
-          quantity: 2,
         },
         {
           type: "promo-card",
-          card: "me02.5-116",
-          quantity: 1,
+          cards: [
+            "me02.5-116",
+          ],
           stamp: "jumbo",
         },
       ],
       description: "Each Focused Fighters Premium Collection contains 14 Booster Packs, 4 promo cards, and 1 jumbo card.",
-      status: "draft",
     },
   ],
 } satisfies SealedProductDef;

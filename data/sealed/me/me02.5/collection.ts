@@ -3,21 +3,30 @@ import type { SealedProductDef } from "../../../../types/sealed";
 export default {
   category: "collection-box",
   set: "me02.5",
-  base: {
-    contents: [
-      {
-        type: "booster",
-        set: "me02.5",
-        quantity: 2,
-      },
-    ],
-  },
+  boosters: [
+    {
+      set: "me02.5",
+      packs: [
+        {
+          quantity: 2,
+        },
+      ],
+      artworks: [
+        "boo_me02.5-charizard",
+        "boo_me02.5-dragonite",
+        "boo_me02.5-ho-oh",
+        "boo_me02.5-lucario",
+        "boo_me02.5-mewtwo",
+        "boo_me02.5-pikachu",
+      ],
+    },
+  ],
   variants: [
     {
       id: "erika",
       name: "Ascended Heroes Collection [Erika]",
       releaseDate: "2026-02-20",
-      identifiers: {
+      thirdParty: {
         tcgplayer: "666906",
       },
       images: [
@@ -29,18 +38,18 @@ export default {
       contents: [
         {
           type: "promo-card",
-          card: "me02.5-007",
-          quantity: 1,
+          cards: [
+            "me02.5-007",
+          ],
         },
       ],
       description: "Each Collection contains 2 Booster Packs, 1 promo card, and 1 coin",
-      status: "draft",
     },
     {
       id: "larry",
       name: "Ascended Heroes Collection [Larry]",
       releaseDate: "2026-02-20",
-      identifiers: {
+      thirdParty: {
         tcgplayer: "666907",
       },
       images: [
@@ -52,12 +61,12 @@ export default {
       contents: [
         {
           type: "promo-card",
-          card: "me02.5-175",
-          quantity: 1,
+          cards: [
+            "me02.5-175",
+          ],
         },
       ],
       description: "Each Collection contains 2 Booster Packs, 1 promo card, and 1 coin",
-      status: "draft",
     },
   ],
   packaging: [
@@ -65,19 +74,19 @@ export default {
       type: "case",
       id: "case",
       name: "Ascended Heroes Collection Case",
-      identifiers: {
+      thirdParty: {
         tcgplayer: "685195",
       },
       releaseDate: "2026-02-20",
       contents: [
         {
-          type: "sealed-product",
-          variant: "erika",
+          type: "variant",
+          id: "erika",
           quantity: 12,
         },
         {
-          type: "sealed-product",
-          variant: "larry",
+          type: "variant",
+          id: "larry",
           quantity: 12,
         },
       ],

@@ -3,12 +3,28 @@ import type { SealedProductDef } from "../../../../types/sealed";
 export default {
   category: "booster-bundle",
   set: "me03",
+  boosters: [
+    {
+      set: "me03",
+      packs: [
+        {
+          quantity: 6,
+        },
+      ],
+      artworks: [
+        "boo_me03-clefable",
+        "boo_me03-meowth",
+        "boo_me03-starmie",
+        "boo_me03-zygarde",
+      ],
+    },
+  ],
   variants: [
     {
       id: "standard",
       name: "Perfect Order Booster Bundle",
       releaseDate: "2026-03-27",
-      identifiers: {
+      thirdParty: {
         tcgplayer: "672396",
       },
       images: [
@@ -17,15 +33,7 @@ export default {
           url: "https://tcgplayer-cdn.tcgplayer.com/product/672396_in_1000x1000.jpg",
         },
       ],
-      contents: [
-        {
-          type: "booster",
-          set: "me03",
-          quantity: 6,
-        },
-      ],
       description: "Each Booster Bundle contains 6 booster packs.",
-      status: "draft",
     },
   ],
   packaging: [
@@ -33,14 +41,14 @@ export default {
       type: "case",
       id: "case",
       name: "Perfect Order Booster Bundle Case",
-      identifiers: {
+      thirdParty: {
         tcgplayer: "672397",
       },
       releaseDate: "2026-03-27",
       contents: [
         {
-          type: "sealed-product",
-          variant: "standard",
+          type: "variant",
+          id: "standard",
           quantity: 25,
         },
       ],

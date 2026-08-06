@@ -3,21 +3,28 @@ import type { SealedProductDef } from "../../../../types/sealed";
 export default {
   category: "premium-checklane-blister",
   set: "sv03",
-  base: {
-    contents: [
-      {
-        type: "booster",
-        set: "sv03",
-        quantity: 1,
-      },
-    ],
-  },
+  boosters: [
+    {
+      set: "sv03",
+      packs: [
+        {
+          quantity: 1,
+        },
+      ],
+      artworks: [
+        "boo_sv03-charizard",
+        "boo_sv03-tyranitar",
+        "boo_sv03-dragonite",
+        "boo_sv03-revavroom",
+      ],
+    },
+  ],
   variants: [
     {
       id: "annihilape",
       name: "Obsidian Flames Premium Checklane Blister [Annihilape]",
       releaseDate: "2023-08-11",
-      identifiers: {
+      thirdParty: {
         tcgplayer: "557084",
       },
       images: [
@@ -34,17 +41,15 @@ export default {
             "sv01-108",
             "sv01-109",
           ],
-          quantity: 3,
         },
       ],
       description: "Each Premium Checklane Blister contains 1 booster pack, 3 promo cards, and a coin.",
-      status: "draft",
     },
     {
       id: "kingambit",
       name: "Obsidian Flames Premium Checklane Blister [Kingambit]",
       releaseDate: "2023-08-11",
-      identifiers: {
+      thirdParty: {
         tcgplayer: "557085",
       },
       images: [
@@ -61,17 +66,15 @@ export default {
             "sv01-133",
             "sv01-134",
           ],
-          quantity: 3,
         },
       ],
       description: "Each Premium Checklane Blister contains 1 booster pack, 3 promo cards, and a coin.",
-      status: "draft",
     },
     {
       id: "revavroom",
       name: "Obsidian Flames Premium Checklane Blister [Revavroom]",
       releaseDate: "2023-08-11",
-      identifiers: {
+      thirdParty: {
         tcgplayer: "557087",
       },
       images: [
@@ -87,17 +90,15 @@ export default {
             "sv01-141",
             "sv01-142",
           ],
-          quantity: 2,
         },
       ],
       description: "Each Premium Checklane Blister contains 1 booster pack, 2 promo cards, and a coin.",
-      status: "draft",
     },
     {
       id: "houndstone",
       name: "Obsidian Flames Premium Checklane Blister [Houndstone]",
       releaseDate: "2023-09-11",
-      identifiers: {
+      thirdParty: {
         tcgplayer: "557086",
       },
       images: [
@@ -113,11 +114,9 @@ export default {
             "sv01-104",
             "sv01-106",
           ],
-          quantity: 2,
         },
       ],
       description: "Each Premium Checklane Blister contains 1 booster pack, 2 promo cards, and a coin.",
-      status: "draft",
     },
   ],
 } satisfies SealedProductDef;

@@ -3,30 +3,35 @@ import type { SealedProductDef } from "../../../../types/sealed";
 export default {
   category: "premium-checklane-blister",
   set: "me02",
-  base: {
-    contents: [
-      {
-        type: "booster",
-        set: "me02",
-        quantity: 1,
-      },
-      {
-        type: "accessory",
-        category: "coin",
-        quantity: 1,
-        name: "Diancie",
-        details: {
-          size: "big",
+  boosters: [
+    {
+      set: "me02",
+      packs: [
+        {
+          quantity: 1,
         },
-      },
-    ],
-  },
+      ],
+      artworks: [
+        "boo_me02-charizard",
+        "boo_me02-gengar",
+        "boo_me02-heracross",
+        "boo_me02-lopunny",
+      ],
+    },
+  ],
+  accessories: [
+    {
+      category: "coin",
+      quantity: 1,
+      name: "Diancie",
+    },
+  ],
   variants: [
     {
       id: "arvens-greedent",
       name: "Phantasmal Flames Premium Checklane Blister [Arven's Greedent]",
       releaseDate: "2025-11-14",
-      identifiers: {
+      thirdParty: {
         tcgplayer: "668931",
       },
       images: [
@@ -38,24 +43,25 @@ export default {
       contents: [
         {
           type: "promo-card",
-          card: "sv10-158",
-          quantity: 1,
+          cards: [
+            "sv10-158",
+          ],
         },
         {
           type: "promo-card",
-          card: "sv10-159",
-          quantity: 1,
+          cards: [
+            "sv10-159",
+          ],
           stamp: "cosmos",
         },
       ],
       description: "Each Premium Checklane Blister contains 1 booster pack, 3 promo card(s), and a coin.",
-      status: "draft",
     },
     {
       id: "blaziken",
       name: "Phantasmal Flames Premium Checklane Blister [Blaziken]",
       releaseDate: "2025-11-14",
-      identifiers: {
+      thirdParty: {
         tcgplayer: "654147",
       },
       images: [
@@ -71,23 +77,22 @@ export default {
             "sv10-040",
             "sv10-041",
           ],
-          quantity: 2,
         },
         {
           type: "promo-card",
-          card: "sv10-042",
-          quantity: 1,
+          cards: [
+            "sv10-042",
+          ],
           stamp: "cosmos",
         },
       ],
       description: "Each Premium Checklane Blister contains 1 booster pack, 3 promo card(s), and a coin.",
-      status: "draft",
     },
     {
       id: "ethans-magcargo",
       name: "Phantasmal Flames Premium Checklane Blister [Ethan's Magcargo]",
       releaseDate: "2025-11-14",
-      identifiers: {
+      thirdParty: {
         tcgplayer: "672588",
       },
       images: [
@@ -99,24 +104,25 @@ export default {
       contents: [
         {
           type: "promo-card",
-          card: "sv10-035",
-          quantity: 1,
+          cards: [
+            "sv10-035",
+          ],
         },
         {
           type: "promo-card",
-          card: "sv10-036",
-          quantity: 1,
+          cards: [
+            "sv10-036",
+          ],
           stamp: "cosmos",
         },
       ],
       description: "Each Premium Checklane Blister contains 1 booster pack, 3 promo card(s), and a coin.",
-      status: "draft",
     },
     {
       id: "hydrapple",
       name: "Phantasmal Flames Premium Checklane Blister [Hydrapple]",
       releaseDate: "2025-11-14",
-      identifiers: {
+      thirdParty: {
         tcgplayer: "654146",
       },
       images: [
@@ -132,17 +138,16 @@ export default {
             "sv10-016",
             "sv10-017",
           ],
-          quantity: 2,
         },
         {
           type: "promo-card",
-          card: "sv10-018",
-          quantity: 1,
+          cards: [
+            "sv10-018",
+          ],
           stamp: "cosmos",
         },
       ],
       description: "Each Premium Checklane Blister contains 1 booster pack, 3 promo card(s), and a coin.",
-      status: "draft",
     },
   ],
 } satisfies SealedProductDef;

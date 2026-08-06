@@ -3,21 +3,30 @@ import type { SealedProductDef } from "../../../../types/sealed";
 export default {
   category: "poster-collection",
   set: "me02.5",
-  base: {
-    contents: [
-      {
-        type: "booster",
-        set: "me02.5",
-        quantity: 10,
-      },
-    ],
-  },
+  boosters: [
+    {
+      set: "me02.5",
+      packs: [
+        {
+          quantity: 10,
+        },
+      ],
+      artworks: [
+        "boo_me02.5-charizard",
+        "boo_me02.5-dragonite",
+        "boo_me02.5-ho-oh",
+        "boo_me02.5-lucario",
+        "boo_me02.5-mewtwo",
+        "boo_me02.5-pikachu",
+      ],
+    },
+  ],
   variants: [
     {
       id: "premium-poster-collection-mega-gardevoir",
       name: "Ascended Heroes Premium Poster Collection: Mega Gardevoir",
       releaseDate: "2026-03-20",
-      identifiers: {
+      thirdParty: {
         tcgplayer: "668537",
       },
       images: [
@@ -29,18 +38,18 @@ export default {
       contents: [
         {
           type: "promo-card",
-          card: "mep-032",
-          quantity: 1,
+          cards: [
+            "mep-032",
+          ],
         },
       ],
       description: "Each Premium Poster Collection contains 10 Booster Packs, 1 promo card, 1 double-sided poster (26.875\" × 39\"), and a code card for Pokémon TCG Live",
-      status: "draft",
     },
     {
       id: "premium-poster-collection-mega-lucario",
       name: "Ascended Heroes Premium Poster Collection: Mega Lucario",
       releaseDate: "2026-03-20",
-      identifiers: {
+      thirdParty: {
         tcgplayer: "668536",
       },
       images: [
@@ -52,12 +61,12 @@ export default {
       contents: [
         {
           type: "promo-card",
-          card: "mep-033",
-          quantity: 1,
+          cards: [
+            "mep-033",
+          ],
         },
       ],
       description: "Each Premium Poster Collection contains 10 Booster Packs, 1 promo card, 1 double-sided poster (26.875\" × 39\"), and a code card for Pokémon TCG Live",
-      status: "draft",
     },
   ],
   packaging: [
@@ -65,19 +74,19 @@ export default {
       type: "case",
       id: "premium-case",
       name: "Ascended Heroes Premium Poster Collection Case",
-      identifiers: {
+      thirdParty: {
         tcgplayer: "685000",
       },
       releaseDate: "2026-03-20",
       contents: [
         {
-          type: "sealed-product",
-          variant: "premium-poster-collection-mega-gardevoir",
+          type: "variant",
+          id: "premium-poster-collection-mega-gardevoir",
           quantity: 3,
         },
         {
-          type: "sealed-product",
-          variant: "premium-poster-collection-mega-lucario",
+          type: "variant",
+          id: "premium-poster-collection-mega-lucario",
           quantity: 3,
         },
       ],

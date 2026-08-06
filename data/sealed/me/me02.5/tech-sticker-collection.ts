@@ -3,21 +3,30 @@ import type { SealedProductDef } from "../../../../types/sealed";
 export default {
   category: "tech-sticker-collection",
   set: "me02.5",
-  base: {
-    contents: [
-      {
-        type: "booster",
-        set: "me02.5",
-        quantity: 3,
-      },
-    ],
-  },
+  boosters: [
+    {
+      set: "me02.5",
+      packs: [
+        {
+          quantity: 3,
+        },
+      ],
+      artworks: [
+        "boo_me02.5-charizard",
+        "boo_me02.5-dragonite",
+        "boo_me02.5-ho-oh",
+        "boo_me02.5-lucario",
+        "boo_me02.5-mewtwo",
+        "boo_me02.5-pikachu",
+      ],
+    },
+  ],
   variants: [
     {
       id: "charmander",
       name: "Mega Evolution: Ascended Heroes Tech Sticker Collection [Charmander]",
       releaseDate: "2026-01-30",
-      identifiers: {
+      thirdParty: {
         tcgplayer: "666908",
       },
       images: [
@@ -29,19 +38,19 @@ export default {
       contents: [
         {
           type: "promo-card",
-          card: "me02.5-020",
-          quantity: 1,
+          cards: [
+            "me02.5-020",
+          ],
           stamp: "cosmos",
         },
       ],
       description: "Each Tech Sticker Collection contains 3 Booster Packs, 1 promo card, and stickers.",
-      status: "draft",
     },
     {
       id: "gastly",
       name: "Mega Evolution: Ascended Heroes Tech Sticker Collection [Gastly]",
       releaseDate: "2026-01-30",
-      identifiers: {
+      thirdParty: {
         tcgplayer: "666909",
       },
       images: [
@@ -53,13 +62,13 @@ export default {
       contents: [
         {
           type: "promo-card",
-          card: "me02.5-123",
-          quantity: 1,
+          cards: [
+            "me02.5-123",
+          ],
           stamp: "cosmos",
         },
       ],
       description: "Each Tech Sticker Collection contains 3 Booster Packs, 1 promo card, and stickers.",
-      status: "draft",
     },
   ],
   packaging: [
@@ -67,19 +76,19 @@ export default {
       type: "case",
       id: "case",
       name: "Ascended Heroes Tech Sticker Collection Case",
-      identifiers: {
+      thirdParty: {
         tcgplayer: "681333",
       },
       releaseDate: "2026-01-30",
       contents: [
         {
-          type: "sealed-product",
-          variant: "charmander",
+          type: "variant",
+          id: "charmander",
           quantity: 6,
         },
         {
-          type: "sealed-product",
-          variant: "gastly",
+          type: "variant",
+          id: "gastly",
           quantity: 6,
         },
       ],

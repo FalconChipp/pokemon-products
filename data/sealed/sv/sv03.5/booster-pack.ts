@@ -3,29 +3,37 @@ import type { SealedProductDef } from "../../../../types/sealed";
 export default {
   category: "booster-pack",
   set: "sv03.5",
-  variants: [
+  name: "151 Booster Pack",
+  releaseDate: "2023-09-22",
+  thirdParty: {
+    tcgplayer: "504467",
+  },
+  description: "Each pack contains 10 cards.",
+  logo: "",
+  media: [
     {
-      id: "standard",
-      name: "151 Booster Pack",
-      releaseDate: "2023-09-22",
-      identifiers: {
-        tcgplayer: "504467",
-      },
-      images: [
-        {
-          type: "front",
-          url: "https://tcgplayer-cdn.tcgplayer.com/product/504467_in_1000x1000.jpg",
-        },
-      ],
-      contents: [
-        {
-          type: "booster",
-          set: "sv03.5",
-          quantity: 1,
-        },
-      ],
-      description: "Each pack contains 10 cards.",
-      status: "draft",
+      id: "boo_sv03.5-charizard",
+      name: "Charizard",
+      dexId: [],
+      artworkFront: "",
+    },
+    {
+      id: "boo_sv03.5-venusaur",
+      name: "Venusaur",
+      dexId: [],
+      artworkFront: "",
+    },
+    {
+      id: "boo_sv03.5-blastoise",
+      name: "Blastoise",
+      dexId: [],
+      artworkFront: "",
+    },
+    {
+      id: "boo_sv03.5-mew",
+      name: "Mew",
+      dexId: [],
+      artworkFront: "",
     },
   ],
 } satisfies SealedProductDef;

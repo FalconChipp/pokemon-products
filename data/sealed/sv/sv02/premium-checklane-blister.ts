@@ -3,21 +3,29 @@ import type { SealedProductDef } from "../../../../types/sealed";
 export default {
   category: "premium-checklane-blister",
   set: "sv02",
-  base: {
-    contents: [
-      {
-        type: "booster",
-        set: "sv02",
-        quantity: 1,
-      },
-    ],
-  },
+  boosters: [
+    {
+      set: "sv02",
+      packs: [
+        {
+          quantity: 1,
+        },
+      ],
+      artworks: [
+        "boo_sv02-meowscarada",
+        "boo_sv02-skeledirge",
+        "boo_sv02-quaquaval",
+        "boo_sv02-chien-pao",
+        "boo_sv02-ting-lu",
+      ],
+    },
+  ],
   variants: [
     {
       id: "arboliva",
       name: "Paldea Evolved Premium Checklane Blister [Arboliva]",
       releaseDate: "2023-06-09",
-      identifiers: {
+      thirdParty: {
         tcgplayer: "622968",
       },
       images: [
@@ -33,23 +41,22 @@ export default {
             "sv01-020",
             "sv01-022",
           ],
-          quantity: 2,
         },
         {
           type: "promo-card",
-          card: "sv01-023",
-          quantity: 1,
+          cards: [
+            "sv01-023",
+          ],
           stamp: "vertical-line-holo",
         },
       ],
       description: "Each Premium Checklane Blister contains 1 booster pack, 3 promo cards, and a coin.",
-      status: "draft",
     },
     {
       id: "pawmot",
       name: "Paldea Evolved Premium Checklane Blister [Pawmot]",
       releaseDate: "2023-06-09",
-      identifiers: {
+      thirdParty: {
         tcgplayer: "622967",
       },
       images: [
@@ -65,17 +72,16 @@ export default {
             "sv01-073",
             "sv01-075",
           ],
-          quantity: 2,
         },
         {
           type: "promo-card",
-          card: "sv01-076",
-          quantity: 1,
+          cards: [
+            "sv01-076",
+          ],
           stamp: "vertical-line-holo",
         },
       ],
       description: "Each Premium Checklane Blister contains 1 booster pack, 3 promo cards, and a coin.",
-      status: "draft",
     },
   ],
 } satisfies SealedProductDef;

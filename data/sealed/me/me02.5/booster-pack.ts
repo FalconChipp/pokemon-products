@@ -3,29 +3,49 @@ import type { SealedProductDef } from "../../../../types/sealed";
 export default {
   category: "booster-pack",
   set: "me02.5",
-  variants: [
+  name: "Ascended Heroes Booster Pack",
+  releaseDate: "2026-01-30",
+  thirdParty: {
+    tcgplayer: "672434",
+  },
+  description: "Each pack contains 10 cards.",
+  logo: "",
+  media: [
     {
-      id: "standard",
-      name: "Ascended Heroes Booster Pack",
-      releaseDate: "2026-01-30",
-      identifiers: {
-        tcgplayer: "672434",
-      },
-      images: [
-        {
-          type: "front",
-          url: "https://tcgplayer-cdn.tcgplayer.com/product/672434_in_1000x1000.jpg",
-        },
-      ],
-      contents: [
-        {
-          type: "booster",
-          set: "me02.5",
-          quantity: 1,
-        },
-      ],
-      description: "Each pack contains 10 cards.",
-      status: "draft",
+      id: "boo_me02.5-charizard",
+      name: "Charizard",
+      dexId: [],
+      artworkFront: "",
+    },
+    {
+      id: "boo_me02.5-dragonite",
+      name: "Dragonite",
+      dexId: [],
+      artworkFront: "",
+    },
+    {
+      id: "boo_me02.5-ho-oh",
+      name: "Ho-Oh",
+      dexId: [],
+      artworkFront: "",
+    },
+    {
+      id: "boo_me02.5-lucario",
+      name: "Lucario",
+      dexId: [],
+      artworkFront: "",
+    },
+    {
+      id: "boo_me02.5-mewtwo",
+      name: "Mewtwo",
+      dexId: [],
+      artworkFront: "",
+    },
+    {
+      id: "boo_me02.5-pikachu",
+      name: "Pikachu",
+      dexId: [],
+      artworkFront: "",
     },
   ],
 } satisfies SealedProductDef;

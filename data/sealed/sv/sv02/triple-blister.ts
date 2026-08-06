@@ -3,20 +3,28 @@ import type { SealedProductDef } from "../../../../types/sealed";
 export default {
   category: "triple-blister",
   set: "sv02",
-  base: {
-    contents: [
-      {
-        type: "booster",
-        set: "sv02",
-        quantity: 3,
-      },
-    ],
-  },
+  boosters: [
+    {
+      set: "sv02",
+      packs: [
+        {
+          quantity: 3,
+        },
+      ],
+      artworks: [
+        "boo_sv02-meowscarada",
+        "boo_sv02-skeledirge",
+        "boo_sv02-quaquaval",
+        "boo_sv02-chien-pao",
+        "boo_sv02-ting-lu",
+      ],
+    },
+  ],
   variants: [
     {
       id: "3-pack-blister-varoom",
       name: "Paldea Evolved 3-Pack Blister [Varoom]",
-      identifiers: {
+      thirdParty: {
         tcgplayer: "493998",
       },
       images: [
@@ -28,19 +36,19 @@ export default {
       contents: [
         {
           type: "promo-card",
-          card: "svp-026",
-          quantity: 1,
+          cards: [
+            "svp-026",
+          ],
           stamp: "cosmos",
         },
       ],
       description: "Each 3-Pack Blister contains 3 booster packs and a promo card.",
-      status: "draft",
     },
     {
       id: "3-pack-blister-tinkatink",
       name: "Paldea Evolved 3-Pack Blister [Tinkatink]",
       releaseDate: "2023-06-09",
-      identifiers: {
+      thirdParty: {
         tcgplayer: "493997",
       },
       images: [
@@ -52,13 +60,13 @@ export default {
       contents: [
         {
           type: "promo-card",
-          card: "svp-025",
-          quantity: 1,
+          cards: [
+            "svp-025",
+          ],
           stamp: "cosmos",
         },
       ],
       description: "Each 3-Pack Blister contains 3 booster packs and a promo card.",
-      status: "draft",
     },
   ],
 } satisfies SealedProductDef;

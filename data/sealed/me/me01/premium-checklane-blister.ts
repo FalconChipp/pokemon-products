@@ -3,27 +3,35 @@ import type { SealedProductDef } from "../../../../types/sealed";
 export default {
   category: "premium-checklane-blister",
   set: "me01",
-  base: {
-    contents: [
-      {
-        type: "booster",
-        set: "me01",
-        quantity: 1,
-      },
-      {
-        type: "accessory",
-        category: "coin",
-        quantity: 1,
-        name: "Lucario",
-      },
-    ],
-  },
+  boosters: [
+    {
+      set: "me01",
+      packs: [
+        {
+          quantity: 1,
+        },
+      ],
+      artworks: [
+        "boo_me01-gardevoir",
+        "boo_me01-kangaskhan",
+        "boo_me01-lucario",
+        "boo_me01-venusaur",
+      ],
+    },
+  ],
+  accessories: [
+    {
+      category: "coin",
+      quantity: 1,
+      name: "Lucario",
+    },
+  ],
   variants: [
     {
       id: "meowscarada",
       name: "Mega Evolution Premium Checklane Blister [Meowscarada]",
       releaseDate: "2025-09-26",
-      identifiers: {
+      thirdParty: {
         tcgplayer: "644361",
       },
       images: [
@@ -39,17 +47,16 @@ export default {
             "sv09-016",
             "sv09-017",
           ],
-          quantity: 2,
         },
         {
           type: "promo-card",
-          card: "sv09-018",
-          quantity: 1,
+          cards: [
+            "sv09-018",
+          ],
           stamp: "cosmos",
         },
       ],
       description: "Each Premium Checklane Blister contains 1 booster pack, 3 promo card(s), and a coin.",
-      status: "draft",
     },
     {
       id: "tyranitar",
@@ -68,17 +75,16 @@ export default {
             "sv09-080",
             "sv09-081",
           ],
-          quantity: 2,
         },
         {
           type: "promo-card",
-          card: "sv09-095",
-          quantity: 1,
+          cards: [
+            "sv09-095",
+          ],
           stamp: "cosmos",
         },
       ],
       description: "Each Premium Checklane Blister contains 1 booster pack, 3 promo card(s), and a coin.",
-      status: "draft",
     },
   ],
 } satisfies SealedProductDef;

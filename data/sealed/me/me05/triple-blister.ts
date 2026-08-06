@@ -3,12 +3,28 @@ import type { SealedProductDef } from "../../../../types/sealed";
 export default {
   category: "triple-blister",
   set: "me05",
+  boosters: [
+    {
+      set: "me05",
+      packs: [
+        {
+          quantity: 3,
+        },
+      ],
+      artworks: [
+        "boo_me05-chandelure",
+        "boo_me05-darkrai",
+        "boo_me05-excadrill",
+        "boo_me05-zeraora",
+      ],
+    },
+  ],
   variants: [
     {
       id: "3-pack-blister-binacle",
       name: "Pitch Black 3-Pack Blister [Binacle]",
       releaseDate: "2026-07-17",
-      identifiers: {
+      thirdParty: {
         tcgplayer: "692938",
       },
       images: [
@@ -19,18 +35,13 @@ export default {
       ],
       contents: [
         {
-          type: "booster",
-          set: "me05",
-          quantity: 3,
-        },
-        {
           type: "promo-card",
-          card: "mep-087",
-          quantity: 1,
+          cards: [
+            "mep-087",
+          ],
         },
       ],
       description: "Each 3-Pack Blister contains 3 booster packs and a promo card.",
-      status: "draft",
     },
   ],
   packaging: [
@@ -38,14 +49,14 @@ export default {
       type: "case",
       id: "3-pack-blister-case",
       name: "Pitch Black 3-Pack Blister Case",
-      identifiers: {
+      thirdParty: {
         tcgplayer: "693589",
       },
       releaseDate: "2026-07-17",
       contents: [
         {
-          type: "sealed-product",
-          variant: "3-pack-blister-binacle",
+          type: "variant",
+          id: "3-pack-blister-binacle",
           quantity: 24,
         },
       ],

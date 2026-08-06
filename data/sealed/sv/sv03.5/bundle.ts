@@ -3,12 +3,28 @@ import type { SealedProductDef } from "../../../../types/sealed";
 export default {
   category: "other",
   set: "sv03.5",
+  boosters: [
+    {
+      set: "sv03.5",
+      packs: [
+        {
+          quantity: 8,
+        },
+      ],
+      artworks: [
+        "boo_sv03.5-charizard",
+        "boo_sv03.5-venusaur",
+        "boo_sv03.5-blastoise",
+        "boo_sv03.5-mew",
+      ],
+    },
+  ],
   variants: [
     {
       id: "sams-club",
       name: "Sam's Club 151 (4 Mini Tins + 4 Promo Cards Bundle)",
       releaseDate: "2025-10-28",
-      identifiers: {
+      thirdParty: {
         tcgplayer: "662302",
       },
       images: [
@@ -19,11 +35,6 @@ export default {
       ],
       contents: [
         {
-          type: "booster",
-          set: "sv03.5",
-          quantity: 8,
-        },
-        {
           type: "promo-card",
           cards: [
             "sv03.5-026",
@@ -31,12 +42,10 @@ export default {
             "sv03.5-094",
             "sv03.5-149",
           ],
-          quantity: 4,
           stamp: "cosmos",
         },
       ],
       description: "Each Bundle contains 4 Mini Tins and 4 promo cards.",
-      status: "draft",
     },
   ],
 } satisfies SealedProductDef;

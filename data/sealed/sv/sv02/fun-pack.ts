@@ -8,7 +8,7 @@ export default {
       id: "standard",
       name: "Paldea Evolved Fun Pack",
       releaseDate: "2023-06-09",
-      identifiers: {
+      thirdParty: {
         tcgplayer: "530106",
       },
       images: [
@@ -18,7 +18,6 @@ export default {
         },
       ],
       description: "Each Fun Pack contains 3 cards.",
-      status: "draft",
     },
   ],
 } satisfies SealedProductDef;

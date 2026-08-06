@@ -3,12 +3,28 @@ import type { SealedProductDef } from "../../../../types/sealed";
 export default {
   category: "booster-box",
   set: "me04",
+  boosters: [
+    {
+      set: "me04",
+      packs: [
+        {
+          quantity: 36,
+        },
+      ],
+      artworks: [
+        "boo_me04-dragalge",
+        "boo_me04-floette",
+        "boo_me04-greninja",
+        "boo_me04-pyroar",
+      ],
+    },
+  ],
   variants: [
     {
       id: "standard",
       name: "Chaos Rising Booster Box",
       releaseDate: "2026-05-22",
-      identifiers: {
+      thirdParty: {
         tcgplayer: "684444",
       },
       images: [
@@ -17,15 +33,7 @@ export default {
           url: "https://tcgplayer-cdn.tcgplayer.com/product/684444_in_1000x1000.jpg",
         },
       ],
-      contents: [
-        {
-          type: "booster",
-          set: "me04",
-          quantity: 36,
-        },
-      ],
       description: "Each Booster Box contains 36 booster packs.",
-      status: "draft",
     },
   ],
   packaging: [
@@ -33,14 +41,14 @@ export default {
       type: "case",
       id: "case",
       name: "Chaos Rising Booster Box Case",
-      identifiers: {
+      thirdParty: {
         tcgplayer: "684445",
       },
       releaseDate: "2026-05-22",
       contents: [
         {
-          type: "sealed-product",
-          variant: "standard",
+          type: "variant",
+          id: "standard",
           quantity: 6,
         },
       ],
